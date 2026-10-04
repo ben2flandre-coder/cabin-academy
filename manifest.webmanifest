@@ -1,0 +1,19 @@
+{
+  "name": "RMBD — Cabin Integration Academy",
+  "short_name": "Cabin Academy",
+  "description": "Compagnon pédagogique RMBD pour la préparation au métier d’intégrateur cabine aéronautique.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f7f8",
+  "theme_color": "#071827",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
