@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<rect width="512" height="512" rx="96" fill="#071827"/>
+<path d="M91 287h330v46H91zM128 205h256v46H128z" fill="#f3f7f8"/>
+<path d="M256 71l61 91h-122z" fill="#e8b04b"/>
+<text x="256" y="410" text-anchor="middle" font-family="Arial,sans-serif" font-size="62" font-weight="700" fill="#f3f7f8">RMBD</text>
+</svg>
