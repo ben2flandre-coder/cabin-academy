@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Les quatre forces qui s'exercent sur un avion en vol</title>
+  <desc id="d">Schéma de principe : un avion de ligne vu de côté, nez à gauche, en vol horizontal. Quatre grandes flèches partent de l'avion : une vers le haut à partir de l'aile, la portance ; une vers le bas, le poids ; une vers l'avant à partir du nez, la traction ou poussée des moteurs ; une vers l'arrière à partir de la queue, la traînée. Les flèches verticales ont la même longueur, les flèches horizontales aussi : en vol stabilisé, les forces s'équilibrent deux à deux.</desc>
+  <rect class="bgp" width="1000" height="600"/>
+  <path class="sk" d="M666.8 265.6 L735.2 181 L767.6 181 L764 280 L710 268 Z"/><path class="sk" d="M230 312.4 C232.4 294.4 254 278.2 287 269.2 C305 264.4 320 262 341 262 L614 262 C674 262 722 266.8 770 278.8 L770 290.8 C728 305.2 674 340 614 340 L320 340 C278 340 236 332.8 230 312.4 Z"/><path class="sk" d="M705.2 288.4 L756.8 282.4 L768.2 283 L768.2 288.4 L717.2 294.4 Z"/>
+  <circle class="gl" cx="350" cy="282.4" r="5"/><circle class="gl" cx="380" cy="282.4" r="5"/><circle class="gl" cx="410" cy="282.4" r="5"/><circle class="gl" cx="440" cy="282.4" r="5"/><circle class="gl" cx="470" cy="282.4" r="5"/><circle class="gl" cx="500" cy="282.4" r="5"/><circle class="gl" cx="530" cy="282.4" r="5"/><circle class="gl" cx="560" cy="282.4" r="5"/><circle class="gl" cx="590" cy="282.4" r="5"/><circle class="gl" cx="620" cy="282.4" r="5"/><circle class="gl" cx="650" cy="282.4" r="5"/><path class="gl" d="M267.2 294.4 C275.6 286 290 280.6 306.8 278.2 L309.2 290.8 L273.2 296.8 Z"/>
+  <rect class="eq2" x="387.2" y="342.4" width="80.4" height="31.2" rx="15"/><ellipse class="dk" cx="395.6" cy="358" rx="6" ry="12"/><path class="st" d="M428 334.6 L542 319 L568.4 319 L568.4 323.2 L514.4 338.8 L437 338.8 Z"/>
+  <g data-part="portance"><path class="eq2" d="M522 236 L522 110 L552 110 L500 40 L448 110 L478 110 L478 236 Z"/></g>
+  <g data-part="poids"><path class="dk" d="M478 372 L478 498 L448 498 L500 568 L552 498 L522 498 L522 372 Z"/></g>
+  <g data-part="traction"><path class="syf" d="M214 290 L100 290 L100 260 L30 312 L100 364 L100 334 L214 334 Z"/></g>
+  <g data-part="trainee"><path class="mt" d="M786 322 L900 322 L900 352 L970 300 L900 248 L900 278 L786 278 Z"/></g>
+  <g class="badges">
+    <g class="badge" data-badge="portance" transform="translate(580 110)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="poids" transform="translate(580 490)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="traction" transform="translate(150 236)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="trainee" transform="translate(880 224)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+  </g>
+</svg>

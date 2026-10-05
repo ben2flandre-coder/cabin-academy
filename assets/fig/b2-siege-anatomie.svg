@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Siège passager triple : vue de côté et vue de face</title>
+  <desc id="d">Schéma de principe d'un siège passager de classe économique. À gauche, vue de côté, avant de l'avion à gauche : coussin d'assise, dossier légèrement incliné vers l'arrière avec son appui-tête, accoudoir, tablette repliée et poche au dos du dossier, ceinture posée sur l'assise, armature faite de deux tubes transversaux sous l'assise, pied avant vertical et pied arrière incliné terminés chacun par une ferrure engagée dans le rail de siège, barre de retenue des bagages à l'avant près du sol, boîtier électronique sous l'assise relié par un câble qui longe le rail. À droite, vue de face du même siège triple : trois places côte à côte, quatre accoudoirs, une armature commune et seulement deux pieds posés sur deux rails.</desc>
+  <rect class="bgp" width="1000" height="700"/>
+<text class="ts" x="30" y="48">Vue de côté (avant à gauche)</text><text class="ts" x="640" y="150">Vue de face</text>
+  <rect class="in" x="620" y="652" width="94" height="24"/><rect class="in" x="762" y="652" width="76" height="24"/><rect class="in" x="886" y="652" width="94" height="24"/>
+  <g data-part="rail">
+    <rect class="fl" x="40" y="650" width="530" height="26"/>
+    <rect class="fl" x="714" y="644" width="48" height="32"/>
+    <rect class="fl" x="838" y="644" width="48" height="32"/>
+  </g>
+  <g data-part="boitier">
+    <path class="sy" d="M278 590 C278 626 310 642 370 643 L568 643"/>
+    <rect class="eq2" x="222" y="540" width="112" height="50" rx="6"/>
+  </g>
+  <g data-part="armature">
+    <rect class="mt2" x="130" y="470" width="272" height="16" rx="4"/>
+    <circle class="mt2" cx="170" cy="502" r="17"/>
+    <circle class="mt2" cx="370" cy="502" r="17"/>
+    <rect class="mt2" x="636" y="468" width="330" height="16" rx="4"/>
+  </g>
+  <g data-part="pied-avant">
+    <path class="mt" d="M152 518 L180 518 L176 636 L148 636 Z"/>
+    <rect class="mt2" x="128" y="634" width="74" height="18" rx="4"/>
+    <rect class="mt" x="728" y="484" width="20" height="152"/>
+    <rect class="mt" x="852" y="484" width="20" height="152"/>
+    <rect class="mt2" x="708" y="632" width="60" height="16" rx="4"/>
+    <rect class="mt2" x="832" y="632" width="60" height="16" rx="4"/>
+  </g>
+  <g data-part="pied-arriere">
+    <path class="mt" d="M354 518 L384 518 L448 636 L418 636 Z"/>
+    <rect class="mt2" x="404" y="634" width="76" height="18" rx="4"/>
+  </g>
+  <g data-part="barre-bagages">
+    <path class="mt" d="M150 562 L150 628 L114 598 Z"/>
+    <circle class="dk" cx="108" cy="598" r="16"/>
+  </g>
+  <g data-part="assise">
+    <path class="eq" d="M116 418 C130 402 210 406 390 426 L390 470 L130 470 C116 462 110 436 116 418 Z"/>
+    <rect class="eq" x="640" y="420" width="100" height="48" rx="10"/>
+    <rect class="eq" x="750" y="420" width="100" height="48" rx="10"/>
+    <rect class="eq" x="860" y="420" width="100" height="48" rx="10"/>
+  </g>
+  <g data-part="dossier">
+    <path class="eq2" d="M378 446 L450 476 L520 152 L504 126 L458 120 L442 140 Z"/>
+    <rect class="eq2" x="640" y="190" width="100" height="232" rx="14"/>
+    <rect class="eq2" x="750" y="190" width="100" height="232" rx="14"/>
+    <rect class="eq2" x="860" y="190" width="100" height="232" rx="14"/>
+  </g>
+  <g data-part="appui-tete">
+    <path class="eq" d="M430 222 L400 214 L406 160 L428 128 L458 122 Z"/>
+    <rect class="eq" x="654" y="200" width="72" height="62" rx="12"/>
+    <rect class="eq" x="764" y="200" width="72" height="62" rx="12"/>
+    <rect class="eq" x="874" y="200" width="72" height="62" rx="12"/>
+  </g>
+  <rect class="dash" x="500" y="344" width="112" height="14"/>
+  <g data-part="tablette">
+    <path class="wh" d="M477 354 L499 248 L519 252 L497 358 Z"/>
+  </g>
+  <g data-part="poche">
+    <path class="in" d="M475 368 L456 452 L487 462 L506 376 Z"/>
+  </g>
+  <g data-part="ceinture">
+    <path class="ln2" d="M270 410 Q330 414 382 452"/>
+    <rect class="mt" x="220" y="394" width="54" height="26" rx="5"/>
+    <rect class="dk" x="232" y="400" width="20" height="14" rx="3"/>
+  </g>
+  <g data-part="accoudoir">
+    <path class="dk" d="M386 356 L410 356 L420 446 L398 446 Z"/>
+    <rect class="dk" x="152" y="332" width="264" height="28" rx="13"/>
+    <rect class="dk" x="626" y="372" width="14" height="40" rx="5"/>
+    <rect class="dk" x="740" y="372" width="14" height="40" rx="5"/>
+    <rect class="dk" x="850" y="372" width="14" height="40" rx="5"/>
+    <rect class="dk" x="960" y="372" width="14" height="40" rx="5"/>
+  </g>
+  <path class="thin" d="M370 156 L416 170"/><path class="thin" d="M158 300 L175 334"/><path class="thin" d="M554 284 L510 292"/><path class="thin" d="M536 426 L490 416"/><path class="thin" d="M102 384 L222 404"/><path class="thin" d="M88 524 L150 542"/><path class="thin" d="M88 600 L94 598"/><path class="thin" d="M470 562 L426 574"/>
+  <g class="badges">
+    <g class="badge" data-badge="dossier" transform="translate(446 300)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="appui-tete" transform="translate(348 150)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="assise" transform="translate(176 446)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="accoudoir" transform="translate(140 288)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="tablette" transform="translate(580 282)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="poche" transform="translate(562 430)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="ceinture" transform="translate(80 380)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="armature" transform="translate(270 510)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="pied-avant" transform="translate(66 520)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="pied-arriere" transform="translate(492 558)"><circle class="bd" r="24"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="barre-bagages" transform="translate(62 600)"><circle class="bd" r="24"/><text class="bn">11</text></g>
+    <g class="badge" data-badge="rail" transform="translate(530 663)"><circle class="bd" r="24"/><text class="bn">12</text></g>
+    <g class="badge" data-badge="boitier" transform="translate(278 565)"><circle class="bd" r="24"/><text class="bn">13</text></g>
+  </g>
+</svg>

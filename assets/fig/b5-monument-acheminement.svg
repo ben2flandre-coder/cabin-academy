@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 710" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Monument sur son chariot de manutention</title>
+  <desc id="d">Schéma de principe d'un monument sanglé sur un chariot de manutention, vu de côté, roulant sur un plancher recouvert d'une protection. Des protections couvrent les angles du monument. Quatre mains montrent des prises possibles : une sur la poignée de manutention prévue en partie basse, une sur la barre de poussée du chariot, une sur la poignée d'une porte du meuble, une sur un raccord qui dépasse du dessus. Un outil est resté au fond d'un compartiment vide.</desc>
+  <rect class="bgp" width="1000" height="710"/>
+  <rect class="fl" x="30" y="650" width="940" height="40"/>
+  <g data-part="protection-sol">
+    <rect class="in" x="60" y="628" width="880" height="22" rx="4"/>
+    <line class="dash" x1="70" y1="639" x2="930" y2="639"/>
+  </g>
+  <g data-part="chariot">
+    <rect class="mt" x="704" y="110" width="20" height="456" rx="4"/>
+    <rect class="dk" x="724" y="290" width="96" height="22" rx="11"/>
+    <path class="mt2" d="M278 590 L302 590 L296 606 L284 606 Z"/>
+    <path class="mt2" d="M678 590 L702 590 L696 606 L684 606 Z"/>
+    <circle class="dk" cx="290" cy="608" r="20"/>
+    <circle class="wh" cx="290" cy="608" r="6"/>
+    <circle class="dk" cx="690" cy="608" r="20"/>
+    <circle class="wh" cx="690" cy="608" r="6"/>
+    <rect class="mt" x="230" y="564" width="520" height="26" rx="5"/>
+  </g>
+  <rect class="eq" x="270" y="90" width="430" height="474" rx="8"/>
+  <rect class="in" x="296" y="116" width="180" height="190" rx="6"/>
+  <rect class="in" x="492" y="116" width="182" height="190" rx="6"/>
+  <rect class="mt2" x="448" y="180" width="14" height="64" rx="5"/>
+  <rect class="mt2" x="506" y="180" width="14" height="64" rx="5"/>
+  <rect class="wh" x="296" y="322" width="378" height="64" rx="5"/>
+  <rect class="mt" x="286" y="384" width="398" height="12" rx="3"/>
+  <rect class="dk" x="296" y="408" width="118" height="144" rx="5"/>
+  <rect class="dk" x="426" y="408" width="118" height="144" rx="5"/>
+  <rect class="dk" x="556" y="408" width="118" height="144" rx="5"/>
+  <rect class="syf" x="556" y="52" width="30" height="40" rx="5"/>
+  <rect class="badf" x="550" y="40" width="42" height="16" rx="5"/>
+  <rect class="mt2" x="248" y="430" width="22" height="90" rx="8"/>
+  <g data-part="sangle">
+    <rect class="syf" x="262" y="338" width="470" height="20" rx="4"/>
+    <rect class="mt2" x="610" y="330" width="56" height="36" rx="6"/>
+  </g>
+  <g data-part="protection-angles">
+    <path class="wh" d="M256 76 L326 76 L326 92 L272 92 L272 150 L256 150 Z"/>
+    <path class="wh" d="M256 578 L326 578 L326 562 L272 562 L272 504 L256 504 Z"/>
+    <path class="wh" d="M644 76 L700 76 L700 92 L644 92 Z"/>
+  </g>
+  <g data-part="outil-oublie">
+    <path class="mt" d="M440 528 L500 528 L506 518 L530 518 L530 528 L518 528 L518 540 L530 540 L530 550 L506 550 L500 540 L440 540 Z"/>
+  </g>
+  <g data-part="prise-point">
+    <g transform="translate(196 470)"><circle class="wh" r="40"/><path class="dk" d="M-17 20 L-17 -2 Q-17 -9 -11 -9 L-11 -20 Q-11 -27 -5 -27 Q1 -27 1 -20 L1 -23 Q1 -30 7 -30 Q13 -30 13 -23 L13 -18 Q13 -25 19 -25 Q25 -25 25 -18 L25 6 Q25 22 10 24 L-6 24 Q-14 24 -17 20 Z"/><path class="dk" d="M-17 6 L-26 -4 Q-30 -9 -25 -13 Q-21 -16 -17 -11 Z"/></g>
+  </g>
+  <g data-part="prise-timon">
+    <g transform="translate(868 301)"><circle class="wh" r="40"/><path class="dk" d="M-17 20 L-17 -2 Q-17 -9 -11 -9 L-11 -20 Q-11 -27 -5 -27 Q1 -27 1 -20 L1 -23 Q1 -30 7 -30 Q13 -30 13 -23 L13 -18 Q13 -25 19 -25 Q25 -25 25 -18 L25 6 Q25 22 10 24 L-6 24 Q-14 24 -17 20 Z"/><path class="dk" d="M-17 6 L-26 -4 Q-30 -9 -25 -13 Q-21 -16 -17 -11 Z"/></g>
+  </g>
+  <g data-part="prise-poignee-porte">
+    <g transform="translate(398 212)"><circle class="wh" r="40"/><path class="dk" d="M-17 20 L-17 -2 Q-17 -9 -11 -9 L-11 -20 Q-11 -27 -5 -27 Q1 -27 1 -20 L1 -23 Q1 -30 7 -30 Q13 -30 13 -23 L13 -18 Q13 -25 19 -25 Q25 -25 25 -18 L25 6 Q25 22 10 24 L-6 24 Q-14 24 -17 20 Z"/><path class="dk" d="M-17 6 L-26 -4 Q-30 -9 -25 -13 Q-21 -16 -17 -11 Z"/></g>
+  </g>
+  <g data-part="prise-raccord">
+    <g transform="translate(640 52)"><circle class="wh" r="40"/><path class="dk" d="M-17 20 L-17 -2 Q-17 -9 -11 -9 L-11 -20 Q-11 -27 -5 -27 Q1 -27 1 -20 L1 -23 Q1 -30 7 -30 Q13 -30 13 -23 L13 -18 Q13 -25 19 -25 Q25 -25 25 -18 L25 6 Q25 22 10 24 L-6 24 Q-14 24 -17 20 Z"/><path class="dk" d="M-17 6 L-26 -4 Q-30 -9 -25 -13 Q-21 -16 -17 -11 Z"/></g>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="chariot" transform="translate(500 608)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="sangle" transform="translate(480 348)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="protection-sol" transform="translate(130 639)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="protection-angles" transform="translate(228 110)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="prise-point" transform="translate(196 540)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="prise-timon" transform="translate(868 372)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="prise-poignee-porte" transform="translate(398 282)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="prise-raccord" transform="translate(716 52)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="outil-oublie" transform="translate(485 470)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+  </g>
+</svg>

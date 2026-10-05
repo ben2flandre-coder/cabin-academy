@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Coactivité : un autre métier travaille au-dessus de toi</title>
+  <desc id="d">Schéma de principe, vue de côté. Au centre, un collègue d'un autre métier travaille bras levés dans une trappe du plafond, debout sur une plateforme roulante à garde-corps. Son outil est retenu par une longe. Un écrou tombe de la plateforme. Au sol, sous la plateforme et autour, une bande zébrée rouge et blanche marque la zone de chute d'objets, limitée par des pointillés verticaux. De chaque côté, des potelets reliés par une chaîne barrent le passage, avec un panneau rond d'interdiction aux piétons. À gauche, hors de la zone, une personne lève la main et demande « J'entre ? » avant d'avancer.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+  <g>
+    <rect class="in" x="20" y="20" width="960" height="52" rx="8"/>
+    <rect class="dk" x="430" y="34" width="140" height="38" rx="4"/>
+    <path class="sy" d="M452 60 q18 30 40 4"/>
+    <rect class="fl" x="20" y="634" width="960" height="66" rx="4"/>
+  </g>
+  <g data-part="zone-chute">
+    <rect class="badf" x="256" y="634" width="488" height="66" rx="4"/>
+    <path class="bgp" d="M272 700 L292 634 L318 634 L298 700 Z"/>
+    <path class="bgp" d="M324 700 L344 634 L370 634 L350 700 Z"/>
+    <path class="bgp" d="M376 700 L396 634 L422 634 L402 700 Z"/>
+    <path class="bgp" d="M428 700 L448 634 L474 634 L454 700 Z"/>
+    <path class="bgp" d="M480 700 L500 634 L526 634 L506 700 Z"/>
+    <path class="bgp" d="M532 700 L552 634 L578 634 L558 700 Z"/>
+    <path class="bgp" d="M584 700 L604 634 L630 634 L610 700 Z"/>
+    <path class="bgp" d="M636 700 L656 634 L682 634 L662 700 Z"/>
+    <path class="bgp" d="M688 700 L708 634 L734 634 L714 700 Z"/>
+    <line class="dash" x1="256" y1="628" x2="256" y2="84"/>
+    <line class="dash" x1="744" y1="628" x2="744" y2="84"/>
+  </g>
+  <g data-part="operateur">
+    <path class="mt" d="M405.1 411.1 L375.1 633.1 L388.9 634.9 L418.9 412.9 Z"/>
+    <path class="mt" d="M581.1 412.9 L611.1 634.9 L624.9 633.1 L594.9 411.1 Z"/>
+    <path class="mt2" d="M398 525 L602 525 L602 515 L398 515 Z"/>
+    <path class="mt2" d="M402 473.5 L608 593.5 L612 586.5 L406 466.5 Z"/>
+    <path class="mt2" d="M594 466.5 L388 586.5 L392 593.5 L598 473.5 Z"/>
+    <circle class="dk" cx="382" cy="628" r="15"/>
+    <circle class="dk" cx="618" cy="628" r="15"/>
+    <rect class="mt2" x="396" y="396" width="208" height="18" rx="4"/>
+    <path class="dk" d="M476 271.7 L473 387.7 L495 388.3 L498 272.3 Z"/>
+    <ellipse class="dk" cx="484" cy="388" rx="17.6" ry="9.2"/>
+    <path class="dk" d="M502 272.3 L505 388.3 L527 387.7 L524 271.7 Z"/>
+    <ellipse class="dk" cx="516" cy="388" rx="17.6" ry="9.2"/>
+    <path class="syf" d="M468 184 L474 272 L526 272 L532 184 Z"/>
+    <path class="syf" d="M481.6 189.5 L465.6 141.5 L450.4 146.5 L466.4 194.5 Z"/>
+    <circle class="syf" cx="458" cy="144" r="8"/>
+    <path class="syf" d="M465.8 145.9 L479.8 87.9 L464.2 84.1 L450.2 142.1 Z"/>
+    <circle class="wh" cx="472" cy="86" r="9.6"/>
+    <path class="syf" d="M533.6 194.5 L549.6 146.5 L534.4 141.5 L518.4 189.5 Z"/>
+    <circle class="syf" cx="542" cy="144" r="8"/>
+    <path class="syf" d="M549.8 142.1 L535.8 84.1 L520.2 87.9 L534.2 145.9 Z"/>
+    <circle class="wh" cx="528" cy="86" r="9.6"/>
+    <circle class="wh" cx="500" cy="152" r="22"/>
+    <path class="mt2" d="M476 150 A24 24 0 0 1 524 150 Z"/>
+    <path class="mt" d="M407 396 L407 296 L397 296 L397 396 Z"/>
+    <path class="mt" d="M603 396 L603 296 L593 296 L593 396 Z"/>
+    <path class="mt" d="M398 305 L602 305 L602 295 L398 295 Z"/>
+    <path class="mt" d="M402 352 L598 352 L598 344 L402 344 Z"/>
+  </g>
+  <g data-part="longe">
+    <path class="ln" d="M534 96 q30 6 24 30 q-8 22 12 34 q14 8 8 22"/>
+    <rect class="mt2" x="568" y="180" width="18" height="70" rx="4"/>
+    <circle class="mt2" cx="577" cy="256" r="15"/>
+    <circle class="wh" cx="577" cy="256" r="6"/>
+  </g>
+  <g data-part="objet">
+    <line class="ax" x1="322" y1="430" x2="322" y2="470"/>
+    <line class="ax" x1="342" y1="418" x2="342" y2="466"/>
+    <line class="ax" x1="362" y1="430" x2="362" y2="470"/>
+    <path class="mt2" d="M342 482 L366 496 L366 524 L342 538 L318 524 L318 496 Z"/>
+    <circle class="wh" cx="342" cy="510" r="10"/>
+  </g>
+  <g data-part="balisage">
+    <rect class="dk" x="221" y="490" width="14" height="150" rx="3"/>
+    <path class="dk" d="M204 646 L252 646 L242 628 L214 628 Z"/>
+    <circle class="badf" cx="228" cy="488" r="10"/>
+    <rect class="dk" x="277" y="502" width="14" height="150" rx="3"/>
+    <path class="dk" d="M260 658 L308 658 L298 640 L270 640 Z"/>
+    <circle class="badf" cx="284" cy="500" r="10"/>
+    <path class="ln2" d="M228 494 Q256 536 284 506"/>
+    <rect class="dk" x="709" y="502" width="14" height="150" rx="3"/>
+    <path class="dk" d="M692 658 L740 658 L730 640 L702 640 Z"/>
+    <circle class="badf" cx="716" cy="500" r="10"/>
+    <rect class="dk" x="765" y="490" width="14" height="150" rx="3"/>
+    <path class="dk" d="M748 646 L796 646 L786 628 L758 628 Z"/>
+    <circle class="badf" cx="772" cy="488" r="10"/>
+    <path class="ln2" d="M716 506 Q744 536 772 494"/>
+  </g>
+  <g data-part="panneau">
+    <circle class="badf" cx="256" cy="416" r="50"/>
+    <circle class="bgp" cx="256" cy="416" r="37"/>
+    <circle class="dk" cx="256" cy="394" r="8"/>
+    <path class="dk" d="M250 403.5 L248 427.5 L260 428.5 L262 404.5 Z"/>
+    <path class="dk" d="M251.1 426.1 L239.1 444.1 L244.9 447.9 L256.9 429.9 Z"/>
+    <path class="dk" d="M251.2 430.1 L265.2 448.1 L270.8 443.9 L256.8 425.9 Z"/>
+    <path class="badf" d="M223.8 392.2 L279.8 448.2 L288.2 439.8 L232.2 383.8 Z"/>
+  </g>
+  <g data-part="toi">
+    <path class="dk" d="M92 519.7 L89 627.7 L111 628.3 L114 520.3 Z"/>
+    <ellipse class="dk" cx="100" cy="628" rx="17.6" ry="9.2"/>
+    <path class="dk" d="M118 520.5 L123 628.5 L145 627.5 L140 519.5 Z"/>
+    <ellipse class="dk" cx="134" cy="628" rx="17.6" ry="9.2"/>
+    <path class="eq2" d="M84 426 L90 520 L142 520 L148 426 Z"/>
+    <path class="eq2" d="M82.1 433.1 L72.1 519.1 L87.9 520.9 L97.9 434.9 Z"/>
+    <circle class="wh" cx="80" cy="520" r="9.6"/>
+    <path class="eq2" d="M135.8 439.1 L163.8 473.1 L176.2 462.9 L148.2 428.9 Z"/>
+    <circle class="eq2" cx="170" cy="468" r="8"/>
+    <path class="eq2" d="M177.9 469 L183.9 421 L168.1 419 L162.1 467 Z"/>
+    <circle class="wh" cx="176" cy="420" r="9.6"/>
+    <circle class="wh" cx="116" cy="392" r="23"/>
+  </g>
+  <g data-part="annonce">
+    <path class="wh" d="M36 216 h212 a14 14 0 0 1 14 14 v72 a14 14 0 0 1 -14 14 h-96 l-22 32 l2 -32 h-96 a14 14 0 0 1 -14 -14 v-72 a14 14 0 0 1 14 -14 Z"/>
+    <text class="tb tc" x="142" y="282">J'entre ?</text>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="operateur" transform="translate(660 300)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="longe" transform="translate(628 196)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="objet" transform="translate(342 386)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="zone-chute" transform="translate(500 668)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="balisage" transform="translate(828 560)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="panneau" transform="translate(316 356)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="toi" transform="translate(54 480)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="annonce" transform="translate(60 190)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

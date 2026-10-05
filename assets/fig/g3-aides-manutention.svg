@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 730" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Six aides à la manutention et au poste</title>
+  <desc id="d">Planche de six silhouettes d'équipements, schémas de principe. En haut : un chariot à plateau avec son timon et une caisse posée dessus ; un chariot porte-panneaux en forme de A, des panneaux appuyés de chaque côté ; une table élévatrice à ciseaux portant une caisse, avec une flèche vers le haut. En bas : un palan suspendu à une potence, dont le crochet tient une caisse par une élingue ; une poignée à deux ventouses collée sur un panneau lisse ; une plate-forme de travail individuelle avec marches et garde-corps.</desc>
+  <rect class="bgp" width="1000" height="730"/>
+  <path class="thin" d="M340 30 V700 M670 30 V700 M30 365 H970"/>
+  <g data-part="chariot">
+    <rect class="none" pointer-events="all" x="30" y="30" width="300" height="325" rx="10"/><path class="ln2" d="M70 286 V110 H104"/><rect class="mt" x="60" y="268" width="250" height="20" rx="5"/><circle class="dk" cx="100" cy="312" r="22"/><circle class="wh" cx="100" cy="312" r="7"/><circle class="dk" cx="272" cy="312" r="22"/><circle class="wh" cx="272" cy="312" r="7"/>
+    <rect class="fl" x="112" y="176" width="150" height="92" rx="5"/><path class="thin" d="M112 206 H262 M187 176 V206"/>
+  </g>
+  <g data-part="chariot-panneaux">
+    <rect class="none" pointer-events="all" x="350" y="30" width="310" height="325" rx="10"/><path class="ln2" d="M505 70 L440 270 M505 70 L570 270 M462 200 H548"/><rect class="mt" x="400" y="268" width="210" height="20" rx="5"/><circle class="dk" cx="434" cy="312" r="22"/><circle class="wh" cx="434" cy="312" r="7"/><circle class="dk" cx="576" cy="312" r="22"/><circle class="wh" cx="576" cy="312" r="7"/>
+    <path class="in" d="M408 268 L462 84 L478 88 L426 268 Z"/><path class="in" d="M602 268 L548 84 L532 88 L584 268 Z"/><path class="in" d="M580 268 L528 96 L514 100 L564 268 Z"/><rect class="dk" x="400" y="258" width="34" height="12" rx="4"/><rect class="dk" x="576" y="258" width="34" height="12" rx="4"/>
+  </g>
+  <g data-part="table-elevatrice">
+    <rect class="none" pointer-events="all" x="680" y="30" width="290" height="325" rx="10"/><rect class="mt2" x="710" y="300" width="230" height="22" rx="5"/><circle class="dk" cx="736" cy="334" r="14"/><circle class="wh" cx="736" cy="334" r="5"/><circle class="dk" cx="914" cy="334" r="14"/><circle class="wh" cx="914" cy="334" r="5"/>
+    <path class="ln2" d="M726 300 L924 190 M924 300 L726 190"/><circle class="mt" cx="825" cy="245" r="10"/><rect class="mt" x="706" y="170" width="238" height="20" rx="5"/>
+    <rect class="fl" x="760" y="96" width="130" height="74" rx="5"/><path class="dim" d="M960 250 L960 140"/><path class="dimf" d="M960 134 L967 154.4 L953 154.4 Z"/>
+  </g>
+  <g data-part="palan">
+    <rect class="none" pointer-events="all" x="30" y="375" width="300" height="325" rx="10"/><rect class="st" x="66" y="410" width="24" height="268"/><rect class="st" x="40" y="676" width="100" height="16" rx="4"/><rect class="st" x="66" y="410" width="234" height="22"/><path class="ln" d="M90 500 L170 432"/>
+    <rect class="syf" x="206" y="432" width="60" height="46" rx="8"/><path class="ln" d="M236 478 V540"/><path class="ln2" d="M236 540 q18 8 6 24 q-14 12 -22 -4"/><path class="ln" d="M228 566 L180 610 M228 566 L276 610"/><rect class="fl" x="170" y="608" width="116" height="64" rx="5"/>
+  </g>
+  <g data-part="poignee">
+    <rect class="none" pointer-events="all" x="350" y="375" width="310" height="325" rx="10"/><rect class="in" x="386" y="410" width="240" height="270" rx="8"/><circle class="dk" cx="450" cy="548" r="34"/><circle class="dk" cx="562" cy="548" r="34"/><circle class="mt" cx="450" cy="548" r="12"/><circle class="mt" cx="562" cy="548" r="12"/>
+    <path class="eq2" d="M440 520 Q440 470 506 470 Q572 470 572 520 H548 Q548 494 506 494 Q464 494 464 520 Z"/>
+  </g>
+  <g data-part="plateforme">
+    <rect class="none" pointer-events="all" x="680" y="375" width="290" height="325" rx="10"/><path class="ln2" d="M770 560 V440 H940 V560 M770 500 H940"/><rect class="mt" x="760" y="560" width="190" height="18" rx="4"/>
+    <path class="ln2" d="M770 578 L716 690 M748 578 L694 690 M940 578 L956 690 M749 622 H727 M728 656 H706"/><path class="ln2" d="M749 622 L727 622 M739 600 H760"/>
+    <rect class="dk" x="682" y="684" width="46" height="12" rx="4"/><rect class="dk" x="940" y="684" width="32" height="12" rx="4"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="chariot" transform="translate(290 70)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="chariot-panneaux" transform="translate(620 70)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="table-elevatrice" transform="translate(720 70)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="palan" transform="translate(290 540)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="poignee" transform="translate(620 420)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="plateforme" transform="translate(720 430)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>

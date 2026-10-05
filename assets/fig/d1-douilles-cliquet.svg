@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 740" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Cliquet, douilles et accessoires</title>
+  <desc id="d">Trois bandes. En haut, un cliquet vu de dessus : un manche, une tête ronde, un petit levier inverseur sur la tête et, en pointillé, le carré d'entraînement situé dessous. Au milieu, la chaîne d'entraînement vue de côté, pièces écartées sur un même axe : la tête du cliquet avec son carré mâle muni d'une bille, une rallonge (carré femelle, barre, carré mâle), un cardan articulé, puis une douille dont le carré femelle est dessiné en pointillé. En bas, vues en bout : une douille six pans au creux hexagonal, une douille douze pans au creux en étoile à douze pointes, le dos d'une douille avec son trou carré, puis un porte-embout et un embout de vissage à corps hexagonal.</desc>
+  <rect class="bgp" width="1000" height="740"/>
+  <text class="ts" x="24" y="46">Vu de dessus</text>
+  <g data-part="cliquet">
+    <path class="mt" d="M340 119 L650 115 L694 78 L694 186 L650 149 L340 145 Z"/>
+    <path class="eq2" d="M60 129 Q60 107 82 107 L330 107 Q352 107 352 129 L352 135 Q352 157 330 157 L82 157 Q60 157 60 135 Z"/>
+    <path class="ln" d="M96 108 L96 156"/>
+    <path class="ln" d="M122 108 L122 156"/>
+    <path class="ln" d="M148 108 L148 156"/>
+    <circle class="mt" cx="722" cy="132" r="63"/>
+    <circle class="thin" cx="722" cy="132" r="50"/>
+    <rect class="dash" x="718" y="112" width="40" height="40"/>
+  </g>
+  <g data-part="inverseur">
+    <rect class="none" x="640" y="76" width="70" height="84"/>
+    <path class="mt2" d="M698.8 139.9 L698.5 138.4 L698 136.6 L697.4 134.4 L696.8 131.8 L696.1 129 L695.3 126 L694.5 122.9 L693.6 119.7 L692.7 116.6 L691.7 113.5 L690.7 110.3 L689.5 107 L688.3 103.5 L687 100.1 L685.7 96.6 L684.4 93.3 L683.3 90.3 L682.2 87.6 L681.3 85.3 L680.7 83.6 L663.3 88.4 L663.7 90.3 L664.1 92.7 L664.6 95.6 L665.2 98.7 L665.8 102.1 L666.4 105.6 L667 109.2 L667.5 112.6 L668 115.7 L668.3 118.5 L668.5 121.2 L668.7 124 L668.8 126.9 L668.9 129.9 L668.9 132.8 L669 135.5 L669 138.1 L669.1 140.4 L669.1 142.5 L669.2 144.1 Z"/>
+    <circle class="dk" cx="684" cy="138" r="6"/>
+  </g>
+  <path class="dash" d="M30 226 L970 226"/>
+  <text class="ts" x="24" y="272">Vu de côté, pièces écartées</text>
+  <path class="thin" d="M40 368 L960 368"/>
+  <g data-part="cliquet">
+    <rect class="mt" x="58" y="306" width="54" height="124" rx="10"/>
+    <path class="mt" d="M70 430 L100 430 L100 472 L92.5 480 L85 471 L77.5 480 L70 472 Z"/>
+  </g>
+  <g data-part="carre">
+    <rect class="none" x="106" y="334" width="60" height="68"/>
+    <rect class="mt2" x="112" y="348" width="42" height="40" rx="3"/>
+    <circle class="dk" cx="136" cy="348" r="5.5"/>
+  </g>
+  <g data-part="rallonge">
+    <rect class="mt" x="222" y="336" width="58" height="64" rx="6"/>
+    <rect class="dash" x="228" y="348" width="40" height="40"/>
+    <rect class="mt" x="280" y="354" width="180" height="28"/>
+    <rect class="mt2" x="460" y="348" width="42" height="40" rx="3"/>
+    <circle class="dk" cx="484" cy="348" r="5.5"/>
+  </g>
+  <g data-part="cardan">
+    <rect class="mt" x="566" y="336" width="50" height="64" rx="6"/>
+    <rect class="dash" x="572" y="348" width="34" height="40"/>
+    <path class="mt" d="M616 336 L676 336 L676 354 L634 354 L634 382 L676 382 L676 400 L616 400 Z"/>
+    <path class="mt" d="M640 367 Q640 355 652 355 L708 355 L708 381 L652 381 Q640 381 640 369 Z"/>
+    <circle class="dk" cx="656" cy="368" r="9"/>
+    <rect class="mt2" x="708" y="348" width="42" height="40" rx="3"/>
+    <circle class="dk" cx="732" cy="348" r="5.5"/>
+  </g>
+  <g data-part="douille6">
+    <rect class="mt" x="806" y="336" width="50" height="64" rx="5"/>
+    <path class="mt" d="M856 328 Q856 322 862 322 L934 322 Q940 322 940 328 L940 408 Q940 414 934 414 L862 414 Q856 414 856 408 Z"/>
+    <rect class="dash" x="812" y="348" width="38" height="40"/>
+    <path class="dash" d="M872 339 L940 339"/>
+    <path class="dash" d="M872 397 L940 397"/>
+    <path class="thin" d="M866 322 L866 414"/>
+  </g>
+  <path class="dash" d="M30 488 L970 488"/>
+  <text class="ts" x="24" y="530">Vu en bout</text>
+  <path class="dash" d="M574 500 L574 722"/>
+  <g data-part="douille6">
+    <circle class="mt" cx="122" cy="632" r="78"/>
+    <circle class="thin" cx="122" cy="632" r="68"/>
+    <path class="wh" d="M174 632 L148 677 L96 677 L70 632 L96 587 L148 587 Z"/>
+  </g>
+  <g data-part="douille12">
+    <circle class="mt" cx="312" cy="632" r="78"/>
+    <circle class="thin" cx="312" cy="632" r="68"/>
+    <path class="wh" d="M364 632 L357 644.1 L357 658 L345 665 L338 677 L324.1 677 L312 684 L299.9 677 L286 677 L279 665 L267 658 L267 644.1 L260 632 L267 619.9 L267 606 L279 599 L286 587 L299.9 587 L312 580 L324.1 587 L338 587 L345 599 L357 606 L357 619.9 Z"/>
+  </g>
+  <g data-part="carre">
+    <circle class="mt" cx="490" cy="632" r="62"/>
+    <rect class="wh" x="470" y="612" width="40" height="40" rx="2"/>
+    <circle class="thin" cx="490" cy="612" r="5"/>
+    <circle class="thin" cx="490" cy="652" r="5"/>
+    <circle class="thin" cx="470" cy="632" r="5"/>
+    <circle class="thin" cx="510" cy="632" r="5"/>
+  </g>
+  <path class="thin" d="M590 632 L960 632"/>
+  <g data-part="porte-embout">
+    <rect class="mt" x="600" y="600" width="52" height="64" rx="6"/>
+    <rect class="dash" x="606" y="612" width="36" height="40"/>
+    <rect class="mt" x="652" y="609" width="70" height="46" rx="4"/>
+    <path class="dash" d="M664 619 L722 619"/>
+    <path class="dash" d="M664 645 L722 645"/>
+  </g>
+  <g data-part="embout">
+    <rect class="none" x="745" y="598" width="150" height="68"/>
+    <rect class="mt2" x="748" y="618" width="74" height="28" rx="2"/>
+    <path class="thin" d="M748 627 L822 627"/>
+    <path class="ln" d="M770 618 L770 646"/>
+    <path class="mt2" d="M822 618 L848 618 L886 629 L886 635 L848 646 L822 646 Z"/>
+    <path class="dk" d="M848 618 Q838 626 852 628 L886 630 L886 629 Z"/>
+    <path class="dk" d="M848 646 Q838 638 852 636 L886 634 L886 635 Z"/>
+    <path class="dk" d="M950 632 L942 645.9 L926 645.9 L918 632 L926 618.1 L942 618.1 Z"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="cliquet" transform="translate(230 80)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="inverseur" transform="translate(628 70)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="carre" transform="translate(150 308)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="rallonge" transform="translate(370 322)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="cardan" transform="translate(650 304)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="douille6" transform="translate(898 290)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="douille6" transform="translate(50 566)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="douille12" transform="translate(240 566)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="carre" transform="translate(432 574)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="porte-embout" transform="translate(664 572)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="embout" transform="translate(816 582)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+  </g>
+</svg>

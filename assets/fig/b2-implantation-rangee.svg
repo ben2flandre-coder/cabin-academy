@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Implantation des rangées de sièges sur les rails, vue de dessus</title>
+  <desc id="d">Schéma de principe d'un tronçon de cabine à couloir unique vu de dessus, avant de l'avion à gauche. Quatre rails de siège parallèles courent dans le sens de la longueur, deux de chaque côté de l'allée centrale. Quatre rangées de sièges triples sont posées dessus, trois places de chaque côté de l'allée, soit six sièges de front ; chaque siège triple est ancré sur deux rails par quatre points, deux à l'avant et deux à l'arrière. Entre deux rangées, la portion de rail libre est fermée par un cache-rail. Une flèche montre le pas : la distance entre un point d'un siège et le même point du siège de la rangée suivante. Les parois latérales portent les hublots.</desc>
+  <rect class="bgp" width="1000" height="650"/>
+  <path class="dim" d="M170 40 L40 40"/><path class="dimf" d="M40 40 L56.2 32.2 L56.2 47.8 Z"/><text class="ts" x="186" y="52">Avant</text>
+  <rect class="in" x="30" y="96" width="940" height="448"/>
+  <g data-part="paroi">
+    <rect class="sk" x="30" y="70" width="940" height="26"/>
+    <rect class="sk" x="30" y="544" width="940" height="26"/>
+    <rect class="gl" x="70" y="74" width="44" height="10" rx="5"/><rect class="gl" x="70" y="556" width="44" height="10" rx="5"/>
+    <rect class="gl" x="165" y="74" width="44" height="10" rx="5"/><rect class="gl" x="165" y="556" width="44" height="10" rx="5"/>
+    <rect class="gl" x="260" y="74" width="44" height="10" rx="5"/><rect class="gl" x="260" y="556" width="44" height="10" rx="5"/>
+    <rect class="gl" x="355" y="74" width="44" height="10" rx="5"/><rect class="gl" x="355" y="556" width="44" height="10" rx="5"/>
+    <rect class="gl" x="450" y="74" width="44" height="10" rx="5"/><rect class="gl" x="450" y="556" width="44" height="10" rx="5"/>
+    <rect class="gl" x="545" y="74" width="44" height="10" rx="5"/><rect class="gl" x="545" y="556" width="44" height="10" rx="5"/>
+    <rect class="gl" x="640" y="74" width="44" height="10" rx="5"/><rect class="gl" x="640" y="556" width="44" height="10" rx="5"/>
+    <rect class="gl" x="735" y="74" width="44" height="10" rx="5"/><rect class="gl" x="735" y="556" width="44" height="10" rx="5"/>
+    <rect class="gl" x="830" y="74" width="44" height="10" rx="5"/><rect class="gl" x="830" y="556" width="44" height="10" rx="5"/>
+    <rect class="gl" x="925" y="74" width="44" height="10" rx="5"/><rect class="gl" x="925" y="556" width="44" height="10" rx="5"/>
+  </g>
+  <g data-part="allee">
+    <rect class="wh" x="30" y="286" width="940" height="68"/>
+  </g>
+  <g data-part="rail">
+    <rect class="fl" x="30" y="142" width="940" height="16"/>
+    <rect class="fl" x="30" y="232" width="940" height="16"/>
+    <rect class="fl" x="30" y="392" width="940" height="16"/>
+    <rect class="fl" x="30" y="482" width="940" height="16"/>
+    <circle class="dk" cx="42" cy="150" r="3.5"/><circle class="dk" cx="55" cy="150" r="3.5"/><circle class="dk" cx="68" cy="150" r="3.5"/><circle class="dk" cx="81" cy="150" r="3.5"/><circle class="dk" cx="94" cy="150" r="3.5"/><circle class="dk" cx="107" cy="150" r="3.5"/><circle class="dk" cx="424" cy="150" r="3.5"/><circle class="dk" cx="437" cy="150" r="3.5"/><circle class="dk" cx="450" cy="150" r="3.5"/><circle class="dk" cx="463" cy="150" r="3.5"/><circle class="dk" cx="476" cy="150" r="3.5"/><circle class="dk" cx="489" cy="150" r="3.5"/><circle class="dk" cx="614" cy="150" r="3.5"/><circle class="dk" cx="627" cy="150" r="3.5"/><circle class="dk" cx="640" cy="150" r="3.5"/><circle class="dk" cx="653" cy="150" r="3.5"/><circle class="dk" cx="666" cy="150" r="3.5"/><circle class="dk" cx="679" cy="150" r="3.5"/><circle class="dk" cx="804" cy="150" r="3.5"/><circle class="dk" cx="817" cy="150" r="3.5"/><circle class="dk" cx="830" cy="150" r="3.5"/><circle class="dk" cx="843" cy="150" r="3.5"/><circle class="dk" cx="856" cy="150" r="3.5"/><circle class="dk" cx="869" cy="150" r="3.5"/><circle class="dk" cx="882" cy="150" r="3.5"/><circle class="dk" cx="895" cy="150" r="3.5"/><circle class="dk" cx="908" cy="150" r="3.5"/><circle class="dk" cx="921" cy="150" r="3.5"/><circle class="dk" cx="934" cy="150" r="3.5"/><circle class="dk" cx="947" cy="150" r="3.5"/><circle class="dk" cx="960" cy="150" r="3.5"/><circle class="dk" cx="42" cy="240" r="3.5"/><circle class="dk" cx="55" cy="240" r="3.5"/><circle class="dk" cx="68" cy="240" r="3.5"/><circle class="dk" cx="81" cy="240" r="3.5"/><circle class="dk" cx="94" cy="240" r="3.5"/><circle class="dk" cx="107" cy="240" r="3.5"/><circle class="dk" cx="424" cy="240" r="3.5"/><circle class="dk" cx="437" cy="240" r="3.5"/><circle class="dk" cx="450" cy="240" r="3.5"/><circle class="dk" cx="463" cy="240" r="3.5"/><circle class="dk" cx="476" cy="240" r="3.5"/><circle class="dk" cx="489" cy="240" r="3.5"/><circle class="dk" cx="614" cy="240" r="3.5"/><circle class="dk" cx="627" cy="240" r="3.5"/><circle class="dk" cx="640" cy="240" r="3.5"/><circle class="dk" cx="653" cy="240" r="3.5"/><circle class="dk" cx="666" cy="240" r="3.5"/><circle class="dk" cx="679" cy="240" r="3.5"/><circle class="dk" cx="804" cy="240" r="3.5"/><circle class="dk" cx="817" cy="240" r="3.5"/><circle class="dk" cx="830" cy="240" r="3.5"/><circle class="dk" cx="843" cy="240" r="3.5"/><circle class="dk" cx="856" cy="240" r="3.5"/><circle class="dk" cx="869" cy="240" r="3.5"/><circle class="dk" cx="882" cy="240" r="3.5"/><circle class="dk" cx="895" cy="240" r="3.5"/><circle class="dk" cx="908" cy="240" r="3.5"/><circle class="dk" cx="921" cy="240" r="3.5"/><circle class="dk" cx="934" cy="240" r="3.5"/><circle class="dk" cx="947" cy="240" r="3.5"/><circle class="dk" cx="960" cy="240" r="3.5"/><circle class="dk" cx="42" cy="400" r="3.5"/><circle class="dk" cx="55" cy="400" r="3.5"/><circle class="dk" cx="68" cy="400" r="3.5"/><circle class="dk" cx="81" cy="400" r="3.5"/><circle class="dk" cx="94" cy="400" r="3.5"/><circle class="dk" cx="107" cy="400" r="3.5"/><circle class="dk" cx="424" cy="400" r="3.5"/><circle class="dk" cx="437" cy="400" r="3.5"/><circle class="dk" cx="450" cy="400" r="3.5"/><circle class="dk" cx="463" cy="400" r="3.5"/><circle class="dk" cx="476" cy="400" r="3.5"/><circle class="dk" cx="489" cy="400" r="3.5"/><circle class="dk" cx="614" cy="400" r="3.5"/><circle class="dk" cx="627" cy="400" r="3.5"/><circle class="dk" cx="640" cy="400" r="3.5"/><circle class="dk" cx="653" cy="400" r="3.5"/><circle class="dk" cx="666" cy="400" r="3.5"/><circle class="dk" cx="679" cy="400" r="3.5"/><circle class="dk" cx="804" cy="400" r="3.5"/><circle class="dk" cx="817" cy="400" r="3.5"/><circle class="dk" cx="830" cy="400" r="3.5"/><circle class="dk" cx="843" cy="400" r="3.5"/><circle class="dk" cx="856" cy="400" r="3.5"/><circle class="dk" cx="869" cy="400" r="3.5"/><circle class="dk" cx="882" cy="400" r="3.5"/><circle class="dk" cx="895" cy="400" r="3.5"/><circle class="dk" cx="908" cy="400" r="3.5"/><circle class="dk" cx="921" cy="400" r="3.5"/><circle class="dk" cx="934" cy="400" r="3.5"/><circle class="dk" cx="947" cy="400" r="3.5"/><circle class="dk" cx="960" cy="400" r="3.5"/><circle class="dk" cx="42" cy="490" r="3.5"/><circle class="dk" cx="55" cy="490" r="3.5"/><circle class="dk" cx="68" cy="490" r="3.5"/><circle class="dk" cx="81" cy="490" r="3.5"/><circle class="dk" cx="94" cy="490" r="3.5"/><circle class="dk" cx="107" cy="490" r="3.5"/><circle class="dk" cx="424" cy="490" r="3.5"/><circle class="dk" cx="437" cy="490" r="3.5"/><circle class="dk" cx="450" cy="490" r="3.5"/><circle class="dk" cx="463" cy="490" r="3.5"/><circle class="dk" cx="476" cy="490" r="3.5"/><circle class="dk" cx="489" cy="490" r="3.5"/><circle class="dk" cx="614" cy="490" r="3.5"/><circle class="dk" cx="627" cy="490" r="3.5"/><circle class="dk" cx="640" cy="490" r="3.5"/><circle class="dk" cx="653" cy="490" r="3.5"/><circle class="dk" cx="666" cy="490" r="3.5"/><circle class="dk" cx="679" cy="490" r="3.5"/><circle class="dk" cx="804" cy="490" r="3.5"/><circle class="dk" cx="817" cy="490" r="3.5"/><circle class="dk" cx="830" cy="490" r="3.5"/><circle class="dk" cx="843" cy="490" r="3.5"/><circle class="dk" cx="856" cy="490" r="3.5"/><circle class="dk" cx="869" cy="490" r="3.5"/><circle class="dk" cx="882" cy="490" r="3.5"/><circle class="dk" cx="895" cy="490" r="3.5"/><circle class="dk" cx="908" cy="490" r="3.5"/><circle class="dk" cx="921" cy="490" r="3.5"/><circle class="dk" cx="934" cy="490" r="3.5"/><circle class="dk" cx="947" cy="490" r="3.5"/><circle class="dk" cx="960" cy="490" r="3.5"/>
+  </g>
+  <g data-part="cache-rail">
+    <rect class="wh" x="226" y="137" width="82" height="26" rx="6"/>
+    <rect class="wh" x="226" y="227" width="82" height="26" rx="6"/>
+    <rect class="wh" x="226" y="387" width="82" height="26" rx="6"/>
+    <rect class="wh" x="226" y="477" width="82" height="26" rx="6"/>
+  </g>
+  <g data-part="siege-triple">
+    <rect class="eq" x="120" y="107" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="198" y="107" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="120" y="167.3" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="198" y="167.3" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="120" y="227.7" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="198" y="227.7" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="120" y="358" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="198" y="358" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="120" y="418.3" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="198" y="418.3" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="120" y="478.7" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="198" y="478.7" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="310" y="107" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="388" y="107" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="310" y="167.3" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="388" y="167.3" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="310" y="227.7" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="388" y="227.7" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="310" y="358" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="388" y="358" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="310" y="418.3" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="388" y="418.3" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="310" y="478.7" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="388" y="478.7" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="500" y="107" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="578" y="107" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="500" y="167.3" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="578" y="167.3" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="500" y="227.7" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="578" y="227.7" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="500" y="358" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="578" y="358" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="500" y="418.3" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="578" y="418.3" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="500" y="478.7" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="578" y="478.7" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="690" y="107" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="768" y="107" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="690" y="167.3" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="768" y="167.3" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="690" y="227.7" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="768" y="227.7" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="690" y="358" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="768" y="358" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="690" y="418.3" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="768" y="418.3" width="26" height="54.3" rx="8"/>
+    <rect class="eq" x="690" y="478.7" width="80" height="54.3" rx="12"/>
+    <rect class="eq2" x="768" y="478.7" width="26" height="54.3" rx="8"/>
+  </g>
+  <path class="dash" d="M122 150 L222 150"/>
+  <path class="dash" d="M122 240 L222 240"/>
+  <path class="dash" d="M122 400 L222 400"/>
+  <path class="dash" d="M122 490 L222 490"/>
+  <path class="dash" d="M312 150 L412 150"/>
+  <path class="dash" d="M312 240 L412 240"/>
+  <path class="dash" d="M312 400 L412 400"/>
+  <path class="dash" d="M312 490 L412 490"/>
+  <path class="dash" d="M502 150 L602 150"/>
+  <path class="dash" d="M502 240 L602 240"/>
+  <path class="dash" d="M502 400 L602 400"/>
+  <path class="dash" d="M502 490 L602 490"/>
+  <path class="dash" d="M692 150 L792 150"/>
+  <path class="dash" d="M692 240 L792 240"/>
+  <path class="dash" d="M692 400 L792 400"/>
+  <path class="dash" d="M692 490 L792 490"/>
+  <g data-part="ferrures">
+    <circle class="mt2" cx="134" cy="150" r="10"/><circle class="mt2" cx="212" cy="150" r="10"/>
+    <circle class="mt2" cx="134" cy="240" r="10"/><circle class="mt2" cx="212" cy="240" r="10"/>
+    <circle class="mt2" cx="134" cy="400" r="10"/><circle class="mt2" cx="212" cy="400" r="10"/>
+    <circle class="mt2" cx="134" cy="490" r="10"/><circle class="mt2" cx="212" cy="490" r="10"/>
+    <circle class="mt2" cx="324" cy="150" r="10"/><circle class="mt2" cx="402" cy="150" r="10"/>
+    <circle class="mt2" cx="324" cy="240" r="10"/><circle class="mt2" cx="402" cy="240" r="10"/>
+    <circle class="mt2" cx="324" cy="400" r="10"/><circle class="mt2" cx="402" cy="400" r="10"/>
+    <circle class="mt2" cx="324" cy="490" r="10"/><circle class="mt2" cx="402" cy="490" r="10"/>
+    <circle class="mt2" cx="514" cy="150" r="10"/><circle class="mt2" cx="592" cy="150" r="10"/>
+    <circle class="mt2" cx="514" cy="240" r="10"/><circle class="mt2" cx="592" cy="240" r="10"/>
+    <circle class="mt2" cx="514" cy="400" r="10"/><circle class="mt2" cx="592" cy="400" r="10"/>
+    <circle class="mt2" cx="514" cy="490" r="10"/><circle class="mt2" cx="592" cy="490" r="10"/>
+    <circle class="mt2" cx="704" cy="150" r="10"/><circle class="mt2" cx="782" cy="150" r="10"/>
+    <circle class="mt2" cx="704" cy="240" r="10"/><circle class="mt2" cx="782" cy="240" r="10"/>
+    <circle class="mt2" cx="704" cy="400" r="10"/><circle class="mt2" cx="782" cy="400" r="10"/>
+    <circle class="mt2" cx="704" cy="490" r="10"/><circle class="mt2" cx="782" cy="490" r="10"/>
+  </g>
+  <g data-part="de-front">
+    <rect class="wh" x="826" y="104" width="48" height="432" rx="8"/>
+    <path class="dim" d="M850 250 L850 116"/><path class="dimf" d="M850 116 L857.8 132.2 L842.2 132.2 Z"/><path class="dim" d="M850 390 L850 524"/><path class="dimf" d="M850 524 L842.2 507.8 L857.8 507.8 Z"/>
+  </g>
+  <text class="tb tc" x="922" y="334">3+3</text>
+  <g data-part="pas">
+    <rect class="bgp" x="310" y="578" width="190" height="56"/>
+    <path class="dim" d="M310 574 L310 634"/><path class="dim" d="M500 574 L500 634"/><path class="dim" d="M318 606 L492 606"/><path class="dimf" d="M492 606 L475.8 613.8 L475.8 598.2 Z"/><path class="dimf" d="M318 606 L334.2 598.2 L334.2 613.8 Z"/>
+  </g>
+  <path class="thin" d="M552 430 L520 404"/><path class="thin" d="M552 460 L520 486"/><path class="thin" d="M267 172 L267 162"/><path class="thin" d="M267 220 L267 228"/>
+  <g class="badges">
+    <g class="badge" data-badge="rail" transform="translate(930 150)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="siege-triple" transform="translate(350 195)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="allee" transform="translate(160 320)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="pas" transform="translate(405 606)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="de-front" transform="translate(850 320)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="ferrures" transform="translate(556 445)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="cache-rail" transform="translate(267 196)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="paroi" transform="translate(500 83)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+  </g>
+</svg>

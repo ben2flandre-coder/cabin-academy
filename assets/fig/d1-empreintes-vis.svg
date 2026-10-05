@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Six têtes de vis vues de dessus</title>
+  <desc id="d">Six têtes de vis rondes vues de dessus, sur deux rangées. Rangée du haut : empreinte à fente (une rainure droite qui traverse la tête), empreinte cruciforme Phillips (croix dont les branches s'affinent vers l'extérieur, angles intérieurs arrondis), empreinte cruciforme Pozidriv (croix à branches droites avec quatre fins traits rayonnants à 45 degrés entre les branches). Rangée du bas : empreinte six lobes de type Torx (étoile à six lobes arrondis), empreinte six pans creux (creux hexagonal), tête hexagonale posée sur une rondelle, que l'on entraîne par l'extérieur.</desc>
+  <rect class="bgp" width="1000" height="600"/>
+  <g data-part="fente">
+    <circle class="mt" cx="185" cy="165" r="120"/>
+    <circle class="thin" cx="185" cy="165" r="107"/>
+    <path class="dk" d="M65.9 150 L304.1 150 A120 120 0 0 1 304.1 180 L65.9 180 A120 120 0 0 1 65.9 150 Z"/>
+  </g>
+  <g data-part="phillips">
+    <circle class="mt" cx="500" cy="165" r="120"/>
+    <circle class="thin" cx="500" cy="165" r="107"/>
+    <path class="dk" d="M530 148 L582 156 L582 174 L530 182 Q518 183 517 195 L517 195 L509 247 L491 247 L483 195 Q482 183 470 182 L470 182 L418 174 L418 156 L470 148 Q482 147 483 135 L483 135 L491 83 L509 83 L517 135 Q518 147 530 148 Z"/>
+  </g>
+  <g data-part="pozidriv">
+    <circle class="mt" cx="815" cy="165" r="120"/>
+    <circle class="thin" cx="815" cy="165" r="107"/>
+    <path class="dk" d="M827 153 L897 153 L897 177 L827 177 L827 177 L827 247 L803 247 L803 177 L803 177 L733 177 L733 153 L803 153 L803 153 L803 83 L827 83 L827 153 Z"/>
+    <path class="ln2" d="M833.4 183.4 L871.6 221.6"/>
+    <path class="ln2" d="M796.6 183.4 L758.4 221.6"/>
+    <path class="ln2" d="M796.6 146.6 L758.4 108.4"/>
+    <path class="ln2" d="M833.4 146.6 L871.6 108.4"/>
+  </g>
+  <g data-part="torx">
+    <circle class="mt" cx="185" cy="445" r="120"/>
+    <circle class="thin" cx="185" cy="445" r="107"/>
+    <path class="dk" d="M246.6 433.9 A11.5 11.5 0 0 1 246.6 456.1 A30.1 30.1 0 0 0 225.4 492.8 L225.4 492.8 A11.5 11.5 0 0 1 206.2 503.9 A30.1 30.1 0 0 0 163.8 503.9 L163.8 503.9 A11.5 11.5 0 0 1 144.6 492.8 A30.1 30.1 0 0 0 123.4 456.1 L123.4 456.1 A11.5 11.5 0 0 1 123.4 433.9 A30.1 30.1 0 0 0 144.6 397.2 L144.6 397.2 A11.5 11.5 0 0 1 163.8 386.1 A30.1 30.1 0 0 0 206.2 386.1 L206.2 386.1 A11.5 11.5 0 0 1 225.4 397.2 A30.1 30.1 0 0 0 246.6 433.9 Z"/>
+  </g>
+  <g data-part="hexcreux">
+    <circle class="mt" cx="500" cy="445" r="120"/>
+    <circle class="thin" cx="500" cy="445" r="107"/>
+    <path class="dk" d="M564 445 L532 500.4 L468 500.4 L436 445 L468 389.6 L532 389.6 Z"/>
+  </g>
+  <g data-part="hexext">
+    <circle class="mt2" cx="815" cy="445" r="124"/>
+    <path class="mt" d="M929 445 L872 543.7 L758 543.7 L701 445 L758 346.3 L872 346.3 Z"/>
+    <circle class="thin" cx="815" cy="445" r="92.7"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="fente" transform="translate(81 65)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="phillips" transform="translate(396 65)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="pozidriv" transform="translate(711 65)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="torx" transform="translate(81 345)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="hexcreux" transform="translate(396 345)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="hexext" transform="translate(711 345)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>

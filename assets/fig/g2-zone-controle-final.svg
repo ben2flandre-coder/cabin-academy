@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Contrôle final de zone : pied de paroi et plancher, vus de dessus</title>
+  <desc id="d">Schéma de principe d'une zone de cabine vue de dessus avant fermeture. En haut, le bas de paroi avec une grille. Le plancher porte deux rails de siège ; une ferrure de siège est verrouillée sur le rail du bas. Au centre, un panneau de plancher est déposé : la cavité laisse voir une traverse, un faisceau fixé par deux colliers et son étiquette d'identification. Le panneau voisin est tenu par quatre vis en place. Cinq objets n'ont rien à faire là : une vis couchée dans le rail du haut, une chute de collier et un chiffon dans la cavité, un embout de vissage et un sachet vide sur le plancher.</desc>
+  <rect class="bgp" width="1000" height="700"/>
+  <rect class="in" x="20" y="20" width="960" height="112"/>
+  <rect class="fl" x="20" y="132" width="960" height="548"/>
+  <path class="thin" d="M300 132 V680 M720 132 V680 M20 400 H300 M720 400 H980"/>
+  <g data-part="grille">
+    <rect class="dk" x="90" y="46" width="300" height="62" rx="8"/><path class="ln" d="M120 54 V100 M150 54 V100 M180 54 V100 M210 54 V100 M240 54 V100 M270 54 V100 M300 54 V100 M330 54 V100 M360 54 V100"/>
+  </g>
+  <g data-part="rail">
+    <rect class="mt" x="20" y="160" width="960" height="60"/><rect class="dk" x="20" y="181" width="960" height="18"/><circle class="dk" cx="50" cy="190" r="15"/><circle class="dk" cx="112" cy="190" r="15"/><circle class="dk" cx="174" cy="190" r="15"/><circle class="dk" cx="236" cy="190" r="15"/><circle class="dk" cx="298" cy="190" r="15"/><circle class="dk" cx="360" cy="190" r="15"/><circle class="dk" cx="422" cy="190" r="15"/><circle class="dk" cx="484" cy="190" r="15"/><circle class="dk" cx="546" cy="190" r="15"/><circle class="dk" cx="608" cy="190" r="15"/><circle class="dk" cx="670" cy="190" r="15"/><circle class="dk" cx="732" cy="190" r="15"/><circle class="dk" cx="794" cy="190" r="15"/><circle class="dk" cx="856" cy="190" r="15"/><circle class="dk" cx="918" cy="190" r="15"/><rect class="mt" x="20" y="580" width="960" height="60"/><rect class="dk" x="20" y="601" width="960" height="18"/><circle class="dk" cx="50" cy="610" r="15"/><circle class="dk" cx="112" cy="610" r="15"/><circle class="dk" cx="174" cy="610" r="15"/><circle class="dk" cx="236" cy="610" r="15"/><circle class="dk" cx="298" cy="610" r="15"/><circle class="dk" cx="360" cy="610" r="15"/><circle class="dk" cx="422" cy="610" r="15"/><circle class="dk" cx="484" cy="610" r="15"/><circle class="dk" cx="546" cy="610" r="15"/><circle class="dk" cx="608" cy="610" r="15"/><circle class="dk" cx="670" cy="610" r="15"/><circle class="dk" cx="732" cy="610" r="15"/><circle class="dk" cx="794" cy="610" r="15"/><circle class="dk" cx="856" cy="610" r="15"/><circle class="dk" cx="918" cy="610" r="15"/>
+  </g>
+  <rect class="dk" x="300" y="262" width="420" height="276"/>
+  <rect class="st" x="486" y="262" width="44" height="276"/>
+  <g data-part="faisceau">
+    <path class="sy" d="M300 380 C380 372 440 396 508 388 S650 372 720 384"/><rect class="none" pointer-events="all" x="300" y="356" width="420" height="56" rx="10"/>
+  </g>
+  <g data-part="collier-pose">
+    <rect class="wh" x="372" y="360" width="16" height="46" rx="4"/><rect class="wh" x="366" y="352" width="28" height="14" rx="3"/>
+    <rect class="wh" x="652" y="356" width="16" height="46" rx="4"/><rect class="wh" x="646" y="348" width="28" height="14" rx="3"/><rect class="none" pointer-events="all" x="346" y="340" width="70" height="76" rx="10"/><rect class="none" pointer-events="all" x="626" y="336" width="70" height="76" rx="10"/>
+  </g>
+  <g data-part="etiquette">
+    <path class="thin" d="M572 380 L590 330"/><rect class="wh" x="556" y="282" width="92" height="50" rx="6"/><path class="thin" d="M568 300 H636 M568 316 H620"/><rect class="none" pointer-events="all" x="550" y="276" width="104" height="62" rx="10"/>
+  </g>
+  <g data-part="vis-panneau">
+    <circle class="mt" cx="60" cy="280" r="17"/><path class="ln" d="M51 280 H69 M60 271 V289"/><circle class="mt" cx="130" cy="280" r="17"/><path class="ln" d="M121 280 H139 M130 271 V289"/><circle class="mt" cx="200" cy="280" r="17"/><path class="ln" d="M191 280 H209 M200 271 V289"/><circle class="mt" cx="270" cy="280" r="17"/><path class="ln" d="M261 280 H279 M270 271 V289"/><rect class="none" pointer-events="all" x="36" y="248" width="260" height="66" rx="10"/>
+  </g>
+  <g data-part="ferrure">
+    <rect class="eq2" x="770" y="556" width="150" height="108" rx="14"/><circle class="mt" cx="806" cy="610" r="17"/><circle class="mt" cx="884" cy="610" r="17"/><rect class="eq" x="822" y="576" width="46" height="68" rx="8"/>
+  </g>
+  <g data-part="vis-rail">
+    <g transform="rotate(8 580 190)"><path class="wh" d="M548 176 L562 180 V200 L548 204 Z"/><rect class="wh" x="562" y="183" width="56" height="14"/><path class="thin" d="M574 183 V197 M586 183 V197 M598 183 V197 M610 183 V197"/></g><rect class="none" pointer-events="all" x="536" y="150" width="96" height="80" rx="10"/>
+  </g>
+  <g data-part="chute-collier">
+    <g transform="rotate(-24 380 474)"><rect class="wh" x="330" y="467" width="104" height="14" rx="3"/><path class="thin" d="M346 467 V481 M362 467 V481 M378 467 V481 M394 467 V481 M410 467 V481"/></g><rect class="none" pointer-events="all" x="324" y="434" width="112" height="82" rx="10"/>
+  </g>
+  <g data-part="chiffon">
+    <path class="in" d="M566 452 C590 430 624 446 650 434 C684 430 708 452 700 478 C712 500 690 524 660 516 C636 530 604 520 590 524 C562 520 552 498 562 480 C552 470 556 458 566 452 Z"/><path class="thin" d="M590 470 C612 462 630 486 656 470 M600 500 C622 492 644 506 672 494"/>
+  </g>
+  <g data-part="embout">
+    <g transform="rotate(35 800 470)"><path class="mt" d="M766 458 H814 L836 464 V476 L814 482 H766 Z"/><path class="thin" d="M790 458 V482"/></g><rect class="none" pointer-events="all" x="756" y="428" width="90" height="84" rx="10"/>
+  </g>
+  <g data-part="sachet">
+    <g transform="rotate(-12 850 330)"><rect class="gl" x="786" y="284" width="130" height="92" rx="6"/><path class="ln" d="M786 300 H916"/><path class="thin" d="M800 356 L830 322 M826 362 L850 334"/></g>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="grille" transform="translate(430 76)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="rail" transform="translate(120 610)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="faisceau" transform="translate(440 420)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="collier-pose" transform="translate(380 316)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="etiquette" transform="translate(680 300)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="vis-panneau" transform="translate(165 340)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="ferrure" transform="translate(950 610)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="vis-rail" transform="translate(660 190)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="chute-collier" transform="translate(440 500)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="chiffon" transform="translate(630 550)"><circle class="bd" r="26"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="embout" transform="translate(870 440)"><circle class="bd" r="26"/><text class="bn">11</text></g>
+    <g class="badge" data-badge="sachet" transform="translate(760 260)"><circle class="bd" r="26"/><text class="bn">12</text></g>
+  </g>
+</svg>

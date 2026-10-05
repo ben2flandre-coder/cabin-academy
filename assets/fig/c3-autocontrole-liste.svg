@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 744" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Liste d'autocontrôle fictive</title>
+  <desc id="d">Document fictif pédagogique. Fiche intitulée AUTOCONTRÔLE EX-OP 040. Six lignes, chacune précédée d'une case : bonne pièce, bon indice, cochée ; position et sens de montage, cochée ; fixations toutes présentes, cochée ; aspect, ni choc ni rayure, cochée ; zone propre, rien d'oublié, non cochée ; outils comptés et rangés, cochée. En bas, une ligne Nom et Date restée vide.</desc>
+  <rect class="bgp" width="1000" height="744"/>
+  <rect class="wh" x="16" y="14" width="968" height="716" rx="18"/>
+  <g data-part="entete">
+    <rect class="in" x="32" y="28" width="936" height="120" rx="12"/>
+  </g>
+  <text class="tb" x="52" y="76" pointer-events="none">AUTOCONTRÔLE · EX-OP 040</text>
+  <text class="ts" x="52" y="126" pointer-events="none">DOCUMENT FICTIF — PÉDAGOGIQUE</text>
+  <g data-part="l-identite">
+    <rect class="wh" x="32" y="160" width="936" height="70" rx="10"/>
+    <rect class="wh" x="48" y="170" width="50" height="50" rx="6"/>
+    <path class="dim" d="M58 196 l12 14 l22 -30"/>
+  </g>
+  <text class="ts" x="118" y="208" pointer-events="none">Bonne pièce, bon indice</text>
+  <g data-part="l-position">
+    <rect class="wh" x="32" y="240" width="936" height="70" rx="10"/>
+    <rect class="wh" x="48" y="250" width="50" height="50" rx="6"/>
+    <path class="dim" d="M58 276 l12 14 l22 -30"/>
+  </g>
+  <text class="ts" x="118" y="288" pointer-events="none">Position et sens de montage</text>
+  <g data-part="l-fixations">
+    <rect class="wh" x="32" y="320" width="936" height="70" rx="10"/>
+    <rect class="wh" x="48" y="330" width="50" height="50" rx="6"/>
+    <path class="dim" d="M58 356 l12 14 l22 -30"/>
+  </g>
+  <text class="ts" x="118" y="368" pointer-events="none">Fixations toutes présentes</text>
+  <g data-part="l-aspect">
+    <rect class="wh" x="32" y="400" width="936" height="70" rx="10"/>
+    <rect class="wh" x="48" y="410" width="50" height="50" rx="6"/>
+    <path class="dim" d="M58 436 l12 14 l22 -30"/>
+  </g>
+  <text class="ts" x="118" y="448" pointer-events="none">Aspect : ni choc ni rayure</text>
+  <g data-part="l-proprete">
+    <rect class="wh" x="32" y="480" width="936" height="70" rx="10"/>
+    <rect class="wh" x="48" y="490" width="50" height="50" rx="6"/>
+  </g>
+  <text class="ts" x="118" y="528" pointer-events="none">Zone propre, rien d’oublié</text>
+  <g data-part="l-outils">
+    <rect class="wh" x="32" y="560" width="936" height="70" rx="10"/>
+    <rect class="wh" x="48" y="570" width="50" height="50" rx="6"/>
+    <path class="dim" d="M58 596 l12 14 l22 -30"/>
+  </g>
+  <text class="ts" x="118" y="608" pointer-events="none">Outils comptés et rangés</text>
+  <g data-part="visa">
+    <rect class="in" x="32" y="644" width="936" height="72" rx="10"/>
+    <path class="ln" d="M150 698 h260 M590 698 h250"/>
+  </g>
+  <text class="ts" x="52" y="694" pointer-events="none">Nom</text>
+  <text class="ts" x="490" y="694" pointer-events="none">Date</text>
+  <g class="badges">
+    <g class="badge" data-badge="entete" transform="translate(926 88)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="l-identite" transform="translate(926 195)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="l-position" transform="translate(926 275)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="l-fixations" transform="translate(926 355)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="l-aspect" transform="translate(926 435)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="l-proprete" transform="translate(926 515)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="l-outils" transform="translate(926 595)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="visa" transform="translate(926 680)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

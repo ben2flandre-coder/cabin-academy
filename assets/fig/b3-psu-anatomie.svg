@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">PSU (bloc de service passager) : face de dessous et trappe des masques ouverte</title>
+  <desc id="d">Schéma de principe en deux vues. En haut, le PSU vu de dessous, comme le voit un passager assis qui lève la tête : un long panneau tenu entre les deux bords d'une goulotte, avec à gauche la trappe du conteneur de masques à oxygène, au centre trois liseuses et trois bouches d'air individuelles orientables, à droite les signalisations lumineuses (ceinture, interdiction de fumer), le bouton d'appel et la grille du haut-parleur ; de part et d'autre du PSU, des panneaux de remplissage ferment la goulotte. En bas, vue de côté du même PSU, trappe ouverte : le conteneur est logé au-dessus du panneau, la trappe pend et quatre masques sont suspendus au bout de leur tuyau souple.</desc>
+  <rect class="bgp" width="1000" height="700"/>
+<text class="ts" x="30" y="50">Vue de dessous</text>
+  <g data-part="goulotte">
+    <rect class="st" x="30" y="76" width="940" height="24"/>
+    <rect class="st" x="30" y="320" width="940" height="24"/>
+  </g>
+  <g data-part="remplissage">
+    <rect class="in" x="30" y="100" width="112" height="220"/>
+    <rect class="in" x="858" y="100" width="112" height="220"/>
+    <path class="thin" d="M86 112 L86 308"/><path class="thin" d="M914 112 L914 308"/>
+  </g>
+  <rect class="in" x="146" y="100" width="708" height="220" rx="10"/>
+  <g data-part="trappe">
+    <rect class="wh" x="164" y="116" width="244" height="188" rx="16"/>
+    <rect class="thin" x="176" y="128" width="220" height="164" rx="10"/>
+    <circle class="dk" cx="386" cy="210" r="7"/>
+  </g>
+  <g data-part="liseuse">
+    <circle class="mt" cx="500" cy="152" r="28"/><circle class="gl" cx="500" cy="152" r="17"/>
+    <circle class="mt" cx="570" cy="152" r="28"/><circle class="gl" cx="570" cy="152" r="17"/>
+    <circle class="mt" cx="640" cy="152" r="28"/><circle class="gl" cx="640" cy="152" r="17"/>
+  </g>
+  <g data-part="gasper">
+    <circle class="dk" cx="500" cy="262" r="30"/><circle class="mt" cx="500" cy="262" r="14"/><path class="thin" d="M491 262 L509 262"/><path class="thin" d="M500 253 L500 271"/>
+    <circle class="dk" cx="570" cy="262" r="30"/><circle class="mt" cx="570" cy="262" r="14"/><path class="thin" d="M561 262 L579 262"/><path class="thin" d="M570 253 L570 271"/>
+    <circle class="dk" cx="640" cy="262" r="30"/><circle class="mt" cx="640" cy="262" r="14"/><path class="thin" d="M631 262 L649 262"/><path class="thin" d="M640 253 L640 271"/>
+  </g>
+  <g data-part="signaux">
+    <rect class="dk" x="700" y="116" width="140" height="64" rx="8"/>
+    <rect class="wh" x="712" y="140" width="22" height="14" rx="2"/><rect class="wh" x="742" y="136" width="16" height="22" rx="3"/><rect class="wh" x="734" y="143" width="10" height="8"/>
+    <circle class="wh" cx="806" cy="148" r="22"/><rect class="dk" x="792" y="144" width="28" height="8" rx="2"/><path class="ax" d="M791 163 L821 133"/>
+  </g>
+  <g data-part="appel">
+    <rect class="syf" x="700" y="200" width="64" height="64" rx="12"/>
+    <circle class="wh" cx="732" cy="220" r="9"/><path class="wh" d="M716 252 C716 236 748 236 748 252 Z"/>
+  </g>
+  <g data-part="haut-parleur">
+    <rect class="mt" x="778" y="196" width="62" height="112" rx="10"/>
+    <path class="ln" d="M792 214 L826 214"/>
+    <path class="ln" d="M792 229 L826 229"/>
+    <path class="ln" d="M792 244 L826 244"/>
+    <path class="ln" d="M792 259 L826 259"/>
+    <path class="ln" d="M792 274 L826 274"/>
+    <path class="ln" d="M792 289 L826 289"/>
+  </g>
+  <text class="ts" x="500" y="566">Trappe ouverte :</text><text class="ts" x="500" y="612">les masques pendent</text>
+  <g data-part="conteneur">
+    <rect class="eq" x="160" y="396" width="252" height="56" rx="8"/>
+  </g>
+  <rect class="in" x="30" y="452" width="940" height="44"/><path class="thin" d="M146 452 L146 496"/><path class="thin" d="M854 452 L854 496"/>
+  <rect class="dk" x="164" y="488" width="244" height="10"/>
+  <g data-part="trappe">
+    <path class="wh" d="M150 496 L166 496 L150 680 L134 678 Z"/>
+  </g>
+  <g data-part="masque">
+    <path class="sy" d="M214 496 C226 553 202 573 214 610"/>
+    <path class="syf" d="M199 610 L229 610 L238 650 L190 650 Z"/>
+    <path class="sy" d="M268 496 C280 568 256 588 268 640"/>
+    <path class="syf" d="M253 640 L283 640 L292 680 L244 680 Z"/>
+    <path class="sy" d="M322 496 C334 546 310 566 322 596"/>
+    <path class="syf" d="M307 596 L337 596 L346 636 L298 636 Z"/>
+    <path class="sy" d="M376 496 C388 562 364 582 376 628"/>
+    <path class="syf" d="M361 628 L391 628 L400 668 L352 668 Z"/>
+  </g>
+  <path class="thin" d="M446 150 L472 152"/><path class="thin" d="M446 262 L470 262"/><path class="thin" d="M731 350 L731 266"/><path class="thin" d="M808 350 L808 310"/><path class="thin" d="M770 68 L770 114"/><path class="thin" d="M446 664 L402 650"/>
+  <g class="badges">
+    <g class="badge" data-badge="liseuse" transform="translate(440 152)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="gasper" transform="translate(440 262)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="appel" transform="translate(731 372)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="signaux" transform="translate(770 46)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="haut-parleur" transform="translate(808 372)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="trappe" transform="translate(286 210)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="conteneur" transform="translate(286 424)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="masque" transform="translate(462 668)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="remplissage" transform="translate(914 210)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="goulotte" transform="translate(86 332)"><circle class="bd" r="24"/><text class="bn">10</text></g>
+  </g>
+</svg>

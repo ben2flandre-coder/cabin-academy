@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Ordre d’empilement d’une fixation boulonnée (coupe de principe)</title>
+  <desc id="d">Coupe de principe d'un assemblage boulonné vertical. De haut en bas : tête hexagonale de la vis, rondelle sous tête, deux pièces serrées l'une sur l'autre traversées par le fût lisse de la vis, rondelle sous écrou, écrou, puis l'extrémité filetée qui dépasse de l'écrou. Deux flèches bleues opposées montrent la précharge qui pince les pièces ; une cote à gauche mesure l'épaisseur serrée. À droite, deux contre-exemples : en haut une vis trop courte, dont le filetage s'arrête à l'intérieur de l'écrou ; en bas une vis trop longue, dont l'écrou bute en fin de filetage en laissant un jeu au-dessus de la rondelle.</desc>
+  <rect class="bgp" width="1000" height="680"/>
+  <g data-part="pieces">
+<rect class="st" x="60" y="178" width="480" height="110"/><rect class="sk" x="60" y="288" width="480" height="110"/>
+  </g>
+  <g data-part="fut-lisse">
+<rect class="mt" x="270" y="150" width="60" height="250"/>
+  </g>
+  <g data-part="tete">
+<path class="mt" d="M218 146 L218 90 L224 84 L376 84 L382 90 L382 146 Z"/><path class="thin" d="M259 84 L259 146 M341 84 L341 146"/>
+  </g>
+  <g data-part="rondelle-tete">
+<rect class="mt2" x="196" y="146" width="208" height="32" rx="4"/>
+  </g>
+  <g data-part="rondelle-ecrou">
+<rect class="mt2" x="196" y="398" width="208" height="32" rx="4"/>
+  </g>
+  <g data-part="depassement">
+<polygon class="mt" points="270,400 276,407 270,414 276,421 270,428 276,435 270,442 276,449 270,456 276,463 270,470 276,477 270,484 276,491 270,498 276,505 270,512 276,519 270,526 276,533 270,540 276,547 270,554 278,562 322,562 324,554 330,547 324,540 330,533 324,526 330,519 324,512 330,505 324,498 330,491 324,484 330,477 324,470 330,463 324,456 330,449 324,442 330,435 324,428 330,421 324,414 330,407 324,400"/><path class="thin" d="M270 400 L330 407 M270 414 L330 421 M270 428 L330 435 M270 442 L330 449 M270 456 L330 463 M270 470 L330 477 M270 484 L330 491 M270 498 L330 505 M270 512 L330 519 M270 526 L330 533 M270 540 L330 547"/>
+  </g>
+  <g data-part="ecrou">
+<path class="mt" d="M218 502 L218 436 L224 430 L376 430 L382 436 L382 502 Z"/><path class="thin" d="M259 430 L259 502 M341 430 L341 502"/>
+  </g>
+  <g data-part="precharge">
+<path class="dim" d="M470 96 L470 156"/><polygon class="dimf" points="470,172 461.2,156 478.8,156"/><path class="dim" d="M470 480 L470 420"/><polygon class="dimf" points="470,404 478.8,420 461.2,420"/><rect class="none" pointer-events="all" x="430" y="90" width="80" height="90"/><rect class="none" pointer-events="all" x="430" y="400" width="80" height="90"/>
+  </g>
+  <g data-part="longueur-serrage">
+<path class="dim" d="M30 178 L30 398 M14 178 L46 178 M14 398 L46 398"/><rect class="none" pointer-events="all" x="0" y="178" width="60" height="220"/>
+  </g>
+  <g data-part="trop-courte">
+<rect class="wh" x="660" y="20" width="300" height="300" rx="16"/><rect class="st" x="690" y="120" width="240" height="40"/><rect class="sk" x="690" y="160" width="240" height="40"/><rect class="mt" x="793" y="108" width="34" height="92"/><path class="mt" d="M760 106 L760 72 L766 66 L854 66 L860 72 L860 106 Z"/><path class="thin" d="M785 66 L785 106 M835 66 L835 106"/><rect class="mt2" x="748" y="106" width="124" height="14" rx="3"/><rect class="mt2" x="748" y="200" width="124" height="14" rx="3"/><polygon class="mt" points="793,200 797,205 793,210 797,215 793,220 797,225 793,230 799,236 821,236 823,230 827,225 823,220 827,215 823,210 827,205 823,200"/><path class="thin" d="M793 200 L827 205 M793 210 L827 215 M793 220 L827 225"/><path class="mt" d="M760 266 L760 220 L766 214 L854 214 L860 220 L860 266 Z"/><path class="thin" d="M785 214 L785 266 M835 214 L835 266"/><rect class="wh" x="793" y="214" width="34" height="52"/><polygon class="mt" points="793,214 797,219 793,224 797,229 793,234 799,240 821,240 823,234 827,229 823,224 827,219 823,214"/><path class="thin" d="M793 214 L827 219 M793 224 L827 229"/><g transform="translate(700 60) scale(0.75)"><circle class="badf" r="30"/><path class="ln2" d="M-12 -12 L12 12 M12 -12 L-12 12"/></g>
+  </g>
+  <g data-part="trop-longue">
+<rect class="wh" x="660" y="360" width="300" height="300" rx="16"/><rect class="st" x="690" y="460" width="240" height="40"/><rect class="sk" x="690" y="500" width="240" height="40"/><rect class="mt" x="793" y="448" width="34" height="60"/><path class="mt" d="M760 446 L760 412 L766 406 L854 406 L860 412 L860 446 Z"/><path class="thin" d="M785 406 L785 446 M835 406 L835 446"/><rect class="mt2" x="748" y="446" width="124" height="14" rx="3"/><rect class="mt" x="793" y="508" width="34" height="62"/><polygon class="mt" points="793,568 797,573 793,578 797,583 793,588 797,593 793,598 797,603 793,608 797,613 793,618 797,623 793,628 797,633 793,638 799,644 821,644 823,638 827,633 823,628 827,623 823,618 827,613 823,608 827,603 823,598 827,593 823,588 827,583 823,578 827,573 823,568"/><path class="thin" d="M793 568 L827 573 M793 578 L827 583 M793 588 L827 593 M793 598 L827 603 M793 608 L827 613 M793 618 L827 623 M793 628 L827 633"/><rect class="mt2" x="748" y="540" width="124" height="14" rx="3"/><path class="mt" d="M760 614 L760 576 L766 570 L854 570 L860 576 L860 614 Z"/><path class="thin" d="M785 570 L785 614 M835 570 L835 614"/><path class="ax" d="M714 556 L714 568 M702 556 L726 556 M702 568 L726 568"/><g transform="translate(700 400) scale(0.75)"><circle class="badf" r="30"/><path class="ln2" d="M-12 -12 L12 12 M12 -12 L-12 12"/></g>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="tete" transform="translate(180 112)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="rondelle-tete" transform="translate(160 162)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="pieces" transform="translate(130 290)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="fut-lisse" transform="translate(300 290)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="rondelle-ecrou" transform="translate(160 414)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="ecrou" transform="translate(180 470)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="depassement" transform="translate(300 620)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="precharge" transform="translate(530 130)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="longueur-serrage" transform="translate(30 440)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="trop-courte" transform="translate(930 60)"><circle class="bd" r="26"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="trop-longue" transform="translate(930 400)"><circle class="bd" r="26"/><text class="bn">11</text></g>
+  </g>
+</svg>

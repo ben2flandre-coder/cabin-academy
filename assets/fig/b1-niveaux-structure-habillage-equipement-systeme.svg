@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Les quatre niveaux de la cabine : structure, habillage, équipement, système</title>
+  <desc id="d">La même coupe de cabine (vue de l'arrière vers l'avant) est dessinée quatre fois ; chaque vignette ne garde qu'une famille d'objets. Vignette 1, structure : peau, cadre, vitres extérieures des hublots, traverse de plancher, rails de sièges et panneaux de plancher. Vignette 2, habillage : matelas isolant, panneaux latéraux avec la vitre intérieure, panneaux dado et panneau de plafond. Vignette 3, équipement : sièges, bagageries et blocs de service passagers. Vignette 4, système : conduits d'air, faisceaux électriques dans leurs goulottes et rampes d'éclairage.</desc>
+  <rect class="bgp" width="1000" height="760"/>
+  <g data-part="structure">
+    <rect class="wh" x="20" y="20" width="470" height="355" rx="18"/>
+    <path class="sk" d="M110.7 370.3 A184.8 184.8 0 1 1 399.3 370.3 L394 366.1 A178.1 178.1 0 1 0 116 366.1 Z"/>
+    <path class="st" d="M116 366.1 A178.1 178.1 0 1 1 394 366.1 L386.1 359.8 A168 168 0 1 0 123.9 359.8 Z"/>
+    <path class="gl" d="M77.2 204.6 A184.8 184.8 0 0 0 70.9 238.6 L77.6 239.2 A178.1 178.1 0 0 1 83.6 206.4 Z"/>
+    <path class="gl" d="M432.8 204.6 A184.8 184.8 0 0 1 439.1 238.6 L432.4 239.2 A178.1 178.1 0 0 0 426.4 206.4 Z"/>
+    <rect class="st" x="107.3" y="325.4" width="295.3" height="16"/>
+    <path class="st" d="M171 341.3 L178.6 341.3 L169.3 367.4 L161.8 367.4 Z"/>
+    <path class="st" d="M339 341.3 L331.4 341.3 L340.7 367.4 L348.2 367.4 Z"/>
+    <rect class="fl" x="111.4" y="317.8" width="21.8" height="7.6"/>
+    <rect class="fl" x="151.7" y="317.8" width="51.2" height="7.6"/>
+    <rect class="fl" x="221.4" y="317.8" width="67.2" height="7.6"/>
+    <rect class="fl" x="307.1" y="317.8" width="51.2" height="7.6"/>
+    <rect class="fl" x="376.8" y="317.8" width="21.8" height="7.6"/>
+    <path class="st" d="M133.2 326.2 L151.7 326.2 L151.7 323.7 L145.4 323.7 L145.4 318.6 L149.6 318.6 L149.6 314.4 L144.5 314.4 L144.5 317 L140.3 317 L140.3 314.4 L135.3 314.4 L135.3 318.6 L139.5 318.6 L139.5 323.7 L133.2 323.7 Z"/>
+    <path class="st" d="M202.9 326.2 L221.4 326.2 L221.4 323.7 L215.1 323.7 L215.1 318.6 L219.3 318.6 L219.3 314.4 L214.3 314.4 L214.3 317 L210.1 317 L210.1 314.4 L205 314.4 L205 318.6 L209.2 318.6 L209.2 323.7 L202.9 323.7 Z"/>
+    <path class="st" d="M288.6 326.2 L307.1 326.2 L307.1 323.7 L300.8 323.7 L300.8 318.6 L305 318.6 L305 314.4 L299.9 314.4 L299.9 317 L295.7 317 L295.7 314.4 L290.7 314.4 L290.7 318.6 L294.9 318.6 L294.9 323.7 L288.6 323.7 Z"/>
+    <path class="st" d="M358.3 326.2 L376.8 326.2 L376.8 323.7 L370.5 323.7 L370.5 318.6 L374.7 318.6 L374.7 314.4 L369.7 314.4 L369.7 317 L365.5 317 L365.5 314.4 L360.4 314.4 L360.4 318.6 L364.6 318.6 L364.6 323.7 L358.3 323.7 Z"/>
+    <text class="tb" x="82" y="66">Structure</text>
+  </g>
+  <g data-part="habillage">
+    <rect class="wh" x="510" y="20" width="470" height="355" rx="18"/>
+    <path class="thin" d="M602.7 368.7 A182.3 182.3 0 1 1 887.3 368.7"/>
+    <path class="thin" d="M574 317.8 L916 317.8"/>
+    <path class="wh" d="M614.5 359.3 A167.2 167.2 0 1 1 875.5 359.3 L869.6 354.5 A159.6 159.6 0 1 0 620.4 354.5 Z"/>
+    <path class="thin" d="M606.4 348.3 L612.7 344"/>
+    <path class="thin" d="M586 306.5 L593.2 304.1"/>
+    <path class="thin" d="M580.4 283.8 L587.8 282.5"/>
+    <path class="thin" d="M577.9 260.6 L585.5 260.4"/>
+    <path class="thin" d="M590 192.2 L597 195"/>
+    <path class="thin" d="M600.2 171.2 L606.8 175"/>
+    <path class="thin" d="M613.3 151.9 L619.2 156.5"/>
+    <path class="thin" d="M628.9 134.6 L634.1 140"/>
+    <path class="thin" d="M646.7 119.6 L651.2 125.7"/>
+    <path class="thin" d="M666.5 107.2 L670.1 113.9"/>
+    <path class="thin" d="M687.8 97.7 L690.4 104.8"/>
+    <path class="thin" d="M710.2 91.3 L711.8 98.7"/>
+    <path class="thin" d="M733.3 88 L733.9 95.6"/>
+    <path class="thin" d="M756.7 88 L756.1 95.6"/>
+    <path class="thin" d="M779.8 91.3 L778.2 98.7"/>
+    <path class="thin" d="M802.2 97.7 L799.6 104.8"/>
+    <path class="thin" d="M823.5 107.2 L819.9 113.9"/>
+    <path class="thin" d="M843.3 119.6 L838.8 125.7"/>
+    <path class="thin" d="M861.1 134.6 L855.9 140"/>
+    <path class="thin" d="M876.7 151.9 L870.8 156.5"/>
+    <path class="thin" d="M889.8 171.2 L883.2 175"/>
+    <path class="thin" d="M900 192.2 L893 195"/>
+    <path class="thin" d="M912.1 260.6 L904.5 260.4"/>
+    <path class="thin" d="M909.6 283.8 L902.2 282.5"/>
+    <path class="thin" d="M904 306.5 L896.8 304.1"/>
+    <path class="thin" d="M883.6 348.3 L877.3 344"/>
+    <path class="in" d="M605.7 182.2 A157.1 157.1 0 0 0 591.5 288.1 L603.8 285.4 A144.5 144.5 0 0 1 616.9 188.1 Z"/>
+    <path class="in" d="M574 205.2 L608.1 208.6 L601.8 235.5 L567.6 238.8 Z"/>
+    <path class="in" d="M884.3 182.2 A157.1 157.1 0 0 1 898.5 288.1 L886.2 285.4 A144.5 144.5 0 0 0 873.1 188.1 Z"/>
+    <path class="in" d="M916 205.2 L881.9 208.6 L888.2 235.5 L922.4 238.8 Z"/>
+    <path class="gl" d="M595.9 208.1 A156.2 156.2 0 0 0 590 235.3 L601.7 236.7 A144.5 144.5 0 0 1 607.1 211.6 Z"/>
+    <path class="gl" d="M894.1 208.1 A156.2 156.2 0 0 1 900 235.3 L888.3 236.7 A144.5 144.5 0 0 0 882.9 211.6 Z"/>
+    <path class="in" d="M589.6 287.6 L604.7 287.6 L632.4 317.8 L616.5 317.8 Z"/>
+    <path class="thin" d="M598.4 297.9 L605.9 295.4"/>
+    <path class="thin" d="M603.7 303.9 L611.2 301.4"/>
+    <path class="thin" d="M609 310 L616.5 307.5"/>
+    <path class="in" d="M900.4 287.6 L885.3 287.6 L857.6 317.8 L873.5 317.8 Z"/>
+    <path class="thin" d="M891.6 297.9 L884.1 295.4"/>
+    <path class="thin" d="M886.3 303.9 L878.8 301.4"/>
+    <path class="thin" d="M881 310 L873.5 307.5"/>
+    <path class="in" d="M696.3 135.5 Q745 120.4 793.7 135.5 L793.7 147.3 Q745 132.2 696.3 147.3 Z"/>
+    <text class="tb" x="572" y="66">Habillage</text>
+  </g>
+  <g data-part="equipement">
+    <rect class="wh" x="20" y="385" width="470" height="355" rx="18"/>
+    <path class="thin" d="M112.7 733.7 A182.3 182.3 0 1 1 397.3 733.7"/>
+    <path class="thin" d="M84 682.8 L426 682.8"/>
+    <path class="eq" d="M122.7 548.4 A150.4 150.4 0 0 1 163.5 500.5 L206.3 500.5 Q218 524.9 211.3 548.4 Z"/>
+    <path class="thin" d="M194.5 502.2 Q206.3 524.9 199.6 546.7"/>
+    <rect class="dk" x="205.4" y="528.2" width="4.2" height="12.6" rx="1.7"/>
+    <path class="eq" d="M387.3 548.4 A150.4 150.4 0 0 0 346.5 500.5 L303.7 500.5 Q292 524.9 298.7 548.4 Z"/>
+    <path class="thin" d="M315.5 502.2 Q303.7 524.9 310.4 546.7"/>
+    <rect class="dk" x="300.4" y="528.2" width="4.2" height="12.6" rx="1.7"/>
+    <rect class="eq2" x="131.5" y="548.4" width="77.3" height="9.2" rx="2.1"/>
+    <circle class="wh" cx="148.3" cy="557.2" r="2.9"/>
+    <circle class="wh" cx="170.2" cy="557.2" r="2.9"/>
+    <circle class="wh" cx="192" cy="557.2" r="2.9"/>
+    <rect class="eq2" x="301.2" y="548.4" width="77.3" height="9.2" rx="2.1"/>
+    <circle class="wh" cx="361.7" cy="557.2" r="2.9"/>
+    <circle class="wh" cx="339.8" cy="557.2" r="2.9"/>
+    <circle class="wh" cx="318" cy="557.2" r="2.9"/>
+    <rect class="eq" x="121.4" y="583.7" width="35.3" height="70.6" rx="6.7"/>
+    <rect class="eq2" x="128.2" y="588.7" width="21.8" height="16.8" rx="4.2"/>
+    <rect class="wh" x="127.3" y="619" width="23.5" height="19.3" rx="2.1"/>
+    <rect class="eq" x="159.2" y="583.7" width="35.3" height="70.6" rx="6.7"/>
+    <rect class="eq2" x="166" y="588.7" width="21.8" height="16.8" rx="4.2"/>
+    <rect class="wh" x="165.1" y="619" width="23.5" height="19.3" rx="2.1"/>
+    <rect class="eq" x="197" y="583.7" width="35.3" height="70.6" rx="6.7"/>
+    <rect class="eq2" x="203.8" y="588.7" width="21.8" height="16.8" rx="4.2"/>
+    <rect class="wh" x="202.9" y="619" width="23.5" height="19.3" rx="2.1"/>
+    <rect class="eq2" x="119.8" y="654.2" width="114.2" height="7.6" rx="2.5"/>
+    <path class="mt2" d="M138.7 661.8 L146.2 661.8 L148.3 679.4 L136.6 679.4 Z"/>
+    <path class="mt2" d="M208.4 661.8 L215.9 661.8 L218 679.4 L206.3 679.4 Z"/>
+    <rect class="eq" x="277.7" y="583.7" width="35.3" height="70.6" rx="6.7"/>
+    <rect class="eq2" x="284.4" y="588.7" width="21.8" height="16.8" rx="4.2"/>
+    <rect class="wh" x="283.6" y="619" width="23.5" height="19.3" rx="2.1"/>
+    <rect class="eq" x="315.5" y="583.7" width="35.3" height="70.6" rx="6.7"/>
+    <rect class="eq2" x="322.2" y="588.7" width="21.8" height="16.8" rx="4.2"/>
+    <rect class="wh" x="321.4" y="619" width="23.5" height="19.3" rx="2.1"/>
+    <rect class="eq" x="353.3" y="583.7" width="35.3" height="70.6" rx="6.7"/>
+    <rect class="eq2" x="360" y="588.7" width="21.8" height="16.8" rx="4.2"/>
+    <rect class="wh" x="359.2" y="619" width="23.5" height="19.3" rx="2.1"/>
+    <rect class="eq2" x="276" y="654.2" width="114.2" height="7.6" rx="2.5"/>
+    <path class="mt2" d="M294.1 661.8 L301.6 661.8 L303.7 679.4 L292 679.4 Z"/>
+    <path class="mt2" d="M363.8 661.8 L371.3 661.8 L373.4 679.4 L361.7 679.4 Z"/>
+    <text class="tb" x="82" y="431">Équipement</text>
+  </g>
+  <g data-part="systeme">
+    <rect class="wh" x="510" y="385" width="470" height="355" rx="18"/>
+    <path class="thin" d="M602.7 733.7 A182.3 182.3 0 1 1 887.3 733.7"/>
+    <path class="thin" d="M574 682.8 L916 682.8"/>
+    <ellipse class="sy" cx="711.4" cy="475.3" rx="21" ry="11.3"/>
+    <ellipse class="sy" cx="778.6" cy="475.3" rx="21" ry="11.3"/>
+    <path class="mt" d="M661 486.2 L661 496.3 L686.2 496.3 L686.2 486.2 L683.7 486.2 L683.7 493.8 L663.5 493.8 L663.5 486.2 Z"/>
+    <circle class="syf" cx="668.6" cy="489.2" r="4.9"/>
+    <circle class="syf" cx="676.1" cy="488.8" r="4.9"/>
+    <circle class="syf" cx="679.5" cy="482" r="4.9"/>
+    <circle class="syf" cx="671.9" cy="482" r="4.9"/>
+    <path class="mt" d="M829 486.2 L829 496.3 L803.8 496.3 L803.8 486.2 L806.3 486.2 L806.3 493.8 L826.5 493.8 L826.5 486.2 Z"/>
+    <circle class="syf" cx="821.4" cy="489.2" r="4.9"/>
+    <circle class="syf" cx="813.9" cy="488.8" r="4.9"/>
+    <circle class="syf" cx="810.5" cy="482" r="4.9"/>
+    <circle class="syf" cx="818.1" cy="482" r="4.9"/>
+    <rect class="syf" x="701.3" y="508.1" width="21.4" height="10" rx="2.1"/>
+    <path class="thin" d="M703.5 519.8 L703.6 534"/>
+    <path class="thin" d="M712 519.8 L714.5 536.1"/>
+    <path class="thin" d="M720.6 519.8 L725.5 534"/>
+    <rect class="syf" x="767.3" y="508.1" width="21.4" height="10" rx="2.1"/>
+    <path class="thin" d="M769.4 519.8 L764.5 534"/>
+    <path class="thin" d="M778 519.8 L775.5 536.1"/>
+    <path class="thin" d="M786.5 519.8 L786.4 534"/>
+    <text class="tb" x="572" y="431">Système</text>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="structure" transform="translate(50 52)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="habillage" transform="translate(540 52)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="equipement" transform="translate(50 417)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="systeme" transform="translate(540 417)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+  </g>
+</svg>

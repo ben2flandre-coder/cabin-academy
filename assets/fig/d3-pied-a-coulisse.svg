@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" class="fig" role="img" aria-labelledby="t d">
+<title id="t">Anatomie du pied à coulisse à vernier</title>
+<desc id="d">Pied à coulisse dessiné à plat, ouvert de 30 millimètres. Une règle graduée horizontale porte à gauche le bec fixe, dirigé vers le bas. Un coulisseau glisse sur la règle : il porte le bec mobile, face au bec fixe, le vernier sous la fenêtre de lecture, une vis de blocage au-dessus et une molette de déplacement en dessous. Au-dessus de la règle, deux petits becs d'intérieur pointent vers le haut. À droite, la jauge de profondeur sort du bout de la règle. Trois cotes bleues rappellent que la même ouverture, 30, se retrouve entre les grands becs, entre les faces extérieures des petits becs et sur la longueur sortie de la jauge de profondeur.</desc>
+<rect class="bgp" width="1000" height="580"/>
+<g data-part="regle">
+<rect class="mt" x="80" y="250" width="740" height="80" rx="4"/>
+<path class="thin" d="M190 330 v-28 M195 330 v-13 M200 330 v-13 M205 330 v-13 M210 330 v-13 M215 330 v-20 M220 330 v-13 M225 330 v-13 M230 330 v-13 M235 330 v-13 M240 330 v-28 M245 330 v-13 M250 330 v-13 M255 330 v-13 M260 330 v-13 M265 330 v-20 M270 330 v-13 M275 330 v-13 M280 330 v-13 M285 330 v-13 M290 330 v-28 M295 330 v-13 M300 330 v-13 M305 330 v-13 M310 330 v-13 M315 330 v-20 M320 330 v-13 M325 330 v-13 M330 330 v-13 M335 330 v-13 M340 330 v-28 M345 330 v-13 M350 330 v-13 M355 330 v-13 M360 330 v-13 M365 330 v-20 M370 330 v-13 M375 330 v-13 M380 330 v-13 M385 330 v-13 M390 330 v-28 M395 330 v-13 M400 330 v-13 M405 330 v-13 M410 330 v-13 M415 330 v-20 M420 330 v-13 M425 330 v-13 M430 330 v-13 M435 330 v-13 M440 330 v-28 M445 330 v-13 M450 330 v-13 M455 330 v-13 M460 330 v-13 M465 330 v-20 M470 330 v-13 M475 330 v-13 M480 330 v-13 M485 330 v-13 M490 330 v-28 M495 330 v-13 M500 330 v-13 M505 330 v-13 M510 330 v-13 M515 330 v-20 M520 330 v-13 M525 330 v-13 M530 330 v-13 M535 330 v-13 M540 330 v-28 M545 330 v-13 M550 330 v-13 M555 330 v-13 M560 330 v-13 M565 330 v-20 M570 330 v-13 M575 330 v-13 M580 330 v-13 M585 330 v-13 M590 330 v-28 M595 330 v-13 M600 330 v-13 M605 330 v-13 M610 330 v-13 M615 330 v-20 M620 330 v-13 M625 330 v-13 M630 330 v-13 M635 330 v-13 M640 330 v-28 M645 330 v-13 M650 330 v-13 M655 330 v-13 M660 330 v-13 M665 330 v-20 M670 330 v-13 M675 330 v-13 M680 330 v-13 M685 330 v-13 M690 330 v-28 M695 330 v-13 M700 330 v-13 M705 330 v-13 M710 330 v-13 M715 330 v-20 M720 330 v-13 M725 330 v-13 M730 330 v-13 M735 330 v-13 M740 330 v-28 M745 330 v-13 M750 330 v-13 M755 330 v-13 M760 330 v-13 M765 330 v-20 M770 330 v-13 M775 330 v-13 M780 330 v-13 M785 330 v-13 M790 330 v-28"/>
+<text class="ts tc" x="190" y="296">0</text>
+<text class="ts tc" x="240" y="296">1</text>
+<text class="ts tc" x="290" y="296">2</text>
+<text class="ts tc" x="340" y="296">3</text>
+<text class="ts tc" x="390" y="296">4</text>
+<text class="ts tc" x="440" y="296">5</text>
+<text class="ts tc" x="490" y="296">6</text>
+<text class="ts tc" x="540" y="296">7</text>
+<text class="ts tc" x="590" y="296">8</text>
+<text class="ts tc" x="640" y="296">9</text>
+<text class="ts tc" x="690" y="296">10</text>
+<text class="ts tc" x="740" y="296">11</text>
+<text class="ts tc" x="790" y="296">12</text>
+</g>
+<g data-part="jauge-profondeur">
+<rect class="mt" x="820" y="281" width="150" height="18"/>
+<path class="dim" d="M820 368 L970 368"/>
+<path class="dimf" d="M820 368 l12 -7.199999999999999 v14.399999999999999 Z"/>
+<path class="dimf" d="M970 368 l-12 -7.199999999999999 v14.399999999999999 Z"/>
+<text class="ts tc ta" x="895" y="414">30</text>
+</g>
+<g data-part="bec-fixe">
+<path class="mt2" d="M80 232 H150 V512 L136 536 L80 430 Z"/>
+</g>
+<g data-part="coulisseau">
+<path class="mt2" d="M300 226 H578 V392 H300 Z M318 250 V330 H560 V250 Z" fill-rule="evenodd"/>
+</g>
+<g data-part="vernier">
+<rect class="wh" x="320" y="330" width="134" height="60" rx="3"/>
+<path class="thin" d="M340 330 v24 M344.5 330 v15 M349 330 v15 M353.5 330 v15 M358 330 v15 M362.5 330 v24 M367 330 v15 M371.5 330 v15 M376 330 v15 M380.5 330 v15 M385 330 v24"/>
+</g>
+<g data-part="bec-mobile">
+<path class="mt2" d="M300 384 V512 L314 536 L370 430 V384 Z"/>
+</g>
+<g data-part="becs-interieurs">
+<path class="mt2" d="M150 128 V250 H198 V216 L162 128 Z"/>
+<path class="mt2" d="M300 128 V250 H252 V216 L288 128 Z"/>
+</g>
+<g data-part="vis-blocage">
+<rect class="dk" x="432" y="206" width="16" height="22"/>
+<rect class="dk" x="408" y="150" width="64" height="58" rx="8"/>
+<path class="thin" d="M420 156 v46 M430 156 v46 M440 156 v46 M450 156 v46 M460 156 v46"/>
+</g>
+<g data-part="molette">
+<circle class="dk" cx="540" cy="404" r="32"/>
+<circle class="mt" cx="540" cy="404" r="12"/>
+</g>
+<path class="dim" d="M150 96 L300 96"/>
+<path class="dimf" d="M150 96 l12 -7.199999999999999 v14.399999999999999 Z"/>
+<path class="dimf" d="M300 96 l-12 -7.199999999999999 v14.399999999999999 Z"/>
+<text class="ts tc ta" x="225" y="78">30</text>
+<path class="dim" d="M150 470 L300 470"/>
+<path class="dimf" d="M150 470 l12 -7.199999999999999 v14.399999999999999 Z"/>
+<path class="dimf" d="M300 470 l-12 -7.199999999999999 v14.399999999999999 Z"/>
+<text class="ts tc ta" x="225" y="452">30</text>
+<g class="badges">
+<g class="badge" data-badge="regle" transform="translate(720 222)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+<g class="badge" data-badge="bec-fixe" transform="translate(112 400)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+<g class="badge" data-badge="bec-mobile" transform="translate(336 450)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+<g class="badge" data-badge="becs-interieurs" transform="translate(225 176)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+<g class="badge" data-badge="jauge-profondeur" transform="translate(895 246)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+<g class="badge" data-badge="coulisseau" transform="translate(492 362)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+<g class="badge" data-badge="vernier" transform="translate(420 362)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+<g class="badge" data-badge="vis-blocage" transform="translate(506 170)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+<g class="badge" data-badge="molette" transform="translate(606 420)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+</g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Où travaillent tes mains : zones de confort et zones contraignantes</title>
+  <desc id="d">Schéma de principe. À gauche, une personne debout de profil, l'avant-bras à l'horizontale. Une jauge verticale découpe la hauteur en cinq tranches : rouge au-dessus de la tête, orange entre la tête et les épaules, verte entre les épaules et les hanches, orange entre les hanches et les genoux, rouge sous les genoux. Une barre horizontale au sol montre l'éloignement : verte près du corps, orange à bout de bras. À droite, deux scènes de cabine où un cercle rouge entoure les mains : en haut, une personne bras tendus sous un élément de plafond ; en bas, une personne à genoux, penchée sur un rail de plancher, un tapis sous les genoux.</desc>
+  <rect class="bgp" width="1000" height="760"/>
+  <path class="ln2" d="M30 664 H500"/>
+  <g data-part="zone-haute">
+    <rect class="badf" x="60" y="110" width="64" height="156.4"/><rect class="syf" x="60" y="266.4" width="64" height="81.6"/>
+  </g>
+  <g data-part="zone-confort">
+    <rect class="okf" x="60" y="348" width="64" height="120"/>
+  </g>
+  <g data-part="zone-basse">
+    <rect class="syf" x="60" y="468" width="64" height="93.5"/><rect class="badf" x="60" y="561.5" width="64" height="102.5"/>
+  </g>
+  <path class="dash" d="M124 266.4 H420 M124 348 H420 M124 468 H420 M124 561.5 H420"/>
+  <path class="eq2" d="M234.4 466.9 L227.9 560.3 A15.6 15.6 0 0 0 259 562.5 L265.6 469.1 A15.6 15.6 0 0 0 234.4 466.9 Z"/><path class="eq2" d="M230.2 561.4 L230.2 655 A13.3 13.3 0 0 0 256.7 655 L256.7 561.4 A13.3 13.3 0 0 0 230.2 561.4 Z"/><path class="dk" d="M243.5 669.4 L284.3 669.4 A9.6 9.6 0 0 0 284.3 650.2 L243.5 650.2 A9.6 9.6 0 0 0 243.5 669.4 Z"/><path class="eq" d="M275.2 468 L275.2 348 A25.2 25.2 0 0 0 224.8 348 L224.8 468 A25.2 25.2 0 0 0 275.2 468 Z"/><path class="eq" d="M234.4 468.5 L237.7 562.1 A15.6 15.6 0 0 0 268.9 561 L265.6 467.5 A15.6 15.6 0 0 0 234.4 468.5 Z"/><path class="eq" d="M240 561.5 L240 655.1 A13.3 13.3 0 0 0 266.5 655.1 L266.5 561.5 A13.3 13.3 0 0 0 240 561.5 Z"/><path class="dk" d="M253.3 669.5 L294.1 669.5 A9.6 9.6 0 0 0 294.1 650.3 L253.3 650.3 A9.6 9.6 0 0 0 253.3 669.5 Z"/><circle class="wh" cx="250" cy="296.4" r="30"/><path class="eq" d="M238.1 349.7 L247.5 416.2 A12 12 0 0 0 271.2 412.9 L261.9 346.3 A12 12 0 0 0 238.1 349.7 Z"/><path class="eq" d="M258.6 424.7 L323.3 429.2 A10.2 10.2 0 0 0 324.7 408.9 L260.1 404.4 A10.2 10.2 0 0 0 258.6 424.7 Z"/><circle class="wh" cx="324" cy="419.1" r="10.8"/>
+  <g data-part="zone-pres">
+    <rect class="okf" x="250" y="688" width="110" height="34"/>
+  </g>
+  <g data-part="zone-loin">
+    <rect class="syf" x="360" y="688" width="120" height="34"/><rect class="none" pointer-events="all" x="360" y="662" width="120" height="60" rx="10"/>
+  </g>
+  <path class="dash" d="M510 30 V730"/>
+  <g data-part="plafond">
+    <rect class="none" pointer-events="all" x="540" y="24" width="430" height="360" rx="10"/><path class="ln2" d="M560 384 H950"/><rect class="in" x="580" y="26" width="350" height="24" rx="6"/><rect class="eq2" x="630" y="50" width="120" height="16" rx="4"/><path class="eq2" d="M649 229.2 L644.4 295.4 A11 11 0 0 0 666.4 296.9 L671 230.8 A11 11 0 0 0 649 229.2 Z"/><path class="eq2" d="M646 296.1 L646 362.4 A9.4 9.4 0 0 0 664.8 362.4 L664.8 296.1 A9.4 9.4 0 0 0 646 296.1 Z"/><path class="dk" d="M652.5 372 L678.7 384.2 A6.8 6.8 0 0 0 684.4 371.9 L658.2 359.7 A6.8 6.8 0 0 0 652.5 372 Z"/><path class="eq2" d="M656.1 149 L673.9 104.9 A8.5 8.5 0 0 0 658.1 98.5 L640.3 142.6 A8.5 8.5 0 0 0 656.1 149 Z"/><path class="eq2" d="M673.1 103.2 L682.6 58.3 A7.2 7.2 0 0 0 668.5 55.3 L658.9 100.2 A7.2 7.2 0 0 0 673.1 103.2 Z"/><circle class="wh" cx="675.5" cy="56.8" r="7.7"/><path class="eq" d="M677.7 227.5 L665.8 143.3 A17.8 17.8 0 0 0 630.5 148.3 L642.3 232.5 A17.8 17.8 0 0 0 677.7 227.5 Z"/><path class="eq" d="M649 230.4 L651.3 296.6 A11 11 0 0 0 673.4 295.9 L671 229.6 A11 11 0 0 0 649 230.4 Z"/><path class="eq" d="M652.9 296.3 L652.9 362.6 A9.4 9.4 0 0 0 671.7 362.6 L671.7 296.3 A9.4 9.4 0 0 0 652.9 296.3 Z"/><path class="dk" d="M659.4 372.1 L685.6 384.3 A6.8 6.8 0 0 0 691.4 372 L665.2 359.8 A6.8 6.8 0 0 0 659.4 372.1 Z"/><circle class="wh" cx="623.7" cy="118.7" r="21.3"/><path class="eq" d="M656.4 148 L668.7 102 A8.5 8.5 0 0 0 652.3 97.6 L640 143.6 A8.5 8.5 0 0 0 656.4 148 Z"/><path class="eq" d="M667.6 100.9 L674 55.4 A7.2 7.2 0 0 0 659.7 53.4 L653.3 98.8 A7.2 7.2 0 0 0 667.6 100.9 Z"/><circle class="wh" cx="666.9" cy="54.4" r="7.7"/><circle class="ax" cx="666.9" cy="60.4" r="34"/>
+  </g>
+  <g data-part="sol">
+    <rect class="none" pointer-events="all" x="540" y="420" width="430" height="320" rx="10"/><rect class="fl" x="560" y="710" width="390" height="22"/><rect class="mt" x="700" y="698" width="230" height="14" rx="3"/><path class="eq2" d="M639.4 637 L657.7 700.8 A11 11 0 0 0 678.9 694.7 L660.6 631 A11 11 0 0 0 639.4 637 Z"/><path class="eq2" d="M667.9 688.3 L601.7 690.7 A9.4 9.4 0 0 0 602.3 709.4 L668.6 707.1 A9.4 9.4 0 0 0 667.9 688.3 Z"/><path class="eq2" d="M712 589.9 L712 637.5 A8.5 8.5 0 0 0 729 637.5 L729 589.9 A8.5 8.5 0 0 0 712 589.9 Z"/><path class="eq2" d="M713.3 638.3 L718.1 683.9 A7.2 7.2 0 0 0 732.5 682.4 L727.7 636.8 A7.2 7.2 0 0 0 713.3 638.3 Z"/><circle class="wh" cx="725.3" cy="683.2" r="7.7"/><path class="eq" d="M662.4 646.8 L690.2 620 L726.6 606.7 A17.8 17.8 0 0 0 714.4 573.2 L670.9 589 L637.6 621.2 A17.8 17.8 0 0 0 662.4 646.8 Z"/><path class="eq" d="M639.1 635.5 L648.3 701.2 A11 11 0 0 0 670.2 698.1 L660.9 632.5 A11 11 0 0 0 639.1 635.5 Z"/><path class="eq" d="M659.2 690.3 L592.9 690.3 A9.4 9.4 0 0 0 592.9 709 L659.2 709 A9.4 9.4 0 0 0 659.2 690.3 Z"/><circle class="wh" cx="742" cy="560.4" r="21.3"/><path class="eq" d="M712.1 590.8 L717 638.2 A8.5 8.5 0 0 0 733.9 636.4 L729 589.1 A8.5 8.5 0 0 0 712.1 590.8 Z"/><path class="eq" d="M718.4 638.5 L726.3 683.7 A7.2 7.2 0 0 0 740.6 681.2 L732.6 636 A7.2 7.2 0 0 0 718.4 638.5 Z"/><circle class="wh" cx="733.5" cy="682.5" r="7.7"/><circle class="ax" cx="733.5" cy="682.5" r="34"/>
+  </g>
+  <g data-part="genoux">
+    <rect class="dk" x="583.2" y="700" width="116" height="14" rx="7"/><rect class="none" pointer-events="all" x="579.2271765936523" y="660" width="124" height="70" rx="10"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="zone-haute" transform="translate(92 150)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="zone-confort" transform="translate(92 408)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="zone-basse" transform="translate(92 610.8)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="zone-pres" transform="translate(305 740)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="zone-loin" transform="translate(420 740)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="plafond" transform="translate(900 150)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="sol" transform="translate(900 520)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="genoux" transform="translate(580 650)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

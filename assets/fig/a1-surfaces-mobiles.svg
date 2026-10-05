@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 740" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Les surfaces mobiles d'un avion de ligne, vue de dessus</title>
+  <desc id="d">Schéma de principe, vue de dessus, avant à gauche. Sur chaque aile : au bord d'attaque, une bande de becs ; au bord de fuite, près du fuselage, les volets ; au bord de fuite, vers l'extrémité de l'aile, l'aileron ; sur le dessus de l'aile, juste devant les volets, une rangée de spoilers. À l'arrière, sur le stabilisateur horizontal, la gouverne de profondeur occupe le bord de fuite. Un encart en haut à droite montre la dérive vue de côté avec, à l'arrière, la gouverne de direction. Les gouvernes de pilotage sont en orange, les becs et volets en bleu, les spoilers en gris.</desc>
+  <rect class="bgp" width="1000" height="740"/>
+  <path class="sk" d="M630.4 354.9 L695 254.2 L721.6 254.2 L706.4 360.6 Z"/><path class="sk" d="M630.4 389.1 L695 489.8 L721.6 489.8 L706.4 383.4 Z"/>
+  <rect class="eq2" x="212.4" y="240.9" width="87.4" height="43.7" rx="21.8"/><ellipse class="dk" cx="219.1" cy="262.8" rx="5.7" ry="17.1"/><rect class="eq2" x="212.4" y="459.4" width="87.4" height="43.7" rx="21.8"/><ellipse class="dk" cx="219.1" cy="481.3" rx="5.7" ry="17.1"/>
+  <path class="sk" d="M254.2 334 L410 31.9 L440.4 31.9 L402.4 250.4 L391 334 Z"/><path class="sk" d="M254.2 410 L410 712.1 L440.4 712.1 L402.4 493.6 L391 410 Z"/>
+  <path class="sk" d="M30 372 C35.7 349.2 77.5 334 134.5 334 L505 334 C600 334 695 349.2 743.8 365.4 L743.8 378.7 C695 394.8 600 410 505 410 L134.5 410 C77.5 410 35.7 394.8 30 372 Z"/>
+  <path class="gl" d="M71.8 348.3 C85.1 341.6 98.4 338.8 111.7 337.8 L111.7 352.1 L85.1 358.7 Z"/><path class="gl" d="M71.8 395.8 C85.1 402.4 98.4 405.3 111.7 406.2 L111.7 392 L85.1 385.3 Z"/>
+  <g data-part="bec"><path class="eq" d="M264 315 L404.1 43.3 L411 43.3 L289.9 315 Z"/><path class="thin" d="M293.4 258 L315 258"/><path class="thin" d="M322.8 201 L340.4 201"/><path class="thin" d="M352.2 144 L365.9 144"/><path class="thin" d="M381.6 87 L391.4 87"/><path class="eq" d="M264 429 L404.1 700.7 L411 700.7 L289.9 429 Z"/><path class="thin" d="M293.4 486 L315 486"/><path class="thin" d="M322.8 543 L340.4 543"/><path class="thin" d="M352.2 600 L365.9 600"/><path class="thin" d="M381.6 657 L391.4 657"/></g>
+  <g data-part="spoiler"><path class="mt" d="M327.5 307.4 L346.7 250.4 L385.2 142.1 L396 142.1 L363.5 250.4 L347.7 307.4 Z"/><path class="thin" d="M339 273.2 L357.2 273.2"/><path class="thin" d="M350.8 239 L366.9 239"/><path class="thin" d="M362.2 206.7 L376.6 206.7"/><path class="thin" d="M373.7 174.4 L386.3 174.4"/><path class="mt" d="M327.5 436.6 L346.7 493.6 L385.2 601.9 L396 601.9 L363.5 493.6 L347.7 436.6 Z"/><path class="thin" d="M339 470.8 L357.2 470.8"/><path class="thin" d="M350.8 505 L366.9 505"/><path class="thin" d="M362.2 537.3 L376.6 537.3"/><path class="thin" d="M373.7 569.6 L386.3 569.6"/></g>
+  <g data-part="volet"><path class="eq2" d="M345.2 331.2 L366.7 250.4 L402.4 250.4 L391.4 331.2 Z"/><path class="eq2" d="M366.7 250.4 L399.2 138.3 L421.9 138.3 L402.4 250.4 Z"/><path class="eq2" d="M345.2 412.9 L366.7 493.6 L402.4 493.6 L391.4 412.9 Z"/><path class="eq2" d="M366.7 493.6 L399.2 605.7 L421.9 605.7 L402.4 493.6 Z"/></g>
+  <g data-part="aileron"><path class="syf" d="M398.7 126.9 L422.9 49 L437.4 49 L423.9 126.9 Z"/><path class="syf" d="M398.7 617.1 L422.9 695 L437.4 695 L423.9 617.1 Z"/></g>
+  <g data-part="profondeur"><path class="syf" d="M678.7 353 L710.2 258 L721.1 258 L707.5 353 Z"/><path class="syf" d="M678.7 391 L710.2 486 L721.1 486 L707.5 391 Z"/></g>
+  <path class="ln2" d="M611.4 372 L738.7 372"/>
+  <rect class="wh" x="746" y="30" width="228" height="290" rx="14"/>
+  <path class="sk" d="M759.7 195.2 C808 194.1 881.5 202.5 955 221.4 L955 242.4 C902.5 259.2 839.5 286.5 759.7 305.4 Z"/>
+  <path class="sk" d="M774.4 198.3 L894.1 50.3 L930.9 50.3 L892 212 L850 202.5 Z"/>
+  <g data-part="direction"><path class="syf" d="M930.9 50.3 L950.8 50.3 L944.5 223.5 L892 212 Z"/></g>
+  <path class="sk" d="M841.6 238.2 L931.9 227.7 L951.9 228.8 L951.9 238.2 L862.6 248.7 Z"/>
+  <line class="thin" x1="282" y1="154" x2="334" y2="188"/><line class="thin" x1="316" y1="270" x2="340" y2="292"/><line class="thin" x1="448" y1="204" x2="404" y2="204"/><line class="thin" x1="470" y1="88" x2="428" y2="88"/><line class="thin" x1="688" y1="246" x2="708" y2="292"/>
+  <g class="badges">
+    <g class="badge" data-badge="bec" transform="translate(262 138)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="spoiler" transform="translate(300 250)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="volet" transform="translate(474 204)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="aileron" transform="translate(496 88)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="profondeur" transform="translate(676 222)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="direction" transform="translate(934 78)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>

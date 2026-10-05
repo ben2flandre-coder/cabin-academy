@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 730" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Ce que contient un dossier de travail</title>
+  <desc id="d">Schéma de principe d'une chemise ouverte contenant six documents. Un plan : un dessin de pièce avec une bulle de repère et un cartouche dans l'angle. Une nomenclature : un tableau de lignes numérotées. Une instruction de travail : une suite d'opérations numérotées 10, 20, 30. Une fiche de suivi : un tableau dont les premières lignes sont tamponnées et signées. Une liste de contrôle : des cases dont trois sont cochées. Une étiquette d'identification avec son lien d'attache et un code à barres.</desc>
+  <rect class="bgp" width="1000" height="730"/>
+  <path class="fl" d="M30 70 L300 70 L330 40 L560 40 L590 70 L970 70 L970 700 L30 700 Z"/>
+  <g data-part="plan">
+    <rect class="wh" x="62" y="96" width="276" height="276" rx="8"/>
+    <rect class="none" x="62" y="96" width="1" height="1"/>
+    <path class="ln" d="M92 136 L232 136 L232 226 L172 226 L172 266 L92 266 Z"/>
+    <circle class="ln" cx="132" cy="176" r="16"/>
+    <circle class="ln" cx="202" cy="176" r="16"/>
+    <circle class="wh" cx="284" cy="156" r="22"/>
+    <line class="thin" x1="266" y1="166" x2="212" y2="186"/>
+    <rect class="in" x="212" y="302" width="112" height="56" rx="2"/>
+    <line class="ln" x1="212" y1="330" x2="324" y2="330"/>
+    <line class="ln" x1="284" y1="302" x2="284" y2="358"/>
+  </g>
+  <g data-part="nomenclature">
+    <rect class="wh" x="362" y="96" width="276" height="276" rx="8"/>
+    <rect class="in" x="386" y="132" width="228" height="40" rx="2"/>
+    <rect class="wh" x="386" y="172" width="228" height="40"/>
+    <rect class="wh" x="386" y="212" width="228" height="40"/>
+    <rect class="wh" x="386" y="252" width="228" height="40"/>
+    <rect class="wh" x="386" y="292" width="228" height="40"/>
+    <line class="ln" x1="436" y1="132" x2="436" y2="332"/>
+    <line class="ln" x1="556" y1="132" x2="556" y2="332"/>
+    <circle class="dk" cx="411" cy="192" r="9"/><line class="ln2" x1="452" y1="192" x2="538" y2="192"/><line class="ln2" x1="574" y1="192" x2="598" y2="192"/>
+    <circle class="dk" cx="411" cy="232" r="9"/><line class="ln2" x1="452" y1="232" x2="538" y2="232"/><line class="ln2" x1="574" y1="232" x2="598" y2="232"/>
+    <circle class="dk" cx="411" cy="272" r="9"/><line class="ln2" x1="452" y1="272" x2="538" y2="272"/><line class="ln2" x1="574" y1="272" x2="598" y2="272"/>
+    <circle class="dk" cx="411" cy="312" r="9"/><line class="ln2" x1="452" y1="312" x2="538" y2="312"/><line class="ln2" x1="574" y1="312" x2="598" y2="312"/>
+  </g>
+  <g data-part="instruction">
+    <rect class="wh" x="662" y="96" width="276" height="276" rx="8"/>
+    <circle class="eq2" cx="716" cy="158" r="33"/><text class="tb tc" x="716" y="172">10</text><line class="ln2" x1="768" y1="146" x2="894" y2="146"/><line class="ln" x1="768" y1="172" x2="868" y2="172"/>
+    <circle class="eq2" cx="716" cy="234" r="33"/><text class="tb tc" x="716" y="248">20</text><line class="ln2" x1="768" y1="222" x2="894" y2="222"/><line class="ln" x1="768" y1="248" x2="868" y2="248"/>
+    <circle class="eq2" cx="716" cy="310" r="33"/><text class="tb tc" x="716" y="324">30</text><line class="ln2" x1="768" y1="298" x2="894" y2="298"/><line class="ln" x1="768" y1="324" x2="868" y2="324"/>
+    <line class="ln" x1="716" y1="192" x2="716" y2="200"/>
+    <line class="ln" x1="716" y1="268" x2="716" y2="276"/>
+  </g>
+  <g data-part="fiche-suivi">
+    <rect class="wh" x="62" y="396" width="276" height="276" rx="8"/>
+    <rect class="wh" x="86" y="432" width="228" height="52"/>
+    <rect class="wh" x="86" y="484" width="228" height="52"/>
+    <rect class="wh" x="86" y="536" width="228" height="52"/>
+    <rect class="wh" x="86" y="588" width="228" height="52"/>
+    <line class="ln" x1="212" y1="432" x2="212" y2="640"/>
+    <line class="ln2" x1="102" y1="458" x2="196" y2="458"/>
+    <line class="ln2" x1="102" y1="510" x2="196" y2="510"/>
+    <line class="ln2" x1="102" y1="562" x2="196" y2="562"/>
+    <line class="ln2" x1="102" y1="614" x2="196" y2="614"/>
+    <circle class="okf" cx="262" cy="458" r="19"/>
+    <circle class="okf" cx="262" cy="510" r="19"/>
+    <path class="ln2" d="M228 568 Q242 546 254 566 Q266 584 278 560 L298 568"/>
+  </g>
+  <g data-part="liste-controle">
+    <rect class="wh" x="362" y="396" width="276" height="276" rx="8"/>
+    <rect class="wh" x="392" y="434" width="40" height="40" rx="5"/><line class="ln2" x1="454" y1="454" x2="602" y2="454"/>
+    <rect class="wh" x="392" y="490" width="40" height="40" rx="5"/><line class="ln2" x1="454" y1="510" x2="602" y2="510"/>
+    <rect class="wh" x="392" y="546" width="40" height="40" rx="5"/><line class="ln2" x1="454" y1="566" x2="602" y2="566"/>
+    <rect class="wh" x="392" y="602" width="40" height="40" rx="5"/><line class="ln2" x1="454" y1="622" x2="602" y2="622"/>
+    <path class="dim" d="M400 454 L410 466 L426 442"/>
+    <path class="dim" d="M400 510 L410 522 L426 498"/>
+    <path class="dim" d="M400 566 L410 578 L426 554"/>
+  </g>
+  <g data-part="etiquette">
+    <path class="wh" d="M732 456 L912 456 L912 606 L732 606 L688 531 Z"/>
+    <circle class="mt" cx="726" cy="531" r="13"/>
+    <path class="ln" d="M714 531 Q672 496 682 436"/>
+    <line class="ln2" x1="762" y1="486" x2="888" y2="486"/>
+    <line class="ln" x1="762" y1="514" x2="862" y2="514"/>
+    <rect class="dk" x="762" y="542" width="7" height="44"/>
+    <rect class="dk" x="771" y="542" width="4" height="44"/>
+    <rect class="dk" x="777" y="542" width="4" height="44"/>
+    <rect class="dk" x="789" y="542" width="7" height="44"/>
+    <rect class="dk" x="798" y="542" width="4" height="44"/>
+    <rect class="dk" x="804" y="542" width="4" height="44"/>
+    <rect class="dk" x="816" y="542" width="7" height="44"/>
+    <rect class="dk" x="825" y="542" width="4" height="44"/>
+    <rect class="dk" x="834" y="542" width="4" height="44"/>
+    <rect class="dk" x="846" y="542" width="7" height="44"/>
+    <rect class="dk" x="855" y="542" width="4" height="44"/>
+    <rect class="dk" x="867" y="542" width="4" height="44"/>
+    <rect class="dk" x="876" y="542" width="7" height="44"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="plan" transform="translate(310 122)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="nomenclature" transform="translate(610 122)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="instruction" transform="translate(910 122)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="fiche-suivi" transform="translate(310 422)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="liste-controle" transform="translate(610 422)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="etiquette" transform="translate(910 422)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>

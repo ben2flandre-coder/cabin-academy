@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Atlas de la visserie aéronautique générale</title>
+  <desc id="d">Planche de douze fixations dessinées en silhouette. Première rangée : vis à tête hexagonale avec fût lisse puis partie filetée ; vis à tête fraisée conique avec sa vue de dessus à empreinte en croix ; vis à tête cylindrique bombée avec sa vue de dessus à empreinte six pans creux ; écrou hexagonal vu de dessus et de côté. Deuxième rangée : écrou à créneaux avec ses fentes ; écrou autofreiné avec sa bague de freinage colorée ; écrou prisonnier sur plaquette à deux trous de rivets ; rondelle plate. Troisième rangée : rivet plein posé dans deux tôles, tête bombée d'un côté et tête écrasée de l'autre ; rivet aveugle avec sa tige et son bulbe côté caché ; insert fileté noyé dans un panneau sandwich ; fixation quart de tour avec sa goupille transversale.</desc>
+  <rect class="bgp" width="1000" height="760"/>
+  <g data-part="vis-hex" transform="translate(12 12)">
+<rect class="wh" x="0" y="0" width="233" height="236" rx="16"/><path class="mt" d="M80 68 L80 36 L86 30 L170 30 L176 36 L176 68 Z"/><path class="thin" d="M104 30 L104 68 M152 30 L152 68"/><rect class="mt" x="108" y="68" width="40" height="62"/><polygon class="mt" points="108,130 113,135 108,140 113,145 108,150 113,155 108,160 113,165 108,170 113,175 108,180 113,185 108,190 113,195 108,200 113,205 108,210 115,217 141,217 143,210 148,205 143,200 148,195 143,190 148,185 143,180 148,175 143,170 148,165 143,160 148,155 143,150 148,145 143,140 148,135 143,130"/><path class="thin" d="M108 130 L148 135 M108 140 L148 145 M108 150 L148 155 M108 160 L148 165 M108 170 L148 175 M108 180 L148 185 M108 190 L148 195 M108 200 L148 205"/>
+  </g>
+  <g data-part="vis-fraisee" transform="translate(257 12)">
+<rect class="wh" x="0" y="0" width="233" height="236" rx="16"/><path class="mt" d="M40 36 L136 36 L106 64 L70 64 Z"/><polygon class="mt" points="70,64 75,69 70,74 75,79 70,84 75,89 70,94 75,99 70,104 75,109 70,114 75,119 70,124 75,129 70,134 75,139 70,144 75,149 70,154 75,159 70,164 75,169 70,174 75,179 70,184 75,189 70,194 75,199 70,204 77,211 99,211 101,204 106,199 101,194 106,189 101,184 106,179 101,174 106,169 101,164 106,159 101,154 106,149 101,144 106,139 101,134 106,129 101,124 106,119 101,114 106,109 101,104 106,99 101,94 106,89 101,84 106,79 101,74 106,69 101,64"/><path class="thin" d="M70 64 L106 69 M70 74 L106 79 M70 84 L106 89 M70 94 L106 99 M70 104 L106 109 M70 114 L106 119 M70 124 L106 129 M70 134 L106 139 M70 144 L106 149 M70 154 L106 159 M70 164 L106 169 M70 174 L106 179 M70 184 L106 189 M70 194 L106 199"/><circle class="mt" cx="184" cy="150" r="38"/><rect class="dk" x="160" y="145" width="48" height="10" rx="3"/><rect class="dk" x="179" y="126" width="10" height="48" rx="3"/>
+  </g>
+  <g data-part="vis-bombee" transform="translate(502 12)">
+<rect class="wh" x="0" y="0" width="233" height="236" rx="16"/><path class="mt" d="M42 66 L42 54 Q42 32 66 32 L110 32 Q134 32 134 54 L134 66 Z"/><polygon class="mt" points="70,66 75,71 70,76 75,81 70,86 75,91 70,96 75,101 70,106 75,111 70,116 75,121 70,126 75,131 70,136 75,141 70,146 75,151 70,156 75,161 70,166 75,171 70,176 75,181 70,186 75,191 70,196 77,203 99,203 101,196 106,191 101,186 106,181 101,176 106,171 101,166 106,161 101,156 106,151 101,146 106,141 101,136 106,131 101,126 106,121 101,116 106,111 101,106 106,101 101,96 106,91 101,86 106,81 101,76 106,71 101,66"/><path class="thin" d="M70 66 L106 71 M70 76 L106 81 M70 86 L106 91 M70 96 L106 101 M70 106 L106 111 M70 116 L106 121 M70 126 L106 131 M70 136 L106 141 M70 146 L106 151 M70 156 L106 161 M70 166 L106 171 M70 176 L106 181 M70 186 L106 191"/><circle class="mt" cx="184" cy="150" r="38"/><polygon class="dk" points="203,150 193.5,166.5 174.5,166.5 165,150 174.5,133.5 193.5,133.5"/>
+  </g>
+  <g data-part="ecrou-hex" transform="translate(747 12)">
+<rect class="wh" x="0" y="0" width="233" height="236" rx="16"/><polygon class="mt" points="192,92 160,147.4 96,147.4 64,92 96,36.6 160,36.6"/><circle class="wh" cx="128" cy="92" r="30"/><path class="thin" d="M128 56 A36 36 0 1 1 92 92"/><path class="mt" d="M64 218 L64 178 L70 172 L186 172 L192 178 L192 218 Z"/><path class="thin" d="M96 172 L96 218 M160 172 L160 218"/>
+  </g>
+  <g data-part="ecrou-creneaux" transform="translate(12 260)">
+<rect class="wh" x="0" y="0" width="233" height="236" rx="16"/><rect class="mt" x="60" y="62" width="26" height="60"/><rect class="mt" x="104" y="62" width="40" height="60"/><rect class="mt" x="162" y="62" width="26" height="60"/><path class="mt" d="M44 210 L44 126 L50 120 L198 120 L204 126 L204 210 Z"/><path class="thin" d="M84 120 L84 210 M164 120 L164 210"/>
+  </g>
+  <g data-part="ecrou-autofreine" transform="translate(257 260)">
+<rect class="wh" x="0" y="0" width="233" height="236" rx="16"/><rect class="eq2" x="80" y="64" width="88" height="20" rx="8"/><path class="mt" d="M68 122 L68 92 Q68 76 84 76 L164 76 Q180 76 180 92 L180 122 Z"/><path class="mt" d="M44 210 L44 126 L50 120 L198 120 L204 126 L204 210 Z"/><path class="thin" d="M84 120 L84 210 M164 120 L164 210"/>
+  </g>
+  <g data-part="ecrou-prisonnier" transform="translate(502 260)">
+<rect class="wh" x="0" y="0" width="233" height="236" rx="16"/><path class="mt" d="M40 92 Q40 72 60 72 L94 58 Q124 46 154 58 L188 72 Q208 72 208 92 Q208 112 188 112 L154 126 Q124 138 94 126 L60 112 Q40 112 40 92 Z"/><circle class="wh" cx="60" cy="92" r="9"/><circle class="wh" cx="188" cy="92" r="9"/><circle class="mt2" cx="124" cy="92" r="30"/><circle class="wh" cx="124" cy="92" r="15"/><rect class="mt" x="40" y="200" width="168" height="12"/><path class="mt2" d="M98 200 L102 158 L146 158 L150 200 Z"/>
+  </g>
+  <g data-part="rondelle" transform="translate(747 260)">
+<rect class="wh" x="0" y="0" width="233" height="236" rx="16"/><circle class="mt" cx="124" cy="96" r="66"/><circle class="wh" cx="124" cy="96" r="28"/><rect class="mt" x="58" y="186" width="132" height="14"/>
+  </g>
+  <g data-part="rivet-plein" transform="translate(12 508)">
+<rect class="wh" x="0" y="0" width="233" height="236" rx="16"/><rect class="st" x="16" y="100" width="201" height="24"/><rect class="sk" x="16" y="124" width="201" height="24"/><rect class="mt" x="102" y="98" width="32" height="52"/><path class="mt" d="M82 100 Q82 62 118 62 Q154 62 154 100 Z"/><rect class="mt" x="92" y="148" width="52" height="20" rx="6"/><path class="mt" d="M168 190 Q168 172 186 172 Q204 172 204 190 Z"/><rect class="mt" x="178" y="190" width="16" height="34"/>
+  </g>
+  <g data-part="rivet-aveugle" transform="translate(257 508)">
+<rect class="wh" x="0" y="0" width="233" height="236" rx="16"/><rect class="st" x="16" y="112" width="201" height="24"/><rect class="sk" x="16" y="136" width="201" height="24"/><rect class="mt2" x="112" y="26" width="12" height="70"/><path class="thin" d="M106 70 L130 70"/><rect class="mt" x="104" y="110" width="28" height="52"/><path class="mt" d="M84 112 Q84 90 118 90 Q152 90 152 112 Z"/><path class="mt" d="M104 160 Q80 180 102 200 L134 200 Q156 180 132 160 Z"/><ellipse class="mt2" cx="118" cy="204" rx="18" ry="9"/>
+  </g>
+  <g data-part="insert" transform="translate(502 508)">
+<rect class="wh" x="0" y="0" width="233" height="236" rx="16"/><rect class="wh" x="14" y="96" width="205" height="84"/><path class="thin" d="M28 96 L28 180 M42 96 L42 180 M56 96 L56 180 M70 96 L70 180 M84 96 L84 180 M98 96 L98 180 M112 96 L112 180 M126 96 L126 180 M140 96 L140 180 M154 96 L154 180 M168 96 L168 180 M182 96 L182 180 M196 96 L196 180 M210 96 L210 180"/><rect class="in" x="14" y="84" width="205" height="12"/><rect class="in" x="14" y="180" width="205" height="12"/><path class="sk" d="M62 96 L170 96 L162 180 L70 180 Z"/><rect class="mt" x="74" y="76" width="84" height="14"/><rect class="mt" x="90" y="90" width="52" height="80"/><rect class="wh" x="104" y="76" width="24" height="86"/><path class="thin" d="M104 86 L110 92 L104 98 L110 104 L104 110 L110 116 L104 122 L110 128 L104 134 L110 140 L104 146 L110 152 M128 86 L122 92 L128 98 L122 104 L128 110 L122 116 L128 122 L122 128 L128 134 L122 140 L128 146 L122 152"/>
+  </g>
+  <g data-part="quart-de-tour" transform="translate(747 508)">
+<rect class="wh" x="0" y="0" width="233" height="236" rx="16"/><rect class="mt" x="70" y="70" width="24" height="110"/><path class="mt" d="M70 180 L76 196 L88 196 L94 180 Z"/><rect class="mt2" x="48" y="150" width="68" height="13" rx="6"/><path class="mt" d="M40 72 Q40 44 82 44 Q124 44 124 72 Z"/><rect class="dk" x="76" y="40" width="12" height="14"/><circle class="mt" cx="176" cy="150" r="36"/><rect class="dk" x="150" y="144" width="52" height="12" rx="3"/><path class="dim" d="M134.4 126 A48 48 0 0 1 200 108.4"/><polygon class="dimf" points="213.9,116.4 195.2,116.7 204.8,100.1"/>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="vis-hex" transform="translate(52 162)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="vis-fraisee" transform="translate(441 72)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="vis-bombee" transform="translate(686 72)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="ecrou-hex" transform="translate(781 212)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="ecrou-creneaux" transform="translate(46 294)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="ecrou-autofreine" transform="translate(291 294)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="ecrou-prisonnier" transform="translate(536 420)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="rondelle" transform="translate(781 294)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="rivet-plein" transform="translate(46 548)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="rivet-aveugle" transform="translate(297 558)"><circle class="bd" r="26"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="insert" transform="translate(536 548)"><circle class="bd" r="26"/><text class="bn">11</text></g>
+    <g class="badge" data-badge="quart-de-tour" transform="translate(923 568)"><circle class="bd" r="26"/><text class="bn">12</text></g>
+  </g>
+</svg>

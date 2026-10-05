@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Un poste de travail vu de dessus, avec quatre anomalies</title>
+  <desc id="d">Vue de dessus d'un poste en cabine. En haut, la paroi et ses hublots. Contre la paroi, au centre, la zone d'intervention délimitée par un pointillé. À gauche, un pupitre avec le dossier et une tablette. À droite, une servante ouverte : dans la mousse, un tournevis et une pince sont à leur place, la troisième alvéole, en forme de clé, est vide. Au milieu, un passage de circulation traverse le poste. En bas à gauche, un bac contenant un panneau emballé et trois sachets étiquetés. En bas à droite, un bac à chutes. Quatre anomalies : une clé posée dans la zone d'intervention, l'alvéole vide de la servante, une équerre sans étiquette posée au sol hors du bac, une chute d'adhésif dans le passage.</desc>
+  <rect class="bgp" width="1000" height="680"/>
+  <!-- sol protégé et paroi -->
+  <rect class="in" x="20" y="20" width="960" height="640" rx="12"/>
+  <rect class="sk" x="20" y="20" width="960" height="50"/>
+  <rect class="gl" x="150" y="34" width="80" height="22" rx="10"/><rect class="gl" x="350" y="34" width="80" height="22" rx="10"/><rect class="gl" x="550" y="34" width="80" height="22" rx="10"/><rect class="gl" x="750" y="34" width="80" height="22" rx="10"/>
+
+  <!-- zone d'intervention -->
+  <g data-part="zone">
+    <rect class="fl" x="292" y="78" width="388" height="232" rx="8"/>
+    <rect class="dash" x="302" y="88" width="368" height="212" rx="6"/>
+    <path class="thin" d="M302 130 L670 130 M302 258 L670 258"/>
+  </g>
+
+  <!-- documents -->
+  <g data-part="documents">
+    <rect class="wh" x="44" y="100" width="216" height="196" rx="10"/>
+    <rect class="wh" x="62" y="116" width="92" height="164" rx="4"/>
+    <path class="thin" d="M76 140 L140 140 M76 162 L140 162 M76 184 L140 184 M76 206 L124 206 M76 240 L140 240 M76 260 L112 260"/>
+    <rect class="dk" x="170" y="126" width="74" height="112" rx="8"/>
+    <rect class="gl" x="178" y="136" width="58" height="84" rx="3"/>
+  </g>
+
+  <!-- passage de circulation -->
+  <g data-part="passage">
+    <rect class="wh" x="20" y="326" width="960" height="74"/>
+    <path class="dim" d="M70 363 L250 363 M750 363 L930 363"/>
+    <path class="dimf" d="M48 363 L78 349 L78 377 Z M952 363 L922 349 L922 377 Z"/>
+  </g>
+
+  <!-- servante (outils) -->
+  <g data-part="outils">
+    <rect class="mt2" x="706" y="88" width="254" height="226" rx="12"/>
+    <rect class="dk" x="718" y="100" width="230" height="202" rx="6"/>
+    <!-- tournevis -->
+    <rect class="mt" x="812" y="124" width="116" height="10"/>
+    <rect class="eq2" x="738" y="114" width="80" height="30" rx="12"/>
+    <!-- pince -->
+    <path class="mt" d="M740 172 L820 180 L928 176 L928 186 L820 190 L740 204 L740 192 L806 184 L740 184 Z"/>
+    <path class="eq2" d="M738 168 L800 176 L800 184 L738 184 Z M738 208 L800 194 L800 186 L738 192 Z"/>
+  </g>
+  <!-- alvéole vide (anomalie) -->
+  <g data-part="alveole-vide">
+    <rect class="none" pointer-events="all" x="730" y="222" width="208" height="72"/>
+    <path class="syf" d="M764 246 L900 246 A30 30 0 1 1 900 270 L764 270 A26 26 0 1 1 764 246 Z"/>
+  </g>
+
+  <!-- outil hors de sa place (anomalie) -->
+  <g data-part="outil-hors-place" transform="rotate(-22 470 200)">
+    <rect class="none" pointer-events="all" x="366" y="164" width="208" height="72"/>
+    <path class="mt" d="M400 188 L536 188 A30 30 0 1 1 536 212 L400 212 A26 26 0 1 1 400 188 Z"/>
+    <circle class="wh" cx="560" cy="200" r="14"/>
+    <path class="wh" d="M366 190 L386 190 L386 210 L366 210 Z"/>
+  </g>
+
+  <!-- bac à pièces -->
+  <g data-part="pieces">
+    <rect class="eq" x="44" y="420" width="300" height="222" rx="10"/>
+    <rect class="in" x="60" y="436" width="268" height="72" rx="6"/>
+    <rect class="wh" x="246" y="450" width="68" height="44" rx="3"/><path class="thin" d="M256 466 L304 466 M256 480 L292 480"/>
+    <rect class="gl" x="60" y="524" width="80" height="102" rx="8"/><rect class="wh" x="70" y="534" width="60" height="32" rx="3"/><path class="thin" d="M78 546 L122 546 M78 556 L108 556"/><circle class="mt" cx="88" cy="596" r="9"/><circle class="mt" cx="112" cy="604" r="9"/>
+    <rect class="gl" x="154" y="524" width="80" height="102" rx="8"/><rect class="wh" x="164" y="534" width="60" height="32" rx="3"/><path class="thin" d="M172 546 L216 546 M172 556 L202 556"/><circle class="mt2" cx="182" cy="600" r="11"/><circle class="mt2" cx="208" cy="594" r="11"/>
+    <rect class="gl" x="248" y="524" width="80" height="102" rx="8"/><rect class="wh" x="258" y="534" width="60" height="32" rx="3"/><path class="thin" d="M266 546 L310 546 M266 556 L296 556"/><rect class="mt" x="268" y="584" width="40" height="22" rx="4"/>
+  </g>
+
+  <!-- pièce non identifiée (anomalie) -->
+  <g data-part="piece-non-identifiee">
+    <rect class="none" pointer-events="all" x="396" y="462" width="110" height="110"/>
+    <path class="eq2" d="M404 470 L436 470 L436 532 L498 532 L498 564 L404 564 Z"/>
+    <circle class="wh" cx="420" cy="492" r="8"/><circle class="wh" cx="474" cy="548" r="8"/>
+  </g>
+
+  <!-- chute au sol (anomalie) -->
+  <g data-part="chute-au-sol">
+    <rect class="none" pointer-events="all" x="556" y="328" width="120" height="70"/>
+    <path class="syf" d="M566 372 C580 340 604 344 612 362 C620 378 640 366 650 346 L666 354 C654 388 620 398 604 376 C596 364 586 372 580 384 Z"/>
+  </g>
+
+  <!-- bac à chutes -->
+  <g data-part="dechets">
+    <rect class="mt2" x="770" y="440" width="186" height="196" rx="18"/>
+    <rect class="dk" x="788" y="458" width="150" height="160" rx="10"/>
+    <path class="syf" d="M806 500 L846 486 L856 510 L816 522 Z"/>
+    <path class="wh" d="M862 540 L912 530 L918 566 L874 578 Z"/>
+    <path class="syf" d="M812 566 L848 556 L852 590 L820 596 Z"/>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="zone" transform="translate(326 112)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="documents" transform="translate(60 106)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="outils" transform="translate(716 96)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="pieces" transform="translate(60 426)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="dechets" transform="translate(782 450)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="passage" transform="translate(300 363)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="outil-hors-place" transform="translate(606 142)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="alveole-vide" transform="translate(830 258)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="piece-non-identifiee" transform="translate(520 500)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="chute-au-sol" transform="translate(700 363)"><circle class="bd" r="24"/><text class="bn">10</text></g>
+  </g>
+</svg>

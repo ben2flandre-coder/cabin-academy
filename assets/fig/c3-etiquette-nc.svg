@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 670" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Étiquette de pièce non conforme fictive</title>
+  <desc id="d">Document fictif pédagogique. Étiquette volante à bout pointu, percée d'un œillet où passe un lien d'attache. Sous un bandeau rouge, le titre NON CONFORME. Viennent ensuite les champs : FICHE EX-NC-0031 ; P/N EX-48213-07 et S/N EX-000412 ; CONSTAT rayure face visible ; TROUVÉ à la pose, zone EX-B ; DATE 2026-03-12 suivie d'un visa ; enfin la mention document fictif pédagogique.</desc>
+  <rect class="bgp" width="1000" height="670"/>
+  <path class="wh" d="M210 20 H966 V650 H210 L60 510 V160 Z"/>
+  <g data-part="lien">
+    <rect class="none" pointer-events="all" x="14" y="190" width="190" height="250" rx="10"/>
+    <path class="ln2" d="M128 330 C70 300 40 250 22 196"/>
+    <circle class="dk" cx="128" cy="335" r="26"/>
+    <circle class="wh" cx="128" cy="335" r="12"/>
+  </g>
+  <g data-part="titre">
+    <rect class="wh" x="226" y="36" width="724" height="112" rx="10"/>
+    <rect class="badf" x="226" y="36" width="724" height="26" rx="10"/>
+  </g>
+  <text class="tl tc tr" x="560" y="122" pointer-events="none">NON CONFORME</text>
+  <g data-part="numero">
+    <rect class="wh" x="226" y="158" width="724" height="64" rx="10"/>
+  </g>
+  <text class="ts" x="244" y="203" pointer-events="none">FICHE</text>
+  <text class="tb" x="440" y="204" pointer-events="none">EX-NC-0031</text>
+  <g data-part="ident">
+    <rect class="wh" x="226" y="230" width="724" height="128" rx="10"/>
+  </g>
+  <text class="ts" x="244" y="275" pointer-events="none">P/N</text>
+  <text class="tb" x="440" y="276" pointer-events="none">EX-48213-07</text>
+  <text class="ts" x="244" y="337" pointer-events="none">S/N</text>
+  <text class="tb" x="440" y="338" pointer-events="none">EX-000412</text>
+  <g data-part="constat">
+    <rect class="wh" x="226" y="366" width="724" height="64" rx="10"/>
+  </g>
+  <text class="ts" x="244" y="411" pointer-events="none">CONSTAT</text>
+  <text class="ts" x="440" y="411" pointer-events="none">RAYURE FACE VISIBLE</text>
+  <g data-part="lieu">
+    <rect class="wh" x="226" y="438" width="724" height="64" rx="10"/>
+  </g>
+  <text class="ts" x="244" y="483" pointer-events="none">TROUVÉ</text>
+  <text class="ts" x="440" y="483" pointer-events="none">À LA POSE, ZONE EX-B</text>
+  <g data-part="date-visa">
+    <rect class="wh" x="226" y="510" width="724" height="64" rx="10"/>
+  </g>
+  <text class="ts" x="244" y="555" pointer-events="none">DATE</text>
+  <text class="ts" x="440" y="555" pointer-events="none">2026-03-12</text>
+  <text class="ts" x="660" y="555" pointer-events="none">VISA</text>
+  <path class="dim" d="M756 556 c14 -30 26 -30 30 -4 c6 -22 20 -26 24 -2 c8 -18 26 -10 40 4"/>
+  <g data-part="mention">
+    <rect class="in" x="226" y="582" width="724" height="56" rx="10"/>
+  </g>
+  <text class="ts" x="244" y="623" pointer-events="none">DOCUMENT FICTIF PÉDAGOGIQUE</text>
+  <g class="badges">
+    <g class="badge" data-badge="lien" transform="translate(128 420)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="titre" transform="translate(906 104)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="numero" transform="translate(906 190)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="ident" transform="translate(906 294)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="constat" transform="translate(906 398)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="lieu" transform="translate(906 470)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="date-visa" transform="translate(906 542)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="mention" transform="translate(906 610)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

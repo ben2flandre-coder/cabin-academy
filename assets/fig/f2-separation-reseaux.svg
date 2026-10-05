@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Séparer les réseaux : les fils au-dessus des fluides</title>
+  <desc id="d">Schéma de principe en deux vues du même cheminement. À gauche, coupe : un cadre porte trois bras superposés ; en haut un gros faisceau de puissance, au milieu un faisceau de signaux plus fin, en bas un tuyau de fluide. Une double flèche marque l'écart entre les deux faisceaux. À droite, vue de côté : les deux faisceaux courent au-dessus du tuyau ; un raccord du tuyau laisse tomber des gouttes, qui tombent vers le bas sans toucher les fils.</desc>
+  <rect class="bgp" width="1000" height="660"/>
+  <text class="ts" x="30" y="50">Coupe</text>
+  <text class="ts" x="470" y="50">Vue de côté</text>
+  <path class="thin" d="M440 24 L440 636"/>
+  <g data-part="structure">
+    <path class="st" d="M40 70 h90 v26 h-58 v470 h58 v26 h-90 Z"/>
+  </g>
+  <g data-part="bras">
+    <rect class="mt" x="72" y="148" width="168" height="24" rx="4"/>,<circle class="wh" cx="92" cy="160" r="7"/>
+    <rect class="mt" x="72" y="308" width="168" height="24" rx="4"/>,<circle class="wh" cx="92" cy="320" r="7"/>
+    <rect class="mt" x="72" y="488" width="168" height="24" rx="4"/>,<circle class="wh" cx="92" cy="500" r="7"/>
+  </g>
+  <g data-part="puissance">
+    <circle class="dk" cx="300" cy="160" r="68"/>
+    <circle class="wh" cx="300" cy="160" r="54"/>
+    <circle class="syf" cx="300" cy="160" r="17.3"/>
+    <circle class="syf" cx="333.5" cy="168.9" r="17.3"/>
+    <circle class="syf" cx="309" cy="193.5" r="17.3"/>
+    <circle class="syf" cx="275.5" cy="184.6" r="17.3"/>
+    <circle class="syf" cx="266.5" cy="151.1" r="17.3"/>
+    <circle class="syf" cx="291" cy="126.5" r="17.3"/>
+    <circle class="syf" cx="324.5" cy="135.4" r="17.3"/>
+  </g>
+  <g data-part="signal">
+    <circle class="dk" cx="300" cy="320" r="50"/>
+    <circle class="wh" cx="300" cy="320" r="37"/>
+    <circle class="syf" cx="300" cy="320" r="11.7"/>
+    <circle class="syf" cx="322.5" cy="326" r="11.7"/>
+    <circle class="syf" cx="306.1" cy="342.5" r="11.7"/>
+    <circle class="syf" cx="283.5" cy="336.5" r="11.7"/>
+    <circle class="syf" cx="277.5" cy="314" r="11.7"/>
+    <circle class="syf" cx="293.9" cy="297.5" r="11.7"/>
+    <circle class="syf" cx="316.5" cy="303.5" r="11.7"/>
+  </g>
+  <g data-part="tuyau">
+    <circle class="dk" cx="300" cy="500" r="62"/>
+    <circle class="mt" cx="300" cy="500" r="48"/>
+    <circle class="gl" cx="300" cy="500" r="36"/>
+  </g>
+  <g data-part="ecart">
+    <rect class="bgp" x="374" y="154" width="52" height="172"/>
+    <path class="dim" d="M400 175.4 L400 304.6"/>
+    <path class="dimf" d="M400 320 L391 299.9 L409 299.9 Z"/>
+    <path class="dimf" d="M400 160 L409 180.1 L391 180.1 Z"/>
+    <path class="thin" d="M380 160 L420 160"/>
+    <path class="thin" d="M380 320 L420 320"/>
+  </g>
+  <g data-part="puissance">
+    <path class="sy" d="M460 143.5 L970 143.5"/>
+    <path class="sy" d="M460 154.5 L970 154.5"/>
+    <path class="sy" d="M460 165.5 L970 165.5"/>
+    <path class="sy" d="M460 176.5 L970 176.5"/>
+    <rect class="dk" x="560" y="132" width="26" height="56" rx="6"/>
+    <rect class="dk" x="850" y="132" width="26" height="56" rx="6"/>
+  </g>
+  <g data-part="signal">
+    <path class="sy" d="M460 314.5 L970 314.5"/>
+    <path class="sy" d="M460 325.5 L970 325.5"/>
+    <rect class="dk" x="560" y="300" width="26" height="40" rx="6"/>
+    <rect class="dk" x="850" y="300" width="26" height="40" rx="6"/>
+  </g>
+  <g data-part="tuyau">
+    <rect class="mt" x="460" y="478" width="510" height="44"/>
+    <rect class="mt2" x="664" y="468" width="30" height="64" rx="4"/>
+    <rect class="mt2" x="694" y="462" width="60" height="76" rx="6"/>
+    <path class="thin" d="M714 462 L714 538"/>
+    <path class="thin" d="M734 462 L734 538"/>
+  </g>
+  <g data-part="goutte">
+    <rect class="bgp" x="690" y="542" width="70" height="92"/>
+    <path class="gl" d="M724 544 C712 566 710 582 724 586 C738 582 736 566 724 544 Z"/>
+    <path class="gl" d="M724 592 C714.4 609.6 712.8 622.4 724 625.6 C735.2 622.4 733.6 609.6 724 592 Z"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="structure" transform="translate(56 330)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="bras" transform="translate(160 108)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="puissance" transform="translate(720 160)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="signal" transform="translate(720 320)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="ecart" transform="translate(400 240)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="tuyau" transform="translate(540 500)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="goutte" transform="translate(790 590)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Liste de vérification « avant » (document fictif)</title>
+  <desc id="d">Une feuille intitulée EX-CL-01, document fictif. Six lignes, chacune terminée par une case : Dossier applicable (cochée), Zone prête (cochée), Outils valides (case vide), Pièces conformes (cochée), Protections (cochée), Coordination (cochée). La seule case vide, celle des outils, signifie que le travail ne peut pas démarrer.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+  <rect class="wh" x="30" y="20" width="940" height="680" rx="16"/>
+  <text class="tb" x="60" y="78">EX-CL-01</text>
+  <text class="ts te" x="940" y="78">document fictif</text>
+  <path class="ln" d="M30 104 L970 104"/>
+
+  <g data-part="dossier">
+    <rect class="in" x="44" y="116" width="912" height="84" rx="10"/>
+    <text class="t" x="136" y="172">Dossier applicable</text>
+    <rect class="okf" x="866" y="128" width="60" height="60" rx="8"/><path class="ln2" d="M880 158 L892 172 L914 142"/>
+  </g>
+  <g data-part="zone">
+    <rect class="in" x="44" y="212" width="912" height="84" rx="10"/>
+    <text class="t" x="136" y="268">Zone prête</text>
+    <rect class="okf" x="866" y="224" width="60" height="60" rx="8"/><path class="ln2" d="M880 254 L892 268 L914 238"/>
+  </g>
+  <g data-part="outils">
+    <rect class="in" x="44" y="308" width="912" height="84" rx="10"/>
+    <text class="t" x="136" y="364">Outils valides</text>
+    <rect class="wh" x="866" y="320" width="60" height="60" rx="8"/>
+  </g>
+  <g data-part="pieces">
+    <rect class="in" x="44" y="404" width="912" height="84" rx="10"/>
+    <text class="t" x="136" y="460">Pièces conformes</text>
+    <rect class="okf" x="866" y="416" width="60" height="60" rx="8"/><path class="ln2" d="M880 446 L892 460 L914 430"/>
+  </g>
+  <g data-part="protections">
+    <rect class="in" x="44" y="500" width="912" height="84" rx="10"/>
+    <text class="t" x="136" y="556">Protections</text>
+    <rect class="okf" x="866" y="512" width="60" height="60" rx="8"/><path class="ln2" d="M880 542 L892 556 L914 526"/>
+  </g>
+  <g data-part="coordination">
+    <rect class="in" x="44" y="596" width="912" height="84" rx="10"/>
+    <text class="t" x="136" y="652">Coordination</text>
+    <rect class="okf" x="866" y="608" width="60" height="60" rx="8"/><path class="ln2" d="M880 638 L892 652 L914 622"/>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="dossier" transform="translate(88 158)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="zone" transform="translate(88 254)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="outils" transform="translate(88 350)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="pieces" transform="translate(88 446)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="protections" transform="translate(88 542)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="coordination" transform="translate(88 638)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+  </g>
+</svg>

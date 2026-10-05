@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Trois sources à comparer : nomenclature, étiquette, pièce</title>
+  <desc id="d">Document fictif pédagogique. Trois cartes superposées. La première, la nomenclature du dossier, indique le repère REP 12, la référence EX-48213-07 et l'indice IND C. La deuxième, l'étiquette du sachet, indique P/N EX-48213-07 et REV C. La troisième montre la pièce elle-même, une platine métallique percée de deux trous, sur laquelle sont gravés EX-48213-08 puis la lettre C : le dernier chiffre de la référence gravée diffère de celui des deux autres sources.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+  <rect class="in" x="16" y="14" width="968" height="176" rx="18"/>
+  <text class="ts" x="40" y="62" pointer-events="none">NOMENCLATURE (dossier)</text>
+  <g data-part="nomen-rep">
+    <rect class="wh" x="36" y="84" width="250" height="84" rx="10"/>
+  </g>
+  <text class="tb" x="54" y="140" pointer-events="none">REP 12</text>
+  <g data-part="nomen-pn">
+    <rect class="wh" x="298" y="84" width="390" height="84" rx="10"/>
+  </g>
+  <text class="tb" x="316" y="140" pointer-events="none">EX-48213-07</text>
+  <g data-part="nomen-ind">
+    <rect class="wh" x="700" y="84" width="264" height="84" rx="10"/>
+  </g>
+  <text class="tb" x="718" y="140" pointer-events="none">IND C</text>
+  <rect class="in" x="16" y="204" width="968" height="176" rx="18"/>
+  <text class="ts" x="40" y="252" pointer-events="none">ÉTIQUETTE (sachet)</text>
+  <g data-part="etiq-pn">
+    <rect class="wh" x="36" y="274" width="470" height="84" rx="10"/>
+  </g>
+  <text class="tb" x="54" y="330" pointer-events="none">P/N EX-48213-07</text>
+  <g data-part="etiq-ind">
+    <rect class="wh" x="518" y="274" width="446" height="84" rx="10"/>
+  </g>
+  <text class="tb" x="536" y="330" pointer-events="none">REV C</text>
+  <rect class="in" x="16" y="394" width="968" height="312" rx="18"/>
+  <text class="ts" x="40" y="442" pointer-events="none">PIÈCE (marquage gravé)</text>
+  <path class="mt" d="M60 470 h880 a16 16 0 0 1 16 16 v184 a16 16 0 0 1 -16 16 h-880 a16 16 0 0 1 -16 -16 v-184 a16 16 0 0 1 16 -16 Z"/>
+  <circle class="wh" cx="112" cy="578" r="30"/><circle class="wh" cx="888" cy="578" r="30"/>
+  <g data-part="piece-pn">
+    <rect class="mt2" x="170" y="536" width="420" height="84" rx="8"/>
+  </g>
+  <text class="tb" x="188" y="592" pointer-events="none">EX-48213-08</text>
+  <g data-part="piece-ind">
+    <rect class="mt2" x="610" y="536" width="200" height="84" rx="8"/>
+  </g>
+  <text class="tb" x="640" y="592" pointer-events="none">C</text>
+  <g class="badges">
+    <g class="badge" data-badge="nomen-rep" transform="translate(248 126)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="nomen-pn" transform="translate(650 126)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="nomen-ind" transform="translate(926 126)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="etiq-pn" transform="translate(468 316)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="etiq-ind" transform="translate(926 316)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="piece-pn" transform="translate(552 578)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="piece-ind" transform="translate(772 578)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+  </g>
+</svg>

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 740" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Qui tient quoi dans la cabine : chaînes de fixation</title>
+  <desc id="d">Schéma des liaisons, à lire de haut en bas : une flèche bleue signifie « est fixé sur », le trait orange signifie « est raccordé à ». Tout en bas, la structure primaire : peau, cadres et lisses. À gauche, la chaîne du plancher : le siège est fixé sur le rail, le rail et le panneau de plancher sont fixés sur la traverse, la traverse est fixée sur la structure. À droite, la chaîne du haut : le bloc de service passagers (PSU) est fixé sur la bagagerie ; la bagagerie, les panneaux d'habillage et les systèmes (conduits, faisceaux) sont fixés sur des supports, ferrures, biellettes et colliers, eux-mêmes fixés sur la structure. Un trait orange relie le PSU aux systèmes : il est raccordé à l'air, à l'électricité et à l'oxygène.</desc>
+  <rect class="bgp" width="1000" height="740"/>
+  <path class="dim" d="M40 58 L104 58"/><path class="dimf" d="M100 45 L100 71 L122 58 Z"/>
+  <text class="ts" x="136" y="71">est fixé sur</text>
+  <path class="sy" d="M520 58 L600 58"/><circle class="syf" cx="606" cy="58" r="11"/>
+  <text class="ts" x="630" y="71">est raccordé à</text>
+  <g data-part="structure">
+    <rect class="wh" x="30" y="590" width="940" height="120" rx="16"/>
+    <rect class="sk" x="100" y="612" width="840" height="76" rx="6"/>
+    <path class="stl" d="M104 634 L936 634"/>
+    <path class="stl" d="M104 666 L936 666"/>
+    <rect class="st" x="137" y="604" width="26" height="92" rx="4"/>
+    <rect class="st" x="262" y="604" width="26" height="92" rx="4"/>
+    <rect class="st" x="387" y="604" width="26" height="92" rx="4"/>
+    <rect class="st" x="512" y="604" width="26" height="92" rx="4"/>
+    <rect class="st" x="637" y="604" width="26" height="92" rx="4"/>
+    <rect class="st" x="762" y="604" width="26" height="92" rx="4"/>
+    <rect class="st" x="887" y="604" width="26" height="92" rx="4"/>
+  </g>
+  <g data-part="traverse">
+    <rect class="wh" x="30" y="430" width="310" height="110" rx="16"/>
+    <rect class="st" x="80" y="466" width="240" height="40" rx="4"/>
+    <circle class="wh" cx="120" cy="486" r="11"/>
+    <circle class="wh" cx="170" cy="486" r="11"/>
+    <circle class="wh" cx="220" cy="486" r="11"/>
+    <circle class="wh" cx="270" cy="486" r="11"/>
+    <path class="st" d="M92 458 L308 458 L308 466 L92 466 Z"/>
+    <path class="st" d="M92 506 L308 506 L308 514 L92 514 Z"/>
+  </g>
+  <g data-part="rail">
+    <rect class="wh" x="30" y="270" width="145" height="110" rx="16"/>
+    <path class="st" d="M61 358 L163 358 L163 344 L128 344 L128 317 L151 317 L151 294 L124 294 L124 307 L101 307 L101 294 L73 294 L73 317 L96 317 L96 344 L61 344 Z"/>
+  </g>
+  <g data-part="plancher">
+    <rect class="wh" x="195" y="270" width="145" height="110" rx="16"/>
+    <rect class="fl" x="212" y="318" width="112" height="34" rx="3"/>
+    <path class="thin" d="M226 324 L226 346"/>
+    <path class="thin" d="M240 324 L240 346"/>
+    <path class="thin" d="M254 324 L254 346"/>
+    <path class="thin" d="M268 324 L268 346"/>
+    <path class="thin" d="M282 324 L282 346"/>
+    <path class="thin" d="M296 324 L296 346"/>
+    <path class="thin" d="M310 324 L310 346"/>
+    <path class="ln" d="M212 324 L324 324 M212 346 L324 346"/>
+  </g>
+  <g data-part="siege">
+    <rect class="wh" x="30" y="110" width="145" height="110" rx="16"/>
+    <rect class="eq" x="84" y="118" width="62" height="68" rx="12"/>
+    <rect class="eq2" x="96" y="125" width="38" height="20" rx="7"/>
+    <rect class="wh" x="96" y="152" width="38" height="24" rx="4"/>
+    <rect class="eq2" x="78" y="186" width="74" height="10" rx="4"/>
+    <path class="mt2" d="M92 196 L104 196 L108 214 L88 214 Z"/>
+    <path class="mt2" d="M126 196 L138 196 L142 214 L122 214 Z"/>
+  </g>
+  <g data-part="supports">
+    <rect class="wh" x="380" y="430" width="590" height="110" rx="16"/>
+    <path class="mt" d="M470 450 L488 450 L488 502 L548 502 L548 520 L470 520 Z"/>
+    <circle class="wh" cx="479" cy="470" r="6"/><circle class="wh" cx="526" cy="511" r="6"/>
+    <path class="mt2" d="M640 477 L800 477 L800 493 L640 493 Z"/>
+    <circle class="mt" cx="630" cy="485" r="20"/><circle class="wh" cx="630" cy="485" r="8"/>
+    <circle class="mt" cx="810" cy="485" r="20"/><circle class="wh" cx="810" cy="485" r="8"/>
+    <path class="mt" d="M880 516 L880 500 L898 500 A26 26 0 1 1 916 516 Z"/>
+    <circle class="wh" cx="914" cy="478" r="14"/><circle class="wh" cx="889" cy="508" r="4"/>
+  </g>
+  <g data-part="hatrack">
+    <rect class="wh" x="380" y="270" width="180" height="110" rx="16"/>
+    <path class="eq" d="M428 362 A150 150 0 0 1 478 286 L530 286 Q548 326 538 362 Z"/>
+    <path class="thin" d="M514 289 Q530 326 520 359"/>
+    <rect class="dk" x="529" y="328" width="7" height="20" rx="3"/>
+  </g>
+  <g data-part="psu">
+    <rect class="wh" x="380" y="110" width="180" height="110" rx="16"/>
+    <rect class="eq2" x="430" y="146" width="116" height="38" rx="6"/>
+    <circle class="wh" cx="452" cy="165" r="8"/>
+    <circle class="wh" cx="476" cy="165" r="8"/>
+    <rect class="wh" x="494" y="155" width="42" height="20" rx="4"/>
+    <path class="thin" d="M452 188 L452 206"/>
+    <path class="thin" d="M476 188 L476 206"/>
+  </g>
+  <g data-part="panneaux">
+    <rect class="wh" x="585" y="270" width="180" height="110" rx="16"/>
+    <path class="in" d="M650 280 L738 280 Q748 325 738 370 L650 370 Q640 325 650 280 Z"/>
+    <rect class="gl" x="676" y="300" width="36" height="48" rx="14"/>
+  </g>
+  <g data-part="systemes">
+    <rect class="wh" x="790" y="270" width="180" height="110" rx="16"/>
+    <ellipse class="sy" cx="890" cy="310" rx="42" ry="22"/>
+    <path class="mt" d="M850 348 L850 370 L938 370 L938 348 L930 348 L930 362 L858 362 L858 348 Z"/>
+    <circle class="syf" cx="872" cy="352" r="10"/>
+    <circle class="syf" cx="894" cy="352" r="10"/>
+    <circle class="syf" cx="916" cy="352" r="10"/>
+  </g>
+  <path class="dim" d="M102 220 L102 258"/><path class="dimf" d="M89 252 L115 252 L102 270 Z"/>
+  <path class="dim" d="M102 380 L102 418"/><path class="dimf" d="M89 412 L115 412 L102 430 Z"/>
+  <path class="dim" d="M267 380 L267 418"/><path class="dimf" d="M254 412 L280 412 L267 430 Z"/>
+  <path class="dim" d="M185 540 L185 578"/><path class="dimf" d="M172 572 L198 572 L185 590 Z"/>
+  <path class="dim" d="M470 220 L470 258"/><path class="dimf" d="M457 252 L483 252 L470 270 Z"/>
+  <path class="dim" d="M470 380 L470 418"/><path class="dimf" d="M457 412 L483 412 L470 430 Z"/>
+  <path class="dim" d="M675 380 L675 418"/><path class="dimf" d="M662 412 L688 412 L675 430 Z"/>
+  <path class="dim" d="M880 380 L880 418"/><path class="dimf" d="M867 412 L893 412 L880 430 Z"/>
+  <path class="dim" d="M675 540 L675 578"/><path class="dimf" d="M662 572 L688 572 L675 590 Z"/>
+  <path class="sy" d="M560 165 L850 165 Q880 165 880 195 L880 256"/><circle class="syf" cx="880" cy="262" r="11"/>
+  <g class="badges">
+    <g class="badge" data-badge="structure" transform="translate(62 650)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="traverse" transform="translate(56 458)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="rail" transform="translate(56 298)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="plancher" transform="translate(221 296)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="siege" transform="translate(56 138)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="supports" transform="translate(412 460)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="hatrack" transform="translate(408 298)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="psu" transform="translate(408 138)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="panneaux" transform="translate(613 298)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="systemes" transform="translate(818 298)"><circle class="bd" r="24"/><text class="bn">10</text></g>
+  </g>
+</svg>

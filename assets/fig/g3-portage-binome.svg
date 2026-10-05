@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Porter à deux : rôles, prises et trajet</title>
+  <desc id="d">Schéma de principe, vue de profil. Deux personnes marchent dans le même sens, vers la droite, et portent ensemble un long panneau tenu sur chant le long de leur corps. Celle de gauche annonce le décompte un, deux, trois : elle commande la manœuvre. Les mains des deux porteuses, entourées d'un cercle, saisissent le panneau à la même hauteur. Une flèche et un pointillé au sol indiquent le trajet reconnu. Devant elles, un seuil signalé par un triangle d'avertissement, puis des tréteaux garnis de mousse préparés pour la dépose.</desc>
+  <rect class="bgp" width="1000" height="600"/>
+  <path class="ln2" d="M30 524 H970"/>
+  <g data-part="trajet">
+    <path class="dash" d="M120 554 H700"/><path class="dim" d="M340 96 L580 96"/><path class="dimf" d="M586 96 L565.6 103 L565.6 89 Z"/><rect class="none" pointer-events="all" x="320" y="66" width="280" height="60" rx="10"/>
+  </g>
+  <g data-part="meneuse">
+    <path class="eq2" d="M238.8 372.8 L219.4 440.3 A11.7 11.7 0 0 0 241.9 446.7 L261.2 379.2 A11.7 11.7 0 0 0 238.8 372.8 Z"/><path class="eq2" d="M220.9 441.8 L208.7 510.9 A9.9 9.9 0 0 0 228.3 514.3 L240.4 445.2 A9.9 9.9 0 0 0 220.9 441.8 Z"/><path class="dk" d="M218.5 523.4 L249.1 523.4 A7.2 7.2 0 0 0 249.1 509 L218.5 509 A7.2 7.2 0 0 0 218.5 523.4 Z"/><path class="eq2" d="M247.3 286.8 L250.8 337.1 A9 9 0 0 0 268.8 335.9 L265.3 285.6 A9 9 0 0 0 247.3 286.8 Z"/><path class="eq2" d="M252.3 337.8 L260.7 385.7 A7.7 7.7 0 0 0 275.8 383 L267.3 335.2 A7.7 7.7 0 0 0 252.3 337.8 Z"/><circle class="wh" cx="268.2" cy="384.4" r="8.1"/><path class="eq" d="M268.9 377.3 L275.1 287.5 A18.9 18.9 0 0 0 237.4 284.9 L231.1 374.7 A18.9 18.9 0 0 0 268.9 377.3 Z"/><path class="eq" d="M238.6 378.8 L255.6 446.9 A11.7 11.7 0 0 0 278.3 441.3 L261.4 373.2 A11.7 11.7 0 0 0 238.6 378.8 Z"/><path class="eq" d="M257.1 442.7 L247.4 512.2 A9.9 9.9 0 0 0 267.1 515 L276.8 445.5 A9.9 9.9 0 0 0 257.1 442.7 Z"/><path class="dk" d="M257.2 524.4 L287.8 524.4 A7.2 7.2 0 0 0 287.8 510 L257.2 510 A7.2 7.2 0 0 0 257.2 524.4 Z"/><circle class="wh" cx="259" cy="247.6" r="22.5"/><path class="wh" d="M66 138 H240 Q254 138 254 152 V202 Q254 216 240 216 H214 L236 252 L182 216 H66 Q52 216 52 202 V152 Q52 138 66 138 Z"/><text class="tb tc" x="153" y="192">1, 2, 3</text>
+  </g>
+  <g data-part="equipiere">
+    <path class="eq2" d="M578.8 372.8 L559.4 440.3 A11.7 11.7 0 0 0 581.9 446.7 L601.2 379.2 A11.7 11.7 0 0 0 578.8 372.8 Z"/><path class="eq2" d="M560.9 441.8 L548.7 510.9 A9.9 9.9 0 0 0 568.3 514.3 L580.4 445.2 A9.9 9.9 0 0 0 560.9 441.8 Z"/><path class="dk" d="M558.5 523.4 L589.1 523.4 A7.2 7.2 0 0 0 589.1 509 L558.5 509 A7.2 7.2 0 0 0 558.5 523.4 Z"/><path class="eq2" d="M587.3 286.8 L590.8 337.1 A9 9 0 0 0 608.8 335.9 L605.3 285.6 A9 9 0 0 0 587.3 286.8 Z"/><path class="eq2" d="M592.3 337.8 L600.7 385.7 A7.7 7.7 0 0 0 615.8 383 L607.3 335.2 A7.7 7.7 0 0 0 592.3 337.8 Z"/><circle class="wh" cx="608.2" cy="384.4" r="8.1"/><path class="eq" d="M608.9 377.3 L615.1 287.5 A18.9 18.9 0 0 0 577.4 284.9 L571.1 374.7 A18.9 18.9 0 0 0 608.9 377.3 Z"/><path class="eq" d="M578.6 378.8 L595.6 446.9 A11.7 11.7 0 0 0 618.3 441.3 L601.4 373.2 A11.7 11.7 0 0 0 578.6 378.8 Z"/><path class="eq" d="M597.1 442.7 L587.4 512.2 A9.9 9.9 0 0 0 607.1 515 L616.8 445.5 A9.9 9.9 0 0 0 597.1 442.7 Z"/><path class="dk" d="M597.2 524.4 L627.8 524.4 A7.2 7.2 0 0 0 627.8 510 L597.2 510 A7.2 7.2 0 0 0 597.2 524.4 Z"/><circle class="wh" cx="599" cy="247.6" r="22.5"/>
+  </g>
+  <g data-part="charge">
+    <rect class="in" x="170" y="272.9" width="520" height="118" rx="8"/><path class="thin" d="M190 290.9 H670"/>
+  </g>
+  <g data-part="prises">
+    <path class="eq" d="M247.4 287.8 L256.2 337.4 A9 9 0 0 0 273.9 334.3 L265.1 284.7 A9 9 0 0 0 247.4 287.8 Z"/><path class="eq" d="M257.9 338.7 L276.1 383.8 A7.7 7.7 0 0 0 290.3 378 L272.1 333 A7.7 7.7 0 0 0 257.9 338.7 Z"/><circle class="wh" cx="283.2" cy="380.9" r="8.1"/><path class="eq" d="M587.4 287.8 L596.2 337.4 A9 9 0 0 0 613.9 334.3 L605.1 284.7 A9 9 0 0 0 587.4 287.8 Z"/><path class="eq" d="M597.9 338.7 L616.1 383.8 A7.7 7.7 0 0 0 630.3 378 L612.1 333 A7.7 7.7 0 0 0 597.9 338.7 Z"/><circle class="wh" cx="623.2" cy="380.9" r="8.1"/><circle class="dim" cx="283.2" cy="380.9" r="30"/><circle class="dim" cx="623.2" cy="380.9" r="30"/><rect class="none" pointer-events="all" x="247.23583123139787" y="344.914681560377" width="72" height="72" rx="10"/><rect class="none" pointer-events="all" x="587.2358312313978" y="344.914681560377" width="72" height="72" rx="10"/>
+  </g>
+  <g data-part="obstacle">
+    <path class="mt" d="M736 524 L748 498 H792 L804 524 Z"/><path class="syf" d="M770 410 L806 474 H734 Z"/><path class="ln2" d="M770 430 V452"/><circle class="dk" cx="770" cy="464" r="4"/>
+  </g>
+  <g data-part="depose">
+    <rect class="eq" x="836" y="370" width="134" height="20" rx="8"/><rect class="mt" x="836" y="390" width="134" height="14"/><path class="ln2" d="M856 404 L842 524 M950 404 L964 524 M848 464 H958"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="meneuse" transform="translate(60 100)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="equipiere" transform="translate(676 226)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="charge" transform="translate(430 356)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="prises" transform="translate(346 470)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="trajet" transform="translate(300 96)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="obstacle" transform="translate(770 360)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="depose" transform="translate(904 320)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+  </g>
+</svg>

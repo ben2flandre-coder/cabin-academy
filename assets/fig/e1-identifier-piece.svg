@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Identifier une pièce : étiquette, marquages et nomenclature</title>
+  <desc id="d">À gauche, un panneau d'habillage vu de dos, avec une ouverture de hublot, quatre points de fixation aux angles, une flèche marquée FWD qui indique le sens de montage, un marquage LH qui indique le côté, et une petite étiquette d'identification. À droite, l'étiquette agrandie, document fictif, avec quatre lignes : P/N EX-48213-07, S/N EX-000412, LOT EX-L2231 et IND. C. En dessous, la ligne de nomenclature à rapprocher : EX-48213-07, côté LH.</desc>
+  <rect class="bgp" width="1000" height="660"/>
+
+  <!-- panneau vu de dos -->
+  <path class="in" d="M70 50 L400 50 Q430 50 430 80 L430 590 Q430 620 400 620 L70 620 Q40 620 40 590 L40 80 Q40 50 70 50 Z"/>
+  <rect class="gl" x="150" y="130" width="170" height="210" rx="60"/>
+  <path class="thin" d="M40 380 L430 380"/>
+
+  <g data-part="fixations">
+    <circle class="mt" cx="88" cy="98" r="30"/><circle class="wh" cx="88" cy="98" r="11"/>
+    <circle class="mt" cx="382" cy="98" r="30"/><circle class="wh" cx="382" cy="98" r="11"/>
+    <circle class="mt" cx="88" cy="572" r="30"/><circle class="wh" cx="88" cy="572" r="11"/>
+    <circle class="mt" cx="382" cy="572" r="30"/><circle class="wh" cx="382" cy="572" r="11"/>
+  </g>
+  <g data-part="sens">
+    <rect class="none" pointer-events="all" x="64" y="398" width="180" height="74"/>
+    <path class="dim" d="M232 448 L110 448"/>
+    <path class="dimf" d="M72 448 L112 430 L112 466 Z"/>
+    <text class="tb ta" x="138" y="432">FWD</text>
+  </g>
+  <g data-part="cote">
+    <rect class="wh" x="296" y="400" width="100" height="70" rx="8"/>
+    <text class="tb tc" x="346" y="450">LH</text>
+  </g>
+  <g data-part="etiquette">
+    <rect class="wh" x="150" y="506" width="170" height="70" rx="4"/>
+    <path class="thin" d="M164 524 L306 524 M164 540 L290 540 M164 556 L306 556"/>
+  </g>
+  <!-- traits de zoom -->
+  <path class="dash" d="M320 541 L500 440"/>
+
+  <!-- étiquette agrandie -->
+  <rect class="wh" x="500" y="40" width="470" height="400" rx="10"/>
+  <g data-part="pn">
+    <rect class="in" x="512" y="52" width="446" height="86" rx="6"/>
+    <text class="tb" x="580" y="110">P/N EX-48213-07</text>
+  </g>
+  <g data-part="sn">
+    <rect class="in" x="512" y="148" width="446" height="86" rx="6"/>
+    <text class="t" x="580" y="206">S/N EX-000412</text>
+  </g>
+  <g data-part="lot">
+    <rect class="in" x="512" y="244" width="446" height="86" rx="6"/>
+    <text class="t" x="580" y="302">LOT EX-L2231</text>
+  </g>
+  <g data-part="indice">
+    <rect class="in" x="512" y="340" width="446" height="86" rx="6"/>
+    <text class="t" x="580" y="398">IND. C</text>
+  </g>
+  <text class="ts te" x="968" y="484">étiquette fictive</text>
+
+  <!-- nomenclature -->
+  <g data-part="nomenclature">
+    <rect class="sk" x="500" y="510" width="470" height="120" rx="10"/>
+    <text class="ts" x="580" y="556">Nomenclature</text>
+    <text class="tb" x="580" y="606">EX-48213-07 · LH</text>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="pn" transform="translate(544 95)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="sn" transform="translate(544 191)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="lot" transform="translate(544 287)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="indice" transform="translate(544 383)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="nomenclature" transform="translate(544 570)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="etiquette" transform="translate(152 504)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="sens" transform="translate(266 452)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="cote" transform="translate(396 400)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="fixations" transform="translate(130 98)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+  </g>
+</svg>

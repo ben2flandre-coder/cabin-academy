@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Une même zone de cabine, deux avions, deux configurations</title>
+  <desc id="d">Schéma de principe, vues de dessus, avant à gauche. En haut, l'avion fictif EX-101 avec son propre dossier : huit rangées de sièges de part et d'autre de l'allée et une cloison placée après la deuxième rangée. En bas, l'avion fictif EX-102 avec un autre dossier : la même zone, mais la cloison est placée après la cinquième rangée et, côté haut du dessin, les deux dernières rangées sont remplacées par un meuble. Les sièges restants sont identiques dans les deux avions.</desc>
+  <rect class="bgp" width="1000" height="640"/>
+  <g data-part="dossier-a">
+    <path class="wh" d="M30 70 h130 l40 40 v170 h-170 Z"/>
+    <path class="ln" d="M160 70 v40 h40"/>
+    <path class="thin" d="M52 200 h126 M52 226 h126 M52 252 h80"/>
+  </g>
+  <text class="ts tc" x="115" y="166" pointer-events="none">EX-101</text>
+  <text class="ts te" x="966" y="50" pointer-events="none">Avion EX-101</text>
+  <rect class="sk" x="230" y="66" width="740" height="222" rx="26"/>
+  <rect class="fl" x="244" y="80" width="712" height="194" rx="16"/>
+  <g data-part="sieges">
+    <rect class="eq" x="286" y="86" width="40" height="22" rx="6"/>
+    <rect class="eq" x="286" y="194" width="40" height="22" rx="6"/>
+    <rect class="eq" x="286" y="111" width="40" height="22" rx="6"/>
+    <rect class="eq" x="286" y="219" width="40" height="22" rx="6"/>
+    <rect class="eq" x="286" y="136" width="40" height="22" rx="6"/>
+    <rect class="eq" x="286" y="244" width="40" height="22" rx="6"/>
+    <rect class="eq" x="366" y="86" width="40" height="22" rx="6"/>
+    <rect class="eq" x="366" y="194" width="40" height="22" rx="6"/>
+    <rect class="eq" x="366" y="111" width="40" height="22" rx="6"/>
+    <rect class="eq" x="366" y="219" width="40" height="22" rx="6"/>
+    <rect class="eq" x="366" y="136" width="40" height="22" rx="6"/>
+    <rect class="eq" x="366" y="244" width="40" height="22" rx="6"/>
+    <rect class="eq" x="446" y="86" width="40" height="22" rx="6"/>
+    <rect class="eq" x="446" y="194" width="40" height="22" rx="6"/>
+    <rect class="eq" x="446" y="111" width="40" height="22" rx="6"/>
+    <rect class="eq" x="446" y="219" width="40" height="22" rx="6"/>
+    <rect class="eq" x="446" y="136" width="40" height="22" rx="6"/>
+    <rect class="eq" x="446" y="244" width="40" height="22" rx="6"/>
+    <rect class="eq" x="526" y="86" width="40" height="22" rx="6"/>
+    <rect class="eq" x="526" y="194" width="40" height="22" rx="6"/>
+    <rect class="eq" x="526" y="111" width="40" height="22" rx="6"/>
+    <rect class="eq" x="526" y="219" width="40" height="22" rx="6"/>
+    <rect class="eq" x="526" y="136" width="40" height="22" rx="6"/>
+    <rect class="eq" x="526" y="244" width="40" height="22" rx="6"/>
+    <rect class="eq" x="606" y="86" width="40" height="22" rx="6"/>
+    <rect class="eq" x="606" y="194" width="40" height="22" rx="6"/>
+    <rect class="eq" x="606" y="111" width="40" height="22" rx="6"/>
+    <rect class="eq" x="606" y="219" width="40" height="22" rx="6"/>
+    <rect class="eq" x="606" y="136" width="40" height="22" rx="6"/>
+    <rect class="eq" x="606" y="244" width="40" height="22" rx="6"/>
+    <rect class="eq" x="686" y="86" width="40" height="22" rx="6"/>
+    <rect class="eq" x="686" y="194" width="40" height="22" rx="6"/>
+    <rect class="eq" x="686" y="111" width="40" height="22" rx="6"/>
+    <rect class="eq" x="686" y="219" width="40" height="22" rx="6"/>
+    <rect class="eq" x="686" y="136" width="40" height="22" rx="6"/>
+    <rect class="eq" x="686" y="244" width="40" height="22" rx="6"/>
+    <rect class="eq" x="766" y="86" width="40" height="22" rx="6"/>
+    <rect class="eq" x="766" y="194" width="40" height="22" rx="6"/>
+    <rect class="eq" x="766" y="111" width="40" height="22" rx="6"/>
+    <rect class="eq" x="766" y="219" width="40" height="22" rx="6"/>
+    <rect class="eq" x="766" y="136" width="40" height="22" rx="6"/>
+    <rect class="eq" x="766" y="244" width="40" height="22" rx="6"/>
+    <rect class="eq" x="846" y="86" width="40" height="22" rx="6"/>
+    <rect class="eq" x="846" y="194" width="40" height="22" rx="6"/>
+    <rect class="eq" x="846" y="111" width="40" height="22" rx="6"/>
+    <rect class="eq" x="846" y="219" width="40" height="22" rx="6"/>
+    <rect class="eq" x="846" y="136" width="40" height="22" rx="6"/>
+    <rect class="eq" x="846" y="244" width="40" height="22" rx="6"/>
+  </g>
+  <g data-part="cloison-a">
+    <rect class="none" pointer-events="all" x="394" y="80" width="64" height="194" rx="10"/>
+    <rect class="dk" x="420" y="82" width="12" height="80"/>
+    <rect class="dk" x="420" y="188" width="12" height="84"/>
+  </g>
+  <g data-part="dossier-b">
+    <path class="wh" d="M30 400 h130 l40 40 v170 h-170 Z"/>
+    <path class="ln" d="M160 400 v40 h40"/>
+    <path class="thin" d="M52 530 h126 M52 556 h126 M52 582 h80"/>
+  </g>
+  <text class="ts tc" x="115" y="496" pointer-events="none">EX-102</text>
+  <text class="ts te" x="966" y="380" pointer-events="none">Avion EX-102</text>
+  <rect class="sk" x="230" y="396" width="740" height="222" rx="26"/>
+  <rect class="fl" x="244" y="410" width="712" height="194" rx="16"/>
+  <g data-part="sieges">
+    <rect class="eq" x="286" y="416" width="40" height="22" rx="6"/>
+    <rect class="eq" x="286" y="524" width="40" height="22" rx="6"/>
+    <rect class="eq" x="286" y="441" width="40" height="22" rx="6"/>
+    <rect class="eq" x="286" y="549" width="40" height="22" rx="6"/>
+    <rect class="eq" x="286" y="466" width="40" height="22" rx="6"/>
+    <rect class="eq" x="286" y="574" width="40" height="22" rx="6"/>
+    <rect class="eq" x="366" y="416" width="40" height="22" rx="6"/>
+    <rect class="eq" x="366" y="524" width="40" height="22" rx="6"/>
+    <rect class="eq" x="366" y="441" width="40" height="22" rx="6"/>
+    <rect class="eq" x="366" y="549" width="40" height="22" rx="6"/>
+    <rect class="eq" x="366" y="466" width="40" height="22" rx="6"/>
+    <rect class="eq" x="366" y="574" width="40" height="22" rx="6"/>
+    <rect class="eq" x="446" y="416" width="40" height="22" rx="6"/>
+    <rect class="eq" x="446" y="524" width="40" height="22" rx="6"/>
+    <rect class="eq" x="446" y="441" width="40" height="22" rx="6"/>
+    <rect class="eq" x="446" y="549" width="40" height="22" rx="6"/>
+    <rect class="eq" x="446" y="466" width="40" height="22" rx="6"/>
+    <rect class="eq" x="446" y="574" width="40" height="22" rx="6"/>
+    <rect class="eq" x="526" y="416" width="40" height="22" rx="6"/>
+    <rect class="eq" x="526" y="524" width="40" height="22" rx="6"/>
+    <rect class="eq" x="526" y="441" width="40" height="22" rx="6"/>
+    <rect class="eq" x="526" y="549" width="40" height="22" rx="6"/>
+    <rect class="eq" x="526" y="466" width="40" height="22" rx="6"/>
+    <rect class="eq" x="526" y="574" width="40" height="22" rx="6"/>
+    <rect class="eq" x="606" y="416" width="40" height="22" rx="6"/>
+    <rect class="eq" x="606" y="524" width="40" height="22" rx="6"/>
+    <rect class="eq" x="606" y="441" width="40" height="22" rx="6"/>
+    <rect class="eq" x="606" y="549" width="40" height="22" rx="6"/>
+    <rect class="eq" x="606" y="466" width="40" height="22" rx="6"/>
+    <rect class="eq" x="606" y="574" width="40" height="22" rx="6"/>
+    <rect class="eq" x="686" y="416" width="40" height="22" rx="6"/>
+    <rect class="eq" x="686" y="524" width="40" height="22" rx="6"/>
+    <rect class="eq" x="686" y="441" width="40" height="22" rx="6"/>
+    <rect class="eq" x="686" y="549" width="40" height="22" rx="6"/>
+    <rect class="eq" x="686" y="466" width="40" height="22" rx="6"/>
+    <rect class="eq" x="686" y="574" width="40" height="22" rx="6"/>
+    <rect class="eq" x="766" y="524" width="40" height="22" rx="6"/>
+    <rect class="eq" x="766" y="549" width="40" height="22" rx="6"/>
+    <rect class="eq" x="766" y="574" width="40" height="22" rx="6"/>
+    <rect class="eq" x="846" y="524" width="40" height="22" rx="6"/>
+    <rect class="eq" x="846" y="549" width="40" height="22" rx="6"/>
+    <rect class="eq" x="846" y="574" width="40" height="22" rx="6"/>
+  </g>
+  <g data-part="cloison-b">
+    <rect class="none" pointer-events="all" x="634" y="410" width="64" height="194" rx="10"/>
+    <rect class="dk" x="660" y="412" width="12" height="80"/>
+    <rect class="dk" x="660" y="518" width="12" height="84"/>
+  </g>
+  <g data-part="monument-b">
+    <rect class="eq2" x="760" y="416" width="128" height="72" rx="8"/>
+  </g>
+  <line class="dash" x1="30" y1="328" x2="970" y2="328"/>
+  <g class="badges">
+    <g class="badge" data-badge="dossier-a" transform="translate(52 84)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="sieges" transform="translate(306 177)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="cloison-a" transform="translate(426 38)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="dossier-b" transform="translate(52 414)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="cloison-b" transform="translate(666 368)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="monument-b" transform="translate(824 452)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>

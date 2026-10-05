@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 710" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Une famille de pièces : même P/N, deux lots, six numéros de série</title>
+  <desc id="d">Document fictif pédagogique. Six équerres métalliques identiques. Un bandeau en haut indique leur référence commune, P/N EX-48213-07. Elles sont rangées dans deux cadres : le lot EX-L2406 contient les pièces de numéros de série EX-000411, EX-000412 et EX-000413 ; le lot EX-L2411 contient les pièces EX-000527, EX-000528 et EX-000529. Même forme et même référence pour toutes, un numéro de série différent pour chacune.</desc>
+  <rect class="bgp" width="1000" height="710"/>
+  <rect class="dash" x="14" y="12" width="972" height="686" rx="22"/>
+  <g data-part="pn">
+    <rect class="eq" x="30" y="26" width="940" height="80" rx="14"/>
+  </g>
+  <text class="tb tc" x="460" y="80" pointer-events="none">P/N EX-48213-07</text>
+  <g data-part="lot-a">
+    <rect class="in" x="30" y="122" width="940" height="276" rx="16"/>
+  </g>
+  <text class="tb" x="52" y="176" pointer-events="none">LOT EX-L2406</text>
+  <g data-part="p411">
+    <rect class="wh" x="38" y="194" width="284" height="192" rx="12"/>
+    <path class="mt" d="M70 202 h64 v72 h96 v52 h-160 Z"/>
+    <circle class="wh" cx="102" cy="234" r="11"/>
+    <circle class="wh" cx="196" cy="300" r="11"/>
+  </g>
+  <text class="ts tc" x="180" y="372" pointer-events="none">S/N EX-000411</text>
+  <g data-part="p412">
+    <rect class="wh" x="338" y="194" width="284" height="192" rx="12"/>
+    <path class="mt" d="M370 202 h64 v72 h96 v52 h-160 Z"/>
+    <circle class="wh" cx="402" cy="234" r="11"/>
+    <circle class="wh" cx="496" cy="300" r="11"/>
+  </g>
+  <text class="ts tc" x="480" y="372" pointer-events="none">S/N EX-000412</text>
+  <g data-part="p413">
+    <rect class="wh" x="638" y="194" width="284" height="192" rx="12"/>
+    <path class="mt" d="M670 202 h64 v72 h96 v52 h-160 Z"/>
+    <circle class="wh" cx="702" cy="234" r="11"/>
+    <circle class="wh" cx="796" cy="300" r="11"/>
+  </g>
+  <text class="ts tc" x="780" y="372" pointer-events="none">S/N EX-000413</text>
+  <g data-part="lot-b">
+    <rect class="in" x="30" y="412" width="940" height="276" rx="16"/>
+  </g>
+  <text class="tb" x="52" y="466" pointer-events="none">LOT EX-L2411</text>
+  <g data-part="p527">
+    <rect class="wh" x="38" y="484" width="284" height="192" rx="12"/>
+    <path class="mt" d="M70 492 h64 v72 h96 v52 h-160 Z"/>
+    <circle class="wh" cx="102" cy="524" r="11"/>
+    <circle class="wh" cx="196" cy="590" r="11"/>
+  </g>
+  <text class="ts tc" x="180" y="662" pointer-events="none">S/N EX-000527</text>
+  <g data-part="p528">
+    <rect class="wh" x="338" y="484" width="284" height="192" rx="12"/>
+    <path class="mt" d="M370 492 h64 v72 h96 v52 h-160 Z"/>
+    <circle class="wh" cx="402" cy="524" r="11"/>
+    <circle class="wh" cx="496" cy="590" r="11"/>
+  </g>
+  <text class="ts tc" x="480" y="662" pointer-events="none">S/N EX-000528</text>
+  <g data-part="p529">
+    <rect class="wh" x="638" y="484" width="284" height="192" rx="12"/>
+    <path class="mt" d="M670 492 h64 v72 h96 v52 h-160 Z"/>
+    <circle class="wh" cx="702" cy="524" r="11"/>
+    <circle class="wh" cx="796" cy="590" r="11"/>
+  </g>
+  <text class="ts tc" x="780" y="662" pointer-events="none">S/N EX-000529</text>
+  <g class="badges">
+    <g class="badge" data-badge="pn" transform="translate(924 66)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="lot-a" transform="translate(924 162)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="p411" transform="translate(280 232)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="p412" transform="translate(580 232)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="p413" transform="translate(880 232)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="lot-b" transform="translate(924 452)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="p527" transform="translate(280 522)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="p528" transform="translate(580 522)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="p529" transform="translate(880 522)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+  </g>
+</svg>

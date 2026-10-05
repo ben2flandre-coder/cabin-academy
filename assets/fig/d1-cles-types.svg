@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 740" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Cinq clés à main</title>
+  <desc id="d">Cinq clés dessinées à plat, l'une sous l'autre. Première : clé plate à fourche, avec une ouverture en U à chaque bout, de tailles différentes et légèrement inclinées. Deuxième : clé à œil, avec un anneau fermé à chaque bout dont l'intérieur est en étoile à douze pointes. Troisième : clé mixte, une fourche d'un côté et un œil de même taille de l'autre. Quatrième : clé à molette, avec un mors fixe, un mors mobile et une petite vis moletée dans la tête. Cinquième : clé mâle six pans en forme de L, de section hexagonale.</desc>
+  <rect class="bgp" width="1000" height="740"/>
+  <g data-part="cle-plate">
+    <path class="mt" d="M170 70 L840 72 L840 100 L170 102 Z"/>
+    <path class="thin" d="M250 77 L760 79 L760 93 L250 95 Z"/>
+    <path class="mt" transform="translate(138 86) rotate(165)" d="M44.4 -28 L44.4 -40.4 A60 60 0 1 0 44.4 40.4 L44.4 28 L-12 28 L-12 -28 Z"/>
+    <path class="mt" transform="translate(868 86) rotate(-15)" d="M37 -23 L37 -33.6 A50 50 0 1 0 37 33.6 L37 23 L-10 23 L-10 -23 Z"/>
+  </g>
+  <g data-part="cle-oeil">
+    <path class="mt" d="M140 203 L860 205 L860 231 L140 233 Z"/>
+    <path class="thin" d="M220 210 L780 212 L780 224 L220 226 Z"/>
+    <circle class="mt" cx="132" cy="218" r="50"/>
+    <path class="wh" d="M163 218 L158.8 225.2 L158.8 233.5 L151.7 237.7 L147.5 244.8 L139.2 244.8 L132 249 L124.8 244.8 L116.5 244.8 L112.3 237.7 L105.2 233.5 L105.2 225.2 L101 218 L105.2 210.8 L105.2 202.5 L112.3 198.3 L116.5 191.2 L124.8 191.2 L132 187 L139.2 191.2 L147.5 191.2 L151.7 198.3 L158.8 202.5 L158.8 210.8 Z"/>
+    <circle class="mt" cx="872" cy="218" r="42"/>
+    <path class="wh" d="M898 218 L894.5 224 L894.5 231 L888.5 234.5 L885 240.5 L878 240.5 L872 244 L866 240.5 L859 240.5 L855.5 234.5 L849.5 231 L849.5 224 L846 218 L849.5 212 L849.5 205 L855.5 201.5 L859 195.5 L866 195.5 L872 192 L878 195.5 L885 195.5 L888.5 201.5 L894.5 205 L894.5 212 Z"/>
+  </g>
+  <g data-part="cle-mixte">
+    <path class="mt" d="M166 331 L860 331 L860 361 L166 361 Z"/>
+    <path class="thin" d="M246 338 L780 338 L780 354 L246 354 Z"/>
+    <path class="mt" transform="translate(136 346) rotate(165)" d="M41.4 -26 L41.4 -37.7 A56 56 0 1 0 41.4 37.7 L41.4 26 L-11.2 26 L-11.2 -26 Z"/>
+    <circle class="mt" cx="868" cy="346" r="48"/>
+    <path class="wh" d="M898 346 L894 353 L894 361 L887 365 L883 372 L875 372 L868 376 L861 372 L853 372 L849 365 L842 361 L842 353 L838 346 L842 339 L842 331 L849 327 L853 320 L861 320 L868 316 L875 320 L883 320 L887 327 L894 331 L894 339 Z"/>
+  </g>
+  <g data-part="cle-molette">
+    <path class="mt" d="M800.3 458.2 L881.1 432 Q884 431 885.1 428.2 L886.9 423.4 Q889.1 417.8 885.2 413.2 L884.9 412.9 Q880.7 407.9 872.7 407.9 L856.7 407.7 Q842.7 407.6 829 410.5 L807.2 415.1 Q787.6 419.2 769.4 427.6 L763.8 430.1 Q740 441 715 454.2 L715 454.2 Q690 467.4 660 467.7 L150 473.4 L139 473.4 Q128 473.4 128 494.4 L128 494.4 Q128 515.4 139 515.4 L150 515.4 L650 521 Q680 521.4 706.4 535.5 L719.6 542.6 Q746.1 556.8 771.6 567.4 L776.8 569.6 Q797.2 578.1 815.6 570 L826.6 565.1 Q834 561.9 831.5 554.3 Z"/>
+    <circle class="wh" cx="160" cy="494.4" r="10"/>
+    <path class="mt2" d="M808.1 508.2 L896.6 479.5 Q899.4 478.6 901.9 480.2 L906.3 483 Q911.4 486.3 911.2 492.3 L911.2 493.7 Q910.9 501.1 904.1 505.3 L875.6 522.8 Q867.1 528 864 537.5 L860.5 548.1 Q858.7 553.9 853 555.7 L826.3 564.4 Z"/>
+    <path class="dk" d="M764 527.8 L802.1 515.5 L816.9 561.1 L778.8 573.5 Z"/>
+    <path class="mt" d="M768.7 529.5 L799.2 519.6 L812.2 559.5 L781.7 569.4 Z"/>
+    <path class="thin" d="M771.5 538 L800.1 522.4"/>
+    <path class="thin" d="M773.4 543.7 L802 528.1"/>
+    <path class="thin" d="M775.2 549.4 L803.8 533.8"/>
+    <path class="thin" d="M777.1 555.1 L805.7 539.5"/>
+    <path class="thin" d="M778.9 560.8 L807.5 545.2"/>
+    <path class="thin" d="M780.8 566.5 L809.4 551"/>
+  </g>
+  <g data-part="cle-male">
+    <path class="mt" d="M156 606 L182 606 L182 665 Q182 677 194 677 L884 677 L884 703 L186 703 Q156 703 156 673 Z"/>
+    <path class="thin" d="M196 690 L884 690"/>
+    <path class="thin" d="M169 606 L169 666"/>
+    <path class="dk" d="M948 690 L940 703.9 L924 703.9 L916 690 L924 676.1 L940 676.1 Z"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="cle-plate" transform="translate(400 42)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="cle-oeil" transform="translate(400 175)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="cle-mixte" transform="translate(400 303)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="cle-molette" transform="translate(400 444.4)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="cle-male" transform="translate(400 649)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+  </g>
+</svg>

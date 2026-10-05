@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Traversée de cloison : passe-fil, manchon, colliers</title>
+  <desc id="d">Schéma de principe en deux vues. À gauche, coupe : un faisceau horizontal traverse une cloison par un trou dont le bord est garni d'un passe-fil souple ; le faisceau porte un manchon de protection à cet endroit ; de chaque côté, un collier suspendu à un support le maintient centré dans le trou. À droite, vue de face du trou : la couronne du passe-fil, le faisceau au centre, et un jeu libre entre les deux.</desc>
+  <rect class="bgp" width="1000" height="620"/>
+  <text class="ts" x="30" y="50">Coupe</text>
+  <text class="ts" x="690" y="50">Vue de face</text>
+  <path class="thin" d="M668 24 L668 596"/>
+  <rect class="st" x="30" y="70" width="600" height="34" rx="4"/>
+  <g data-part="cloison">
+    <rect class="sk" x="318" y="104" width="30" height="158"/>
+    <rect class="sk" x="318" y="398" width="30" height="192"/>
+  </g>
+  <g data-part="support">
+    <rect class="mt" x="136" y="104" width="28" height="190" rx="3"/>,<circle class="wh" cx="150" cy="126" r="7"/>
+    <rect class="mt" x="486" y="104" width="28" height="190" rx="3"/>,<circle class="wh" cx="500" cy="126" r="7"/>
+  </g>
+  <g data-part="faisceau">
+    <path class="sy" d="M30 313.5 L640 313.5"/>
+    <path class="sy" d="M30 324.5 L640 324.5"/>
+    <path class="sy" d="M30 335.5 L640 335.5"/>
+    <path class="sy" d="M30 346.5 L640 346.5"/>
+  </g>
+  <g data-part="manchon">
+    <rect class="wh" x="232" y="299" width="202" height="62" rx="12"/>
+    <path class="thin" d="M262 301 L284 359"/>
+    <path class="thin" d="M302 301 L324 359"/>
+    <path class="thin" d="M342 301 L364 359"/>
+    <path class="thin" d="M382 301 L404 359"/>
+    <path class="thin" d="M248 301 L254 318"/>
+  </g>
+  <g data-part="collier">
+    <rect class="dk" x="126" y="292" width="48" height="76" rx="9"/>,<circle class="mt" cx="150" cy="290" r="7"/>
+    <rect class="dk" x="476" y="292" width="48" height="76" rx="9"/>,<circle class="mt" cx="500" cy="290" r="7"/>
+  </g>
+  <g data-part="passefil">
+    <path class="dk" d="M302 232 h62 v44 q0 12 -12 12 h-38 q-12 0 -12 -12 Z"/>
+    <path class="dk" d="M302 428 h62 v-44 q0 -12 -12 -12 h-38 q-12 0 -12 12 Z"/>
+  </g>
+  <g data-part="cloison">
+    <rect class="sk" x="694" y="90" width="280" height="480" rx="10"/>
+  </g>
+  <g data-part="passefil">
+    <circle class="dk" cx="834" cy="330" r="110"/>
+  </g>
+  <g data-part="jeu">
+    <circle class="wh" cx="834" cy="330" r="84"/>
+    <path class="dim" d="M889.1 330 L908.9 330"/>
+    <path class="dimf" d="M918 330 L906.1 335.3 L906.1 324.7 Z"/>
+    <path class="dimf" d="M880 330 L891.9 324.7 L891.9 335.3 Z"/>
+    <path class="dim" d="M778.9 330 L759.1 330"/>
+    <path class="dimf" d="M750 330 L761.9 324.7 L761.9 335.3 Z"/>
+    <path class="dimf" d="M788 330 L776.1 335.3 L776.1 324.7 Z"/>
+  </g>
+  <g data-part="faisceau">
+    <circle class="syf" cx="834" cy="330" r="14.7"/>
+    <circle class="syf" cx="862.3" cy="337.5" r="14.7"/>
+    <circle class="syf" cx="841.6" cy="358.3" r="14.7"/>
+    <circle class="syf" cx="813.3" cy="350.8" r="14.7"/>
+    <circle class="syf" cx="805.7" cy="322.5" r="14.7"/>
+    <circle class="syf" cx="826.4" cy="301.7" r="14.7"/>
+    <circle class="syf" cx="854.7" cy="309.2" r="14.7"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="cloison" transform="translate(333 520)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="passefil" transform="translate(392 232)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="faisceau" transform="translate(588 330)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="manchon" transform="translate(262 404)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="collier" transform="translate(96 386)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="support" transform="translate(208 190)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="jeu" transform="translate(834 262)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+  </g>
+</svg>

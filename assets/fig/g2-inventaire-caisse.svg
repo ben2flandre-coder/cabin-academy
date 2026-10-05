@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Caisse à empreintes : inventaire d'un tiroir</title>
+  <desc id="d">Schéma de principe d'un tiroir de caisse à outils garni d'une mousse sombre découpée en empreintes à fond orange, vu de dessus. Chaque outil a son logement : un cliquet, une rallonge, une rangée de cinq douilles, un porte-embouts de quatre embouts, deux tournevis, une pince coupante, un miroir d'inspection et une lampe. Trois écarts sont visibles : une empreinte de douille vide, un logement d'embout vide et une clé plate posée sur la mousse sans empreinte. Une étiquette porte l'identifiant fictif de la caisse et le nombre d'outils attendu.</desc>
+  <rect class="bgp" width="1000" height="660"/>
+  <rect class="mt2" x="20" y="20" width="960" height="620" rx="18"/>
+  <rect class="dk" x="42" y="42" width="916" height="576" rx="10"/>
+  <g data-part="cliquet">
+    <path class="syf" d="M84 80 H385 A46 46 0 1 1 385 130 H84 A25 25 0 0 1 84 80 Z"/>
+    <rect class="dk" x="88" y="90" width="214" height="30" rx="15"/><rect class="mt" x="298" y="96" width="94" height="18"/>
+    <circle class="mt" cx="423" cy="105" r="37"/><rect class="mt2" x="409" y="91" width="28" height="28"/>
+  </g>
+  <g data-part="rallonge">
+    <rect class="syf" x="500" y="78" width="270" height="54" rx="10"/>
+    <rect class="mt" x="510" y="92" width="250" height="26" rx="5"/><rect class="mt2" x="508" y="86" width="50" height="38" rx="5"/><rect class="mt2" x="738" y="94" width="24" height="22"/>
+  </g>
+  <g data-part="douilles">
+    <circle class="syf" cx="108" cy="238" r="48"/><circle class="mt" cx="108" cy="238" r="40"/><circle class="dk" cx="108" cy="238" r="21"/><circle class="syf" cx="214" cy="238" r="45"/><circle class="mt" cx="214" cy="238" r="37"/><circle class="dk" cx="214" cy="238" r="19"/><circle class="syf" cx="320" cy="238" r="42"/><circle class="mt" cx="320" cy="238" r="34"/><circle class="dk" cx="320" cy="238" r="18"/><circle class="syf" cx="426" cy="238" r="39"/><circle class="syf" cx="532" cy="238" r="36"/><circle class="mt" cx="532" cy="238" r="28"/><circle class="dk" cx="532" cy="238" r="15"/>
+  </g>
+  <g data-part="embouts">
+    <rect class="mt2" x="640" y="176" width="300" height="124" rx="10"/><rect class="syf" x="662" y="190" width="42" height="96" rx="8"/><path class="mt" d="M670 278 V228 L677 200 H689 L696 228 V278 Z"/><path class="thin" d="M670 244 H696"/><rect class="syf" x="734" y="190" width="42" height="96" rx="8"/><path class="mt" d="M742 278 V228 L749 200 H761 L768 228 V278 Z"/><path class="thin" d="M742 244 H768"/><rect class="syf" x="806" y="190" width="42" height="96" rx="8"/><rect class="syf" x="878" y="190" width="42" height="96" rx="8"/><path class="mt" d="M886 278 V228 L893 200 H905 L912 228 V278 Z"/><path class="thin" d="M886 244 H912"/>
+  </g>
+  <g data-part="tournevis-plat">
+    <path class="syf" d="M96 324 H232 Q250 324 250 340 H476 V364 H250 Q250 380 232 380 H96 A28 28 0 0 1 96 324 Z"/>
+    <rect class="eq2" x="78" y="332" width="164" height="40" rx="20"/><rect class="mt" x="242" y="346" width="196" height="12"/><path class="mt" d="M438 346 L466 340 V364 L438 358 Z"/>
+  </g>
+  <g data-part="tournevis-cruci">
+    <path class="syf" d="M96 404 H232 Q250 404 250 420 H476 V444 H250 Q250 460 232 460 H96 A28 28 0 0 1 96 404 Z"/>
+    <rect class="eq" x="78" y="412" width="164" height="40" rx="20"/><rect class="mt" x="242" y="426" width="196" height="12"/><path class="mt" d="M438 426 L468 432 L438 438 Z"/>
+  </g>
+  <g data-part="pince">
+    <rect class="syf" x="524" y="322" width="276" height="140" rx="26"/>
+    <path class="dk" d="M703.5 379.5 L551.5 337.5 A13 13 0 0 0 544.5 362.5 L696.5 404.5 A13 13 0 0 0 703.5 379.5 Z"/><path class="dk" d="M696.5 379.5 L544.5 421.5 A13 13 0 0 0 551.5 446.5 L703.5 404.5 A13 13 0 0 0 696.5 379.5 Z"/>
+    <path class="mt" d="M690 376 L784 384 V400 L690 408 Z"/><path class="thin" d="M712 392 H784"/><circle class="mt2" cx="700" cy="392" r="15"/>
+  </g>
+  <g data-part="miroir">
+    <path class="syf" d="M84 524 H296 A46 46 0 1 1 296 552 H84 A14 14 0 0 1 84 524 Z"/>
+    <rect class="dk" x="88" y="529" width="96" height="18" rx="9"/><rect class="mt" x="184" y="534" width="118" height="8"/>
+    <circle class="mt2" cx="340" cy="538" r="37"/><circle class="gl" cx="340" cy="538" r="29"/><path class="thin" d="M326 548 L350 524"/>
+  </g>
+  <g data-part="lampe">
+    <rect class="syf" x="424" y="506" width="236" height="64" rx="14"/>
+    <rect class="mt2" x="434" y="516" width="170" height="44" rx="10"/><rect class="mt" x="600" y="510" width="50" height="56" rx="6"/><rect class="gl" x="638" y="516" width="12" height="44"/><rect class="dk" x="490" y="530" width="40" height="16" rx="6"/>
+  </g>
+  <g data-part="intrus">
+    <g transform="rotate(-28 876 106)"><rect class="mt" x="816" y="96" width="120" height="20" rx="4"/>
+    <path class="mt" d="M822 80 A28 28 0 1 0 822 132 L808 118 V94 Z"/><path class="mt" d="M930 80 A28 28 0 1 1 930 132 L944 118 V94 Z"/></g><rect class="none" pointer-events="all" x="790" y="50" width="170" height="112" rx="10"/>
+  </g>
+  <g data-part="etiquette">
+    <rect class="wh" x="700" y="496" width="236" height="104" rx="8"/><text class="ts tc" x="818" y="538">EX-C12</text><text class="ts tc" x="818" y="584">16 outils</text>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="cliquet" transform="translate(250 150)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="rallonge" transform="translate(636 150)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="douilles" transform="translate(370 296)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="embouts" transform="translate(612 238)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="tournevis-plat" transform="translate(500 322)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="tournevis-cruci" transform="translate(500 468)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="pince" transform="translate(760 344)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="miroir" transform="translate(250 590)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="lampe" transform="translate(540 594)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="intrus" transform="translate(938 146)"><circle class="bd" r="26"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="etiquette" transform="translate(690 600)"><circle class="bd" r="26"/><text class="bn">11</text></g>
+  </g>
+</svg>

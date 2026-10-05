@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">La fin de tâche : cinq gestes avant de clore</title>
+  <desc id="d">Six vignettes numérotées. 1 : contrôler, une planche de vérification cochée et une loupe. 2 : nettoyer, un suceur d'aspirateur qui avale des poussières sur une surface. 3 : inventorier, un plateau d'outils et l'égalité 10 = 10 entre le compte d'avant et celui d'après. 4 : rechercher les corps étrangers, une lampe dont le faisceau éclaire un petit objet, et un miroir d'inspection. 5 : tracer, une fiche avec des lignes écrites, un stylo et un tampon. 6 : clore et passer la main, un panneau refermé avec ses quatre fixations et une coche verte.</desc>
+  <rect class="bgp" width="1000" height="650"/>
+  <g data-part="controler" transform="translate(20 20)">
+<rect class="wh" x="0" y="0" width="290" height="290" rx="18"/><rect class="in" x="50" y="60" width="140" height="190" rx="8"/><rect class="mt2" x="92" y="46" width="56" height="26" rx="6"/><rect class="okf" x="66" y="100" width="26" height="26" rx="4"/><path class="ln" d="M104 113 L172 113"/><rect class="okf" x="66" y="146" width="26" height="26" rx="4"/><path class="ln" d="M104 159 L172 159"/><rect class="okf" x="66" y="192" width="26" height="26" rx="4"/><path class="ln" d="M104 205 L172 205"/><path class="ln2" d="M214 206 L256 252"/><circle class="gl" cx="190" cy="180" r="46"/>
+  </g>
+  <g data-part="nettoyer" transform="translate(355 20)">
+<rect class="wh" x="0" y="0" width="290" height="290" rx="18"/><rect class="fl" x="20" y="236" width="250" height="26"/><path class="sy" d="M250 40 C250 130 190 150 150 176"/><path class="dk" d="M168 160 L132 196 L60 236 L150 236 L176 200 Z"/><rect class="mt2" x="44" y="222" width="10" height="10" rx="2"/><rect class="mt2" x="70" y="206" width="10" height="10" rx="2"/><rect class="mt2" x="34" y="196" width="10" height="10" rx="2"/><rect class="mt2" x="92" y="224" width="10" height="10" rx="2"/><rect class="mt2" x="58" y="180" width="10" height="10" rx="2"/>
+  </g>
+  <g data-part="inventorier" transform="translate(690 20)">
+<rect class="wh" x="0" y="0" width="290" height="290" rx="18"/><rect class="dk" x="30" y="76" width="230" height="124" rx="14"/><rect class="mt" x="46" y="96" width="70" height="22" rx="8"/><rect class="mt" x="116" y="103" width="86" height="8"/><circle class="mt" cx="220" cy="150" r="20"/><circle class="dk" cx="220" cy="150" r="8"/><rect class="mt" x="140" y="142" width="64" height="16" rx="6"/><circle class="mt" cx="66" cy="160" r="18"/><circle class="mt" cx="110" cy="160" r="18"/><text class="tb tc" x="145" y="256">10 = 10</text>
+  </g>
+  <g data-part="rechercher" transform="translate(20 340)">
+<rect class="wh" x="0" y="0" width="290" height="290" rx="18"/><path class="gl" d="M118 118 L250 170 L250 262 L96 150 Z"/><g transform="rotate(35 80 110)"><rect class="mt" x="30" y="92" width="76" height="36" rx="8"/><path class="mt2" d="M106 86 L128 78 L128 142 L106 134 Z"/></g><path class="ln2" d="M40 262 L150 214"/><ellipse class="gl" cx="176" cy="204" rx="34" ry="24"/><rect class="badf" x="206" y="214" width="22" height="14" rx="3"/>
+  </g>
+  <g data-part="tracer" transform="translate(355 340)">
+<rect class="wh" x="0" y="0" width="290" height="290" rx="18"/><rect class="in" x="50" y="46" width="160" height="204" rx="6"/><path class="ln" d="M68 84 L190 84"/><path class="ln" d="M68 116 L190 116"/><path class="ln" d="M68 148 L190 148"/><path class="ln" d="M68 180 L190 180"/><circle class="wh" cx="160" cy="214" r="26"/><path class="dim" d="M148 214 L157 224 L174 204"/><g transform="rotate(-40 228 140)"><rect class="dk" x="214" y="60" width="28" height="130" rx="6"/><path class="mt" d="M214 190 L228 222 L242 190 Z"/></g>
+  </g>
+  <g data-part="clore" transform="translate(690 340)">
+<rect class="wh" x="0" y="0" width="290" height="290" rx="18"/><rect class="in" x="40" y="62" width="210" height="160" rx="14"/><circle class="mt" cx="64" cy="86" r="12"/><path class="thin" d="M57 86 L71 86"/><circle class="mt" cx="226" cy="86" r="12"/><path class="thin" d="M219 86 L233 86"/><circle class="mt" cx="64" cy="198" r="12"/><path class="thin" d="M57 198 L71 198"/><circle class="mt" cx="226" cy="198" r="12"/><path class="thin" d="M219 198 L233 198"/><g transform="translate(145 142) scale(1.3)"><circle class="okf" r="30"/><path class="ln2" d="M-14 2 L-4 13 L15 -11"/></g><path class="dim" d="M60 256 L214 256"/><polygon class="dimf" points="230,256 214,264.8 214,247.2"/>
+  </g>
+<path class="dim" d="M316 165 L334 165"/><polygon class="dimf" points="350,165 334,173.8 334,156.2"/>
+<path class="dim" d="M651 165 L669 165"/><polygon class="dimf" points="685,165 669,173.8 669,156.2"/>
+<path class="dim" d="M316 485 L334 485"/><polygon class="dimf" points="350,485 334,493.8 334,476.2"/>
+<path class="dim" d="M651 485 L669 485"/><polygon class="dimf" points="685,485 669,493.8 669,476.2"/>
+
+  <g class="badges">
+    <g class="badge" data-badge="controler" transform="translate(54 54)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="nettoyer" transform="translate(389 54)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="inventorier" transform="translate(724 54)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="rechercher" transform="translate(54 374)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="tracer" transform="translate(389 374)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="clore" transform="translate(724 374)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>

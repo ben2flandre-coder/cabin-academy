@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" class="fig" role="img" aria-labelledby="t d">
+<title id="t">Mesurer un jeu avec une jauge d'épaisseur à lames</title>
+<desc id="d">En haut, une jauge d'épaisseur à lames vue de face : une monture arrondie d'où sortent, en éventail autour d'un axe, trois lames d'acier longues et minces ; la lame du bas porte son épaisseur gravée, ici 0,20. En bas, vue en coupe avec des épaisseurs très exagérées : deux éléments superposés sont séparés par un espace mince, le jeu, repéré par deux flèches. La lame choisie est glissée dans cet espace depuis la droite ; la monture reste à l'extérieur.</desc>
+<rect class="bgp" width="1000" height="600"/>
+<g data-part="lames">
+<rect class="mt" x="300" y="195" width="580" height="54" rx="27" transform="rotate(-16 330 222)"/>
+<rect class="wh" x="300" y="195" width="580" height="54" rx="27" transform="rotate(-8 330 222)"/>
+</g>
+<g data-part="lame-engagee">
+<rect class="mt" x="300" y="195" width="580" height="54" rx="27" transform="rotate(0 330 222)"/>
+<rect class="mt" x="400" y="446" width="470" height="18" rx="2"/>
+</g>
+<g data-part="marquage">
+<rect class="wh" x="640" y="199" width="150" height="46" rx="6"/>
+<text class="ts tc" x="715" y="235">0,20</text>
+</g>
+<g data-part="monture">
+<rect class="eq2" x="40" y="182" width="340" height="80" rx="40"/>
+<circle class="mt" cx="330" cy="222" r="15"/>
+<circle class="dk" cx="330" cy="222" r="5"/>
+<rect class="eq2" x="860" y="418" width="110" height="74" rx="10"/>
+</g>
+<g data-part="elements">
+<rect class="in" x="50" y="330" width="590" height="112" rx="4"/>
+<rect class="eq" x="50" y="468" width="590" height="104" rx="4"/>
+</g>
+<g data-part="jeu">
+<rect class="wh" x="52" y="442" width="346" height="26"/>
+<path class="dim" d="M120 386 L120 426"/>
+<path class="dimf" d="M120 440 L112.3 426 L127.7 426 Z"/>
+<path class="dim" d="M120 524 L120 484"/>
+<path class="dimf" d="M120 470 L127.7 484 L112.3 484 Z"/>
+</g>
+<g class="badges">
+<g class="badge" data-badge="monture" transform="translate(110 222)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+<g class="badge" data-badge="lames" transform="translate(620 100)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+<g class="badge" data-badge="lame-engagee" transform="translate(760 455)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+<g class="badge" data-badge="marquage" transform="translate(600 222)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+<g class="badge" data-badge="jeu" transform="translate(190 400)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+<g class="badge" data-badge="elements" transform="translate(560 386)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+</g>
+</svg>

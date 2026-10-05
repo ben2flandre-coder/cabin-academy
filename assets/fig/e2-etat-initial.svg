@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Relevé de l'état initial d'un panneau avant intervention</title>
+  <desc id="d">À gauche, un panneau de paroi avec son hublot, vu de face. Une lampe tenue presque à plat contre la surface l'éclaire en lumière rasante. Trois défauts déjà présents sont visibles : une tache en haut à gauche, une rayure oblique en bas à gauche et un choc, petit enfoncement rond, en bas à droite. À droite, la fiche de relevé, document fictif : un croquis du panneau où chaque défaut est repéré par une croix, la liste des trois défauts numérotés, puis la ligne date, heure et visa signée.</desc>
+  <rect class="bgp" width="1000" height="660"/>
+
+  <!-- panneau inspecté -->
+  <path class="in" d="M150 40 L490 40 Q520 40 520 70 L520 590 Q520 620 490 620 L150 620 Q120 620 120 590 L120 70 Q120 40 150 40 Z"/>
+  <rect class="gl" x="240" y="110" width="170" height="220" rx="62"/>
+  <path class="thin" d="M228 98 L422 98 Q434 98 434 110 L434 330 Q434 342 422 342 L228 342 Q216 342 216 330 L216 110 Q216 98 228 98 Z"/>
+
+  <g data-part="tache">
+    <rect class="none" pointer-events="all" x="130" y="130" width="84" height="100"/>
+    <path class="fl" d="M150 176 C140 150 168 138 182 152 C200 146 208 172 196 186 C204 208 176 220 164 206 C146 212 138 192 150 176 Z"/>
+  </g>
+  <g data-part="rayure">
+    <rect class="none" pointer-events="all" x="160" y="386" width="150" height="110"/>
+    <path class="ax" d="M176 402 L292 480"/>
+    <path class="thin" d="M186 398 L300 474"/>
+  </g>
+  <g data-part="choc">
+    <rect class="none" pointer-events="all" x="372" y="452" width="110" height="110"/>
+    <ellipse class="sk" cx="427" cy="507" rx="40" ry="36"/>
+    <ellipse class="st" cx="431" cy="511" rx="20" ry="17"/>
+  </g>
+  <g data-part="lampe">
+    <path class="dim" d="M112 560 L330 500 M112 572 L340 548 M112 584 L330 596"/>
+    <path class="dk" d="M24 548 L84 548 L112 536 L112 608 L84 596 L24 596 Z"/>
+    <rect class="mt" x="36" y="560" width="30" height="24" rx="4"/>
+  </g>
+
+  <!-- fiche de relevé -->
+  <rect class="wh" x="570" y="30" width="400" height="600" rx="12"/>
+  <text class="tb" x="594" y="84">Relevé</text>
+  <text class="ts te" x="948" y="84">fictif</text>
+  <path class="ln" d="M570 104 L970 104"/>
+  <g data-part="croquis">
+    <rect class="in" x="690" y="122" width="160" height="200" rx="14"/>
+    <rect class="gl" x="734" y="146" width="72" height="80" rx="26"/>
+    <path class="ax" d="M700 166 L720 186 M720 166 L700 186"/>
+    <path class="ax" d="M722 262 L742 282 M742 262 L722 282"/>
+    <path class="ax" d="M800 280 L820 300 M820 280 L800 300"/>
+  </g>
+  <g data-part="liste">
+    <rect class="none" pointer-events="all" x="584" y="336" width="372" height="168"/>
+    <text class="t" x="600" y="382">1 · tache</text>
+    <text class="t" x="600" y="436">2 · rayure</text>
+    <text class="t" x="600" y="490">3 · choc</text>
+  </g>
+  <path class="ln" d="M570 516 L970 516"/>
+  <g data-part="visa">
+    <rect class="none" pointer-events="all" x="584" y="522" width="372" height="100"/>
+    <text class="ts" x="600" y="562">Date · heure · visa</text>
+    <path class="dim" d="M610 606 C624 578 640 620 656 594 S690 580 706 602 S740 590 760 600"/>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="tache" transform="translate(172 256)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="rayure" transform="translate(326 440)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="choc" transform="translate(488 452)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="lampe" transform="translate(56 516)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="croquis" transform="translate(884 220)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="liste" transform="translate(900 422)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="visa" transform="translate(920 600)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+  </g>
+</svg>

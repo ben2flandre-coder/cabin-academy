@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 740" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Une issue de secours et son balisage</title>
+  <desc id="d">Schéma de principe d'une porte de cabine vue de l'intérieur. Au-dessus de la porte, un panneau lumineux marqué EXIT ; au plafond, un éclairage de secours. Sur la porte : un hublot, la poignée de commande d'ouverture, une étiquette d'utilisation avec une flèche, et en partie basse le carter qui renferme le toboggan d'évacuation. Au sol, le balisage lumineux longe le couloir et un repère bas signale l'issue ; devant la porte, une zone doit rester dégagée.</desc>
+  <rect class="bgp" width="1000" height="740"/>
+  <rect class="in" x="30" y="60" width="940" height="548"/>
+  <rect class="in" x="30" y="30" width="940" height="40" rx="6"/>
+  <g data-part="eclairage-secours">
+    <rect class="mt" x="108" y="46" width="130" height="34" rx="8"/>
+    <rect class="gl" x="120" y="62" width="106" height="22" rx="8"/>
+  </g>
+  <g data-part="panneau-issue">
+    <rect class="wh" x="400" y="84" width="200" height="70" rx="8"/>
+    <text class="tb tc" x="500" y="134">EXIT</text>
+  </g>
+  <g data-part="porte">
+    <rect class="wh" x="330" y="172" width="340" height="436" rx="44"/>
+    <rect class="gl" x="462" y="206" width="76" height="96" rx="30"/>
+  </g>
+  <rect class="mt" x="286" y="260" width="16" height="180" rx="8"/>
+  <rect class="mt" x="698" y="260" width="16" height="180" rx="8"/>
+  <g data-part="poignee">
+    <circle class="mt2" cx="440" cy="370" r="22"/>
+    <path class="mt2" d="M430 356 L560 340 Q574 340 574 354 Q574 366 562 368 L434 384 Z"/>
+    <circle class="dk" cx="440" cy="370" r="9"/>
+  </g>
+  <g data-part="placard">
+    <rect class="wh" x="548" y="392" width="104" height="62" rx="6"/>
+    <path class="badf" d="M562 416 L610 416 L610 404 L640 423 L610 442 L610 430 L562 430 Z"/>
+  </g>
+  <g data-part="toboggan">
+    <path class="eq2" d="M348 478 L652 478 Q664 478 664 492 L664 580 Q664 600 644 600 L356 600 Q336 600 336 580 L336 492 Q336 478 348 478 Z"/>
+    <line class="thin" x1="356" y1="500" x2="644" y2="500"/>
+    <rect class="wh" x="462" y="520" width="76" height="46" rx="6"/>
+    <path class="badf" d="M486 556 L500 528 L514 556 Z"/>
+  </g>
+  <path class="fl" d="M30 608 L970 608 L970 730 L30 730 Z"/>
+  <g data-part="zone-acces">
+    <path class="wh" d="M330 612 L670 612 L720 726 L280 726 Z"/>
+    <path class="dash" d="M330 612 L670 612 L720 726 L280 726 Z"/>
+    <line class="dash" x1="300" y1="690" x2="700" y2="690"/>
+    <line class="dash" x1="318" y1="650" x2="682" y2="650"/>
+  </g>
+  <g data-part="balisage-sol">
+    <rect class="syf" x="40" y="664" width="34" height="16" rx="4"/>
+    <rect class="syf" x="88" y="664" width="34" height="16" rx="4"/>
+    <rect class="syf" x="136" y="664" width="34" height="16" rx="4"/>
+    <rect class="syf" x="184" y="664" width="34" height="16" rx="4"/>
+    <rect class="syf" x="232" y="664" width="34" height="16" rx="4"/>
+    <rect class="syf" x="738" y="664" width="34" height="16" rx="4"/>
+    <rect class="syf" x="786" y="664" width="34" height="16" rx="4"/>
+    <rect class="syf" x="834" y="664" width="34" height="16" rx="4"/>
+    <rect class="syf" x="882" y="664" width="34" height="16" rx="4"/>
+    <rect class="syf" x="930" y="664" width="34" height="16" rx="4"/>
+    <rect class="okf" x="236" y="548" width="60" height="44" rx="6"/>
+    <path class="wh" d="M246 570 L270 570 L270 560 L288 570 L270 580 L270 570 Z"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="panneau-issue" transform="translate(640 119)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="eclairage-secours" transform="translate(280 62)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="porte" transform="translate(600 240)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="poignee" transform="translate(392 318)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="placard" transform="translate(690 470)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="toboggan" transform="translate(392 548)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="balisage-sol" transform="translate(150 620)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="zone-acces" transform="translate(500 690)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

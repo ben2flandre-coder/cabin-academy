@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Un équipement et ses interfaces</title>
+  <desc id="d">Schéma de principe d'un équipement de cabine monté sur un support lui-même fixé à la structure. Quatre familles d'interfaces sont montrées : mécanique (le support et ses quatre fixations), électrique (un connecteur et son faisceau, plus une tresse de métallisation qui relie le support à la structure), fluide (un tuyau et son raccord, pour l'air ou l'oxygène) et usage (l'étiquette avec sa flèche et la zone d'accès à garder libre, en pointillé).</desc>
+  <rect class="bgp" width="1000" height="720"/>
+  <rect class="st" x="40" y="60" width="70" height="600" rx="4"/>
+  <g data-part="mecanique">
+    <path class="mt" d="M110 250 L330 250 L330 280 L140 280 L140 470 L330 470 L330 500 L110 500 Z"/>
+    <rect class="mt" x="300" y="220" width="400" height="34" rx="4"/>
+    <rect class="mt" x="300" y="496" width="400" height="34" rx="4"/>
+    <circle class="mt2" cx="340" cy="237" r="15"/><line class="ln" x1="332" y1="237" x2="348" y2="237"/><line class="ln" x1="340" y1="229" x2="340" y2="245"/>
+    <circle class="mt2" cx="660" cy="237" r="15"/><line class="ln" x1="652" y1="237" x2="668" y2="237"/><line class="ln" x1="660" y1="229" x2="660" y2="245"/>
+    <circle class="mt2" cx="340" cy="513" r="15"/><line class="ln" x1="332" y1="513" x2="348" y2="513"/><line class="ln" x1="340" y1="505" x2="340" y2="521"/>
+    <circle class="mt2" cx="660" cy="513" r="15"/><line class="ln" x1="652" y1="513" x2="668" y2="513"/><line class="ln" x1="660" y1="505" x2="660" y2="521"/>
+  </g>
+  <g data-part="equipement">
+    <rect class="eq" x="320" y="254" width="360" height="242" rx="14"/>
+    <rect class="eq2" x="344" y="278" width="150" height="96" rx="8"/>
+    <circle class="wh" cx="610" cy="324" r="34"/>
+    <circle class="okf" cx="610" cy="324" r="14"/>
+  </g>
+  <g data-part="usage">
+    <rect class="wh" x="344" y="396" width="312" height="76" rx="8"/>
+    <path class="badf" d="M372 424 L430 424 L430 410 L462 434 L430 458 L430 444 L372 444 Z"/>
+    <line class="ln2" x1="490" y1="422" x2="632" y2="422"/>
+    <line class="ln2" x1="490" y1="446" x2="600" y2="446"/>
+    <path class="dash" d="M270 180 L740 180 L740 560 L270 560 Z"/>
+  </g>
+  <g data-part="fluide">
+    <path class="sy" d="M560 220 L560 110 Q560 70 600 70 L960 70"/>
+    <rect class="syf" x="536" y="196" width="48" height="58" rx="8"/>
+    <line class="ln" x1="536" y1="214" x2="584" y2="214"/>
+    <line class="ln" x1="536" y1="236" x2="584" y2="236"/>
+  </g>
+  <g data-part="electrique">
+    <path class="sy" d="M734 376 L820 376 Q860 376 860 420 L860 690"/>
+    <rect class="dk" x="680" y="344" width="60" height="64" rx="8"/>
+    <circle class="mt2" cx="710" cy="376" r="16"/>
+    <rect class="syf" x="738" y="362" width="22" height="28" rx="4"/>
+  </g>
+  <g data-part="metallisation">
+    <path class="mt2" d="M110 560 L128 548 L146 572 L164 548 L182 572 L200 548 L218 572 L236 548 L254 572 L272 548 L290 560 L290 580 L272 568 L254 592 L236 568 L218 592 L200 568 L182 592 L164 568 L146 592 L128 568 L110 580 Z"/>
+    <circle class="mt" cx="110" cy="570" r="18"/>
+    <circle class="mt" cx="300" cy="556" r="18"/>
+    <path class="mt" d="M292 530 L308 530 L308 556 L292 556 Z"/>
+  </g>
+  <path class="thin" d="M686 582 L650 470"/>
+  <g class="badges">
+    <g class="badge" data-badge="equipement" transform="translate(420 326)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="mecanique" transform="translate(200 300)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="electrique" transform="translate(900 480)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="metallisation" transform="translate(200 630)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="fluide" transform="translate(760 70)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="usage" transform="translate(700 600)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>

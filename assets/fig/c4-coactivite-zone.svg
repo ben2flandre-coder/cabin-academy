@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 730" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Une zone de cabine partagée par quatre métiers</title>
+  <desc id="d">Schéma de principe, vue de dessus d'une portion de cabine en cours d'aménagement, avant à gauche. Une allée de circulation faite de dalles de protection traverse la zone dans sa longueur. En haut à gauche, un chariot de logistique chargé de cartons est garé juste devant une porte. Le long de la paroi, une servante d'outillage fermée est rangée hors du passage. En haut à droite, une zone d'essai entourée d'un balisage à quatre potelets contient un banc d'essai, un symbole d'éclair et un opérateur. Un câble orange part de ce banc, sort du balisage et traverse l'allée jusqu'à un boîtier posé au sol. Une dalle de l'allée est déplacée de travers et laisse le plancher à nu. En bas, une personne ponce et un nuage de poussière se répand autour d'elle, jusqu'aux rails et vers un élément voisin couvert d'une housse. En bas à gauche, une seconde porte est dégagée.</desc>
+  <rect class="bgp" width="1000" height="730"/>
+  <rect class="sk" x="20" y="60" width="960" height="650" rx="34"/>
+  <rect class="fl" x="42" y="82" width="916" height="606" rx="18"/>
+  <path class="thin" d="M42 150 H958 M42 170 H958 M42 270 H958 M42 290 H958 M42 500 H958 M42 520 H958 M42 620 H958 M42 640 H958"/>
+  <rect class="wh" x="90" y="56" width="150" height="30" rx="6"/>
+  <g data-part="allee">
+    <rect class="in" x="46" y="350" width="101" height="84"/>
+    <rect class="in" x="147" y="350" width="101" height="84"/>
+    <rect class="in" x="248" y="350" width="101" height="84"/>
+    <rect class="in" x="349" y="350" width="101" height="84"/>
+    <rect class="in" x="450" y="350" width="101" height="84"/>
+    <rect class="in" x="652" y="350" width="101" height="84"/>
+    <rect class="in" x="753" y="350" width="101" height="84"/>
+    <rect class="in" x="854" y="350" width="101" height="84"/>
+  </g>
+  <g data-part="dalle">
+    <rect class="none" pointer-events="all" x="540" y="340" width="140" height="130" rx="10"/>
+    <g transform="translate(618 414) rotate(22)"><rect class="in" x="-50" y="-42" width="101" height="84"/><path class="thin" d="M-50 -42 L51 42"/></g>
+  </g>
+  <g data-part="porte-libre">
+    <rect class="wh" x="90" y="684" width="150" height="30" rx="6"/>
+    <rect class="none" pointer-events="all" x="80" y="560" width="170" height="150" rx="10"/>
+    <path class="dim" d="M165 676 L165 590"/><path class="dimf" d="M165 582 L175.5 609.3 L154.5 609.3 Z"/>
+  </g>
+  <g data-part="chariot">
+    <rect class="mt" x="96" y="98" width="138" height="132" rx="10"/>
+    <rect class="wh" x="108" y="110" width="54" height="50" rx="4"/>
+    <rect class="wh" x="168" y="110" width="54" height="50" rx="4"/>
+    <rect class="wh" x="108" y="166" width="114" height="52" rx="4"/>
+    <path class="ln2" d="M96 236 v14 h138 v-14"/>
+  </g>
+  <g data-part="servante">
+    <rect class="eq2" x="330" y="96" width="150" height="84" rx="8"/>
+    <path class="ln" d="M342 124 h126 M342 152 h126"/>
+    <circle class="dk" cx="405" cy="110" r="5"/><circle class="dk" cx="405" cy="138" r="5"/><circle class="dk" cx="405" cy="166" r="5"/>
+  </g>
+  <g data-part="balisage">
+    <rect class="none" pointer-events="all" x="600" y="94" width="350" height="238" rx="10"/>
+    <rect class="dash" x="610" y="104" width="330" height="218"/>
+    <rect class="eq2" x="760" y="116" width="160" height="78" rx="8"/>
+    <path class="syf" d="M852 214 l-34 50 h22 l-12 44 l44 -60 h-24 l14 -34 Z"/>
+    <ellipse class="eq2" cx="690" cy="236" rx="46" ry="24"/><circle class="wh" cx="690" cy="236" r="20"/>
+    <circle class="dk" cx="610" cy="104" r="13"/>
+    <circle class="dk" cx="940" cy="104" r="13"/>
+    <circle class="dk" cx="610" cy="322" r="13"/>
+    <circle class="dk" cx="940" cy="322" r="13"/>
+  </g>
+  <g data-part="cable">
+    <rect class="none" pointer-events="all" x="280" y="336" width="250" height="150" rx="10"/>
+    <path class="sy" d="M770 150 C690 120 600 330 520 340 S400 420 330 470"/>
+    <rect class="dk" x="286" y="458" width="54" height="40" rx="6"/>
+  </g>
+  <g data-part="poncage">
+    <rect class="none" pointer-events="all" x="520" y="480" width="250" height="190" rx="10"/>
+    <circle class="mt2" cx="596" cy="532" r="8"/>
+    <circle class="mt2" cx="608" cy="621" r="8"/>
+    <circle class="mt2" cx="681" cy="502" r="5"/>
+    <circle class="mt2" cx="545" cy="518" r="6"/>
+    <circle class="mt2" cx="656" cy="547" r="8"/>
+    <circle class="mt2" cx="618" cy="557" r="9"/>
+    <circle class="mt2" cx="513" cy="608" r="8"/>
+    <circle class="mt2" cx="583" cy="554" r="7"/>
+    <circle class="mt2" cx="572" cy="529" r="7"/>
+    <circle class="mt2" cx="625" cy="610" r="8"/>
+    <circle class="mt2" cx="591" cy="584" r="5"/>
+    <circle class="mt2" cx="710" cy="650" r="8"/>
+    <circle class="mt2" cx="637" cy="602" r="5"/>
+    <circle class="mt2" cx="621" cy="514" r="6"/>
+    <circle class="mt2" cx="633" cy="599" r="7"/>
+    <circle class="mt2" cx="625" cy="599" r="6"/>
+    <circle class="mt2" cx="586" cy="545" r="9"/>
+    <circle class="mt2" cx="593" cy="490" r="9"/>
+    <circle class="mt2" cx="605" cy="572" r="6"/>
+    <circle class="mt2" cx="677" cy="592" r="5"/>
+    <circle class="mt2" cx="606" cy="594" r="9"/>
+    <circle class="mt2" cx="573" cy="615" r="8"/>
+    <circle class="mt2" cx="624" cy="593" r="5"/>
+    <circle class="mt2" cx="592" cy="573" r="8"/>
+    <circle class="mt2" cx="771" cy="597" r="6"/>
+    <circle class="mt2" cx="600" cy="639" r="9"/>
+    <ellipse class="dk" cx="596" cy="612" rx="46" ry="24"/><circle class="wh" cx="596" cy="612" r="20"/>
+    <rect class="mt" x="622" y="556" width="62" height="36" rx="8"/>
+    <path class="ln2" d="M626 600 L640 590"/>
+  </g>
+  <g data-part="housse">
+    <rect class="in" x="800" y="500" width="140" height="160" rx="14"/>
+    <rect class="dash" x="810" y="510" width="120" height="140" rx="8"/>
+    <path class="thin" d="M810 560 L860 510 M810 610 L910 510 M830 650 L930 550 M880 650 L930 600"/>
+  </g>
+  <text class="ts" x="30" y="44" pointer-events="none">Vue de dessus (avant à gauche)</text>
+  <g class="badges">
+    <g class="badge" data-badge="allee" transform="translate(902 392)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="dalle" transform="translate(662 452)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="porte-libre" transform="translate(214 630)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="chariot" transform="translate(250 128)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="servante" transform="translate(500 112)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="balisage" transform="translate(906 290)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="cable" transform="translate(452 392)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="poncage" transform="translate(548 548)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="housse" transform="translate(870 580)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+  </g>
+</svg>

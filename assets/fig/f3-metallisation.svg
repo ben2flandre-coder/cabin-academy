@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Métallisation : tresse, contact métal sur métal, protection</title>
+  <desc id="d">Schéma de principe en deux parties. En haut, vue d'ensemble : une pièce de structure et un équipement métallique sont séparés par un élément isolant ; une tresse souple munie d'une cosse à chaque bout les relie ; chaque cosse est vissée sur une zone de métal nu ; un appareil de mesure touche les deux pièces avec ses deux pointes pour vérifier la continuité. En bas, coupe d'un contact : la pièce métallique est peinte sauf sous la cosse, où le métal est nu ; la cosse est serrée par une vis, une rondelle et un écrou ; une couche de protection recouvre l'ensemble après la pose.</desc>
+  <rect class="bgp" width="1000" height="700"/>
+  <text class="ts" x="30" y="50">Vue d'ensemble</text>
+  <text class="ts" x="30" y="440">Coupe d'un contact</text>
+  <path class="thin" d="M24 392 L976 392"/>
+  <g data-part="piece-a">
+    <rect class="st" x="40" y="110" width="300" height="230" rx="8"/>
+  </g>
+  <g data-part="isolant">
+    <rect class="dk" x="340" y="130" width="56" height="190" rx="8"/>
+  </g>
+  <g data-part="piece-b">
+    <rect class="eq" x="396" y="110" width="300" height="230" rx="8"/>
+  </g>
+  <g data-part="zone-nue">
+    <circle class="wh" cx="250" cy="200" r="46"/>
+    <circle class="wh" cx="486" cy="200" r="46"/>
+  </g>
+  <g data-part="tresse">
+    <path class="mt" d="M250 186 Q368 296 486 186 L486 214 Q368 324 250 214 Z"/>
+    <path class="thin" d="M242 188 L258 212"/>
+    <path class="thin" d="M271.5 212.1 L287.5 236.1"/>
+    <path class="thin" d="M301 229.3 L317 253.3"/>
+    <path class="thin" d="M330.5 239.6 L346.5 263.6"/>
+    <path class="thin" d="M360 243 L376 267"/>
+    <path class="thin" d="M389.5 239.6 L405.5 263.6"/>
+    <path class="thin" d="M419 229.3 L435 253.3"/>
+    <path class="thin" d="M448.5 212.1 L464.5 236.1"/>
+    <path class="thin" d="M478 188 L494 212"/>
+  </g>
+  <g data-part="cosse">
+    <circle class="mt2" cx="250" cy="200" r="30"/>
+    <circle class="mt2" cx="486" cy="200" r="30"/>
+    <path class="wh" d="M265 200 L257.5 213 L242.5 213 L235 200 L242.5 187 L257.5 187 Z"/>
+    <path class="wh" d="M501 200 L493.5 213 L478.5 213 L471 200 L478.5 187 L493.5 187 Z"/>
+  </g>
+  <g data-part="mesure">
+    <path class="ln" d="M770 250 C720 260 680 300 640 300"/>
+    <path class="ln" d="M800 330 C600 380 220 372 120 300"/>
+    <circle class="dk" cx="640" cy="300" r="9"/>
+    <circle class="dk" cx="120" cy="300" r="9"/>
+    <rect class="in" x="760" y="110" width="200" height="230" rx="14"/>
+    <rect class="gl" x="782" y="132" width="156" height="70" rx="6"/>
+    <circle class="dk" cx="860" cy="268" r="34"/>
+    <path class="ln2" d="M860 268 L880 246"/>
+  </g>
+  <g data-part="piece-a">
+    <rect class="st" x="60" y="610" width="620" height="60"/>
+  </g>
+  <g data-part="peinture">
+    <rect class="in" x="60" y="596" width="190" height="14"/>
+    <rect class="in" x="490" y="596" width="190" height="14"/>
+  </g>
+  <g data-part="protection">
+    <path class="okf" d="M236 610 C236 550 300 486 370 486 C440 486 504 550 504 610 Z"/>
+  </g>
+  <g data-part="zone-nue">
+    <rect class="wh" x="250" y="604" width="240" height="6"/>
+  </g>
+  <g data-part="cosse">
+    <rect class="mt2" x="270" y="584" width="200" height="20" rx="4"/>
+  </g>
+  <g data-part="tresse">
+    <path class="mt" d="M270 584 C210 570 150 500 60 490 L60 514 C140 520 200 592 270 604 Z"/>
+  </g>
+  <g data-part="fixation">
+    <rect class="mt" x="330" y="570" width="80" height="14" rx="3"/>
+    <rect class="mt" x="342" y="534" width="56" height="36" rx="5"/>
+    <rect class="mt" x="360" y="610" width="20" height="60"/>
+    <rect class="mt" x="338" y="670" width="64" height="26" rx="4"/>
+    <rect class="mt" x="330" y="670" width="80" height="0.1"/>
+  </g>
+  <path class="thin" d="M760 480 L506 540"/>
+  <path class="thin" d="M760 570 L250 603"/>
+  <path class="thin" d="M760 660 L640 603"/>
+  <g class="badges">
+    <g class="badge" data-badge="piece-a" transform="translate(100 150)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="isolant" transform="translate(368 300)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="piece-b" transform="translate(640 150)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="tresse" transform="translate(368 250)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="cosse" transform="translate(200 150)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="zone-nue" transform="translate(544 160)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="mesure" transform="translate(920 300)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="fixation" transform="translate(370 458)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="protection" transform="translate(786 480)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="peinture" transform="translate(786 660)"><circle class="bd" r="26"/><text class="bn">10</text></g>
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+<title id="t">Lire un réglet au millimètre, et éviter la parallaxe</title>
+<desc id="d">Trois rangées. Rangée du haut : une pièce A est posée contre un réglet gradué en millimètres et chiffré en centimètres ; elle est en butée contre une cale à gauche, au zéro du réglet, et son autre bout tombe quatre traits après le chiffre 3. Rangée du milieu : une pièce B est posée contre le même réglet, mais elle commence au chiffre 2 et finit sept traits après le chiffre 6. Rangée du bas : vue de profil, avec l'épaisseur du réglet exagérée ; le réglet dépasse du bord d'une pièce. Un œil vert placé juste au-dessus du bord vise droit et lit le bon trait ; un œil rouge placé de côté vise en biais et lit un trait décalé : c'est l'erreur de parallaxe.</desc>
+<rect class="bgp" width="1000" height="720"/>
+<g data-part="origine">
+<rect class="st" x="14" y="30" width="36" height="190" rx="3"/>
+</g>
+<g data-part="regle">
+<rect class="mt" x="50" y="124" width="925" height="92" rx="3"/>
+<path class="thin" d="M60 124 v20 M70 124 v20 M80 124 v20 M90 124 v20 M110 124 v20 M120 124 v20 M130 124 v20 M140 124 v20 M160 124 v20 M170 124 v20 M180 124 v20 M190 124 v20 M210 124 v20 M220 124 v20 M230 124 v20 M240 124 v20 M260 124 v20 M270 124 v20 M280 124 v20 M290 124 v20 M310 124 v20 M320 124 v20 M330 124 v20 M340 124 v20 M360 124 v20 M370 124 v20 M380 124 v20 M390 124 v20 M410 124 v20 M420 124 v20 M430 124 v20 M440 124 v20 M460 124 v20 M470 124 v20 M480 124 v20 M490 124 v20 M510 124 v20 M520 124 v20 M530 124 v20 M540 124 v20 M560 124 v20 M570 124 v20 M580 124 v20 M590 124 v20 M610 124 v20 M620 124 v20 M630 124 v20 M640 124 v20 M660 124 v20 M670 124 v20 M680 124 v20 M690 124 v20 M710 124 v20 M720 124 v20 M730 124 v20 M740 124 v20 M760 124 v20 M770 124 v20 M780 124 v20 M790 124 v20 M810 124 v20 M820 124 v20 M830 124 v20 M840 124 v20 M860 124 v20 M870 124 v20 M880 124 v20 M890 124 v20 M910 124 v20 M920 124 v20 M930 124 v20 M940 124 v20"/>
+<path class="ln" d="M100 124 v30 M200 124 v30 M300 124 v30 M400 124 v30 M500 124 v30 M600 124 v30 M700 124 v30 M800 124 v30 M900 124 v30"/>
+<path class="ln" d="M50 124 v40 M150 124 v40 M250 124 v40 M350 124 v40 M450 124 v40 M550 124 v40 M650 124 v40 M750 124 v40 M850 124 v40 M950 124 v40"/>
+<text class="ts tc" x="150" y="202">1</text>
+<text class="ts tc" x="250" y="202">2</text>
+<text class="ts tc" x="350" y="202">3</text>
+<text class="ts tc" x="450" y="202">4</text>
+<text class="ts tc" x="550" y="202">5</text>
+<text class="ts tc" x="650" y="202">6</text>
+<text class="ts tc" x="750" y="202">7</text>
+<text class="ts tc" x="850" y="202">8</text>
+<text class="ts tc" x="950" y="202">9</text>
+<rect class="mt" x="50" y="338" width="925" height="92" rx="3"/>
+<path class="thin" d="M60 338 v20 M70 338 v20 M80 338 v20 M90 338 v20 M110 338 v20 M120 338 v20 M130 338 v20 M140 338 v20 M160 338 v20 M170 338 v20 M180 338 v20 M190 338 v20 M210 338 v20 M220 338 v20 M230 338 v20 M240 338 v20 M260 338 v20 M270 338 v20 M280 338 v20 M290 338 v20 M310 338 v20 M320 338 v20 M330 338 v20 M340 338 v20 M360 338 v20 M370 338 v20 M380 338 v20 M390 338 v20 M410 338 v20 M420 338 v20 M430 338 v20 M440 338 v20 M460 338 v20 M470 338 v20 M480 338 v20 M490 338 v20 M510 338 v20 M520 338 v20 M530 338 v20 M540 338 v20 M560 338 v20 M570 338 v20 M580 338 v20 M590 338 v20 M610 338 v20 M620 338 v20 M630 338 v20 M640 338 v20 M660 338 v20 M670 338 v20 M680 338 v20 M690 338 v20 M710 338 v20 M720 338 v20 M730 338 v20 M740 338 v20 M760 338 v20 M770 338 v20 M780 338 v20 M790 338 v20 M810 338 v20 M820 338 v20 M830 338 v20 M840 338 v20 M860 338 v20 M870 338 v20 M880 338 v20 M890 338 v20 M910 338 v20 M920 338 v20 M930 338 v20 M940 338 v20"/>
+<path class="ln" d="M100 338 v30 M200 338 v30 M300 338 v30 M400 338 v30 M500 338 v30 M600 338 v30 M700 338 v30 M800 338 v30 M900 338 v30"/>
+<path class="ln" d="M50 338 v40 M150 338 v40 M250 338 v40 M350 338 v40 M450 338 v40 M550 338 v40 M650 338 v40 M750 338 v40 M850 338 v40 M950 338 v40"/>
+<text class="ts tc" x="150" y="416">1</text>
+<text class="ts tc" x="250" y="416">2</text>
+<text class="ts tc" x="350" y="416">3</text>
+<text class="ts tc" x="450" y="416">4</text>
+<text class="ts tc" x="550" y="416">5</text>
+<text class="ts tc" x="650" y="416">6</text>
+<text class="ts tc" x="750" y="416">7</text>
+<text class="ts tc" x="850" y="416">8</text>
+<text class="ts tc" x="950" y="416">9</text>
+<rect class="mt" x="250" y="590" width="620" height="50" rx="3"/>
+<path class="ln" d="M260 590 v-22 M280 590 v-12 M300 590 v-12 M320 590 v-12 M340 590 v-12 M360 590 v-22 M380 590 v-12 M400 590 v-12 M420 590 v-12 M440 590 v-12 M460 590 v-22 M480 590 v-12 M500 590 v-12 M520 590 v-12 M540 590 v-12 M560 590 v-22 M580 590 v-12 M600 590 v-12 M620 590 v-12 M640 590 v-12 M660 590 v-22 M680 590 v-12 M700 590 v-12 M720 590 v-12 M740 590 v-12 M760 590 v-22 M780 590 v-12 M800 590 v-12 M820 590 v-12 M840 590 v-12 M860 590 v-22"/>
+</g>
+<g data-part="piece-a">
+<rect class="eq" x="50" y="48" width="340" height="76" rx="6"/>
+<text class="tb tc" x="180" y="100">A</text>
+</g>
+<g data-part="piece-b">
+<rect class="eq2" x="250" y="262" width="470" height="76" rx="6"/>
+<text class="tb tc" x="485" y="314">B</text>
+</g>
+<rect class="eq" x="120" y="640" width="440" height="62" rx="3"/>
+<g data-part="oeil-face">
+<path class="dash" d="M560 508 V640"/>
+<path class="okf" d="M520 478 Q560 444 600 478 Q560 512 520 478 Z"/>
+<circle class="wh" cx="560" cy="478" r="15"/>
+<circle class="dk" cx="560" cy="478" r="7"/>
+</g>
+<g data-part="oeil-biais">
+<path class="dash" d="M356 516 L560 640"/>
+<path class="badf" d="M290 500 Q330 466 370 500 Q330 534 290 500 Z"/>
+<circle class="wh" cx="330" cy="500" r="15"/>
+<circle class="dk" cx="330" cy="500" r="7"/>
+</g>
+<path class="dim" d="M560 530 L560 552"/>
+<path class="dimf" d="M560 564 L553.4 552 L566.6 552 Z"/>
+<path class="ax" d="M477.9 550 V586"/>
+<g class="badges">
+<g class="badge" data-badge="regle" transform="translate(900 194)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+<g class="badge" data-badge="origine" transform="translate(32 250)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+<g class="badge" data-badge="piece-a" transform="translate(330 86)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+<g class="badge" data-badge="piece-b" transform="translate(640 300)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+<g class="badge" data-badge="oeil-face" transform="translate(640 478)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+<g class="badge" data-badge="oeil-biais" transform="translate(250 500)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+</g>
+</svg>

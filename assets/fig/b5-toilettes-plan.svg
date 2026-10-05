@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 730" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Cellule de toilettes, vue de dessus</title>
+  <desc id="d">Schéma de principe d'une cellule de toilettes vue de dessus. La coque forme une petite pièce fermée, arrondie du côté de la paroi de l'avion. La porte pliante et son verrou donnent sur le couloir. À l'intérieur : la cuvette, un meuble lavabo avec sa vasque, un miroir le long de la cloison, une poubelle à volet intégrée au meuble, et un détecteur de fumée au plafond. Deux raccordements sortent de la cellule : l'arrivée d'eau et le tuyau d'évacuation.</desc>
+  <rect class="bgp" width="1000" height="730"/>
+  <text class="ts" x="30" y="50">Côté paroi de l’avion</text>
+  <text class="ts tc" x="500" y="704">Côté couloir</text>
+  <g data-part="cellule">
+    <path class="eq" d="M180 150 Q500 40 820 150 L820 640 L640 640 L640 620 L800 620 L800 164 Q500 62 200 164 L200 620 L420 620 L420 640 L180 640 Z"/>
+    <path class="in" d="M200 164 Q500 62 800 164 L800 620 L200 620 Z"/>
+  </g>
+  <g data-part="evacuation">
+    <path class="sy" d="M660 180 L660 56 L960 56"/>
+    <rect class="syf" x="637" y="88" width="46" height="32" rx="6"/>
+    <path class="syf" d="M880 42 L880 70 L908 56 Z"/>
+  </g>
+  <g data-part="eau">
+    <path class="sy" d="M960 440 L760 440"/>
+    <rect class="syf" x="786" y="424" width="46" height="32" rx="6"/>
+    <path class="syf" d="M900 426 L900 454 L872 440 Z"/>
+  </g>
+  <g data-part="cuvette">
+    <rect class="in" x="580" y="150" width="160" height="76" rx="10"/>
+    <circle class="dk" cx="706" cy="186" r="12"/>
+    <ellipse class="wh" cx="660" cy="300" rx="66" ry="84"/>
+    <ellipse class="mt" cx="660" cy="306" rx="42" ry="58"/>
+  </g>
+  <g data-part="lavabo">
+    <path class="in" d="M222 196 L372 160 L372 480 L222 480 Z"/>
+    <circle class="wh" cx="300" cy="276" r="54"/>
+    <circle class="dk" cx="300" cy="276" r="8"/>
+    <rect class="mt2" x="232" y="266" width="40" height="20" rx="6"/>
+  </g>
+  <g data-part="miroir">
+    <rect class="gl" x="202" y="200" width="22" height="276" rx="4"/>
+  </g>
+  <g data-part="poubelle">
+    <rect class="dk" x="250" y="368" width="100" height="84" rx="10"/>
+    <line class="ln" x1="262" y1="386" x2="338" y2="386"/>
+    <rect class="wh" x="276" y="400" width="48" height="30" rx="5"/>
+  </g>
+  <g data-part="detecteur">
+    <circle class="dash" cx="480" cy="420" r="50"/>
+    <circle class="mt" cx="480" cy="420" r="30"/>
+    <line class="thin" x1="462" y1="410" x2="498" y2="410"/>
+    <line class="thin" x1="462" y1="420" x2="498" y2="420"/>
+    <line class="thin" x1="462" y1="430" x2="498" y2="430"/>
+  </g>
+  <g data-part="porte">
+    <path class="wh" d="M640 622 L632 630 L574 530 L586 524 Z"/>
+    <path class="wh" d="M586 524 L598 530 L540 630 L528 622 Z"/>
+    <circle class="mt2" cx="640" cy="628" r="9"/>
+    <circle class="mt2" cx="586" cy="527" r="7"/>
+  </g>
+  <g data-part="verrou">
+    <rect class="mt2" x="388" y="592" width="70" height="52" rx="8"/>
+    <rect class="badf" x="400" y="604" width="46" height="14" rx="3"/>
+    <circle class="dk" cx="423" cy="630" r="7"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="cellule" transform="translate(800 560)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="porte" transform="translate(620 560)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="verrou" transform="translate(360 580)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="cuvette" transform="translate(660 306)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="lavabo" transform="translate(340 216)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="miroir" transform="translate(213 510)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="poubelle" transform="translate(300 484)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="detecteur" transform="translate(548 404)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="eau" transform="translate(916 486)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="evacuation" transform="translate(780 56)"><circle class="bd" r="26"/><text class="bn">10</text></g>
+  </g>
+</svg>

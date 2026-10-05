@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 710" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Un poste de travail en cabine, avec des pièges</title>
+  <desc id="d">Schéma de principe d'une zone de travail en cabine, vue face à la paroi, le plancher au premier plan. Contre la paroi, de gauche à droite : une servante d'outillage fermée, un siège recouvert d'une housse, un siège nu sur lequel est posée une visseuse avec des vis, un extincteur mural en partie caché par deux cartons empilés, un bac à déchets fermé. Au sol : une protection de plancher bien à plat et scotchée, une seconde protection dont un coin est retourné, une flaque de liquide, un bidon ouvert sans étiquette, et un enrouleur dont le câble traverse le passage jusqu'à une lampe accrochée à la paroi.</desc>
+  <rect class="bgp" width="1000" height="710"/>
+  <g>
+    <rect class="in" x="20" y="20" width="960" height="392" rx="14"/>
+    <rect class="gl" x="215" y="52" width="78" height="104" rx="34"/>
+    <rect class="gl" x="425" y="52" width="78" height="104" rx="34"/>
+    <rect class="gl" x="845" y="52" width="78" height="104" rx="34"/>
+  </g>
+  <g>
+    <rect class="fl" x="20" y="412" width="960" height="278"/>
+  </g>
+  <g data-part="protection-plancher">
+    <path class="in" d="M72 442 L468 442 L480 548 L60 548 Z"/>
+    <line class="thin" x1="200" y1="442" x2="196" y2="548"/>
+    <line class="thin" x1="336" y1="442" x2="340" y2="548"/>
+    <rect class="mt" x="50" y="434" width="44" height="16" rx="3"/>
+    <rect class="mt" x="446" y="434" width="44" height="16" rx="3"/>
+    <rect class="mt" x="458" y="540" width="44" height="16" rx="3"/>
+    <rect class="mt" x="38" y="540" width="44" height="16" rx="3"/>
+    <rect class="mt" x="248" y="434" width="44" height="16" rx="3"/>
+    <rect class="mt" x="248" y="540" width="44" height="16" rx="3"/>
+  </g>
+  <g data-part="protection-cornee">
+    <path class="in" d="M522 442 L928 442 L940 548 L596 548 L528 492 Z"/>
+    <line class="thin" x1="760" y1="442" x2="766" y2="548"/>
+    <rect class="mt" x="906" y="434" width="44" height="16" rx="3"/>
+    <rect class="mt" x="918" y="540" width="44" height="16" rx="3"/>
+    <rect class="mt" x="703" y="434" width="44" height="16" rx="3"/>
+    <path class="st" d="M596 548 L528 492 L622 474 Z"/>
+    <path class="ln" d="M540 560 q22 14 50 6"/>
+  </g>
+  <g data-part="servante">
+    <rect class="mt2" x="38" y="204" width="156" height="20" rx="5"/>
+    <rect class="mt" x="46" y="224" width="140" height="166" rx="6"/>
+    <line class="ln" x1="46" y1="262" x2="186" y2="262"/>
+    <line class="ln" x1="46" y1="304" x2="186" y2="304"/>
+    <line class="ln" x1="46" y1="346" x2="186" y2="346"/>
+    <rect class="dk" x="92" y="238" width="48" height="9" rx="4"/>
+    <rect class="dk" x="92" y="278" width="48" height="9" rx="4"/>
+    <rect class="dk" x="92" y="320" width="48" height="9" rx="4"/>
+    <rect class="dk" x="92" y="362" width="48" height="9" rx="4"/>
+    <circle class="dk" cx="72" cy="400" r="13"/>
+    <circle class="dk" cx="160" cy="400" r="13"/>
+  </g>
+  <g data-part="siege-protege">
+    <line class="ln2" x1="260" y1="336" x2="246" y2="408"/>
+    <line class="ln2" x1="350" y1="336" x2="366" y2="408"/>
+    <line class="ln2" x1="236" y1="408" x2="378" y2="408"/>
+    <path class="wh" d="M336 176 C336 160 372 158 374 176 L390 322 C392 336 352 338 350 322 Z"/>
+    <rect class="wh" x="232" y="302" width="132" height="38" rx="14"/>
+    <rect class="wh" x="266" y="262" width="100" height="16" rx="8"/>
+    <path class="dash" d="M344 186 L358 318"/>
+    <path class="dash" d="M244 320 L336 320"/>
+    <path class="ln" d="M382 250 q16 6 10 22 q-4 10 -12 4"/>
+  </g>
+  <g data-part="outil-siege">
+    <line class="ln2" x1="458" y1="336" x2="444" y2="408"/>
+    <line class="ln2" x1="548" y1="336" x2="564" y2="408"/>
+    <line class="ln2" x1="434" y1="408" x2="576" y2="408"/>
+    <path class="eq" d="M534 176 C534 160 570 158 572 176 L588 322 C590 336 550 338 548 322 Z"/>
+    <rect class="eq" x="430" y="302" width="132" height="38" rx="14"/>
+    <rect class="mt2" x="464" y="262" width="100" height="16" rx="8"/>
+    <rect class="dk" x="440" y="268" width="74" height="30" rx="8"/>
+    <rect class="mt2" x="514" y="276" width="20" height="14" rx="2"/>
+    <rect class="mt" x="534" y="280" width="14" height="6" rx="1"/>
+    <rect class="dk" x="462" y="296" width="26" height="12" rx="3"/>
+    <circle class="mt" cx="452" cy="300" r="5"/>
+    <circle class="mt" cx="500" cy="300" r="5"/>
+  </g>
+  <g data-part="extincteur">
+    <rect class="badf" x="662" y="56" width="80" height="80" rx="6"/>
+    <rect class="bgp" x="690" y="82" width="22" height="42" rx="8"/>
+    <rect class="bgp" x="696" y="70" width="10" height="12"/>
+    <path class="bgp" d="M706 72 L724 72 L724 78 L706 78 Z"/>
+    <rect class="dk" x="704" y="150" width="14" height="24" rx="3"/>
+    <rect class="mt2" x="694" y="144" width="40" height="10" rx="3"/>
+    <path class="ln2" d="M718 162 C750 160 754 196 746 226"/>
+    <rect class="badf" x="684" y="172" width="54" height="160" rx="22"/>
+    <rect class="fl" x="636" y="296" width="158" height="118" rx="4"/>
+    <line class="ln" x1="636" y1="330" x2="794" y2="330"/>
+    <line class="thin" x1="715" y1="296" x2="715" y2="330"/>
+    <rect class="fl" x="660" y="244" width="112" height="52" rx="4"/>
+    <line class="ln" x1="660" y1="262" x2="772" y2="262"/>
+  </g>
+  <g data-part="bac-dechets">
+    <path class="st" d="M832 256 L948 256 L938 408 L842 408 Z"/>
+    <rect class="mt2" x="822" y="236" width="136" height="22" rx="8"/>
+    <rect class="dk" x="868" y="226" width="44" height="12" rx="5"/>
+    <line class="thin" x1="860" y1="290" x2="864" y2="380"/>
+    <line class="thin" x1="890" y1="290" x2="890" y2="380"/>
+    <line class="thin" x1="920" y1="290" x2="916" y2="380"/>
+  </g>
+  <g data-part="flaque">
+    <path class="gl" d="M250 628 C246 606 300 598 340 604 C380 596 420 612 412 634 C420 656 350 662 320 654 C290 664 252 652 250 628 Z"/>
+    <ellipse class="gl" cx="232" cy="660" rx="12" ry="7"/>
+    <ellipse class="gl" cx="430" cy="600" rx="9" ry="6"/>
+  </g>
+  <g data-part="bidon">
+    <rect class="mt" x="462" y="578" width="78" height="96" rx="10"/>
+    <rect class="mt2" x="484" y="560" width="26" height="20" rx="3"/>
+    <rect class="wh" x="472" y="606" width="58" height="40" rx="3"/>
+    <ellipse class="dk" cx="566" cy="668" rx="15" ry="9"/>
+  </g>
+  <g data-part="cable">
+    <path class="sy" d="M846 602 C826 548 704 566 692 506 S640 452 618 420 L618 250"/>
+    <rect class="syf" x="596" y="170" width="44" height="84" rx="8"/>
+    <rect class="wh" x="604" y="180" width="28" height="56" rx="5"/>
+    <rect class="mt2" x="818" y="664" width="104" height="12" rx="4"/>
+    <circle class="dk" cx="870" cy="628" r="44"/>
+    <circle class="syf" cx="870" cy="628" r="29"/>
+    <circle class="wh" cx="870" cy="628" r="10"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="servante" transform="translate(116 168)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="siege-protege" transform="translate(262 214)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="outil-siege" transform="translate(462 214)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="extincteur" transform="translate(782 170)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="bac-dechets" transform="translate(890 196)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="protection-plancher" transform="translate(130 496)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="protection-cornee" transform="translate(862 484)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="cable" transform="translate(946 606)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="flaque" transform="translate(212 620)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="bidon" transform="translate(592 612)"><circle class="bd" r="26"/><text class="bn">10</text></g>
+  </g>
+</svg>

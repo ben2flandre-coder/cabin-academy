@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 745" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Les réseaux d'une cabine, sur une coupe</title>
+  <desc id="d">Schéma de principe, coupe transversale d'un fuselage vue depuis l'arrière vers l'avant. Sous le plancher, la soute ; au-dessus, deux blocs de trois sièges, deux rangements en hauteur et un plafond. Dans la voûte, au-dessus du plafond : un conduit d'air conditionné, des faisceaux électriques tenus par des colliers, et une tresse de métallisation reliant un cadre à un support. Derrière l'habillage latéral, des colonnes d'air ; des flèches montrent l'air soufflé en haut et repris près du plancher. Sous chaque rangement, le bloc de services contient un boîtier d'oxygène et une buse d'air individuel. Sous le plancher, à gauche un tuyau d'eau potable, à droite un tuyau de vidange qui descend jusqu'à un mât de drainage sous le ventre de l'avion.</desc>
+  <rect class="bgp" width="1000" height="745"/>
+  <circle class="sk" cx="500" cy="355" r="325"/>
+  <circle class="st" cx="500" cy="355" r="311"/>
+  <circle class="bgp" cx="500" cy="355" r="289"/>
+  <circle class="ln" cx="500" cy="355" r="289"/>
+  <path class="in" d="M332 494 L668 494 L630 590 L370 590 Z"/>
+  <path class="st" d="M231.1 457 L768.9 457 L762.9 479 L237.1 479 Z"/>
+  <path class="fl" d="M227.4 445 L772.6 445 L768.6 457 L231.4 457 Z"/>
+  <path class="in" d="M272.2 233.9 A258 258 0 0 0 258.2 445 L271.1 445 A246 246 0 0 1 282.8 239.5 Z"/>
+  <path class="in" d="M727.8 233.9 A258 258 0 0 1 741.8 445 L728.9 445 A246 246 0 0 0 717.2 239.5 Z"/>
+  <path class="in" d="M410 150 Q500 130 590 150 L590 164 Q500 144 410 164 Z"/>
+  <path class="eq" d="M276.6 226 A258 258 0 0 1 363.3 136.2 L410 150 Q416 190 404 222 Z"/>
+  <path class="eq" d="M723.4 226 A258 258 0 0 0 636.7 136.2 L590 150 Q584 190 596 222 Z"/>
+  <rect class="eq" x="279" y="290" width="50" height="104" rx="10"/>
+  <rect class="eq2" x="276" y="384" width="56" height="20" rx="6"/>
+  <rect class="eq" x="339" y="290" width="50" height="104" rx="10"/>
+  <rect class="eq2" x="336" y="384" width="56" height="20" rx="6"/>
+  <rect class="eq" x="399" y="290" width="50" height="104" rx="10"/>
+  <rect class="eq2" x="396" y="384" width="56" height="20" rx="6"/>
+  <path class="ln2" d="M290 404 L290 445"/>
+  <path class="ln2" d="M438 404 L438 445"/>
+  <path class="ln" d="M276 404 L452 404"/>
+  <rect class="mt" x="278" y="443" width="24" height="12" rx="2"/>
+  <rect class="mt" x="426" y="443" width="24" height="12" rx="2"/>
+  <rect class="eq" x="671" y="290" width="50" height="104" rx="10"/>
+  <rect class="eq2" x="668" y="384" width="56" height="20" rx="6"/>
+  <rect class="eq" x="611" y="290" width="50" height="104" rx="10"/>
+  <rect class="eq2" x="608" y="384" width="56" height="20" rx="6"/>
+  <rect class="eq" x="551" y="290" width="50" height="104" rx="10"/>
+  <rect class="eq2" x="548" y="384" width="56" height="20" rx="6"/>
+  <path class="ln2" d="M562 404 L562 445"/>
+  <path class="ln2" d="M710 404 L710 445"/>
+  <path class="ln" d="M548 404 L724 404"/>
+  <rect class="mt" x="550" y="443" width="24" height="12" rx="2"/>
+  <rect class="mt" x="698" y="443" width="24" height="12" rx="2"/>
+  <path class="in" d="M276 231 L404 223 L404 252 L288 262 Z"/>
+  <path class="in" d="M724 231 L596 223 L596 252 L712 262 Z"/>
+  <g data-part="air">
+    <ellipse class="gl" cx="500" cy="99" rx="60" ry="25"/>
+    <path class="gl" d="M234.1 258.2 A283 283 0 0 0 223.2 413.8 L241.8 409.9 A264 264 0 0 1 251.9 264.7 Z"/>
+    <path class="gl" d="M765.9 258.2 A283 283 0 0 1 776.8 413.8 L758.2 409.9 A264 264 0 0 0 748.1 264.7 Z"/>
+    <path class="dim" d="M428 176 L436.8 216.9"/>
+    <path class="dimf" d="M440 232 L427 214.2 L444.6 210.5 Z"/>
+    <path class="dim" d="M572 176 L563.2 216.9"/>
+    <path class="dimf" d="M560 232 L555.4 210.5 L573 214.2 Z"/>
+    <path class="dim" d="M300 424 L279.8 431.6"/>
+    <path class="dimf" d="M268 436 L280.8 423.4 L286 437.1 Z"/>
+    <path class="dim" d="M700 424 L720.2 431.6"/>
+    <path class="dimf" d="M732 436 L714 437.1 L719.2 423.4 Z"/>
+  </g>
+  <g data-part="elec">
+    <rect class="mt" x="372" y="84" width="14" height="30" rx="2"/>
+    <circle class="dk" cx="400" cy="118" r="28"/>
+    <circle class="wh" cx="400" cy="118" r="21"/>
+    <circle class="syf" cx="400" cy="118" r="6.7"/>
+    <circle class="syf" cx="412.9" cy="121.4" r="6.7"/>
+    <circle class="syf" cx="403.5" cy="130.9" r="6.7"/>
+    <circle class="syf" cx="390.6" cy="127.4" r="6.7"/>
+    <circle class="syf" cx="387.1" cy="114.6" r="6.7"/>
+    <circle class="syf" cx="396.5" cy="105.1" r="6.7"/>
+    <circle class="syf" cx="409.4" cy="108.6" r="6.7"/>
+  </g>
+  <g data-part="air-indiv">
+    <circle class="dk" cx="380" cy="250" r="13"/>
+    <path class="dim" d="M380 264 L380 299.4"/>,<path class="dimf" d="M380 312 L372.7 295.6 L387.3 295.6 Z"/>
+    <circle class="dk" cx="620" cy="250" r="13"/>
+    <path class="dim" d="M620 264 L620 299.4"/>,<path class="dimf" d="M620 312 L612.7 295.6 L627.3 295.6 Z"/>
+  </g>
+  <g data-part="oxygene">
+    <g transform="rotate(-3.5 328 245)"><rect class="eq2" x="296" y="233" width="64" height="24" rx="5"/><circle class="wh" cx="314" cy="245" r="6"/><circle class="wh" cx="342" cy="245" r="6"/></g>
+    <g transform="rotate(3.5 672 245)"><rect class="eq2" x="640" y="233" width="64" height="24" rx="5"/><circle class="wh" cx="658" cy="245" r="6"/><circle class="wh" cx="686" cy="245" r="6"/></g>
+  </g>
+  <g data-part="eau">
+    <circle class="dk" cx="292" cy="520" r="27"/>
+    <circle class="mt" cx="292" cy="520" r="20"/>
+    <circle class="gl" cx="292" cy="520" r="12"/>
+  </g>
+  <g data-part="vidange">
+    <circle class="dk" cx="708" cy="520" r="27"/>
+    <circle class="mt" cx="708" cy="520" r="20"/>
+    <circle class="gl" cx="708" cy="520" r="12"/>
+    <path class="stl" d="M712.8 539.2 A270 270 0 0 1 574.4 614.5 L562 655"/>
+    <path class="mt" d="M546 676 L578 676 L570 730 L554 730 Z"/>
+  </g>
+  <g data-part="metal">
+    <rect class="mt" x="578" y="136" width="44" height="14" rx="3"/>
+    <path class="ln2" d="M630 92 l-2 12 l-16 2 l10 12 l-16 2 l8 12"/>
+    <circle class="mt2" cx="632" cy="90" r="12"/>
+    <circle class="mt2" cx="606" cy="136" r="12"/>
+  </g>
+  <path class="thin" d="M120 110 L378 118"/>
+  <path class="thin" d="M120 250 L290 246"/>
+  <path class="thin" d="M880 280 L634 280"/>
+  <path class="thin" d="M880 110 L644 96"/>
+  <path class="thin" d="M120 600 L280 532"/>
+  <path class="thin" d="M880 600 L722 532"/>
+  <path class="thin" d="M500 40 L500 76"/>
+  <g class="badges">
+    <g class="badge" data-badge="air" transform="translate(500 40)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="elec" transform="translate(96 110)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="oxygene" transform="translate(96 250)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="air-indiv" transform="translate(904 280)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="metal" transform="translate(904 110)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="eau" transform="translate(96 600)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="vidange" transform="translate(904 600)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+  </g>
+</svg>

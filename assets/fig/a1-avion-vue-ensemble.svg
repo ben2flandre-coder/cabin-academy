@@ -1,88 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 690" class="fig" role="img" aria-labelledby="t d">
-  <title id="t">Avion de ligne : vue de côté et vue de dessus</title>
-  <desc id="d">Schéma de principe d'un avion de ligne à fuselage unique. En haut, vue de côté, avant à gauche : le fuselage contient le poste de pilotage au nez, la cabine passagers dans la partie haute et la soute dans la partie basse ; on voit les portes, la dérive à l'arrière, un moteur sous l'aile et les trains d'atterrissage. En bas, vue de dessus : les deux ailes en flèche, les deux moteurs et le stabilisateur horizontal à l'arrière.</desc>
-  <rect class="bgp" width="1000" height="690"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Avion de ligne : vue de côté, vue de dessus et vue de face</title>
+  <desc id="d">Schéma de principe d'un avion de ligne à fuselage unique et à deux moteurs. En haut, grande vue de côté, avant à gauche : le fuselage contient le poste de pilotage au nez, la cabine passagers dans la partie haute et la soute dans la partie basse ; on voit deux portes, la dérive verticale à l'arrière, l'aile basse, un moteur suspendu sous l'aile, le train avant et le train principal. En bas à gauche, petite vue de dessus : les deux ailes en flèche, les deux moteurs en avant des ailes et le stabilisateur horizontal à l'arrière ; l'envergure est presque égale à la longueur. En bas à droite, petite vue de face : le fuselage rond, les ailes légèrement relevées, les deux moteurs sous les ailes, la dérive et les trains.</desc>
+  <rect class="bgp" width="1000" height="760"/>
   <text class="ts" x="24" y="44">Vue de côté (avant à gauche)</text>
-  <line class="dash" x1="30" y1="384" x2="970" y2="384"/>
-
-  <!-- ===== VUE DE CÔTÉ ===== -->
-  <!-- fuselage (enveloppe) -->
-  <g data-part="fuselage">
-    <path class="sk" d="M50 228 C54 180 110 150 200 150 L700 150 C790 150 870 172 940 196 L940 214 C880 250 800 290 710 290 L200 290 C110 290 56 276 50 228 Z"/>
-  </g>
-  <!-- dérive -->
-  <g data-part="derive">
-    <path class="sk" d="M745 152 L855 50 L915 50 L936 200 L880 184 L800 162 Z"/>
-  </g>
-  <!-- poste de pilotage -->
-  <g data-part="cockpit">
-    <path class="in" d="M82 214 C88 190 120 172 168 168 L168 236 L96 236 C88 232 82 224 82 214 Z"/>
-    <path class="gl" d="M104 196 C112 186 130 180 150 178 L150 204 L106 204 Z"/>
-  </g>
-  <!-- cabine -->
-  <g data-part="cabine">
-    <rect class="in" x="176" y="166" width="590" height="68" rx="10"/>
-    <g class="gl"><circle cx="290" cy="186" r="9"/><circle cx="340" cy="186" r="9"/><circle cx="390" cy="186" r="9"/><circle cx="440" cy="186" r="9"/><circle cx="490" cy="186" r="9"/><circle cx="540" cy="186" r="9"/><circle cx="590" cy="186" r="9"/><circle cx="640" cy="186" r="9"/></g>
-    <rect class="eq" x="300" y="206" width="28" height="22" rx="5"/><rect class="eq" x="356" y="206" width="28" height="22" rx="5"/><rect class="eq" x="412" y="206" width="28" height="22" rx="5"/><rect class="eq" x="468" y="206" width="28" height="22" rx="5"/><rect class="eq" x="524" y="206" width="28" height="22" rx="5"/><rect class="eq" x="580" y="206" width="28" height="22" rx="5"/><rect class="eq" x="636" y="206" width="28" height="22" rx="5"/>
-  </g>
-  <!-- soute -->
-  <g data-part="soute">
-    <rect class="st" x="230" y="242" width="480" height="44" rx="8"/>
-    <rect class="wh" x="290" y="252" width="60" height="26" rx="4"/><rect class="wh" x="366" y="252" width="60" height="26" rx="4"/><rect class="wh" x="442" y="252" width="60" height="26" rx="4"/>
-  </g>
-  <!-- voilure vue de côté (profil mince, devant le fuselage) -->
-  <g data-part="voilure">
-    <path class="st" d="M396 284 L706 266 L714 278 L418 302 Z"/>
-  </g>
-  <!-- portes -->
-  <g data-part="portes">
-    <rect class="wh" x="196" y="166" width="38" height="66" rx="8"/>
-    <rect class="wh" x="716" y="166" width="38" height="66" rx="8"/>
-  </g>
-  <!-- moteur sous l'aile -->
-  <g data-part="moteur">
-    <path class="mt2" d="M405 262 L440 268 L440 284 L405 284 Z"/>
-    <rect class="eq2" x="338" y="282" width="138" height="58" rx="28"/>
-    <ellipse class="dk" cx="352" cy="311" rx="12" ry="22"/>
-  </g>
-  <!-- trains -->
-  <g data-part="trains">
-    <path class="ln2" d="M530 292 L530 334"/><circle class="dk" cx="530" cy="352" r="24"/><circle class="wh" cx="530" cy="352" r="8"/>
-    <path class="ln2" d="M126 290 L126 328"/><circle class="dk" cx="126" cy="346" r="19"/><circle class="wh" cx="126" cy="346" r="6"/>
-  </g>
-
-  <!-- ===== VUE DE DESSUS ===== -->
-  <text class="ts" x="24" y="420">Vue de dessus</text>
-  <!-- stabilisateur horizontal -->
-  <g data-part="stabilisateur">
-    <path class="sk" d="M835 524 L895 468 L934 468 L918 524 Z"/>
-    <path class="sk" d="M835 560 L895 616 L934 616 L918 560 Z"/>
-  </g>
-  <!-- fuselage plan -->
-  <path class="sk" d="M50 542 C52 516 90 506 150 506 L800 506 C880 508 936 530 940 542 C936 554 880 576 800 578 L150 578 C90 578 52 568 50 542 Z"/>
-  <!-- voilure -->
-  <g data-part="voilure">
-    <path class="sk" d="M360 506 L575 428 L612 428 L534 506 Z"/>
-    <path class="sk" d="M360 578 L575 656 L612 656 L534 578 Z"/>
-  </g>
-  <!-- moteurs plan -->
-  <g data-part="moteur">
-    <rect class="eq2" x="392" y="452" width="124" height="44" rx="22"/><ellipse class="dk" cx="402" cy="474" rx="9" ry="16"/>
-    <rect class="eq2" x="392" y="588" width="124" height="44" rx="22"/><ellipse class="dk" cx="402" cy="610" rx="9" ry="16"/>
-  </g>
-
-  <path class="thin" d="M215 142 L215 168"/>
-  <!-- ===== BADGES ===== -->
+  <line class="thin" x1="24" y1="401" x2="976" y2="401"/>
+  <g data-part="derive"><path class="sk" d="M778 196 L892 55 L946 55 L940 220 L850 200 Z"/><path class="thin" d="M916 55 L910 212"/></g>
+  <g data-part="fuselage"><path class="sk" d="M50 274 C54 244 90 217 145 202 C175 194 200 190 235 190 L690 190 C790 190 870 198 950 218 L950 238 C880 262 790 320 690 320 L200 320 C130 320 60 308 50 274 Z"/></g>
+  <g data-part="stabilisateur"><path class="sk" d="M842 234 L928 224 L947 225 L947 234 L862 244 Z"/></g>
+  <g data-part="cockpit"><path class="in" d="M88 266 C98 238 134 218 184 210 L200 210 L200 270 L100 270 C92 270 88 268 88 266 Z"/><path class="gl" d="M112 244 C126 230 150 221 178 217 L182 238 L122 248 Z"/></g>
+  <g data-part="cabine"><rect class="in" x="210" y="204" width="610" height="62" rx="10"/><circle class="gl" cx="302" cy="221" r="7"/><circle class="gl" cx="342" cy="221" r="7"/><circle class="gl" cx="382" cy="221" r="7"/><circle class="gl" cx="422" cy="221" r="7"/><circle class="gl" cx="462" cy="221" r="7"/><circle class="gl" cx="502" cy="221" r="7"/><circle class="gl" cx="542" cy="221" r="7"/><circle class="gl" cx="582" cy="221" r="7"/><circle class="gl" cx="622" cy="221" r="7"/><circle class="gl" cx="662" cy="221" r="7"/><circle class="gl" cx="702" cy="221" r="7"/><circle class="gl" cx="742" cy="221" r="7"/><rect class="eq" x="294" y="240" width="24" height="20" rx="5"/><rect class="eq" x="342" y="240" width="24" height="20" rx="5"/><rect class="eq" x="390" y="240" width="24" height="20" rx="5"/><rect class="eq" x="438" y="240" width="24" height="20" rx="5"/><rect class="eq" x="486" y="240" width="24" height="20" rx="5"/><rect class="eq" x="534" y="240" width="24" height="20" rx="5"/><rect class="eq" x="582" y="240" width="24" height="20" rx="5"/><rect class="eq" x="630" y="240" width="24" height="20" rx="5"/><rect class="eq" x="678" y="240" width="24" height="20" rx="5"/><rect class="eq" x="726" y="240" width="24" height="20" rx="5"/></g>
+  <g data-part="soute"><rect class="st" x="250" y="278" width="138" height="36" rx="6"/><rect class="wh" x="264" y="286" width="50" height="22" rx="3"/><rect class="wh" x="324" y="286" width="50" height="22" rx="3"/><rect class="st" x="566" y="278" width="172" height="36" rx="6"/><rect class="wh" x="616" y="286" width="50" height="22" rx="3"/><rect class="wh" x="676" y="286" width="50" height="22" rx="3"/></g>
+  <g data-part="voilure"><path class="st" d="M380 311 L570 285 L614 285 L614 292 L524 318 L395 318 Z"/></g>
+  <g data-part="portes"><rect class="wh" x="222" y="206" width="34" height="58" rx="8"/><circle class="gl" cx="239" cy="222" r="6"/><rect class="wh" x="774" y="206" width="34" height="58" rx="8"/><circle class="gl" cx="791" cy="222" r="6"/></g>
+  <g data-part="moteur"><path class="mt2" d="M402 308 L444 312 L444 328 L402 328 Z"/><rect class="eq2" x="312" y="324" width="134" height="52" rx="26"/><ellipse class="dk" cx="326" cy="350" rx="10" ry="20"/></g>
+  <g data-part="trains"><path class="ln2" d="M502 318 L502 362"/><circle class="dk" cx="502" cy="378" r="22"/><circle class="wh" cx="502" cy="378" r="7"/><path class="ln2" d="M142 316 L142 370"/><circle class="dk" cx="142" cy="383" r="17"/><circle class="wh" cx="142" cy="383" r="5.5"/></g>
+  <line class="dash" x1="24" y1="416" x2="976" y2="416"/>
+  <text class="ts" x="24" y="454">Vue de dessus</text>
+  <text class="ts" x="600" y="454">Vue de face</text>
+  <g data-part="stabilisateur"><path class="sk" d="M366.5 601 L393 559.6 L403.9 559.6 L397.7 603.3 Z"/><path class="sk" d="M366.5 615 L393 656.4 L403.9 656.4 L397.7 612.7 Z"/></g>
+  <g data-part="moteur"><rect class="eq2" x="194.9" y="554.2" width="35.9" height="17.9" rx="9"/><ellipse class="dk" cx="197.6" cy="563.2" rx="2.3" ry="7"/><rect class="eq2" x="194.9" y="643.9" width="35.9" height="17.9" rx="9"/><ellipse class="dk" cx="197.6" cy="652.9" rx="2.3" ry="7"/></g>
+  <g data-part="voilure"><path class="sk" d="M212 592.4 L276 468.4 L288.5 468.4 L272.9 558.1 L268.2 592.4 Z"/><path class="sk" d="M212 623.6 L276 747.6 L288.5 747.6 L272.9 657.9 L268.2 623.6 Z"/></g>
+  <g data-part="fuselage"><path class="sk" d="M120 608 C122.3 598.6 139.5 592.4 162.9 592.4 L315 592.4 C354 592.4 393 598.6 413 605.3 L413 610.7 C393 617.4 354 623.6 315 623.6 L162.9 623.6 C139.5 623.6 122.3 617.4 120 608 Z"/></g>
+  <g data-part="derive"><path class="ln2" d="M361.8 608 L410.2 608"/></g>
+  <line class="thin" x1="620" y1="650" x2="920" y2="650"/>
+  <g data-part="trains"><line class="ln2" x1="740.4" y1="629.7" x2="740.4" y2="642.2"/><rect class="dk" x="736.1" y="641.4" width="8.6" height="8.6" rx="3"/><line class="ln2" x1="799.6" y1="629.7" x2="799.6" y2="642.2"/><rect class="dk" x="795.4" y="641.4" width="8.6" height="8.6" rx="3"/><line class="ln2" x1="770" y1="636" x2="770" y2="643.8"/><rect class="dk" x="766.9" y="643.8" width="6.2" height="6.2" rx="3"/></g>
+  <g data-part="derive"><path class="sk" d="M767.8 606.3 L769.1 558.3 L770.9 558.3 L772.2 606.3 Z"/></g>
+  <g data-part="stabilisateur"><path class="sk" d="M763.8 611 L721.6 605.2 L721.6 603.6 L763.8 607.5 Z"/><path class="sk" d="M776.2 611 L818.4 605.2 L818.4 603.6 L776.2 607.5 Z"/></g>
+  <g data-part="voilure"><path class="sk" d="M754.4 632.1 L630.4 617.2 L630.4 615.3 L754.4 625 Z"/><path class="sk" d="M785.6 632.1 L909.6 617.2 L909.6 615.3 L785.6 625 Z"/></g>
+  <g data-part="moteur"><path class="mt2" d="M727.5 628.9 L722.8 628.2 L722.8 624.3 L727.5 625 Z"/><path class="mt2" d="M812.5 628.9 L817.2 628.2 L817.2 624.3 L812.5 625 Z"/><circle class="eq2" cx="725.2" cy="636.4" r="9"/><circle class="dk" cx="725.2" cy="636.4" r="4.9"/><circle class="eq2" cx="814.9" cy="636.4" r="9"/><circle class="dk" cx="814.9" cy="636.4" r="4.9"/></g>
+  <g data-part="fuselage"><circle class="sk" cx="770" cy="620.4" r="16"/></g>
+  <line class="thin" x1="96" y1="222" x2="122" y2="236"/><line class="thin" x1="239" y1="150" x2="239" y2="206"/><line class="thin" x1="196" y1="508" x2="244" y2="540"/><line class="thin" x1="428" y1="548" x2="398" y2="572"/>
   <g class="badges">
-    <g class="badge" data-badge="fuselage" transform="translate(160 270)"><circle class="bd" r="24"/><text class="bn">1</text></g>
-    <g class="badge" data-badge="cockpit" transform="translate(124 214)"><circle class="bd" r="24"/><text class="bn">2</text></g>
-    <g class="badge" data-badge="cabine" transform="translate(470 186)"><circle class="bd" r="24"/><text class="bn">3</text></g>
-    <g class="badge" data-badge="soute" transform="translate(600 264)"><circle class="bd" r="24"/><text class="bn">4</text></g>
-    <g class="badge" data-badge="portes" transform="translate(215 118)"><circle class="bd" r="24"/><text class="bn">5</text></g>
-    <g class="badge" data-badge="derive" transform="translate(870 110)"><circle class="bd" r="24"/><text class="bn">6</text></g>
-    <g class="badge" data-badge="stabilisateur" transform="translate(905 440)"><circle class="bd" r="24"/><text class="bn">7</text></g>
-    <g class="badge" data-badge="voilure" transform="translate(520 452)"><circle class="bd" r="24"/><text class="bn">8</text></g>
-    <g class="badge" data-badge="moteur" transform="translate(414 312)"><circle class="bd" r="24"/><text class="bn">9</text></g>
-    <g class="badge" data-badge="trains" transform="translate(588 336)"><circle class="bd" r="24"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="fuselage" transform="translate(190 296)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="cockpit" transform="translate(78 208)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="cabine" transform="translate(520 234)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="soute" transform="translate(766 290)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="portes" transform="translate(239 128)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="derive" transform="translate(902 128)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="stabilisateur" transform="translate(446 536)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="voilure" transform="translate(176 494)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="moteur" transform="translate(388 350)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="trains" transform="translate(562 376)"><circle class="bd" r="26"/><text class="bn">10</text></g>
   </g>
 </svg>

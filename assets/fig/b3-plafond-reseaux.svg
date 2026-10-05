@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Au-dessus du plafond : la cavité et ses réseaux, en coupe</title>
+  <desc id="d">Schéma de principe : coupe transversale du haut de la cabine, vue vers l'avant. De l'extérieur vers l'intérieur : la peau du fuselage, un cadre, un matelas isolant. Dessous, la cavité de plafond contient un gros conduit d'air au centre, deux faisceaux électriques tenus par des colliers sur leurs supports, et une fine tuyauterie d'oxygène. La cavité est fermée vers le bas par le panneau de plafond, suspendu au cadre par des supports ; de chaque côté, un bac à bagages avec son PSU dessous ; à la jonction du plafond et des bacs, un bandeau d'éclairage.</desc>
+  <rect class="bgp" width="1000" height="640"/>
+  <g data-part="peau">
+    <path class="sk" d="M20 196.1 A852 852 0 0 1 980 196.1 L980 210.7 A840 840 0 0 0 20 210.7 Z"/>
+  </g>
+  <g data-part="cadre">
+    <path class="st" d="M20 210.7 A840 840 0 0 1 980 210.7 L980 250 A808 808 0 0 0 20 250 Z"/>
+  </g>
+  <g data-part="isolant">
+    <path class="wh" d="M20 250 A808 808 0 0 1 980 250 L980 287.7 A778 778 0 0 0 20 287.7 Z"/>
+    <path class="thin" d="M60 224.7 L52 256"/>
+    <path class="thin" d="M115 191.9 L107 221.6"/>
+    <path class="thin" d="M170 164.7 L162 193.2"/>
+    <path class="thin" d="M225 142.4 L217 170.1"/>
+    <path class="thin" d="M280 124.6 L272 151.7"/>
+    <path class="thin" d="M335 111.1 L327 137.7"/>
+    <path class="thin" d="M390 101.5 L382 127.8"/>
+    <path class="thin" d="M445 95.9 L437 121.9"/>
+    <path class="thin" d="M500 94 L508 120"/>
+    <path class="thin" d="M555 95.9 L563 121.9"/>
+    <path class="thin" d="M610 101.5 L618 127.8"/>
+    <path class="thin" d="M665 111.1 L673 137.7"/>
+    <path class="thin" d="M720 124.6 L728 151.7"/>
+    <path class="thin" d="M775 142.4 L783 170.1"/>
+    <path class="thin" d="M830 164.7 L838 193.2"/>
+    <path class="thin" d="M885 191.9 L893 221.6"/>
+    <path class="thin" d="M940 224.7 L948 256"/>
+  </g>
+  <g data-part="support">
+    <rect class="mt" x="405" y="128" width="10" height="170"/>
+    <rect class="mt" x="585" y="128" width="10" height="170"/>
+    <rect class="mt2" x="392" y="288" width="36" height="12" rx="3"/><rect class="mt2" x="572" y="288" width="36" height="12" rx="3"/>
+  </g>
+  <g data-part="conduit">
+    <circle class="gl" cx="500" cy="196" r="58"/>
+    <circle class="thin" cx="500" cy="196" r="48"/>
+    <path class="ln" d="M470 142 L470 128 M530 142 L530 128"/>
+  </g>
+  <g data-part="faisceau">
+    <path class="ln" d="M300 148.1 L300 180"/>
+    <circle class="wh" cx="300" cy="214" r="34"/>
+    <circle class="syf" cx="300" cy="214" r="9"/>
+    <circle class="syf" cx="285" cy="205" r="9"/>
+    <circle class="syf" cx="315" cy="205" r="9"/>
+    <circle class="syf" cx="285" cy="223" r="9"/>
+    <circle class="syf" cx="315" cy="223" r="9"/>
+    <circle class="syf" cx="300" cy="196" r="9"/>
+    <circle class="syf" cx="300" cy="232" r="9"/>
+    <path class="ln" d="M690 145.6 L690 180"/>
+    <circle class="wh" cx="690" cy="214" r="34"/>
+    <circle class="syf" cx="690" cy="214" r="9"/>
+    <circle class="syf" cx="675" cy="205" r="9"/>
+    <circle class="syf" cx="705" cy="205" r="9"/>
+    <circle class="syf" cx="675" cy="223" r="9"/>
+    <circle class="syf" cx="705" cy="223" r="9"/>
+    <circle class="syf" cx="690" cy="196" r="9"/>
+    <circle class="syf" cx="690" cy="232" r="9"/>
+  </g>
+  <g data-part="oxygene">
+    <path class="ln" d="M790 178.1 L790 236"/>
+    <circle class="wh" cx="790" cy="258" r="24"/>
+    <circle class="mt" cx="790" cy="258" r="13"/>
+  </g>
+  <g data-part="bac">
+    <path class="eq" d="M20 300 L318 300 L350 330 L360 420 L330 480 L20 480 Z"/>
+    <path class="eq2" d="M318 300 L350 330 L360 420 L330 480 L318 472 L346 418 L338 336 L310 310 Z"/>
+    <path class="eq" d="M980 300 L682 300 L650 330 L640 420 L670 480 L980 480 Z"/>
+    <path class="eq2" d="M682 300 L650 330 L640 420 L670 480 L682 472 L654 418 L662 336 L690 310 Z"/>
+  </g>
+  <g data-part="psu">
+    <rect class="in" x="110" y="486" width="190" height="30" rx="6"/>
+    <circle class="mt" cx="160" cy="516" r="8"/><circle class="mt" cx="205" cy="516" r="8"/><circle class="mt" cx="250" cy="516" r="8"/>
+    <rect class="in" x="700" y="486" width="190" height="30" rx="6"/>
+    <circle class="mt" cx="750" cy="516" r="8"/><circle class="mt" cx="795" cy="516" r="8"/><circle class="mt" cx="840" cy="516" r="8"/>
+  </g>
+  <g data-part="plafond">
+    <path class="in" d="M338 310 Q500 262 662 310 L662 324 Q500 276 338 324 Z"/>
+  </g>
+  <g data-part="eclairage">
+    <rect class="dk" x="330" y="326" width="44" height="18" rx="5"/>
+    <path class="thin" d="M372 330 L430 318"/><path class="thin" d="M374 338 L436 338"/><path class="thin" d="M372 346 L428 360"/>
+    <rect class="dk" x="626" y="326" width="44" height="18" rx="5"/>
+    <path class="thin" d="M628 330 L570 318"/><path class="thin" d="M626 338 L564 338"/><path class="thin" d="M628 346 L572 360"/>
+  </g>
+  <text class="ts tc" x="500" y="596">Coupe (vue vers l’avant)</text>
+  <path class="thin" d="M860 112 L852 136"/><path class="thin" d="M244 232 L268 222"/><path class="thin" d="M852 258 L816 258"/><path class="thin" d="M404 386 L362 346"/><path class="thin" d="M205 552 L205 520"/><path class="thin" d="M376 196 L404 200"/>
+  <g class="badges">
+    <g class="badge" data-badge="peau" transform="translate(866 92)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="cadre" transform="translate(140 159)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="isolant" transform="translate(640 122)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="conduit" transform="translate(500 196)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="faisceau" transform="translate(222 240)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="oxygene" transform="translate(874 258)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="plafond" transform="translate(500 300)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="eclairage" transform="translate(416 404)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="bac" transform="translate(180 390)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="psu" transform="translate(205 574)"><circle class="bd" r="24"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="support" transform="translate(356 186)"><circle class="bd" r="24"/><text class="bn">11</text></g>
+  </g>
+</svg>

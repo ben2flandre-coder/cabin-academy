@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Trois moyens d'ajustement : cale, trou oblong, tige réglable</title>
+  <desc id="d">Trois schémas de principe côte à côte. À gauche, la cale : en haut, une cale isolée, plaque mince avec une encoche en U ; en dessous, en coupe, un empilage de deux cales glissé entre un support et la pièce qu'il porte, traversé par la vis. Au centre, le trou oblong vu de face : une patte percée de deux trous allongés, la vis peut y occuper plusieurs positions le long de la flèche. À droite, la tige réglable : une tige filetée vissée dans un embout à œil, dont la longueur se règle en tournant, et un contre-écrou qui bloque le réglage contre l'embout.</desc>
+  <rect class="bgp" width="1000" height="660"/>
+  <path class="dash" d="M335 40 L335 580 M665 40 L665 580"/>
+
+  <!-- ===== CALE ===== -->
+  <g data-part="cale">
+    <path class="mt" d="M100 60 L250 60 L250 170 L100 170 Z"/>
+    <path class="wh" d="M156 60 L156 118 Q156 138 175 138 Q194 138 194 118 L194 60 Z"/>
+    <path class="thin" d="M100 176 L250 176"/>
+  </g>
+  <rect class="eq" x="60" y="290" width="230" height="70" rx="6"/>
+  <rect class="st" x="40" y="420" width="270" height="56"/>
+  <g data-part="empilage">
+    <rect class="none" pointer-events="all" x="60" y="352" width="230" height="76"/>
+    <rect class="mt" x="70" y="360" width="210" height="30"/>
+    <rect class="mt" x="70" y="390" width="210" height="30"/>
+  </g>
+  <rect class="mt2" x="165" y="270" width="20" height="230"/>
+  <rect class="mt2" x="143" y="250" width="64" height="26" rx="5"/>
+  <text class="tb tc" x="175" y="630">Cale</text>
+
+  <!-- ===== TROU OBLONG ===== -->
+  <rect class="st" x="372" y="120" width="256" height="400" rx="8"/>
+  <g data-part="oblong">
+    <rect class="eq" x="400" y="190" width="200" height="260" rx="12"/>
+    <rect class="wh" x="430" y="230" width="140" height="64" rx="32"/>
+    <rect class="wh" x="430" y="346" width="140" height="64" rx="32"/>
+    <circle class="mt2" cx="520" cy="262" r="24"/><path class="ln2" d="M508 262 L532 262 M520 250 L520 274"/>
+    <circle class="mt2" cx="520" cy="378" r="24"/><path class="ln2" d="M508 378 L532 378 M520 366 L520 390"/>
+  </g>
+  <path class="dim" d="M440 156 L560 156"/>
+  <path class="dimf" d="M416 156 L444 142 L444 170 Z M584 156 L556 142 L556 170 Z"/>
+  <text class="tb tc" x="500" y="630">Trou oblong</text>
+
+  <!-- ===== TIGE RÉGLABLE ===== -->
+  <rect class="st" x="760" y="50" width="130" height="40"/>
+  <rect class="st" x="760" y="520" width="130" height="40"/>
+  <g data-part="tige">
+    <circle class="mt2" cx="825" cy="110" r="38"/><circle class="wh" cx="825" cy="110" r="15"/>
+    <rect class="mt2" x="801" y="140" width="48" height="96"/>
+    <rect class="mt" x="811" y="296" width="28" height="190"/>
+    <path class="thin" d="M811 312 L839 304 M811 328 L839 320 M811 344 L839 336 M811 360 L839 352 M811 376 L839 368 M811 392 L839 384 M811 408 L839 400 M811 424 L839 416 M811 440 L839 432 M811 456 L839 448 M811 472 L839 464"/>
+    <circle class="mt2" cx="825" cy="502" r="30"/><circle class="wh" cx="825" cy="502" r="12"/>
+  </g>
+  <g data-part="contre-ecrou">
+    <path class="mt" d="M781 236 L869 236 L881 266 L869 296 L781 296 L769 266 Z"/>
+    <path class="thin" d="M800 236 L800 296 M850 236 L850 296"/>
+  </g>
+  <path class="dim" d="M720 130 L720 480"/>
+  <path class="dimf" d="M720 104 L706 134 L734 134 Z M720 506 L706 476 L734 476 Z"/>
+  <text class="tb tc" x="825" y="630">Tige réglable</text>
+
+  <g class="badges">
+    <g class="badge" data-badge="cale" transform="translate(276 86)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="empilage" transform="translate(60 390)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="oblong" transform="translate(408 198)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="tige" transform="translate(884 400)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="contre-ecrou" transform="translate(916 266)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+  </g>
+</svg>

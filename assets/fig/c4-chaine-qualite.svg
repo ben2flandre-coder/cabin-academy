@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 690" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Les acteurs de la qualité et le circuit d'une alerte</title>
+  <desc id="d">Schéma de principe en quatre étages. En bas, TOI, l'opérateur. Au-dessus, le CHEF D'ÉQUIPE. Plus haut, côte à côte, la QUALITÉ et les MÉTHODES. Tout en haut, le CLIENT. Des flèches orange montent d'étage en étage : c'est la remontée d'une alerte, de l'opérateur vers le chef d'équipe, puis vers la qualité et les méthodes, puis vers le client si nécessaire. Des flèches bleues redescendent jusqu'à l'opérateur : c'est le retour de la décision.</desc>
+  <rect class="bgp" width="1000" height="690"/>
+  <g data-part="remontee">
+    <rect class="none" pointer-events="all" x="360" y="480" width="110" height="100" rx="10"/>
+    <path class="sy" d="M415 576 L415 512"/><path class="syf" d="M415 482 L435 512 L395 512 Z"/>
+    <path class="sy" d="M340 392 L270.7 319.7"/><path class="syf" d="M250 298 L285.2 305.8 L256.3 333.5 Z"/>
+    <path class="sy" d="M660 392 L729.3 319.7"/><path class="syf" d="M750 298 L743.7 333.5 L714.8 305.8 Z"/>
+    <path class="sy" d="M250 208 L367 130.6"/><path class="syf" d="M392 114 L378 147.2 L355.9 113.9 Z"/>
+    <path class="sy" d="M750 208 L633 130.6"/><path class="syf" d="M608 114 L644.1 113.9 L622 147.2 Z"/>
+  </g>
+  <g data-part="retour">
+    <rect class="none" pointer-events="all" x="530" y="480" width="110" height="100" rx="10"/>
+    <path class="dim" d="M585 484 L585 556"/><path class="dimf" d="M585 564 L573.5 534.9 L596.5 534.9 Z"/>
+    <path class="dim" d="M500 112 L500 384"/><path class="dimf" d="M500 392 L488.5 362.9 L511.5 362.9 Z"/>
+  </g>
+  <g data-part="client">
+    <rect class="wh" x="300" y="28" width="400" height="80" rx="14"/>
+    <circle class="eq" cx="344" cy="58" r="15"/><path class="eq" d="M318 98 a26 22 0 0 1 52 0 Z"/>
+  </g>
+  <text class="tb" x="384" y="82" pointer-events="none">CLIENT</text>
+  <g data-part="qualite">
+    <rect class="wh" x="40" y="212" width="400" height="80" rx="14"/>
+    <circle class="eq" cx="84" cy="242" r="15"/><path class="eq" d="M58 282 a26 22 0 0 1 52 0 Z"/>
+  </g>
+  <text class="tb" x="124" y="266" pointer-events="none">QUALITÉ</text>
+  <g data-part="methodes">
+    <rect class="wh" x="560" y="212" width="400" height="80" rx="14"/>
+    <circle class="eq" cx="604" cy="242" r="15"/><path class="eq" d="M578 282 a26 22 0 0 1 52 0 Z"/>
+  </g>
+  <text class="tb" x="644" y="266" pointer-events="none">MÉTHODES</text>
+  <g data-part="chef">
+    <rect class="wh" x="230" y="396" width="540" height="80" rx="14"/>
+    <circle class="eq" cx="274" cy="426" r="15"/><path class="eq" d="M248 466 a26 22 0 0 1 52 0 Z"/>
+  </g>
+  <text class="tb" x="314" y="450" pointer-events="none">CHEF D’ÉQUIPE</text>
+  <g data-part="operateur">
+    <rect class="wh" x="300" y="580" width="400" height="80" rx="14"/>
+    <circle class="eq" cx="344" cy="610" r="15"/><path class="eq" d="M318 650 a26 22 0 0 1 52 0 Z"/>
+  </g>
+  <text class="tb" x="384" y="634" pointer-events="none">TOI</text>
+  <g class="badges">
+    <g class="badge" data-badge="client" transform="translate(662 68)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="qualite" transform="translate(402 252)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="methodes" transform="translate(922 252)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="chef" transform="translate(732 436)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="operateur" transform="translate(662 620)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="remontee" transform="translate(348 530)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="retour" transform="translate(652 530)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+  </g>
+</svg>

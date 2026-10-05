@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 740" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Bagagerie (hatrack) : coupe d’un bac et deux familles de bacs</title>
+  <desc id="d">Schéma de principe. À gauche, coupe transversale d'un bac à bagages du côté gauche de la cabine, vue vers l'avant : le caisson du bac est suspendu au cadre du fuselage par des ferrures et une bielle ; sa porte, articulée en haut par une charnière, est retenue par un vérin-amortisseur et fermée en bas par un verrou ; une étiquette de charge maximale est collée à l'intérieur ; le PSU est fixé sous le bac ; le panneau de plafond rejoint le haut du bac et le panneau d'habillage latéral part sous le bac. À droite, deux pictogrammes : le bac fixe, dont seule la porte se lève, et le bac basculant, dont toute la cuve descend en pivotant.</desc>
+  <rect class="bgp" width="1000" height="740"/>
+  <path class="sk" d="M68.5 730 A832 832 0 0 1 500.8 30 L526.5 30 A820 820 0 0 0 80.5 730 Z"/>
+  <g data-part="cadre">
+    <path class="st" d="M80.5 730 A820 820 0 0 1 526.5 30 L608.6 30 A786 786 0 0 0 114.6 730 Z"/>
+  </g>
+  <g data-part="habillage">
+    <path class="in" d="M158.6 730 A742 742 0 0 1 205 500 L217.9 500 A730 730 0 0 0 170.6 730 Z"/>
+  </g>
+  <g data-part="plafond">
+    <path class="in" d="M486 212 C640 168 800 150 970 146 L970 160 C800 164 640 182 490 226 Z"/>
+  </g>
+  <g data-part="ferrure">
+    <path class="mt2" d="M380 172 L428 132 L416 190 Z"/>
+    <circle class="mt2" cx="404" cy="176" r="10"/>
+    <rect class="mt2" x="186" y="404" width="38" height="38" rx="5"/>
+    <circle class="dk" cx="207" cy="423" r="6"/>
+  </g>
+  <g data-part="bielle">
+    <path class="mt" d="M398 178 L410 178 L410 262 L398 262 Z"/>
+    <circle class="mt" cx="404" cy="264" r="9"/>
+  </g>
+  <g data-part="caisson">
+    <path class="eq" d="M215 470 L215 400 L318 300 L470 236 L474 250 L326 312 L229 404 L229 456 L530 456 L530 470 Z"/>
+  </g>
+  <rect class="in" x="384" y="376" width="112" height="80" rx="10"/><path class="ln" d="M420 376 C420 356 460 356 460 376"/>
+  <g data-part="etiquette">
+    <rect class="wh" x="238" y="410" width="72" height="38" rx="4"/>
+    <path class="thin" d="M248 422 L300 422"/><path class="thin" d="M248 434 L286 434"/>
+  </g>
+  <g data-part="amortisseur">
+    <path class="mt2" d="M344 292 L440 281 L442 295 L346 306 Z"/>
+    <path class="ln2" d="M440 288 L512 280"/>
+    <circle class="mt2" cx="345" cy="299" r="8"/><circle class="mt2" cx="514" cy="280" r="8"/>
+  </g>
+  <path class="dash" d="M470 236 C560 196 650 214 704 274"/>
+  <g data-part="porte">
+    <path class="eq2" d="M470 230 C546 250 578 362 552 470 L536 466 C560 364 530 264 464 246 Z"/>
+  </g>
+  <g data-part="charniere">
+    <circle class="mt2" cx="470" cy="238" r="16"/>
+    <circle class="dk" cx="470" cy="238" r="5"/>
+  </g>
+  <g data-part="verrou">
+    <rect class="dk" x="520" y="444" width="44" height="34" rx="7"/>
+    <rect class="mt" x="500" y="462" width="26" height="12" rx="3"/>
+  </g>
+  <g data-part="psu">
+    <rect class="in" x="300" y="486" width="204" height="34" rx="6"/>
+    <circle class="mt" cx="350" cy="520" r="9"/><circle class="mt" cx="400" cy="520" r="9"/><circle class="mt" cx="450" cy="520" r="9"/>
+  </g>
+  <rect class="bgp" x="630" y="300" width="340" height="190"/>
+  <g data-part="type-fixe">
+    <rect class="bgp" x="630" y="300" width="340" height="190"/>
+    <path class="eq" d="M650 465 L650 430 L701.5 380 L777.5 348 L779.5 355 L705.5 386 L657 432 L657 458 L807.5 458 L807.5 465 Z"/>
+    <path class="eq2" d="M777.5 344 C827.5 308 887.5 304 929.5 338 L921.5 348 C883.5 318 831.5 320 781.5 354 Z"/>
+    <path class="dim" d="M900 452 L900 384"/><path class="dimf" d="M900 384 L907.8 400.2 L892.2 400.2 Z"/>
+  </g>
+  <text class="ts" x="690" y="500">Bac fixe</text>
+  <g data-part="type-basculant">
+    <rect class="bgp" x="630" y="530" width="340" height="170"/>
+    <path class="eq" d="M650 643 L650 608 L701.5 558 L777.5 526 L779.5 533 L705.5 564 L657 610 L657 643 Z"/>
+    <path class="eq2" d="M662.5 636 L669.7 614.2 L676.4 616.4 L671.3 631.6 L797.6 673.4 L837 611.7 L843 615.8 L801.1 681.9 Z"/>
+    <circle class="dk" cx="662.5" cy="636" r="6"/>
+    <path class="dim" d="M930 566 L930 638"/><path class="dimf" d="M930 638 L922.2 621.8 L937.8 621.8 Z"/>
+  </g>
+  <text class="ts" x="690" y="728">Bac basculant</text>
+  <path class="thin" d="M596 380 L558 372"/><path class="thin" d="M570 256 L486 240"/><path class="thin" d="M430 318 L420 298"/><path class="thin" d="M600 486 L566 466"/><path class="thin" d="M452 160 L420 168"/><path class="thin" d="M366 244 L398 226"/><path class="thin" d="M344 428 L312 428"/><path class="thin" d="M400 548 L400 522"/><path class="thin" d="M244 630 L208 620"/>
+  <g class="badges">
+    <g class="badge" data-badge="caisson" transform="translate(274 354)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="porte" transform="translate(618 384)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="charniere" transform="translate(592 262)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="amortisseur" transform="translate(432 340)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="verrou" transform="translate(622 494)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="ferrure" transform="translate(472 152)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="bielle" transform="translate(344 250)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="cadre" transform="translate(256 296)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="etiquette" transform="translate(346 428)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="psu" transform="translate(400 570)"><circle class="bd" r="24"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="plafond" transform="translate(760 162)"><circle class="bd" r="24"/><text class="bn">11</text></g>
+    <g class="badge" data-badge="habillage" transform="translate(268 634)"><circle class="bd" r="24"/><text class="bn">12</text></g>
+    <g class="badge" data-badge="type-fixe" transform="translate(664 336)"><circle class="bd" r="24"/><text class="bn">13</text></g>
+    <g class="badge" data-badge="type-basculant" transform="translate(664 540)"><circle class="bd" r="24"/><text class="bn">14</text></g>
+  </g>
+</svg>

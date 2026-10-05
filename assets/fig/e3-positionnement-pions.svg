@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Positionner un panneau sur ses repères</title>
+  <desc id="d">Deux vues d'un même panneau. À gauche, en coupe : le support porte deux pions de centrage dressés ; le panneau descend vers eux, un trou en face de chaque pion. À droite, de face, le panneau en place : en haut à gauche, un trou de référence rond exactement rempli par son pion ; en haut à droite, un trou oblong allongé à l'horizontale, où le pion peut glisser le long de la flèche ; quatre trous de fixation aux angles ; sous le bord inférieur, deux appuis sur lesquels le panneau repose ; en haut au milieu, deux marques d'alignement face à face, une sur le panneau et une sur le support.</desc>
+  <rect class="bgp" width="1000" height="680"/>
+  <text class="ts" x="30" y="56">En coupe</text>
+  <text class="ts" x="470" y="56">De face</text>
+
+  <!-- ===== coupe ===== -->
+  <g data-part="panneau">
+    <rect class="in" x="40" y="240" width="110" height="44" rx="4"/>
+    <rect class="in" x="188" y="240" width="92" height="44" rx="4"/>
+    <rect class="in" x="352" y="240" width="68" height="44" rx="4"/>
+    <path class="thin" d="M150 240 L188 240 M150 284 L188 284 M280 240 L352 240 M280 284 L352 284"/>
+  </g>
+  <path class="dim" d="M95 306 L95 392 M386 306 L386 392"/>
+  <path class="dimf" d="M95 414 L82 388 L108 388 Z M386 414 L373 388 L399 388 Z"/>
+  <rect class="st" x="40" y="500" width="380" height="44"/>
+  <g data-part="pion">
+    <rect class="none" pointer-events="all" x="130" y="420" width="80" height="84"/>
+    <rect class="none" pointer-events="all" x="278" y="420" width="80" height="84"/>
+    <path class="mt" d="M154 500 L154 446 Q154 430 169 430 Q184 430 184 446 L184 500 Z"/>
+    <path class="mt" d="M302 500 L302 446 Q302 430 317 430 Q332 430 332 446 L332 500 Z"/>
+  </g>
+
+  <!-- ===== face ===== -->
+  <rect class="st" x="470" y="80" width="500" height="560" rx="8"/>
+  <rect class="in" x="500" y="130" width="440" height="410" rx="22"/>
+  <g data-part="trou-ref">
+    <rect class="none" pointer-events="all" x="556" y="204" width="88" height="88"/>
+    <circle class="wh" cx="600" cy="248" r="32"/>
+    <circle class="mt" cx="600" cy="248" r="27"/>
+  </g>
+  <g data-part="oblong">
+    <rect class="none" pointer-events="all" x="752" y="206" width="150" height="134"/>
+    <rect class="wh" x="762" y="216" width="130" height="64" rx="32"/>
+    <circle class="mt" cx="812" cy="248" r="27"/>
+    <path class="dim" d="M786 314 L868 314"/>
+    <path class="dimf" d="M766 314 L790 302 L790 326 Z M888 314 L864 302 L864 326 Z"/>
+  </g>
+  <g data-part="fixation">
+    <circle class="wh" cx="548" cy="178" r="30"/><circle class="dk" cx="548" cy="178" r="12"/>
+    <circle class="wh" cx="892" cy="492" r="30"/><circle class="dk" cx="892" cy="492" r="12"/>
+    <circle class="wh" cx="548" cy="492" r="30"/><circle class="dk" cx="548" cy="492" r="12"/>
+    <circle class="wh" cx="892" cy="178" r="30"/><circle class="dk" cx="892" cy="178" r="12"/>
+  </g>
+  <g data-part="appui">
+    <rect class="mt2" x="590" y="540" width="90" height="60" rx="6"/>
+    <rect class="mt2" x="760" y="540" width="90" height="60" rx="6"/>
+  </g>
+  <g data-part="marque">
+    <rect class="none" pointer-events="all" x="680" y="84" width="80" height="92"/>
+    <path class="badf" d="M720 126 L704 96 L736 96 Z"/>
+    <path class="badf" d="M720 134 L704 164 L736 164 Z"/>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="panneau" transform="translate(234 208)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="pion" transform="translate(243 462)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="trou-ref" transform="translate(600 318)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="oblong" transform="translate(716 248)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="fixation" transform="translate(548 428)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="appui" transform="translate(720 584)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="marque" transform="translate(784 108)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+  </g>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">De la présentation au contrôle : six étapes</title>
+  <desc id="d">Six vignettes en coupe vue de dessus : la structure est la barre du haut, le panneau voisin déjà posé est à gauche, le panneau à installer arrive par le bas. Un : présenter, le panneau est approché de sa place dessinée en pointillé, sans aucune fixation. Deux : dégagements, un faisceau passe entre la structure et le panneau, une cote montre l'espace à vérifier. Trois : positionner, le panneau est engagé sur deux pions de centrage. Quatre : pointer, trois vis sont engagées mais leurs têtes ne touchent pas encore le panneau. Cinq : ajuster, une cote montre le jeu avec le panneau voisin. Six : contrôler, un œil vise l'alignement le long des deux panneaux.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+
+  <!-- 1 PRÉSENTER -->
+  <g data-part="presenter">
+    <rect class="wh" x="20" y="20" width="310" height="330" rx="14"/>
+    <rect class="st" x="40" y="50" width="270" height="30"/>
+    <rect class="in" x="40" y="130" width="70" height="24" rx="3"/>
+    <path class="ln" d="M60 80 L60 130 M90 80 L90 130"/>
+    <rect class="dash" x="120" y="130" width="180" height="24" rx="3"/>
+    <rect class="in" x="120" y="222" width="180" height="24" rx="3"/>
+    <path class="dim" d="M210 176 L210 204"/>
+    <path class="dimf" d="M210 160 L198 182 L222 182 Z M210 220 L198 198 L222 198 Z"/>
+    <text class="ts tc" x="175" y="320">Présenter</text>
+  </g>
+  <!-- 2 DÉGAGEMENTS -->
+  <g data-part="degagements">
+    <rect class="wh" x="345" y="20" width="310" height="330" rx="14"/>
+    <rect class="st" x="365" y="50" width="270" height="30"/>
+    <rect class="in" x="365" y="130" width="70" height="24" rx="3"/>
+    <path class="ln" d="M385 80 L385 130 M415 80 L415 130"/>
+    <circle class="syf" cx="540" cy="104" r="20"/>
+    <rect class="in" x="445" y="176" width="180" height="24" rx="3"/>
+    <path class="dim" d="M540 130 L540 170"/>
+    <path class="dimf" d="M540 124 L530 142 L550 142 Z M540 176 L530 158 L550 158 Z"/>
+    <text class="ts tc" x="500" y="320">Dégagements</text>
+  </g>
+  <!-- 3 POSITIONNER -->
+  <g data-part="positionner">
+    <rect class="wh" x="670" y="20" width="310" height="330" rx="14"/>
+    <rect class="st" x="690" y="50" width="270" height="30"/>
+    <rect class="in" x="690" y="130" width="70" height="24" rx="3"/>
+    <path class="ln" d="M710 80 L710 130 M740 80 L740 130"/>
+    <rect class="in" x="770" y="130" width="180" height="24" rx="3"/>
+    <rect class="mt" x="794" y="80" width="18" height="86"/>
+    <rect class="mt" x="908" y="80" width="18" height="86"/>
+    <circle class="dim" cx="803" cy="142" r="30"/>
+    <circle class="dim" cx="917" cy="142" r="30"/>
+    <text class="ts tc" x="825" y="320">Positionner</text>
+  </g>
+  <!-- 4 POINTER -->
+  <g data-part="pointer">
+    <rect class="wh" x="20" y="370" width="310" height="330" rx="14"/>
+    <rect class="st" x="40" y="400" width="270" height="30"/>
+    <rect class="in" x="40" y="480" width="70" height="24" rx="3"/>
+    <path class="ln" d="M60 430 L60 480 M90 430 L90 480"/>
+    <rect class="in" x="120" y="480" width="180" height="24" rx="3"/>
+    <rect class="mt2" x="141" y="430" width="10" height="100"/><rect class="mt2" x="130" y="528" width="32" height="14" rx="3"/>
+    <rect class="mt2" x="205" y="430" width="10" height="100"/><rect class="mt2" x="194" y="528" width="32" height="14" rx="3"/>
+    <rect class="mt2" x="269" y="430" width="10" height="100"/><rect class="mt2" x="258" y="528" width="32" height="14" rx="3"/>
+    <text class="ts tc" x="175" y="670">Pointer</text>
+  </g>
+  <!-- 5 AJUSTER -->
+  <g data-part="ajuster">
+    <rect class="wh" x="345" y="370" width="310" height="330" rx="14"/>
+    <rect class="st" x="365" y="400" width="270" height="30"/>
+    <rect class="in" x="365" y="480" width="70" height="24" rx="3"/>
+    <path class="ln" d="M385 430 L385 480 M415 430 L415 480"/>
+    <rect class="in" x="463" y="480" width="162" height="24" rx="3"/>
+    <rect class="mt2" x="480" y="430" width="10" height="84"/><rect class="mt2" x="469" y="512" width="32" height="14" rx="3"/>
+    <rect class="mt2" x="598" y="430" width="10" height="84"/><rect class="mt2" x="587" y="512" width="32" height="14" rx="3"/>
+    <path class="dim" d="M435 548 L435 584 M463 548 L463 584 M400 566 L435 566 M463 566 L498 566"/>
+    <path class="dimf" d="M435 566 L417 556 L417 576 Z M463 566 L481 556 L481 576 Z"/>
+    <text class="ts tc" x="500" y="670">Ajuster</text>
+  </g>
+  <!-- 6 CONTRÔLER -->
+  <g data-part="controler">
+    <rect class="wh" x="670" y="370" width="310" height="330" rx="14"/>
+    <rect class="st" x="690" y="400" width="270" height="30"/>
+    <rect class="in" x="756" y="480" width="70" height="24" rx="3"/>
+    <rect class="in" x="840" y="480" width="110" height="24" rx="3"/>
+    <path class="ln" d="M776 430 L776 480 M806 430 L806 480 M860 430 L860 480 M930 430 L930 480"/>
+    <path class="dash" d="M744 524 L956 524"/>
+    <path class="wh" d="M688 524 Q712 496 736 524 Q712 552 688 524 Z"/>
+    <circle class="dk" cx="716" cy="524" r="10"/>
+    <text class="ts tc" x="825" y="670">Contrôler</text>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="presenter" transform="translate(48 286)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="degagements" transform="translate(373 256)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="positionner" transform="translate(698 256)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="pointer" transform="translate(48 606)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="ajuster" transform="translate(373 606)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="controler" transform="translate(698 606)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+  </g>
+</svg>

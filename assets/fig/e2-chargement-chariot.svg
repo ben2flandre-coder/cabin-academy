@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Deux chariots chargés : arrimage à comparer</title>
+  <desc id="d">Deux chariots à plateau vus de côté. Chariot A, à gauche : un seul colis centré sur le plateau, maintenu par une sangle tendue qui passe sur des protections d'angle, calé à sa base par deux cales, la roue arrière freinée. Chariot B, à droite : un grand colis posé sur un petit, un autre colis qui dépasse du plateau vers l'avant, une sangle détendue qui pend sans rien maintenir, et un sachet de visserie posé en vrac sur le dessus du chargement.</desc>
+  <rect class="bgp" width="1000" height="600"/>
+  <path class="ln" d="M20 540 L980 540"/>
+  <text class="tl" x="40" y="70">A</text>
+  <text class="tl" x="540" y="70">B</text>
+
+  <!-- ===== CHARIOT A ===== -->
+  <path class="ln2" d="M70 430 L70 200 M52 200 L96 200"/>
+  <rect class="mt2" x="60" y="430" width="390" height="26" rx="4"/>
+  <circle class="dk" cx="390" cy="498" r="38"/><circle class="wh" cx="390" cy="498" r="12"/>
+
+  <g data-part="frein">
+    <circle class="dk" cx="130" cy="498" r="38"/><circle class="wh" cx="130" cy="498" r="12"/>
+    <path class="badf" d="M150 452 L206 462 L206 480 L162 476 Z"/>
+  </g>
+  <g data-part="charge-centree">
+    <rect class="in" x="130" y="250" width="250" height="180" rx="6"/>
+    <path class="thin" d="M130 300 L380 300"/>
+  </g>
+  <g data-part="sangle-ok">
+    <path class="sy" d="M112 430 L122 242 L388 242 L398 430"/>
+    <rect class="mt" x="96" y="330" width="34" height="44" rx="5"/>
+  </g>
+  <g data-part="protection-angle">
+    <path class="okf" d="M102 214 L176 214 L176 240 L134 240 L134 290 L102 290 Z"/>
+    <path class="okf" d="M408 214 L334 214 L334 240 L376 240 L376 290 L408 290 Z"/>
+  </g>
+  <g data-part="cale">
+    <path class="st" d="M52 430 L128 430 L128 380 Z"/>
+    <path class="st" d="M458 430 L382 430 L382 380 Z"/>
+  </g>
+
+  <!-- ===== CHARIOT B ===== -->
+  <path class="ln2" d="M570 430 L570 200 M552 200 L596 200"/>
+  <rect class="mt2" x="560" y="430" width="350" height="26" rx="4"/>
+  <circle class="dk" cx="630" cy="498" r="38"/><circle class="wh" cx="630" cy="498" r="12"/>
+  <circle class="dk" cx="850" cy="498" r="38"/><circle class="wh" cx="850" cy="498" r="12"/>
+
+  <g data-part="empilement-instable">
+    <rect class="in" x="622" y="356" width="84" height="74" rx="5"/>
+    <rect class="in" x="588" y="222" width="180" height="134" rx="6"/>
+    <path class="thin" d="M588 262 L768 262"/>
+  </g>
+  <g data-part="porte-a-faux">
+    <rect class="in" x="786" y="330" width="194" height="100" rx="6"/>
+    <path class="thin" d="M786 362 L980 362"/>
+  </g>
+  <g data-part="sangle-detendue">
+    <rect class="none" pointer-events="all" x="740" y="196" width="120" height="140"/>
+    <path class="sy" d="M700 222 C760 190 790 250 800 300 C806 330 836 330 846 296"/>
+    <rect class="mt" x="828" y="262" width="34" height="44" rx="5"/>
+  </g>
+  <g data-part="objet-libre">
+    <rect class="none" pointer-events="all" x="600" y="150" width="96" height="72"/>
+    <path class="gl" d="M608 222 L612 180 Q650 164 688 180 L692 222 Z"/>
+    <circle class="mt" cx="634" cy="206" r="9"/><circle class="mt" cx="656" cy="198" r="9"/><circle class="mt" cx="670" cy="210" r="9"/>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="charge-centree" transform="translate(255 368)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="sangle-ok" transform="translate(255 242)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="protection-angle" transform="translate(420 200)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="cale" transform="translate(470 392)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="frein" transform="translate(214 500)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="empilement-instable" transform="translate(586 372)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="porte-a-faux" transform="translate(940 400)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="sangle-detendue" transform="translate(880 250)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="objet-libre" transform="translate(722 170)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+  </g>
+</svg>

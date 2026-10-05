@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Principe de la consignation d'une énergie</title>
+  <desc id="d">Schéma de principe. À gauche, une arrivée d'énergie alimente un coffret dont la poignée de l'organe de séparation est sur la position O (ouvert). Un cadenas rouge bloque la poignée et une étiquette d'interdiction de manœuvrer y est attachée. Le circuit en aval, dessiné en pointillé et barré, relie le coffret à un équipement. En bas, une personne garde la clé du cadenas. À droite, un testeur affiche zéro : l'absence d'énergie a été vérifiée sur le circuit séparé.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+  <g data-part="source">
+    <path class="sy" d="M30 150 L150 150"/>
+    <path class="syf" d="M40 96 L78 96 L62 132 L86 132 L44 196 L54 150 L34 150 Z"/>
+  </g>
+  <g data-part="organe">
+    <rect class="mt" x="150" y="60" width="250" height="330" rx="14"/>
+    <rect class="mt2" x="150" y="60" width="250" height="40" rx="14"/>
+    <circle class="wh" cx="262" cy="250" r="88"/>
+    <text class="tb tc" x="262" y="150">O</text>
+    <text class="tb tc" x="374" y="264">I</text>
+    <circle class="mt2" cx="262" cy="250" r="30"/>
+    <rect class="dk" x="246" y="170" width="32" height="106" rx="12"/>
+  </g>
+  <g data-part="circuit">
+    <path class="dash" d="M400 150 L600 150 L600 250 L700 250"/>
+    <line class="ln2" x1="470" y1="128" x2="500" y2="172"/>
+    <line class="ln2" x1="500" y1="128" x2="530" y2="172"/>
+  </g>
+  <g data-part="equipement">
+    <rect class="eq" x="700" y="150" width="250" height="230" rx="14"/>
+    <rect class="eq2" x="724" y="176" width="202" height="70" rx="8"/>
+    <rect class="wh" x="724" y="264" width="96" height="92" rx="6"/>
+    <rect class="wh" x="830" y="264" width="96" height="92" rx="6"/>
+    <circle class="dk" cx="806" cy="310" r="6"/>
+    <circle class="dk" cx="844" cy="310" r="6"/>
+  </g>
+  <g data-part="cadenas">
+    <rect class="mt2" x="296" y="300" width="70" height="24" rx="4"/>
+    <circle class="wh" cx="348" cy="312" r="8"/>
+    <path class="ln2" d="M330 372 L330 334 C330 300 376 300 376 334 L376 372"/>
+    <rect class="badf" x="314" y="366" width="78" height="70" rx="10"/>
+    <circle class="dk" cx="353" cy="394" r="8"/>
+    <rect class="dk" x="349" y="396" width="8" height="22" rx="2"/>
+  </g>
+  <g data-part="etiquette">
+    <path class="ln" d="M318 430 C300 470 250 470 236 500"/>
+    <path class="wh" d="M150 520 L176 494 L300 494 L326 520 L326 700 L150 700 Z"/>
+    <circle class="dk" cx="238" cy="514" r="8"/>
+    <rect class="badf" x="150" y="534" width="176" height="22"/>
+    <circle class="badf" cx="238" cy="612" r="44"/>
+    <circle class="bgp" cx="238" cy="612" r="31"/>
+    <rect class="dk" x="228" y="592" width="20" height="40" rx="6"/>
+    <path class="badf" d="M204.4 587.6 L262.4 645.6 L271.6 636.4 L213.6 578.4 Z"/>
+    <line class="ln" x1="174" y1="672" x2="302" y2="672"/>
+    <line class="thin" x1="174" y1="686" x2="270" y2="686"/>
+  </g>
+  <g data-part="cle">
+    <path class="eq2" d="M474 516 L480 640 L560 640 L566 516 Z"/>
+    <path class="eq2" d="M470 523 L460 625 L480 627 L490 525 Z"/>
+    <circle class="wh" cx="470" cy="626" r="12"/>
+    <path class="eq2" d="M550.7 527.7 L580.7 603.7 L599.3 596.3 L569.3 520.3 Z"/>
+    <circle class="eq2" cx="590" cy="600" r="10"/>
+    <path class="eq2" d="M599.7 602.4 L609.7 562.4 L590.3 557.6 L580.3 597.6 Z"/>
+    <circle class="wh" cx="600" cy="560" r="12"/>
+    <circle class="wh" cx="520" cy="470" r="30"/>
+    <circle class="mt2" cx="628" cy="520" r="24"/>
+    <circle class="wh" cx="628" cy="520" r="9"/>
+    <rect class="mt2" x="622" y="540" width="12" height="70" rx="2"/>
+    <rect class="mt2" x="634" y="578" width="16" height="10" rx="1"/>
+    <rect class="mt2" x="634" y="596" width="12" height="10" rx="1"/>
+  </g>
+  <g data-part="verification">
+    <rect class="dk" x="760" y="470" width="130" height="190" rx="16"/>
+    <rect class="wh" x="778" y="490" width="94" height="70" rx="6"/>
+    <text class="tl tc" x="825" y="544">0</text>
+    <circle class="mt" cx="825" cy="610" r="22"/>
+    <path class="ln" d="M790 470 C780 430 730 440 716 380"/>
+    <path class="ln" d="M860 470 C870 430 900 420 900 384"/>
+    <rect class="badf" x="708" y="356" width="14" height="30" rx="3"/>
+    <rect class="dk" x="894" y="358" width="14" height="30" rx="3"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="source" transform="translate(100 60)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="organe" transform="translate(186 82)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="cadenas" transform="translate(424 402)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="etiquette" transform="translate(120 600)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="cle" transform="translate(660 620)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="circuit" transform="translate(560 108)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="verification" transform="translate(926 520)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="equipement" transform="translate(916 136)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

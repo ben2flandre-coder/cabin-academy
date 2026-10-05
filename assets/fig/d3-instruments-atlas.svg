@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 757" class="fig" role="img" aria-labelledby="t d">
+<title id="t">Atlas des moyens de mesure et de contrôle</title>
+<desc id="d">Douze instruments dessinés en silhouette, un par case : réglet gradué, mètre ruban avec son crochet, pied à coulisse avec ses becs, micromètre en forme de C, jauge d'épaisseur à lames déployée en éventail, jauge de profondeur en T, calibre tampon à deux bouts (un vert, un rouge), pige engagée dans deux trous alignés, équerre, niveau à bulle, rapporteur d'angle et multimètre avec ses deux cordons.</desc>
+<rect class="bgp" width="1000" height="757"/>
+<g data-part="reglet">
+<rect class="in" x="20" y="20" width="310" height="168" rx="16"/>
+<g transform="translate(20 20)">
+<rect class="mt" x="22" y="78" width="272" height="44" rx="3"/>
+<path class="thin" d="M30 78 v26 M39 78 v12 M48 78 v12 M57 78 v12 M66 78 v12 M75 78 v18 M84 78 v12 M93 78 v12 M102 78 v12 M111 78 v12 M120 78 v26 M129 78 v12 M138 78 v12 M147 78 v12 M156 78 v12 M165 78 v18 M174 78 v12 M183 78 v12 M192 78 v12 M201 78 v12 M210 78 v26 M219 78 v12 M228 78 v12 M237 78 v12 M246 78 v12 M255 78 v18 M264 78 v12 M273 78 v12 M282 78 v12"/>
+<circle class="wh" cx="280" cy="104" r="7"/>
+</g>
+</g>
+<g data-part="metre-ruban">
+<rect class="in" x="345" y="20" width="310" height="168" rx="16"/>
+<g transform="translate(345 20)">
+<rect class="eq2" x="92" y="26" width="112" height="112" rx="22"/>
+<circle class="eq" cx="148" cy="82" r="36"/>
+<circle class="wh" cx="148" cy="82" r="11"/>
+<rect class="dk" x="128" y="16" width="40" height="12" rx="4"/>
+<rect class="syf" x="204" y="114" width="82" height="20"/>
+<path class="thin" d="M214 114 v9 M224 114 v14 M234 114 v9 M244 114 v14 M254 114 v9 M264 114 v14 M274 114 v9"/>
+<rect class="mt2" x="284" y="106" width="9" height="38" rx="2"/>
+</g>
+</g>
+<g data-part="pied-a-coulisse">
+<rect class="in" x="670" y="20" width="310" height="168" rx="16"/>
+<g transform="translate(670 20)">
+<rect class="mt" x="40" y="62" width="216" height="24"/>
+<path class="thin" d="M78 86 v-14 M84 86 v-7 M90 86 v-7 M96 86 v-7 M102 86 v-7 M108 86 v-10 M114 86 v-7 M120 86 v-7 M126 86 v-7 M132 86 v-7 M138 86 v-14 M144 86 v-7 M150 86 v-7 M156 86 v-7 M162 86 v-7 M168 86 v-10 M174 86 v-7 M180 86 v-7 M186 86 v-7 M192 86 v-7 M198 86 v-14 M204 86 v-7 M210 86 v-7 M216 86 v-7 M222 86 v-7 M228 86 v-10 M234 86 v-7 M240 86 v-7 M246 86 v-7 M252 86 v-7"/>
+<rect class="mt" x="256" y="69" width="40" height="9"/>
+<path class="mt2" d="M40 56 H66 V150 L58 158 L40 120 Z"/>
+<path class="mt2" d="M66 28 V62 H84 L72 28 Z"/>
+<rect class="mt2" x="106" y="54" width="86" height="40" rx="4"/>
+<rect class="wh" x="116" y="64" width="62" height="14"/>
+<path class="mt2" d="M106 92 V150 L114 158 L132 120 V92 Z"/>
+<path class="mt2" d="M106 28 V56 H88 L100 28 Z"/>
+<rect class="dk" x="142" y="43" width="16" height="11" rx="2"/>
+<circle class="dk" cx="176" cy="100" r="9"/>
+</g>
+</g>
+<g data-part="micrometre">
+<rect class="in" x="20" y="203" width="310" height="168" rx="16"/>
+<g transform="translate(20 203)">
+<path class="eq2" d="M70 30 H102 V80 A30 30 0 0 0 162 80 V30 H194 V80 A62 62 0 0 1 70 80 Z"/>
+<rect class="mt2" x="102" y="39" width="11" height="14"/>
+<rect class="mt" x="125" y="40" width="37" height="12"/>
+<rect class="mt" x="194" y="34" width="48" height="24"/>
+<path class="thin" d="M198 46 H242 M204 46 v-7 M212 46 v7 M220 46 v-7 M228 46 v7 M236 46 v-7"/>
+<rect class="mt2" x="242" y="27" width="44" height="38" rx="4"/>
+<path class="thin" d="M250 30 v32 M257 30 v32 M264 30 v32 M271 30 v32 M278 30 v32"/>
+<rect class="dk" x="286" y="38" width="14" height="16" rx="3"/>
+</g>
+</g>
+<g data-part="jauge-lames">
+<rect class="in" x="345" y="203" width="310" height="168" rx="16"/>
+<g transform="translate(345 203)">
+<rect class="mt" x="44" y="108" width="232" height="28" rx="14" transform="rotate(-30 62 122)"/>
+<rect class="wh" x="44" y="108" width="232" height="28" rx="14" transform="rotate(-21 62 122)"/>
+<rect class="mt" x="44" y="108" width="232" height="28" rx="14" transform="rotate(-12 62 122)"/>
+<rect class="wh" x="44" y="108" width="232" height="28" rx="14" transform="rotate(-3 62 122)"/>
+<rect class="eq2" x="30" y="102" width="206" height="40" rx="20"/>
+<circle class="mt" cx="62" cy="122" r="9"/>
+</g>
+</g>
+<g data-part="jauge-profondeur">
+<rect class="in" x="670" y="203" width="310" height="168" rx="16"/>
+<g transform="translate(670 203)">
+<rect class="mt" x="158" y="12" width="24" height="148"/>
+<path class="thin" d="M158 24 h10 M158 32 h6 M158 40 h6 M158 48 h10 M158 56 h6 M158 64 h6 M158 126 h10 M158 134 h6 M158 142 h6 M158 150 h10"/>
+<rect class="mt2" x="70" y="98" width="200" height="22" rx="3"/>
+<rect class="mt2" x="146" y="68" width="48" height="30" rx="3"/>
+<circle class="dk" cx="204" cy="82" r="8"/>
+</g>
+</g>
+<g data-part="calibre">
+<rect class="in" x="20" y="386" width="310" height="168" rx="16"/>
+<g transform="translate(20 386)">
+<rect class="okf" x="38" y="84" width="86" height="40" rx="4"/>
+<rect class="mt" x="124" y="96" width="14" height="16"/>
+<rect class="mt2" x="138" y="74" width="84" height="60" rx="6"/>
+<path class="thin" d="M150 78 v52 M160 78 v52 M170 78 v52 M180 78 v52 M190 78 v52 M200 78 v52 M210 78 v52"/>
+<rect class="mt" x="222" y="96" width="14" height="16"/>
+<rect class="badf" x="236" y="78" width="46" height="52" rx="4"/>
+</g>
+</g>
+<g data-part="pige">
+<rect class="in" x="345" y="386" width="310" height="168" rx="16"/>
+<g transform="translate(345 386)">
+<rect class="st" x="66" y="64" width="70" height="30"/>
+<rect class="st" x="174" y="64" width="70" height="30"/>
+<rect class="st" x="66" y="100" width="70" height="30"/>
+<rect class="st" x="174" y="100" width="70" height="30"/>
+<rect class="mt" x="141" y="40" width="28" height="114" rx="4"/>
+<rect class="mt2" x="128" y="16" width="54" height="28" rx="8"/>
+</g>
+</g>
+<g data-part="equerre">
+<rect class="in" x="670" y="386" width="310" height="168" rx="16"/>
+<g transform="translate(670 386)">
+<rect class="mt" x="106" y="24" width="184" height="26"/>
+<path class="thin" d="M118 24 v18 M126 24 v9 M134 24 v9 M142 24 v9 M150 24 v9 M158 24 v13 M166 24 v9 M174 24 v9 M182 24 v9 M190 24 v9 M198 24 v18 M206 24 v9 M214 24 v9 M222 24 v9 M230 24 v9 M238 24 v13 M246 24 v9 M254 24 v9 M262 24 v9 M270 24 v9 M278 24 v18"/>
+<rect class="mt2" x="78" y="24" width="30" height="132" rx="3"/>
+<path class="dim" d="M108 80 H138 V50"/>
+</g>
+</g>
+<g data-part="niveau">
+<rect class="in" x="20" y="569" width="310" height="168" rx="16"/>
+<g transform="translate(20 569)">
+<rect class="eq" x="22" y="72" width="268" height="48" rx="6"/>
+<rect class="gl" x="126" y="83" width="60" height="26" rx="13"/>
+<ellipse class="wh" cx="156" cy="96" rx="12" ry="8"/>
+<path class="thin" d="M142 83 v26 M170 83 v26"/>
+<circle class="gl" cx="258" cy="96" r="14"/>
+<circle class="wh" cx="258" cy="96" r="5"/>
+<rect class="wh" x="42" y="87" width="52" height="18" rx="9"/>
+</g>
+</g>
+<g data-part="rapporteur">
+<rect class="in" x="345" y="569" width="310" height="168" rx="16"/>
+<g transform="translate(345 569)">
+<path class="wh" d="M58 134 A92 92 0 0 1 242 134 Z"/>
+<path class="thin" d="M71.2 120.1 L59.4 118 M74.8 106.6 L63.5 102.5 M87.6 98 L70.3 88 M88.7 82.6 L79.5 74.9 M98.6 72.7 L90.9 63.5 M114 71.6 L104 54.3 M122.6 58.8 L118.5 47.5 M136.1 55.2 L134 43.4 M150 62 L150 42 M163.9 55.2 L166 43.4 M177.4 58.8 L181.5 47.5 M186 71.6 L196 54.3 M201.4 72.7 L209.1 63.5 M211.3 82.6 L220.5 74.9 M212.4 98 L229.7 88 M225.2 106.6 L236.5 102.5 M228.8 120.1 L240.6 118"/>
+<rect class="mt" x="50" y="134" width="200" height="16" rx="2"/>
+<rect class="mt2" x="138" y="127" width="156" height="14" rx="3" transform="rotate(-35 150 134)"/>
+<circle class="dk" cx="150" cy="134" r="9"/>
+</g>
+</g>
+<g data-part="multimetre">
+<rect class="in" x="670" y="569" width="310" height="168" rx="16"/>
+<g transform="translate(670 569)">
+<path class="sy" d="M138 146 C168 170 214 160 232 110"/>
+<path class="ln2" d="M98 146 C112 174 250 172 272 110"/>
+<rect class="eq2" x="70" y="10" width="96" height="148" rx="12"/>
+<rect class="gl" x="82" y="22" width="72" height="34" rx="4"/>
+<circle class="wh" cx="118" cy="96" r="26"/>
+<path class="ln2" d="M118 96 L132 78"/>
+<circle class="dk" cx="98" cy="142" r="6"/>
+<circle class="dk" cx="138" cy="142" r="6"/>
+<rect class="dk" x="226" y="58" width="12" height="54" rx="4"/>
+<path class="ln" d="M232 58 V36"/>
+<rect class="dk" x="266" y="58" width="12" height="54" rx="4"/>
+<path class="ln" d="M272 58 V36"/>
+</g>
+</g>
+<g class="badges">
+<g class="badge" data-badge="reglet" transform="translate(54 54)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+<g class="badge" data-badge="metre-ruban" transform="translate(379 54)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+<g class="badge" data-badge="pied-a-coulisse" transform="translate(704 54)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+<g class="badge" data-badge="micrometre" transform="translate(54 237)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+<g class="badge" data-badge="jauge-lames" transform="translate(379 237)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+<g class="badge" data-badge="jauge-profondeur" transform="translate(704 237)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+<g class="badge" data-badge="calibre" transform="translate(54 420)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+<g class="badge" data-badge="pige" transform="translate(379 420)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+<g class="badge" data-badge="equerre" transform="translate(704 420)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+<g class="badge" data-badge="niveau" transform="translate(54 603)"><circle class="bd" r="26"/><text class="bn">10</text></g>
+<g class="badge" data-badge="rapporteur" transform="translate(379 603)"><circle class="bd" r="26"/><text class="bn">11</text></g>
+<g class="badge" data-badge="multimetre" transform="translate(704 603)"><circle class="bd" r="26"/><text class="bn">12</text></g>
+</g>
+</svg>

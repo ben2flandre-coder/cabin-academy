@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" class="fig" role="img" aria-labelledby="t d">
+<title id="t">Lire un vernier au dixième de millimètre</title>
+<desc id="d">Deux vues très agrandies de la zone de lecture d'un pied à coulisse à vernier au dixième. En haut de chaque vue, la règle graduée en millimètres, chiffrée tous les dix millimètres. En dessous, le vernier, une petite échelle de dix divisions numérotée 0, 5 et 10. Exemple A, résolu : le zéro du vernier est juste après le quatorzième trait de la règle, et c'est le troisième trait du vernier qui tombe exactement en face d'un trait de la règle ; la mesure vaut 14,3 millimètres. Exemple B, non résolu : le zéro du vernier se trouve entre 31 et 32, et il faut chercher quel trait du vernier coïncide avec un trait de la règle.</desc>
+<rect class="bgp" width="1000" height="760"/>
+<text class="tl" x="20" y="62">A</text>
+<g data-part="echelle">
+<rect class="mt" x="12" y="112" width="976" height="120" rx="6"/>
+<path class="ln" d="M20 232 v-34 M140 232 v-34 M200 232 v-34 M260 232 v-34 M320 232 v-34 M440 232 v-34 M500 232 v-34 M560 232 v-34 M620 232 v-34 M740 232 v-34 M800 232 v-34 M860 232 v-34 M920 232 v-34"/>
+<path class="ln2" d="M80 232 v-62 M380 232 v-48 M680 232 v-62 M980 232 v-48"/>
+<text class="t tc" x="80" y="160">10</text>
+<text class="t tc" x="680" y="160">20</text>
+</g>
+<g data-part="vernier">
+<rect class="wh" x="268" y="232" width="700" height="120" rx="6"/>
+<path class="ln" d="M392 232 v34 M446 232 v34 M500 232 v34 M554 232 v34 M608 232 v48 M662 232 v34 M716 232 v34 M770 232 v34 M824 232 v34 M878 232 v48"/>
+<text class="t tc" x="608" y="324">5</text>
+<text class="t tc" x="878" y="324">10</text>
+</g>
+<g data-part="zero-vernier">
+<rect class="wh" x="304" y="235" width="68" height="114" rx="4"/>
+<path class="ln2" d="M338 232 v52"/>
+<text class="t tc" x="338" y="328">0</text>
+</g>
+<g data-part="coincidence">
+<ellipse class="dim" cx="500" cy="232" rx="26" ry="66"/>
+</g>
+<path class="dim" d="M320 68 L320 92"/>
+<path class="dimf" d="M320 106 L312.3 92 L327.7 92 Z"/>
+<text class="tb tc ta" x="320" y="58">14</text>
+<text class="tb tc ta" x="500" y="396">0,3</text>
+<text class="tl" x="20" y="478">B</text>
+<g data-part="echelle">
+<rect class="mt" x="12" y="500" width="976" height="120" rx="6"/>
+<path class="ln" d="M20 620 v-34 M80 620 v-34 M140 620 v-34 M260 620 v-34 M320 620 v-34 M380 620 v-34 M440 620 v-34 M560 620 v-34 M620 620 v-34 M680 620 v-34 M740 620 v-34 M860 620 v-34 M920 620 v-34 M980 620 v-34"/>
+<path class="ln2" d="M200 620 v-62 M500 620 v-48 M800 620 v-62"/>
+<text class="t tc" x="200" y="548">30</text>
+<text class="t tc" x="800" y="548">40</text>
+</g>
+<g data-part="vernier">
+<rect class="wh" x="226" y="620" width="700" height="120" rx="6"/>
+<path class="ln" d="M350 620 v34 M404 620 v34 M458 620 v34 M512 620 v34 M566 620 v48 M620 620 v34 M674 620 v34 M728 620 v34 M782 620 v34 M836 620 v48"/>
+<text class="t tc" x="566" y="712">5</text>
+<text class="t tc" x="836" y="712">10</text>
+</g>
+<g data-part="zero-vernier">
+<rect class="wh" x="262" y="623" width="68" height="114" rx="4"/>
+<path class="ln2" d="M296 620 v52"/>
+<text class="t tc" x="296" y="716">0</text>
+</g>
+<g class="badges">
+<g class="badge" data-badge="echelle" transform="translate(860 146)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+<g class="badge" data-badge="vernier" transform="translate(938 318)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+<g class="badge" data-badge="zero-vernier" transform="translate(232 318)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+<g class="badge" data-badge="coincidence" transform="translate(500 326)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+</g>
+</svg>

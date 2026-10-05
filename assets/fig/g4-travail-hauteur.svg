@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 710" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Escabeau : bon usage et mauvais usage</title>
+  <desc id="d">Deux dessins côte à côte d'un escabeau vu de face. À gauche, bon usage, marqué d'une coche verte : les patins sont à plat sur un sol dégagé, la personne se tient sur une marche intermédiaire, face aux marches, le corps entre les montants, une main sur la tablette haute, et travaille juste au-dessus d'elle ; ses outils sont dans une sacoche à la ceinture. À droite, mauvais usage, marqué d'une croix rouge : la personne est debout sur la tablette du haut, penchée loin sur le côté pour atteindre un panneau, un carton sous le bras, et un patin de l'escabeau repose sur un câble.</desc>
+  <rect class="bgp" width="1000" height="710"/>
+  <g>
+    <line class="dash" x1="500" y1="24" x2="500" y2="690"/>
+  </g>
+  <g data-part="patins">
+    <rect class="fl" x="60" y="646" width="380" height="44" rx="4"/>
+    <rect class="dk" x="105" y="632" width="60" height="22" rx="6"/>
+    <rect class="dk" x="335" y="632" width="60" height="22" rx="6"/>
+  </g>
+  <g data-part="escabeau-ok">
+    <path class="mt" d="M142.8 641.8 L202.8 381.8 L187.2 378.2 L127.2 638.2 Z"/>
+    <path class="mt" d="M372.8 638.2 L312.8 378.2 L297.2 381.8 L357.2 641.8 Z"/>
+    <rect class="mt2" x="150" y="567" width="200" height="16" rx="3"/>
+    <rect class="mt2" x="165" y="502" width="170" height="16" rx="3"/>
+    <rect class="mt2" x="180" y="437" width="140" height="16" rx="3"/>
+    <rect class="mt2" x="182" y="372" width="136" height="18" rx="4"/>
+    <rect class="okf" x="338" y="586" width="30" height="40" rx="3"/>
+  </g>
+  <g>
+    <rect class="in" x="190" y="130" width="130" height="44" rx="6"/>
+    <circle class="mt2" cx="206" cy="152" r="7"/>
+    <circle class="mt2" cx="304" cy="152" r="7"/>
+  </g>
+  <g data-part="posture">
+    <path class="dk" d="M224 403 L216 497 L240 499 L248 405 Z"/>
+    <ellipse class="dk" cx="228" cy="498" rx="19.2" ry="10.1"/>
+    <path class="dk" d="M252 405 L260 499 L284 497 L276 403 Z"/>
+    <ellipse class="dk" cx="272" cy="498" rx="19.2" ry="10.1"/>
+    <path class="eq2" d="M214 312 L222 404 L278 404 L286 312 Z"/>
+    <path class="eq2" d="M212.5 315 L192.5 345 L207.5 355 L227.5 325 Z"/>
+    <circle class="eq2" cx="200" cy="350" r="9"/>
+    <path class="eq2" d="M191.1 348.4 L187.1 370.4 L204.9 373.6 L208.9 351.6 Z"/>
+    <circle class="wh" cx="196" cy="372" r="10.8"/>
+    <path class="eq2" d="M288.5 322.9 L308.5 264.9 L291.5 259.1 L271.5 317.1 Z"/>
+    <circle class="eq2" cx="300" cy="262" r="9"/>
+    <path class="eq2" d="M308.9 260.4 L294.9 182.4 L277.1 185.6 L291.1 263.6 Z"/>
+    <circle class="wh" cx="286" cy="184" r="10.8"/>
+    <circle class="wh" cx="250" cy="272" r="26"/>
+  </g>
+  <g data-part="porte-outils">
+    <rect class="mt" x="284" y="372" width="12" height="40" rx="2"/>
+    <rect class="mt" x="302" y="366" width="12" height="46" rx="2"/>
+    <rect class="mt2" x="318" y="378" width="10" height="30" rx="2"/>
+    <rect class="syf" x="274" y="398" width="62" height="62" rx="10"/>
+    <line class="ln" x1="274" y1="416" x2="336" y2="416"/>
+  </g>
+  <g>
+    <circle class="okf" cx="70" cy="74" r="40"/>
+    <path class="bgp" d="M45.5 80 L61.5 98 L70.5 90 L54.5 72 Z"/>
+    <path class="bgp" d="M66.6 97.9 L98.6 59.9 L89.4 52.1 L57.4 90.1 Z"/>
+  </g>
+  <g data-part="appui-instable">
+    <rect class="fl" x="540" y="646" width="420" height="44" rx="4"/>
+    <path class="sy" d="M540 640 C580 628 610 636 690 634"/>
+    <rect class="dk" x="595" y="610" width="60" height="22" rx="6"/>
+    <path class="ax" d="M580 590 q-22 -20 -10 -48"/>
+    <path class="ax" d="M604 572 q-16 -16 -8 -36"/>
+  </g>
+  <g>
+    <path class="mt" d="M632.8 641.8 L692.8 381.8 L677.2 378.2 L617.2 638.2 Z"/>
+    <path class="mt" d="M862.8 638.2 L802.8 378.2 L787.2 381.8 L847.2 641.8 Z"/>
+    <rect class="mt2" x="640" y="567" width="200" height="16" rx="3"/>
+    <rect class="mt2" x="655" y="502" width="170" height="16" rx="3"/>
+    <rect class="mt2" x="670" y="437" width="140" height="16" rx="3"/>
+    <rect class="dk" x="825" y="632" width="60" height="22" rx="6"/>
+  </g>
+  <g>
+    <rect class="in" x="900" y="150" width="70" height="110" rx="6"/>
+    <circle class="mt2" cx="935" cy="170" r="7"/>
+    <circle class="mt2" cx="935" cy="240" r="7"/>
+  </g>
+  <g data-part="derniere-marche">
+    <rect class="mt2" x="672" y="372" width="136" height="18" rx="4"/>
+    <path class="dk" d="M730.1 260.1 L714.1 362.1 L737.9 365.9 L753.9 263.9 Z"/>
+    <path class="dk" d="M754 262.2 L756 364.2 L780 363.8 L778 261.8 Z"/>
+    <ellipse class="dk" cx="724" cy="366" rx="20" ry="10"/>
+    <ellipse class="dk" cx="770" cy="366" rx="20" ry="10"/>
+  </g>
+  <g data-part="charge">
+    <path class="eq2" d="M755.7 183.5 L693.7 243.5 L706.3 256.5 L768.3 196.5 Z"/>
+    <rect class="fl" x="632" y="214" width="84" height="70" rx="5"/>
+    <line class="ln" x1="632" y1="238" x2="716" y2="238"/>
+    <circle class="wh" cx="700" cy="252" r="11"/>
+  </g>
+  <g data-part="deport">
+    <path class="eq2" d="M728 262 L780 262 L836 196 L776 160 Z"/>
+    <path class="eq2" d="M806.7 194.4 L852.7 212.4 L859.3 195.6 L813.3 177.6 Z"/>
+    <path class="eq2" d="M857.6 212.9 L901.6 204.9 L898.4 187.1 L854.4 195.1 Z"/>
+    <circle class="eq2" cx="856" cy="204" r="9"/>
+    <circle class="wh" cx="902" cy="196" r="11"/>
+    <circle class="wh" cx="834" cy="144" r="26"/>
+  </g>
+  <g>
+    <circle class="badf" cx="566" cy="74" r="40"/>
+    <path class="bgp" d="M541.8 58.2 L581.8 98.2 L590.2 89.8 L550.2 49.8 Z"/>
+    <path class="bgp" d="M581.8 49.8 L541.8 89.8 L550.2 98.2 L590.2 58.2 Z"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="escabeau-ok" transform="translate(136 520)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="patins" transform="translate(412 668)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="posture" transform="translate(190 262)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="porte-outils" transform="translate(370 430)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="derniere-marche" transform="translate(838 380)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="deport" transform="translate(884 120)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="charge" transform="translate(606 196)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="appui-instable" transform="translate(930 668)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

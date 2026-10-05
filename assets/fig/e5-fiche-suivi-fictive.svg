@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 740" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Fiche de suivi fictive : les champs à renseigner</title>
+  <desc id="d">Dessin d'une fiche de suivi fictive, pédagogique, en huit lignes. Opération : EX-OP-0412 pose ferrure. Zone : EX-Z3, côté gauche. Document : EX-IT-2207 indice C. Pièce : EX-48213-07 / EX-000412. Outil : clé EX-CD-031. Écart : une vis manquante, signalé (écrit en rouge). Date : 14/03 à 15 h 40. Visa : un tampon rond et une signature.</desc>
+  <rect class="bgp" width="1000" height="740"/>
+<rect class="wh" x="30" y="20" width="940" height="700" rx="10"/><rect class="in" x="30" y="20" width="940" height="84" rx="10"/><text class="tl" x="56" y="76">Fiche de suivi</text><text class="ts te" x="944" y="76">fictive</text>
+  <g data-part="quoi">
+<rect class="wh" x="30" y="104" width="940" height="77"/><rect class="in" x="30" y="104" width="250" height="77"/><text class="tb" x="52" y="156">Opération</text><text class="ts ta" x="300" y="156">EX-OP-0412 pose ferrure</text>
+  </g>
+  <g data-part="ou">
+<rect class="wh" x="30" y="181" width="940" height="77"/><rect class="in" x="30" y="181" width="250" height="77"/><text class="tb" x="52" y="233">Zone</text><text class="ts ta" x="300" y="233">EX-Z3, côté gauche</text>
+  </g>
+  <g data-part="doc">
+<rect class="wh" x="30" y="258" width="940" height="77"/><rect class="in" x="30" y="258" width="250" height="77"/><text class="tb" x="52" y="310">Document</text><text class="ts ta" x="300" y="310">EX-IT-2207 indice C</text>
+  </g>
+  <g data-part="piece">
+<rect class="wh" x="30" y="335" width="940" height="77"/><rect class="in" x="30" y="335" width="250" height="77"/><text class="tb" x="52" y="387">Pièce</text><text class="ts ta" x="300" y="387">EX-48213-07 / EX-000412</text>
+  </g>
+  <g data-part="outil">
+<rect class="wh" x="30" y="412" width="940" height="77"/><rect class="in" x="30" y="412" width="250" height="77"/><text class="tb" x="52" y="464">Outil</text><text class="ts ta" x="300" y="464">Clé EX-CD-031</text>
+  </g>
+  <g data-part="ecart">
+<rect class="wh" x="30" y="489" width="940" height="77"/><rect class="in" x="30" y="489" width="250" height="77"/><text class="tb" x="52" y="541">Écart</text><text class="ts tr" x="300" y="541">1 vis manquante : signalé</text>
+  </g>
+  <g data-part="quand">
+<rect class="wh" x="30" y="566" width="940" height="77"/><rect class="in" x="30" y="566" width="250" height="77"/><text class="tb" x="52" y="618">Date</text><text class="ts ta" x="300" y="618">14/03 à 15 h 40</text>
+  </g>
+  <g data-part="qui">
+<rect class="wh" x="30" y="643" width="940" height="77"/><rect class="in" x="30" y="643" width="250" height="77"/><text class="tb" x="52" y="695">Visa</text><circle class="wh" cx="360" cy="681" r="30"/><circle class="dim" cx="360" cy="681" r="30"/><path class="dim" d="M346 681 L356 692 L376 669"/><path class="dim" d="M430 691 C450 653 470 713 492 677 C506 657 520 703 560 683"/>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="quoi" transform="translate(928 142)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="ou" transform="translate(928 219)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="doc" transform="translate(928 296)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="piece" transform="translate(928 373)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="outil" transform="translate(928 450)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="ecart" transform="translate(928 527)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="quand" transform="translate(928 604)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="qui" transform="translate(928 681)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" class="fig" role="img" aria-labelledby="t d">
+<title id="t">Calibre « entre / n'entre pas » : trois alésages essayés</title>
+<desc id="d">En haut, un calibre tampon à deux bouts : à gauche un cylindre vert, long et un peu plus fin, le côté « entre » ; au milieu un manche moleté ; à droite un cylindre rouge, court et un peu plus gros, le côté « n'entre pas ». En bas, trois plaques vues en coupe, chacune percée de deux trous identiques sur lesquels on présente les deux bouts. Premier cas : aucun des deux bouts n'entre. Deuxième cas : le bout vert entre, le bout rouge reste posé à l'entrée. Troisième cas : les deux bouts entrent.</desc>
+<rect class="bgp" width="1000" height="620"/>
+<text class="ts tc" x="270" y="60">ENTRE</text>
+<text class="ts tc" x="716" y="60">N'ENTRE PAS</text>
+<g data-part="manche">
+<rect class="mt" x="370" y="126" width="40" height="28"/>
+<rect class="mt" x="614" y="126" width="40" height="28"/>
+<rect class="mt2" x="408" y="90" width="208" height="100" rx="10"/>
+<path class="thin" d="M424 96 v88 M440 96 v88 M456 96 v88 M472 96 v88 M488 96 v88 M504 96 v88 M520 96 v88 M536 96 v88 M552 96 v88 M568 96 v88 M584 96 v88 M600 96 v88"/>
+</g>
+<g data-part="cote-entre">
+<rect class="okf" x="150" y="112" width="222" height="56" rx="6"/>
+</g>
+<g data-part="cote-nentre-pas">
+<rect class="badf" x="652" y="102" width="120" height="76" rx="6"/>
+</g>
+<g data-part="cas-trop-petit">
+<rect class="st" x="20" y="440" width="62" height="100"/>
+<rect class="st" x="118" y="440" width="96" height="100"/>
+<rect class="st" x="250" y="440" width="62" height="100"/>
+<rect class="mt2" x="89" y="258" width="22" height="64"/>
+<rect class="okf" x="76" y="320" width="48" height="120" rx="5"/>
+<rect class="mt2" x="221" y="258" width="22" height="64"/>
+<rect class="badf" x="198" y="320" width="68" height="120" rx="5"/>
+</g>
+<g data-part="cas-conforme">
+<rect class="st" x="354" y="440" width="51" height="100"/>
+<rect class="st" x="463" y="440" width="74" height="100"/>
+<rect class="st" x="595" y="440" width="51" height="100"/>
+<rect class="mt2" x="423" y="336" width="22" height="64"/>
+<rect class="okf" x="410" y="398" width="48" height="120" rx="5"/>
+<rect class="mt2" x="555" y="258" width="22" height="64"/>
+<rect class="badf" x="532" y="320" width="68" height="120" rx="5"/>
+</g>
+<g data-part="cas-trop-grand">
+<rect class="st" x="688" y="440" width="39" height="100"/>
+<rect class="st" x="809" y="440" width="50" height="100"/>
+<rect class="st" x="941" y="440" width="39" height="100"/>
+<rect class="mt2" x="757" y="336" width="22" height="64"/>
+<rect class="okf" x="744" y="398" width="48" height="120" rx="5"/>
+<rect class="mt2" x="889" y="336" width="22" height="64"/>
+<rect class="badf" x="866" y="398" width="68" height="120" rx="5"/>
+</g>
+<g class="badges">
+<g class="badge" data-badge="cote-entre" transform="translate(196 140)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+<g class="badge" data-badge="manche" transform="translate(512 140)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+<g class="badge" data-badge="cote-nentre-pas" transform="translate(800 140)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+<g class="badge" data-badge="cas-trop-petit" transform="translate(166 580)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+<g class="badge" data-badge="cas-conforme" transform="translate(500 580)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+<g class="badge" data-badge="cas-trop-grand" transform="translate(834 580)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+</g>
+</svg>

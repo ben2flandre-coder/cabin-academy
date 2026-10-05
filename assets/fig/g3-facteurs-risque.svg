@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 730" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Six familles de facteurs de risque de TMS</title>
+  <desc id="d">Planche de six vignettes. En haut : une masse surmontée d'une flèche rouge vers le bas, pour les efforts ; six têtes de vis identiques reliées par une flèche qui tourne en boucle, pour la répétition ; une personne bras tendus au-dessus de la tête, un arc rouge à l'épaule, pour les postures contraignantes. En bas : une visseuse entourée d'ondes rouges, pour les vibrations ; une horloge dont la petite plage verte de pause est barrée de rouge, pour le temps de récupération insuffisant ; un planning dont toutes les cases sont pleines avec un triangle d'alerte, pour l'organisation du travail.</desc>
+  <rect class="bgp" width="1000" height="730"/>
+  <g data-part="efforts">
+    <rect class="in" x="30" y="30" width="296" height="320" rx="16"/><path class="mt2" d="M100 300 L130 190 H226 L256 300 Z"/><path class="ln2" d="M150 190 V150 Q178 110 206 150 V190"/><path class="ax" d="M178 70 L178 128"/><path class="axf" d="M178 134 L168.4 108.2 L187.6 108.2 Z"/><path class="ln" d="M120 270 H236"/>
+  </g>
+  <g data-part="repetition">
+    <rect class="in" x="352" y="30" width="296" height="320" rx="16"/><circle class="mt" cx="420" cy="120" r="24"/><path class="ln" d="M407 120 H433 M420 107 V133"/><circle class="mt" cx="508" cy="120" r="24"/><path class="ln" d="M495 120 H521 M508 107 V133"/><circle class="mt" cx="596" cy="120" r="24"/><path class="ln" d="M583 120 H609 M596 107 V133"/><circle class="mt" cx="420" cy="290" r="24"/><path class="ln" d="M407 290 H433 M420 277 V303"/><circle class="mt" cx="508" cy="290" r="24"/><path class="ln" d="M495 290 H521 M508 277 V303"/><circle class="mt" cx="596" cy="290" r="24"/><path class="ln" d="M583 290 H609 M596 277 V303"/><path class="dim" d="M440 206 A68 34 0 1 1 576 206"/><path class="dimf" d="M586 206 L562 196 L570 222 Z"/><path class="dim" d="M576 214 A68 34 0 0 1 452 226"/>
+  </g>
+  <g data-part="postures">
+    <rect class="in" x="674" y="30" width="296" height="320" rx="16"/><rect class="eq2" x="750" y="50" width="150" height="16" rx="4"/><path class="eq2" d="M790.4 221.3 L786.4 278.9 A9.6 9.6 0 0 0 805.6 280.3 L809.6 222.7 A9.6 9.6 0 0 0 790.4 221.3 Z"/><path class="eq2" d="M787.8 279.6 L787.8 337.3 A8.2 8.2 0 0 0 804.2 337.3 L804.2 279.6 A8.2 8.2 0 0 0 787.8 279.6 Z"/><path class="dk" d="M796 346.2 L821.1 346.2 A5.9 5.9 0 0 0 821.1 334.3 L796 334.3 A5.9 5.9 0 0 0 796 346.2 Z"/><path class="eq2" d="M796.6 151.5 L812.1 113.1 A7.4 7.4 0 0 0 798.4 107.5 L782.8 145.9 A7.4 7.4 0 0 0 796.6 151.5 Z"/><path class="eq2" d="M811.4 111.6 L819.7 72.5 A6.3 6.3 0 0 0 807.4 69.9 L799.1 109 A6.3 6.3 0 0 0 811.4 111.6 Z"/><circle class="wh" cx="813.5" cy="71.2" r="6.7"/><path class="eq" d="M815.4 219.8 L805.1 146.6 A15.5 15.5 0 0 0 774.3 150.9 L784.6 224.2 A15.5 15.5 0 0 0 815.4 219.8 Z"/><path class="eq" d="M790.4 222.3 L792.4 280 A9.6 9.6 0 0 0 811.6 279.3 L809.6 221.7 A9.6 9.6 0 0 0 790.4 222.3 Z"/><path class="eq" d="M793.8 279.7 L793.8 337.4 A8.2 8.2 0 0 0 810.2 337.4 L810.2 279.7 A8.2 8.2 0 0 0 793.8 279.7 Z"/><path class="dk" d="M802 346.3 L827.2 346.3 A5.9 5.9 0 0 0 827.2 334.4 L802 334.4 A5.9 5.9 0 0 0 802 346.3 Z"/><circle class="wh" cx="768.4" cy="125.1" r="18.5"/><path class="eq" d="M796.8 150.6 L807.6 110.6 A7.4 7.4 0 0 0 793.3 106.8 L782.6 146.8 A7.4 7.4 0 0 0 796.8 150.6 Z"/><path class="eq" d="M806.7 109.6 L812.2 70 A6.3 6.3 0 0 0 799.8 68.2 L794.2 107.8 A6.3 6.3 0 0 0 806.7 109.6 Z"/><circle class="wh" cx="806" cy="69.1" r="6.7"/><path class="ax" d="M831.7 142.7 A44 44 0 0 0 803.7 104.7"/>
+  </g>
+  <g data-part="vibrations">
+    <rect class="in" x="30" y="380" width="296" height="320" rx="16"/><rect class="eq2" x="86" y="460" width="150" height="70" rx="14"/><rect class="mt" x="236" y="478" width="34" height="34" rx="4"/><rect class="mt2" x="270" y="489" width="36" height="12"/>
+    <path class="eq2" d="M110 530 H176 L166 630 H104 Z"/><rect class="dk" x="92" y="630" width="92" height="34" rx="8"/><path class="dk" d="M178 540 q22 14 4 34"/>
+    <path class="ax" d="M70 430 q14 -16 28 0 t28 0 t28 0 M206 600 q14 -16 28 0 t28 0 M214 640 q14 -16 28 0 t28 0"/>
+  </g>
+  <g data-part="recuperation">
+    <rect class="in" x="352" y="380" width="296" height="320" rx="16"/><circle class="wh" cx="500" cy="540" r="104"/><path class="okf" d="M500 540 L500 436 A104 104 0 0 1 552 450 Z"/><path class="ln2" d="M500 540 V470 M500 540 L556 572"/><circle class="dk" cx="500" cy="540" r="8"/>
+    <path class="ln" d="M500 446 V458 M500 622 V634 M406 540 H418 M582 540 H594"/><path class="ax" d="M474 412 L574 472"/>
+  </g>
+  <g data-part="organisation">
+    <rect class="in" x="674" y="380" width="296" height="320" rx="16"/><rect class="wh" x="706" y="430" width="232" height="230" rx="10"/><rect class="eq" x="706" y="430" width="232" height="44" rx="10"/><path class="thin" d="M706 536 H938 M706 598 H938 M783 474 V660 M860 474 V660"/>
+    <rect class="eq2" x="714" y="482" width="62" height="46"/><rect class="eq2" x="791" y="482" width="62" height="46"/><rect class="eq2" x="868" y="482" width="62" height="46"/><rect class="eq2" x="714" y="544" width="62" height="46"/><rect class="eq2" x="791" y="544" width="62" height="46"/><rect class="eq2" x="868" y="544" width="62" height="46"/><rect class="eq2" x="714" y="606" width="62" height="46"/><rect class="eq2" x="791" y="606" width="62" height="46"/>
+    <path class="badf" d="M899 600 L934 660 H864 Z"/><path class="ln2" d="M899 620 V638"/><circle class="dk" cx="899" cy="650" r="4"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="efforts" transform="translate(70 70)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="repetition" transform="translate(392 206)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="postures" transform="translate(930 300)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="vibrations" transform="translate(290 420)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="recuperation" transform="translate(392 420)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="organisation" transform="translate(714 410)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>

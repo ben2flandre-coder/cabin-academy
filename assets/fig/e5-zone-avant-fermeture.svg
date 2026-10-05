@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Zone ouverte avant fermeture : que reste-t-il à voir ?</title>
+  <desc id="d">Scène de principe : une ouverture dans l'habillage laisse voir une cavité. Au fond, un matelas isolant matelassé et deux cadres verticaux. Un faisceau orange traverse la cavité, tenu par un collier sur chaque cadre et portant une étiquette de repère. Au centre, une ferrure métallique porte un équipement ; un connecteur verrouillé y arrive par une dérivation. Trois des quatre vis de la ferrure portent un trait de vernis témoin ; le quatrième trou, en bas à droite, est vide. Une seconde dérivation passe sous le bord de la ferrure, coincée entre elle et la structure, et se termine par un connecteur en attente protégé par un capuchon. Sur le seuil bas de la cavité traînent un embout de vissage, une chute de collier coupé et une lingette.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+<rect class="in" x="20" y="20" width="960" height="680" rx="14"/>
+  <g data-part="matelas">
+<rect class="sk" x="90" y="70" width="820" height="530"/><path class="thin" d="M90 70 L90 600 M172 70 L172 600 M254 70 L254 600 M336 70 L336 600 M418 70 L418 600 M500 70 L500 600 M582 70 L582 600 M664 70 L664 600 M746 70 L746 600 M828 70 L828 600 M90 70 L910 70 M90 158 L910 158 M90 246 L910 246 M90 334 L910 334 M90 422 L910 422 M90 510 L910 510 M90 598 L910 598"/>
+  </g>
+  <g data-part="cadre">
+<rect class="st" x="180" y="70" width="56" height="530"/><ellipse class="sk" cx="208" cy="420" rx="14" ry="30"/><ellipse class="sk" cx="208" cy="540" rx="14" ry="30"/><rect class="st" x="764" y="70" width="56" height="530"/><ellipse class="sk" cx="792" cy="420" rx="14" ry="30"/><ellipse class="sk" cx="792" cy="540" rx="14" ry="30"/>
+  </g>
+<rect class="fl" x="90" y="600" width="820" height="54"/>
+  <g data-part="faisceau-pince">
+<path class="sy" d="M706 172 C712 300 700 380 652 404 C610 424 560 470 556 560"/><rect class="none" pointer-events="all" x="660" y="250" width="80" height="150"/>
+  </g>
+  <g data-part="faisceau">
+<path class="sy" d="M90 172 C300 160 520 184 910 168"/>
+  </g>
+  <g data-part="collier-ok">
+<rect class="dk" x="188" y="142" width="40" height="52" rx="12"/><circle class="mt" cx="208" cy="212" r="11"/><rect class="dk" x="772" y="144" width="40" height="52" rx="12"/><circle class="mt" cx="792" cy="214" r="11"/>
+  </g>
+  <g data-part="etiquette">
+<rect class="wh" x="300" y="146" width="110" height="46" rx="5"/><path class="thin" d="M314 162 L396 162"/><path class="thin" d="M314 176 L376 176"/>
+  </g>
+<rect class="mt" x="400" y="300" width="262" height="222" rx="10"/><rect class="eq" x="446" y="346" width="170" height="132" rx="12"/>
+  <g data-part="connecteur-verrouille">
+<path class="sy" d="M530 176 L530 282"/><rect class="mt2" x="508" y="276" width="44" height="34" rx="5"/><rect class="mt" x="500" y="308" width="60" height="26" rx="5"/><rect class="dk" x="512" y="334" width="36" height="12"/><path class="thin" d="M512 316 L512 328"/><path class="thin" d="M530 316 L530 328"/><path class="thin" d="M548 316 L548 328"/>
+  </g>
+  <g data-part="vis-temoin">
+<circle class="mt2" cx="424" cy="324" r="15"/><path class="ln" d="M416 324 L432 324 M424 316 L424 332"/><rect class="syf" x="419" y="292" width="10" height="30" rx="3"/><circle class="mt2" cx="638" cy="324" r="15"/><path class="ln" d="M630 324 L646 324 M638 316 L638 332"/><rect class="syf" x="633" y="292" width="10" height="30" rx="3"/><circle class="mt2" cx="424" cy="498" r="15"/><path class="ln" d="M416 498 L432 498 M424 490 L424 506"/><rect class="syf" x="419" y="466" width="10" height="30" rx="3"/>
+  </g>
+  <g data-part="fixation-manquante">
+<circle class="dk" cx="638" cy="498" r="14"/><circle class="wh" cx="638" cy="498" r="6"/><rect class="none" pointer-events="all" x="604" y="464" width="68" height="68"/>
+  </g>
+  <g data-part="connecteur-attente">
+<rect class="mt2" x="534" y="548" width="44" height="30" rx="5"/><rect class="dk" x="530" y="576" width="52" height="22" rx="8"/><rect class="none" pointer-events="all" x="520" y="540" width="72" height="64"/>
+  </g>
+  <g data-part="embout">
+<rect class="mt" x="250" y="618" width="64" height="20" rx="3"/><path class="mt2" d="M314 622 L346 626 L346 630 L314 634 Z"/><path class="thin" d="M266 618 L266 638"/><path class="thin" d="M298 618 L298 638"/><rect class="none" pointer-events="all" x="240" y="596" width="116" height="64"/>
+  </g>
+  <g data-part="chute-collier">
+<path class="wh" d="M430 640 Q476 596 528 634 L524 642 Q478 612 438 648 Z"/><rect class="wh" x="424" y="634" width="18" height="14" rx="3"/><rect class="none" pointer-events="all" x="420" y="596" width="116" height="64"/>
+  </g>
+  <g data-part="lingette">
+<path class="wh" d="M648 646 L662 612 L700 622 L728 604 L752 630 L742 648 Z"/><path class="thin" d="M664 614 L690 644 M702 622 L718 646"/><rect class="none" pointer-events="all" x="640" y="596" width="120" height="64"/>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="matelas" transform="translate(130 420)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="cadre" transform="translate(208 300)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="faisceau" transform="translate(620 130)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="collier-ok" transform="translate(792 250)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="etiquette" transform="translate(355 110)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="connecteur-verrouille" transform="translate(466 260)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="vis-temoin" transform="translate(372 324)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="fixation-manquante" transform="translate(700 498)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="faisceau-pince" transform="translate(740 330)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="connecteur-attente" transform="translate(620 566)"><circle class="bd" r="26"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="embout" transform="translate(300 580)"><circle class="bd" r="26"/><text class="bn">11</text></g>
+    <g class="badge" data-badge="chute-collier" transform="translate(480 580)"><circle class="bd" r="26"/><text class="bn">12</text></g>
+    <g class="badge" data-badge="lingette" transform="translate(800 624)"><circle class="bd" r="26"/><text class="bn">13</text></g>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Anatomie d’un faisceau électrique</title>
+  <desc id="d">Schéma de principe d'un faisceau vu de côté. À gauche, un connecteur à bague moletée prolongé par un raccord arrière conique qui serre le câble. Le tronc du faisceau est protégé par une gaine sombre, porte une étiquette de repère et deux frettes qui serrent les fils ensemble ; une dérivation part vers le bas et se termine par un petit connecteur. À droite, la gaine est coupée pour montrer la tresse métallique de blindage, puis les fils orange qui en sortent, dont deux torsadés en paire. En bas, un fil agrandi : l'âme métallique faite de brins, l'isolant clair, et le repère EX-W214-22 imprimé sur l'isolant.</desc>
+  <rect class="bgp" width="1000" height="660"/>
+  <g data-part="connecteur">
+<rect class="mt" x="36" y="138" width="96" height="104" rx="8"/><path class="thin" d="M43 138 L43 242 M57 138 L57 242 M71 138 L71 242 M85 138 L85 242 M99 138 L99 242 M113 138 L113 242 M127 138 L127 242"/><rect class="mt2" x="132" y="150" width="26" height="80"/>
+  </g>
+  <g data-part="raccord-arriere">
+<path class="mt2" d="M158 150 L226 164 L226 216 L158 230 Z"/><rect class="mt" x="226" y="156" width="22" height="68" rx="4"/>
+  </g>
+  <g data-part="derivation">
+<path class="dk" d="M470 200 C480 300 560 290 600 360 L574 374 C540 316 452 326 440 200 Z"/><g transform="rotate(60 600 386)"><rect class="eq2" x="578" y="358" width="64" height="50" rx="6"/></g>
+  </g>
+  <g data-part="gaine">
+<rect class="dk" x="248" y="166" width="380" height="48" rx="6"/><path class="dk" d="M628 166 L640 178 L630 190 L642 202 L628 214 Z"/>
+  </g>
+  <g data-part="etiquette">
+<rect class="wh" x="270" y="160" width="96" height="60" rx="5"/><path class="thin" d="M284 180 L352 180"/><path class="thin" d="M284 198 L336 198"/>
+  </g>
+  <g data-part="frette">
+<rect class="mt2" x="403" y="160" width="14" height="60" rx="3"/><rect class="mt2" x="399" y="146" width="22" height="18" rx="3"/><rect class="mt2" x="533" y="160" width="14" height="60" rx="3"/><rect class="mt2" x="529" y="146" width="22" height="18" rx="3"/><rect class="none" pointer-events="all" x="380" y="140" width="60" height="84"/><rect class="none" pointer-events="all" x="510" y="140" width="60" height="84"/>
+  </g>
+  <g data-part="tresse">
+<rect class="mt" x="632" y="172" width="132" height="36"/><path class="thin" d="M636 172 L656 208 M656 172 L636 208 M652 172 L672 208 M672 172 L652 208 M668 172 L688 208 M688 172 L668 208 M684 172 L704 208 M704 172 L684 208 M700 172 L720 208 M720 172 L700 208 M716 172 L736 208 M736 172 L716 208 M732 172 L752 208 M752 172 L732 208 M748 172 L768 208 M768 172 L748 208"/><path class="ln" d="M764 172 L772 182 L764 190 L772 198 L764 208"/>
+  </g>
+  <g data-part="fils">
+<path class="sy" d="M766 182 C820 170 850 94 950 86"/><path class="sy" d="M766 188 C830 184 860 140 950 136"/><path class="sy" d="M766 198 C820 210 850 286 950 294"/>
+  </g>
+  <g data-part="paire-torsadee">
+<path class="sy" d="M770 194 L772.4 198.1 L774.9 201.6 L777.6 203.8 L780.5 204.5 L783.7 203.7 L787 201.5 L790.4 198.4 L793.9 195.1 L797.4 192.2 L800.7 190.3 L803.7 189.8 L806.6 190.9 L809.2 193.5 L811.7 197.1 L814.1 201.3 L816.6 205.3 L819.1 208.5 L821.9 210.4 L824.8 210.8 L828 209.6 L831.4 207.1 L834.8 203.9 L838.3 200.6 L841.7 197.9 L845 196.3 L848 196.2 L850.8 197.7 L853.4 200.6 L855.9 204.4 L858.3 208.6 L860.7 212.5 L863.3 215.4 L866.1 216.9 L869.1 216.9 L872.3 215.3 L875.8 212.7 L879.2 209.4 L882.7 206.2 L886.1 203.7 L889.3 202.4 L892.3 202.7 L895 204.6 L897.5 207.7 L900 211.7 L902.4 215.9 L904.9 219.6 L907.5 222.2 L910.4 223.4 L913.4 222.9 L916.7 221.1 L920.1 218.2 L923.6 214.9 L927.1 211.8 L930.4 209.5 L933.6 208.6 L936.5 209.3 L939.2 211.5 L941.7 214.9 L944.1 219 L946.5 223.1 L949 226.6"/><path class="sy" d="M770 194 L773.5 190.7 L776.9 188.2 L780.1 186.8 L783.1 186.9 L785.8 188.6 L788.4 191.6 L790.9 195.6 L793.3 199.7 L795.7 203.5 L798.4 206.3 L801.2 207.6 L804.2 207.3 L807.5 205.6 L810.9 202.8 L814.4 199.5 L817.9 196.3 L821.2 194 L824.4 192.9 L827.3 193.4 L830 195.5 L832.6 198.8 L835 202.9 L837.4 207 L839.9 210.6 L842.6 213 L845.4 214 L848.5 213.3 L851.8 211.3 L855.3 208.3 L858.8 205 L862.2 202 L865.5 199.9 L868.7 199.2 L871.5 200.1 L874.2 202.5 L876.7 206 L879.1 210.2 L881.5 214.2 L884.1 217.6 L886.8 219.7 L889.7 220.2 L892.9 219.2 L896.2 216.9 L899.7 213.8 L903.2 210.5 L906.6 207.6 L909.9 205.9 L912.9 205.6 L915.8 206.8 L918.4 209.5 L920.8 213.3 L923.3 217.5 L925.7 221.4 L928.3 224.5 L931 226.3 L934 226.4 L937.2 225.1 L940.6 222.5 L944.1 219.3 L947.6 216 L951 213.4"/><rect class="none" pointer-events="all" x="790" y="180" width="160" height="60"/>
+  </g>
+<path class="dash" d="M900 290 L900 440"/><circle class="ln" cx="900" cy="290" r="16"/>
+<rect class="wh" x="30" y="440" width="940" height="200" rx="18"/>
+  <g data-part="ame">
+<rect class="mt2" x="66" y="492" width="140" height="58" rx="6"/><path class="thin" d="M70 498 C110 492 150 504 200 498 M70 507 C110 501 150 513 200 507 M70 516 C110 510 150 522 200 516 M70 525 C110 519 150 531 200 525 M70 534 C110 528 150 540 200 534 M70 543 C110 537 150 549 200 543"/><rect class="none" pointer-events="all" x="56" y="470" width="150" height="100"/>
+  </g>
+  <g data-part="isolant">
+<rect class="wh" x="200" y="474" width="740" height="94" rx="10"/>
+  </g>
+  <g data-part="repere-fil">
+<text class="tb tc" x="570" y="534">EX-W214-22</text><rect class="none" pointer-events="all" x="420" y="486" width="300" height="70"/>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="connecteur" transform="translate(84 100)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="raccord-arriere" transform="translate(200 100)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="etiquette" transform="translate(318 120)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="frette" transform="translate(410 110)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="gaine" transform="translate(590 250)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="derivation" transform="translate(470 330)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="tresse" transform="translate(700 130)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="fils" transform="translate(870 50)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="paire-torsadee" transform="translate(830 262)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="ame" transform="translate(130 590)"><circle class="bd" r="26"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="isolant" transform="translate(320 600)"><circle class="bd" r="26"/><text class="bn">11</text></g>
+    <g class="badge" data-badge="repere-fil" transform="translate(760 600)"><circle class="bd" r="26"/><text class="bn">12</text></g>
+  </g>
+</svg>

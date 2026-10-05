@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Trois moyens de tenir un faisceau, et une pose à éviter</title>
+  <desc id="d">Planche en quatre cases. En haut à gauche, coupe d'un collier à coussin : une bande métallique en forme de boucle, doublée d'un coussin souple, entoure le faisceau ; ses deux pattes sont vissées sur un support. En haut à droite, coupe d'un serre-câble : une sangle plastique fait le tour du faisceau et se bloque dans une tête. En bas à gauche, vue de côté d'un faisceau tenu par trois lacets de frettage noués. En bas à droite, pose à éviter : un serre-câble trop serré étrangle les fils et sa queue n'a pas été coupée.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+  <path class="thin" d="M500 24 L500 696"/>
+  <path class="thin" d="M24 360 L976 360"/>
+  <text class="ts tc" x="255" y="60">Collier à coussin</text>
+  <rect class="st" x="70" y="106" width="370" height="32" rx="4"/>
+  <g data-part="bande">
+    <rect class="mt" x="220" y="138" width="196" height="12" rx="3"/>
+    <rect class="mt" x="220" y="150" width="196" height="12" rx="3"/>
+    <circle class="mt" cx="226" cy="250" r="88"/>
+  </g>
+  <g data-part="coussin">
+    <circle class="dk" cx="226" cy="250" r="75"/>
+  </g>
+  <circle class="wh" cx="226" cy="250" r="61"/>
+  <circle class="syf" cx="226" cy="250" r="19.3"/>
+  <circle class="syf" cx="263.4" cy="259.9" r="19.3"/>
+  <circle class="syf" cx="236.1" cy="287.3" r="19.3"/>
+  <circle class="syf" cx="198.7" cy="277.4" r="19.3"/>
+  <circle class="syf" cx="188.6" cy="240.1" r="19.3"/>
+  <circle class="syf" cx="215.9" cy="212.7" r="19.3"/>
+  <circle class="syf" cx="253.3" cy="222.6" r="19.3"/>
+  <g data-part="vis">
+    <rect class="mt2" x="350" y="84" width="60" height="22" rx="4"/>
+    <rect class="mt2" x="372" y="106" width="16" height="78"/>
+    <rect class="mt2" x="352" y="162" width="56" height="22" rx="4"/>
+  </g>
+  <text class="ts tc" x="745" y="60">Serre-câble</text>
+  <g data-part="sangle">
+    <circle class="wh" cx="735" cy="222" r="100"/>
+  </g>
+  <circle class="wh" cx="735" cy="222" r="88"/>
+  <circle class="syf" cx="735" cy="222" r="28.3"/>
+  <circle class="syf" cx="789.8" cy="236.6" r="28.3"/>
+  <circle class="syf" cx="749.8" cy="276.7" r="28.3"/>
+  <circle class="syf" cx="695" cy="262.1" r="28.3"/>
+  <circle class="syf" cx="680.2" cy="207.4" r="28.3"/>
+  <circle class="syf" cx="720.2" cy="167.3" r="28.3"/>
+  <circle class="syf" cx="775" cy="181.9" r="28.3"/>
+  <g data-part="tete">
+    <g transform="translate(809 148) rotate(45)"><rect class="wh" x="-36" y="-30" width="72" height="60" rx="8"/><rect class="dk" x="-22" y="-8" width="44" height="16" rx="3"/><rect class="wh" x="36" y="-9" width="12" height="18" rx="2"/></g>
+  </g>
+  <text class="ts tc" x="255" y="410">Lacet de frettage</text>
+  <path class="sy" d="M44 538 L466 538"/>
+  <path class="sy" d="M44 549 L466 549"/>
+  <path class="sy" d="M44 560 L466 560"/>
+  <path class="sy" d="M44 571 L466 571"/>
+  <path class="sy" d="M44 582 L466 582"/>
+  <g data-part="lacet">
+    <rect class="wh" x="121" y="528" width="18" height="64" rx="4"/>,<path class="ln2" d="M126 520 L108 492"/>,<path class="ln2" d="M134 520 L152 492"/>,<circle class="wh" cx="130" cy="522" r="13"/>
+    <rect class="wh" x="246" y="528" width="18" height="64" rx="4"/>,<path class="ln2" d="M251 520 L233 492"/>,<path class="ln2" d="M259 520 L277 492"/>,<circle class="wh" cx="255" cy="522" r="13"/>
+    <rect class="wh" x="371" y="528" width="18" height="64" rx="4"/>,<path class="ln2" d="M376 520 L358 492"/>,<path class="ln2" d="M384 520 L402 492"/>,<circle class="wh" cx="380" cy="522" r="13"/>
+  </g>
+  <text class="ts tc tr" x="745" y="410">À éviter</text>
+  <g data-part="surserre">
+    <path class="sy" d="M534 544 L610 544 C670 544 680 557.2 720 557.2 C760 557.2 770 544 830 544 L966 544"/>
+    <path class="sy" d="M534 555 L610 555 C670 555 680 561.6 720 561.6 C760 561.6 770 555 830 555 L966 555"/>
+    <path class="sy" d="M534 566 L610 566 C670 566 680 566 720 566 C760 566 770 566 830 566 L966 566"/>
+    <path class="sy" d="M534 577 L610 577 C670 577 680 570.4 720 570.4 C760 570.4 770 577 830 577 L966 577"/>
+    <path class="sy" d="M534 588 L610 588 C670 588 680 574.8 720 574.8 C760 574.8 770 588 830 588 L966 588"/>
+    <rect class="wh" x="711" y="546" width="18" height="40" rx="4"/>
+    <rect class="wh" x="698" y="518" width="44" height="30" rx="6"/>
+  </g>
+  <g data-part="queue">
+    <path class="wh" d="M728 518 L816 434 L832 462 L742 530 Z"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="bande" transform="translate(120 200)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="coussin" transform="translate(150 316)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="vis" transform="translate(452 172)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="sangle" transform="translate(640 300)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="tete" transform="translate(880 120)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="lacet" transform="translate(255 640)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="surserre" transform="translate(720 640)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="queue" transform="translate(880 470)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

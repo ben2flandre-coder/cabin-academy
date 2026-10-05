@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Passation : ce que l'équipe sortante transmet à l'équipe entrante</title>
+  <desc id="d">Schéma de principe. En haut, deux personnes : à gauche l'équipier SORTANT, à droite l'équipier ENTRANT. Entre eux, un porte-documents avec une feuille écrite et signée : la trace écrite de la passation ; des flèches vont du sortant à la feuille, puis de la feuille à l'entrant. En bas, quatre vignettes résument ce qui se transmet : une case cochée FAIT et une case vide RESTE ; un élément sous protection portant une étiquette, laissé en place ; un triangle d'avertissement pour les points d'attention ; une caisse à outils accompagnée d'une coche verte pour l'inventaire.</desc>
+  <rect class="bgp" width="1000" height="640"/>
+  <g data-part="sortant">
+    <rect class="none" pointer-events="all" x="40" y="30" width="220" height="250" rx="10"/>
+    <circle class="wh" cx="150" cy="84" r="40"/>
+    <path class="eq2" d="M66 226 a84 92 0 0 1 168 0 Z"/>
+  </g>
+  <text class="ts tc" x="150" y="272" pointer-events="none">SORTANT</text>
+  <g data-part="entrant">
+    <rect class="none" pointer-events="all" x="740" y="30" width="220" height="250" rx="10"/>
+    <circle class="wh" cx="850" cy="84" r="40"/>
+    <path class="eq" d="M766 226 a84 92 0 0 1 168 0 Z"/>
+  </g>
+  <text class="ts tc" x="850" y="272" pointer-events="none">ENTRANT</text>
+  <path class="dim" d="M262 150 L372 150"/><path class="dimf" d="M380 150 L350.9 161.5 L350.9 138.5 Z"/>
+  <path class="dim" d="M628 150 L738 150"/><path class="dimf" d="M746 150 L716.9 161.5 L716.9 138.5 Z"/>
+  <g data-part="trace">
+    <rect class="fl" x="390" y="34" width="220" height="250" rx="12"/>
+    <rect class="wh" x="406" y="62" width="188" height="208" rx="4"/>
+    <rect class="mt2" x="456" y="22" width="88" height="34" rx="8"/>
+    <path class="thin" d="M424 104 h152 M424 138 h152 M424 172 h152 M424 206 h96"/>
+    <path class="dim" d="M440 250 c12 -26 22 -26 26 -2 c6 -20 18 -22 22 0 c8 -16 22 -10 34 2"/>
+  </g>
+  <g data-part="avancement">
+    <rect class="in" x="26" y="316" width="222" height="300" rx="16"/>
+    <rect class="okf" x="48" y="408" width="50" height="50" rx="6"/>
+    <path class="ln2" d="M58 434 l10 12 l20 -26"/>
+    <rect class="wh" x="48" y="512" width="50" height="50" rx="6"/>
+  </g>
+  <text class="ts" x="112" y="446" pointer-events="none">FAIT</text>
+  <text class="ts" x="112" y="550" pointer-events="none">RESTE</text>
+  <g data-part="laisse">
+    <rect class="in" x="268" y="316" width="222" height="300" rx="16"/>
+    <rect class="wh" x="298" y="412" width="130" height="150" rx="12"/>
+    <rect class="dash" x="308" y="422" width="110" height="130" rx="8"/>
+    <path class="ln" d="M418 426 C444 416 448 446 446 466"/>
+    <path class="wh" d="M418 466 h56 v76 h-56 Z"/>
+    <path class="thin" d="M428 492 h36 M428 514 h36"/>
+  </g>
+  <g data-part="attention">
+    <rect class="in" x="510" y="316" width="222" height="300" rx="16"/>
+    <path class="syf" d="M621 400 l86 150 h-172 Z"/>
+    <path class="ln2" d="M621 456 v46 M621 524 v2"/>
+  </g>
+  <g data-part="inventaire">
+    <rect class="in" x="752" y="316" width="222" height="300" rx="16"/>
+    <path class="ln2" d="M828 448 v-30 h70 v30"/>
+    <rect class="eq2" x="778" y="448" width="170" height="112" rx="10"/>
+    <path class="ln" d="M778 486 h170"/>
+    <rect class="mt" x="848" y="474" width="30" height="24" rx="4"/>
+    <circle class="okf" cx="928" cy="556" r="30"/>
+    <path class="ln2" d="M914 556 l10 12 l18 -24"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="sortant" transform="translate(228 64)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="entrant" transform="translate(928 64)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="trace" transform="translate(610 60)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="avancement" transform="translate(208 356)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="laisse" transform="translate(450 356)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="attention" transform="translate(692 356)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="inventaire" transform="translate(934 356)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+  </g>
+</svg>

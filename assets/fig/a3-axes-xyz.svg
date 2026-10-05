@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 730" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Les trois axes de l'avion : X, Y et Z</title>
+  <desc id="d">Schéma de principe d'un avion de ligne, avant à gauche. En haut, vue de côté : l'axe X traverse le fuselage du nez à la queue (axe longitudinal), l'axe Z est vertical ; l'avant est noté FWD, l'arrière AFT. En bas, vue de dessus : l'axe X suit le fuselage et l'axe Y le coupe en travers, d'une aile à l'autre (axe transversal). Un observateur assis dans le poste de pilotage regarde vers l'avant : sa gauche est le côté gauche de l'avion, noté LH, qui se trouve en bas de la vue de dessus ; le côté droit, noté RH, est en haut.</desc>
+  <rect class="bgp" width="1000" height="730"/>
+  <text class="ts" x="24" y="52">Vue de côté</text>
+  <line class="dash" x1="30" y1="418" x2="970" y2="418"/>
+  <path class="sk" d="M50 258 C54 210 110 180 200 180 L700 180 C790 180 870 202 940 226 L940 244 C880 280 800 320 710 320 L200 320 C110 320 56 306 50 258 Z"/>
+  <path class="sk" d="M745 182 L855 80 L915 80 L936 230 L880 214 L800 192 Z"/>
+  <path class="gl" d="M104 226 C112 216 130 210 150 208 L150 234 L106 234 Z"/>
+  <g class="gl"><circle cx="290" cy="214" r="9"/><circle cx="340" cy="214" r="9"/><circle cx="390" cy="214" r="9"/><circle cx="440" cy="214" r="9"/><circle cx="490" cy="214" r="9"/><circle cx="540" cy="214" r="9"/><circle cx="590" cy="214" r="9"/><circle cx="640" cy="214" r="9"/></g>
+  <rect class="wh" x="196" y="196" width="38" height="66" rx="8"/><rect class="wh" x="716" y="196" width="38" height="66" rx="8"/>
+  <path class="st" d="M396 314 L706 296 L714 308 L418 332 Z"/>
+  <path class="mt2" d="M405 292 L440 298 L440 314 L405 314 Z"/><rect class="eq2" x="338" y="312" width="138" height="58" rx="28"/><ellipse class="dk" cx="352" cy="341" rx="12" ry="22"/>
+  <path class="ln2" d="M540 322 L540 360"/><circle class="dk" cx="540" cy="380" r="24"/><circle class="wh" cx="540" cy="380" r="8"/>
+  <path class="ln2" d="M156 320 L156 356"/><circle class="dk" cx="156" cy="374" r="19"/><circle class="wh" cx="156" cy="374" r="6"/>
+  <text class="ts" x="24" y="462">Vue de dessus</text>
+  <g data-part="droite">
+    <path class="sk" d="M370 536 L600 444 L640 444 L560 536 Z"/>
+    <path class="sk" d="M835 538 L895 486 L934 486 L918 542 Z"/>
+    <path class="sk" d="M50 572 C52 546 90 536 150 536 L800 536 C880 538 936 560 940 572 Z"/>
+    <rect class="eq2" x="402" y="468" width="124" height="44" rx="22"/><ellipse class="dk" cx="412" cy="490" rx="9" ry="16"/>
+    <text class="tl" x="668" y="486">RH</text>
+  </g>
+  <g data-part="gauche">
+    <path class="eq" d="M370 608 L600 700 L640 700 L560 608 Z"/>
+    <path class="eq" d="M835 606 L895 658 L934 658 L918 602 Z"/>
+    <path class="eq" d="M50 572 C52 598 90 608 150 608 L800 608 C880 606 936 584 940 572 Z"/>
+    <rect class="eq2" x="402" y="632" width="124" height="44" rx="22"/><ellipse class="dk" cx="412" cy="654" rx="9" ry="16"/>
+    <text class="tl" x="668" y="700">LH</text>
+  </g>
+  <g data-part="axe-x">
+    <rect class="sk" opacity="0" x="20" y="232" width="960" height="36" rx="8"/>
+    <path class="ax" d="M38 250 L962 250"/><path class="axf" d="M980 250 L958 239 L958 261 Z"/><path class="axf" d="M20 250 L42 261 L42 239 Z"/>
+    <text class="tl tr" x="250" y="170">X</text>
+    <rect class="sk" opacity="0" x="20" y="554" width="960" height="36" rx="8"/>
+    <path class="ax" d="M38 572 L962 572"/><path class="axf" d="M980 572 L958 561 L958 583 Z"/><path class="axf" d="M20 572 L42 583 L42 561 Z"/>
+    <text class="tl tr" x="250" y="528">X</text>
+  </g>
+  <g data-part="axe-z">
+    <rect class="sk" opacity="0" x="452" y="70" width="36" height="340" rx="8"/>
+    <path class="ax" d="M470 90 L470 390"/><path class="axf" d="M470 408 L481 386 L459 386 Z"/><path class="axf" d="M470 72 L459 94 L481 94 Z"/>
+    <text class="tl tr" x="488" y="122">Z</text>
+  </g>
+  <g data-part="axe-y">
+    <rect class="sk" opacity="0" x="452" y="428" width="36" height="290" rx="8"/>
+    <path class="ax" d="M470 448 L470 698"/><path class="axf" d="M470 716 L481 694 L459 694 Z"/><path class="axf" d="M470 430 L459 452 L481 452 Z"/>
+    <text class="tl tr te" x="452" y="470">Y</text>
+  </g>
+  <g data-part="avant">
+    <rect class="sk" opacity="0" x="18" y="96" width="150" height="64" rx="8"/>
+    <path class="dim" d="M40 112 L120 112"/><path class="dimf" d="M22 112 L46 99 L46 125 Z"/>
+    <text class="tb ta" x="24" y="160">FWD</text>
+  </g>
+  <g data-part="arriere">
+    <rect class="sk" opacity="0" x="830" y="318" width="152" height="68" rx="8"/>
+    <path class="dim" d="M880 338 L960 338"/><path class="dimf" d="M978 338 L954 325 L954 351 Z"/>
+    <text class="tb ta te" x="976" y="386">AFT</text>
+  </g>
+  <g data-part="observateur">
+    <rect class="sk" opacity="0" x="86" y="538" width="80" height="68" rx="8"/>
+    <ellipse class="dk" cx="140" cy="572" rx="10" ry="24"/><circle class="wh" cx="132" cy="572" r="12"/>
+    <path class="dim" d="M114 572 L92 572"/><path class="dimf" d="M70 572 L94 560 L94 584 Z"/>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="axe-x" transform="translate(640 250)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="axe-y" transform="translate(470 690)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="axe-z" transform="translate(470 388)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="avant" transform="translate(150 112)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="arriere" transform="translate(852 372)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="gauche" transform="translate(760 640)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="droite" transform="translate(760 504)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="observateur" transform="translate(190 572)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+  </g>
+</svg>

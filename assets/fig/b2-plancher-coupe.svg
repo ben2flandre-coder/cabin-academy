@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Plancher de cabine : coupe transversale et détail autour d’un rail</title>
+  <desc id="d">Schéma de principe en deux parties. En haut, coupe transversale de la moitié basse du fuselage, vue vers l'avant : le cadre circulaire porte une traverse de plancher horizontale, soutenue par deux bielles ; sur la traverse sont posés quatre rails de siège vus en bout, et entre les rails des panneaux de plancher recouverts d'un revêtement. En bas, détail agrandi autour d'un rail : le rail est un profilé dont le sommet forme une gorge ; de chaque côté, un panneau de plancher repose sur une aile du rail ; le panneau est un sandwich fait de deux peaux minces et d'une âme en nid d'abeilles ; le revêtement de sol est posé par-dessus.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+<text class="ts tc" x="500" y="110">Coupe (vue vers l’avant)</text>
+  <path class="sk" d="M110.5 60 A390 390 0 0 0 889.5 60 L879.5 60 A380 380 0 0 1 120.5 60 Z"/>
+  <g data-part="cadre">
+    <path class="st" d="M120.5 60 A380 380 0 0 0 879.5 60 L845.4 60 A346 346 0 0 1 154.6 60 Z"/>
+  </g>
+  <g data-part="contrefiche">
+    <path class="mt" d="M356 250 L372 250 L362 352 L346 350 Z"/>
+    <path class="mt" d="M628 250 L644 250 L654 350 L638 352 Z"/>
+    <circle class="mt2" cx="364" cy="256" r="9"/><circle class="mt2" cx="636" cy="256" r="9"/><circle class="mt2" cx="354" cy="346" r="9"/><circle class="mt2" cx="646" cy="346" r="9"/>
+  </g>
+  <g data-part="traverse">
+    <rect class="st" x="200" y="216" width="600" height="34"/>
+    <path class="thin" d="M204 224 L796 224"/><path class="thin" d="M204 242 L796 242"/>
+    <rect class="st" x="60" y="650" width="880" height="34"/>
+  </g>
+  <g data-part="rail">
+    <path class="fl" d="M282 190 L293 190 L293 197 L307 197 L307 190 L318 190 L318 206 L330 206 L330 216 L270 216 L270 206 L282 206 Z"/>
+    <path class="fl" d="M402 190 L413 190 L413 197 L427 197 L427 190 L438 190 L438 206 L450 206 L450 216 L390 216 L390 206 L402 206 Z"/>
+    <path class="fl" d="M562 190 L573 190 L573 197 L587 197 L587 190 L598 190 L598 206 L610 206 L610 216 L550 216 L550 206 L562 206 Z"/>
+    <path class="fl" d="M682 190 L693 190 L693 197 L707 197 L707 190 L718 190 L718 206 L730 206 L730 216 L670 216 L670 206 L682 206 Z"/>
+    <path class="fl" d="M440 510 L480 510 L480 530 L460 530 L460 570 L540 570 L540 530 L520 530 L520 510 L560 510 L560 560 L630 560 L630 580 L510 580 L510 634 L570 634 L570 650 L430 650 L430 634 L490 634 L490 580 L370 580 L370 560 L440 560 Z"/>
+  </g>
+  <g data-part="panneau">
+    <rect class="wh" x="212" y="198" width="58" height="8"/>
+    <rect class="wh" x="330" y="198" width="60" height="8"/>
+    <rect class="wh" x="450" y="198" width="100" height="8"/>
+    <rect class="wh" x="610" y="198" width="60" height="8"/>
+    <rect class="wh" x="730" y="198" width="58" height="8"/>
+    <rect class="mt" x="562" y="512" width="358" height="9"/>
+    <rect class="wh" x="562" y="521" width="358" height="30"/>
+    <rect class="mt" x="562" y="551" width="358" height="9"/>
+    <path class="thin" d="M580 521 L580 551"/>
+    <path class="thin" d="M598 521 L598 551"/>
+    <path class="thin" d="M616 521 L616 551"/>
+    <path class="thin" d="M634 521 L634 551"/>
+    <path class="thin" d="M652 521 L652 551"/>
+    <path class="thin" d="M670 521 L670 551"/>
+    <path class="thin" d="M688 521 L688 551"/>
+    <path class="thin" d="M706 521 L706 551"/>
+    <path class="thin" d="M724 521 L724 551"/>
+    <path class="thin" d="M742 521 L742 551"/>
+    <path class="thin" d="M760 521 L760 551"/>
+    <path class="thin" d="M778 521 L778 551"/>
+    <path class="thin" d="M796 521 L796 551"/>
+    <path class="thin" d="M814 521 L814 551"/>
+    <path class="thin" d="M832 521 L832 551"/>
+    <path class="thin" d="M850 521 L850 551"/>
+    <path class="thin" d="M868 521 L868 551"/>
+    <path class="thin" d="M886 521 L886 551"/>
+    <path class="thin" d="M904 521 L904 551"/>
+  </g>
+  <g data-part="peaux">
+    <rect class="mt" x="80" y="512" width="358" height="9"/>
+    <rect class="mt" x="80" y="551" width="358" height="9"/>
+  </g>
+  <g data-part="ame">
+    <rect class="wh" x="80" y="521" width="358" height="30"/>
+    <path class="thin" d="M98 521 L98 551"/>
+    <path class="thin" d="M116 521 L116 551"/>
+    <path class="thin" d="M134 521 L134 551"/>
+    <path class="thin" d="M152 521 L152 551"/>
+    <path class="thin" d="M170 521 L170 551"/>
+    <path class="thin" d="M188 521 L188 551"/>
+    <path class="thin" d="M206 521 L206 551"/>
+    <path class="thin" d="M224 521 L224 551"/>
+    <path class="thin" d="M242 521 L242 551"/>
+    <path class="thin" d="M260 521 L260 551"/>
+    <path class="thin" d="M278 521 L278 551"/>
+    <path class="thin" d="M296 521 L296 551"/>
+    <path class="thin" d="M314 521 L314 551"/>
+    <path class="thin" d="M332 521 L332 551"/>
+    <path class="thin" d="M350 521 L350 551"/>
+    <path class="thin" d="M368 521 L368 551"/>
+    <path class="thin" d="M386 521 L386 551"/>
+    <path class="thin" d="M404 521 L404 551"/>
+    <path class="thin" d="M422 521 L422 551"/>
+  </g>
+  <g data-part="revetement">
+    <rect class="eq2" x="212" y="189" width="58" height="9"/>
+    <rect class="eq2" x="330" y="189" width="60" height="9"/>
+    <rect class="eq2" x="450" y="189" width="100" height="9"/>
+    <rect class="eq2" x="610" y="189" width="60" height="9"/>
+    <rect class="eq2" x="730" y="189" width="58" height="9"/>
+    <rect class="eq2" x="80" y="496" width="358" height="16"/>
+    <rect class="eq2" x="562" y="496" width="358" height="16"/>
+  </g>
+  <rect class="dk" x="394" y="508" width="22" height="8" rx="2"/><rect class="dk" x="400" y="512" width="10" height="66"/><rect class="dk" x="584" y="508" width="22" height="8" rx="2"/><rect class="dk" x="590" y="512" width="10" height="66"/>
+  <circle class="dim" cx="580" cy="204" r="46"/><rect class="dim" x="30" y="440" width="940" height="260" rx="14"/>
+  <text class="ts ta" x="52" y="480">Détail</text>
+  <path class="thin" d="M300 164 L300 188"/><path class="thin" d="M500 268 L500 250"/><path class="thin" d="M420 306 L366 300"/><path class="thin" d="M140 590 L140 562"/><path class="thin" d="M660 474 L660 496"/>
+  <g class="badges">
+    <g class="badge" data-badge="traverse" transform="translate(500 292)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="rail" transform="translate(300 150)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="panneau" transform="translate(800 535)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="revetement" transform="translate(660 464)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="contrefiche" transform="translate(444 310)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="cadre" transform="translate(154 152)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="peaux" transform="translate(140 612)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="ame" transform="translate(280 535)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 770" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Un outil manque à l'inventaire : l'arbre de décision</title>
+  <desc id="d">Arbre de décision. Première question : le compte est-il juste ? Si oui, la clôture est possible. Si non, on fige la zone, on informe sans attendre, puis on cherche par zones. Deuxième question : l'outil est-il retrouvé ? Si oui, on vérifie qu'il est entier, on trace, et la clôture redevient possible. Si non, pas de clôture : la suite appartient au responsable.</desc>
+  <rect class="bgp" width="1000" height="770"/>
+  <g data-part="compte">
+    <path class="in" d="M40 100 L290 30 L540 100 L290 170 Z"/><text class="tb tc" x="290" y="113">Compte juste ?</text>
+  </g>
+  <g data-part="cloture">
+    <rect class="wh" x="640" y="60" width="320" height="80" rx="14"/><text class="t tc" x="816" y="114">Clôture</text><circle class="okf" cx="690" cy="100" r="24"/><path class="ln2" d="M678 100 L688 110 L704 90"/>
+  </g>
+  <g data-part="figer">
+    <rect class="wh" x="60" y="222" width="460" height="76" rx="14"/><text class="t tc" x="290" y="274">Figer la zone</text>
+  </g>
+  <g data-part="informer">
+    <rect class="wh" x="60" y="338" width="460" height="76" rx="14"/><text class="t tc" x="290" y="390">Informer</text>
+  </g>
+  <g data-part="chercher">
+    <rect class="wh" x="60" y="454" width="460" height="76" rx="14"/><text class="t tc" x="290" y="506">Chercher par zones</text>
+  </g>
+  <g data-part="retrouve">
+    <path class="in" d="M70 628 L290 562 L510 628 L290 694 Z"/><text class="tb tc" x="290" y="641">Retrouvé ?</text>
+  </g>
+  <g data-part="verifier">
+    <rect class="wh" x="640" y="310" width="320" height="80" rx="14"/><text class="t tc" x="800" y="364">Entier ? Tracer</text>
+  </g>
+  <g data-part="decision">
+    <rect class="wh" x="560" y="660" width="400" height="80" rx="14"/><text class="t tc" x="786" y="714">Pas de clôture</text><circle class="badf" cx="600" cy="700" r="24"/><path class="ln2" d="M590 690 L610 710 M610 690 L590 710"/>
+  </g>
+  <path class="dim" d="M540 100 L630 100"/><path class="dimf" d="M636 100 L615.6 107 L615.6 93 Z"/><text class="ts ta" x="552" y="84">oui</text>
+  <path class="dim" d="M290 170 L290 212"/><path class="dimf" d="M290 218 L283 197.6 L297 197.6 Z"/><text class="ts ta" x="306" y="204">non</text>
+  <path class="dim" d="M290 298 L290 328"/><path class="dimf" d="M290 334 L283 313.6 L297 313.6 Z"/>
+  <path class="dim" d="M290 414 L290 444"/><path class="dimf" d="M290 450 L283 429.6 L297 429.6 Z"/>
+  <path class="dim" d="M290 530 L290 554"/><path class="dimf" d="M290 560 L283 539.6 L297 539.6 Z"/>
+  <path class="dim" d="M510 628 L580 628 L580 350 L630 350"/><path class="dimf" d="M636 350 L615.6 357 L615.6 343 Z"/><text class="ts ta" x="596" y="560">oui</text>
+  <path class="dim" d="M800 310 L800 150"/><path class="dimf" d="M800 144 L807 164.4 L793 164.4 Z"/>
+  <path class="dim" d="M290 694 L290 720 L550 720"/><path class="dimf" d="M556 720 L535.6 727 L535.6 713 Z"/><text class="ts ta" x="306" y="752">non</text>
+  <g class="badges">
+    <g class="badge" data-badge="compte" transform="translate(60 50)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="cloture" transform="translate(950 50)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="figer" transform="translate(60 222)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="informer" transform="translate(60 338)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="chercher" transform="translate(60 454)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="retrouve" transform="translate(90 580)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="verifier" transform="translate(950 300)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="decision" transform="translate(950 650)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

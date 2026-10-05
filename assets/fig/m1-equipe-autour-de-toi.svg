@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">L'intégrateur cabine et les personnes avec qui il travaille</title>
+  <desc id="d">Schéma de principe en étoile. Au centre, un personnage orange marqué « Toi » : l'intégrateur cabine. Autour, huit ronds reliés au centre par un trait, chacun avec un dessin : en haut, un personnage avec une étoile, le chef d'équipe ; en haut à droite, une feuille de consignes, les méthodes ; à droite, une loupe avec une coche, la qualité ; en bas à droite, un cadran de mesure, les essais ; en bas, un petit avion, le client ou la compagnie ; en bas à gauche, un connecteur et un câble orange, les équipes systèmes et électricité ; à gauche, un morceau de cadre et de peau, l'équipe structure ; en haut à gauche, un chariot chargé d'un carton, la logistique.</desc>
+  <rect class="bgp" width="1000" height="750"/>
+  <line class="ln" x1="500" y1="269" x2="500" y2="183"/>
+  <line class="ln" x1="585.1" y1="311.8" x2="695.5" y2="229.9"/>
+  <line class="ln" x1="606" y1="375" x2="788" y2="375"/>
+  <line class="ln" x1="585.1" y1="438.2" x2="695.5" y2="520.1"/>
+  <line class="ln" x1="500" y1="481" x2="500" y2="567"/>
+  <line class="ln" x1="414.9" y1="438.2" x2="304.5" y2="520.1"/>
+  <line class="ln" x1="394" y1="375" x2="212" y2="375"/>
+  <line class="ln" x1="414.9" y1="311.8" x2="304.5" y2="229.9"/>
+  <g data-part="chef"><circle class="wh" cx="500" cy="99" r="84"/><circle class="eq2" cx="494" cy="75" r="18"/><path class="eq2" d="M458 143 C458 111 474 101 494 101 C514 101 530 111 530 143 Z"/><path class="syf" d="M536 50.6 L541.4 63.3 L554.4 63.3 L544.1 71.9 L547.5 85.1 L536 77.1 L524.5 85.1 L528 71.9 L517.6 63.3 L530.6 63.3 Z"/></g>
+  <g data-part="methodes"><circle class="wh" cx="763" cy="179.9" r="84"/><rect class="in" x="731" y="133.9" width="64" height="92" rx="6"/><rect class="wh" x="741" y="146.9" width="14" height="14" rx="2"/><line class="ln" x1="761" y1="153.9" x2="785" y2="153.9"/><rect class="wh" x="741" y="166.9" width="14" height="14" rx="2"/><line class="ln" x1="761" y1="173.9" x2="785" y2="173.9"/><rect class="wh" x="741" y="186.9" width="14" height="14" rx="2"/><line class="ln" x1="761" y1="193.9" x2="785" y2="193.9"/></g>
+  <g data-part="qualite"><circle class="wh" cx="872" cy="375" r="84"/><circle class="gl" cx="864" cy="367" r="32"/><path class="ln2" d="M848 367 L860 380 L880 353"/><path class="dk" d="M884 395 L892 387 L920 415 L912 423 Z"/></g>
+  <g data-part="essais"><circle class="wh" cx="763" cy="570.1" r="84"/><path class="wh" d="M712.4 592.1 A50.6 50.6 0 0 1 813.6 592.1 Z"/><line class="thin" x1="728.5" y1="566.8" x2="735.4" y2="572.6"/><line class="thin" x1="763" y1="548.4" x2="763" y2="557.6"/><line class="thin" x1="797.5" y1="566.8" x2="790.6" y2="572.6"/><line class="ax" x1="763" y1="590.1" x2="788.3" y2="559.9"/><circle class="dk" cx="763" cy="590.1" r="6.9"/></g>
+  <g data-part="client"><circle class="wh" cx="500" cy="651" r="84"/><path class="sk" d="M534.3 648.6 L543.5 634.3 L547.3 634.3 L545.1 649.4 Z"/><path class="sk" d="M534.3 653.4 L543.5 667.7 L547.3 667.7 L545.1 652.6 Z"/><path class="sk" d="M480.9 645.6 L503 602.7 L507.3 602.7 L501.9 633.7 L500.3 645.6 Z"/><path class="sk" d="M480.9 656.4 L503 699.3 L507.3 699.3 L501.9 668.3 L500.3 656.4 Z"/><path class="sk" d="M449 651 C449.8 647.8 455.8 645.6 463.9 645.6 L516.5 645.6 C530 645.6 543.5 647.8 550.4 650.1 L550.4 651.9 C543.5 654.2 530 656.4 516.5 656.4 L463.9 656.4 C455.8 656.4 449.8 654.2 449 651 Z"/></g>
+  <g data-part="systemes"><circle class="wh" cx="237" cy="570.1" r="84"/><path class="sy" d="M184.99600000000004 600.132 C184.99600000000004 560.132 206.99600000000004 570.132 224.99600000000004 570.132"/><rect class="mt" x="223" y="548.1" width="34" height="44" rx="5"/><rect class="mt2" x="257" y="556.1" width="12" height="8"/><rect class="mt2" x="257" y="576.1" width="12" height="8"/><path class="syf" d="M273.4 517.3 L260.6 542.9 L270.2 542.9 L262.2 563.7 L283 534.9 L273.4 534.9 L281.4 517.3 Z"/></g>
+  <g data-part="structure"><circle class="wh" cx="128" cy="375" r="84"/><path class="sk" d="M198.4 352.6 A150 150 0 0 0 57.6 352.6 L63.2 363.2 A138 138 0 0 1 192.8 363.2 Z"/><path class="st" d="M192.8 363.2 A138 138 0 0 0 63.2 363.2 L77.3 389.6 A108 108 0 0 1 178.7 389.6 Z"/><rect class="dk" x="157.9" y="356.2" width="18" height="18" rx="2"/><rect class="dk" x="119" y="350" width="18" height="18" rx="2"/><rect class="dk" x="80.1" y="356.2" width="18" height="18" rx="2"/></g>
+  <g data-part="logistique"><circle class="wh" cx="237" cy="179.9" r="84"/><rect class="fl" x="211.5" y="148.6" width="65.1" height="52.5" rx="3"/><line class="thin" x1="244" y1="148.6" x2="244" y2="201.1"/><path class="ln2" d="M180 133.9 L194.7 133.9 L194.7 203.2 L285 203.2"/><circle class="dk" cx="213.6" cy="217.9" r="10.5"/><circle class="dk" cx="268.2" cy="217.9" r="10.5"/></g>
+  <g data-part="toi"><circle class="in" cx="500" cy="375" r="106"/><circle class="syf" cx="500" cy="323" r="22.1"/><path class="syf" d="M459.2 414.8 C459.2 370.6 479.6 357 500 357 C520.4 357 540.8 370.6 540.8 414.8 Z"/><text class="tb tc" x="500" y="457">Toi</text></g>
+  <g class="badges">
+    <g class="badge" data-badge="chef" transform="translate(438 41)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="methodes" transform="translate(701 121.9)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="qualite" transform="translate(810 317)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="essais" transform="translate(701 512.1)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="client" transform="translate(438 593)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="systemes" transform="translate(175 512.1)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="structure" transform="translate(66 317)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="logistique" transform="translate(175 121.9)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="toi" transform="translate(422 301)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+  </g>
+</svg>

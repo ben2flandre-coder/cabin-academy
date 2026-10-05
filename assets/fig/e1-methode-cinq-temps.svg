@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">La méthode en cinq temps</title>
+  <desc id="d">Cinq cases alignées de gauche à droite et reliées par des flèches : Avant (une liste de vérifications cochée), Action (un tournevis sur une vis), Contrôle (une loupe), Erreurs (un triangle d'attention), Trace (un document signé). Sous les cinq cases, une bande commune reliée à chacune par un trait pointillé : un panneau d'arrêt et la mention « Un doute, un écart ? Arrêt et question ».</desc>
+  <rect class="bgp" width="1000" height="580"/>
+
+  <!-- 1 AVANT -->
+  <g data-part="avant">
+    <rect class="in" x="26" y="80" width="160" height="180" rx="18"/>
+    <rect class="wh" x="64" y="114" width="84" height="122" rx="8"/>
+    <rect class="mt2" x="86" y="102" width="40" height="24" rx="6"/>
+    <rect class="okf" x="76" y="140" width="18" height="18" rx="3"/><path class="ln" d="M104 149 L136 149"/>
+    <rect class="okf" x="76" y="170" width="18" height="18" rx="3"/><path class="ln" d="M104 179 L136 179"/>
+    <rect class="okf" x="76" y="200" width="18" height="18" rx="3"/><path class="ln" d="M104 209 L136 209"/>
+    <text class="tb tc" x="106" y="312">Avant</text>
+  </g>
+  <!-- 2 ACTION -->
+  <g data-part="action">
+    <rect class="in" x="223" y="80" width="160" height="180" rx="18"/>
+    <circle class="mt" cx="335" cy="208" r="26"/>
+    <path class="ln2" d="M321 208 L349 208 M335 194 L335 222"/>
+    <g transform="rotate(-40 335 208)">
+      <rect class="mt" x="329" y="126" width="12" height="74"/>
+      <rect class="eq2" x="317" y="72" width="36" height="62" rx="12"/>
+    </g>
+    <text class="tb tc" x="303" y="312">Action</text>
+  </g>
+  <!-- 3 CONTRÔLE -->
+  <g data-part="controle">
+    <rect class="in" x="420" y="80" width="160" height="180" rx="18"/>
+    <path class="dk" d="M516 192 L530 178 L564 214 L550 228 Z"/>
+    <circle class="gl" cx="488" cy="156" r="46"/>
+    <path class="ln2" d="M466 158 L482 174 L512 138"/>
+    <text class="tb tc" x="500" y="312">Contrôle</text>
+  </g>
+  <!-- 4 ERREURS À ÉVITER -->
+  <g data-part="erreurs">
+    <rect class="in" x="617" y="80" width="160" height="180" rx="18"/>
+    <path class="syf" d="M697 104 L762 226 L632 226 Z"/>
+    <text class="tl tc" x="697" y="212">!</text>
+    <text class="tb tc" x="697" y="312">Erreurs</text>
+  </g>
+  <!-- 5 TRACE -->
+  <g data-part="trace">
+    <rect class="in" x="814" y="80" width="160" height="180" rx="18"/>
+    <rect class="wh" x="842" y="102" width="96" height="136" rx="6"/>
+    <path class="ln" d="M858 128 L922 128 M858 150 L922 150 M858 172 L900 172"/>
+    <path class="dim" d="M858 214 C866 194 874 228 884 208 S902 200 912 212"/>
+    <g transform="rotate(28 916 210)">
+      <rect class="eq2" x="908" y="116" width="16" height="76" rx="4"/>
+      <path class="dk" d="M908 192 L924 192 L916 212 Z"/>
+    </g>
+    <text class="tb tc" x="894" y="312">Trace</text>
+  </g>
+
+  <!-- flèches d'enchaînement -->
+  <path class="dimf" d="M193 150 L217 170 L193 190 Z"/>
+  <path class="dimf" d="M390 150 L414 170 L390 190 Z"/>
+  <path class="dimf" d="M587 150 L611 170 L587 190 Z"/>
+  <path class="dimf" d="M784 150 L808 170 L784 190 Z"/>
+
+  <!-- liens vers l'arrêt -->
+  <path class="dash" d="M106 330 L106 398 M303 330 L303 398 M500 330 L500 398 M697 330 L697 398 M894 330 L894 398"/>
+
+  <!-- ARRÊT ET QUESTION -->
+  <g data-part="arret">
+    <rect class="sk" x="26" y="400" width="948" height="150" rx="20"/>
+    <path class="badf" d="M162 455 L134 427 L94 427 L66 455 L66 495 L94 523 L134 523 L162 495 Z"/>
+    <path class="ln2" d="M92 475 L136 475"/>
+    <text class="tb" x="196" y="462">Un doute, un écart ?</text>
+    <text class="t" x="196" y="514">Arrêt et question</text>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="avant" transform="translate(40 86)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="action" transform="translate(237 86)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="controle" transform="translate(434 86)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="erreurs" transform="translate(631 86)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="trace" transform="translate(828 86)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="arret" transform="translate(924 475)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+  </g>
+</svg>

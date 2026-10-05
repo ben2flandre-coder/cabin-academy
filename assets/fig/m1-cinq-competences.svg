@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 630" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Les cinq compétences du CQP, dans l'ordre du travail</title>
+  <desc id="d">Schéma de principe : cinq cases en forme de flèche, alignées de gauche à droite et marquées C1 à C5. Une accolade réunit C1, C2 et C3 sous le nom BC01 ; une autre réunit C4 et C5 sous le nom BC02. Chaque case contient un dessin : C1, une feuille de document et un repère de position ; C2, un bouclier de protection ; C3, un chariot portant un carton ; C4, une plaque boulonnée et une clé ; C5, deux connecteurs reliés à des câbles orange. Sous les cinq cases, deux bandes les soulignent sur toute la largeur : contrôler à chaque étape, puis tracer ce qui est fait.</desc>
+  <rect class="bgp" width="1000" height="630"/>
+  <g data-part="c1"><path class="in" d="M24 130 L182 130 L210 250 L182 370 L24 370 Z"/><text class="tl tc" x="120" y="192">C1</text><rect class="wh" x="76" y="238" width="62" height="84" rx="5"/><line class="thin" x1="86" y1="256" x2="128" y2="256"/><line class="thin" x1="86" y1="272" x2="128" y2="272"/><line class="thin" x1="86" y1="288" x2="128" y2="288"/><path class="syf" d="M146 330 C122 302 124 268 146 268 C168 268 170 302 146 330 Z"/><circle class="wh" cx="146" cy="286" r="7"/></g>
+  <g data-part="c2"><path class="in" d="M212 130 L370 130 L398 250 L370 370 L212 370 L240 250 Z"/><text class="tl tc" x="314" y="192">C2</text><path class="eq" d="M314 236 L356 250 L356 288 C356 314 336 330 314 338 C292 330 272 314 272 288 L272 250 Z"/><rect class="wh" x="294" y="262" width="40" height="44" rx="4"/></g>
+  <g data-part="c3"><path class="in" d="M400 130 L558 130 L586 250 L558 370 L400 370 L428 250 Z"/><text class="tl tc" x="502" y="192">C3</text><rect class="fl" x="474.7" y="252.5" width="63" height="52.5" rx="3"/><line class="thin" x1="506.2" y1="252.5" x2="506.2" y2="305"/><path class="ln2" d="M441.1 237.8 L455.8 237.8 L455.8 307.1 L546.1 307.1"/><circle class="dk" cx="474.7" cy="321.8" r="10"/><circle class="dk" cx="529.3" cy="321.8" r="10"/></g>
+  <g data-part="c4"><path class="wh" d="M588 130 L746 130 L774 250 L746 370 L588 370 L616 250 Z"/><text class="tl tc" x="690" y="192">C4</text><rect class="st" x="640" y="296" width="100" height="24" rx="3"/><rect class="mt2" x="654" y="278" width="28" height="20" rx="3"/><rect class="mt2" x="698" y="278" width="28" height="20" rx="3"/><g transform="translate(712 270) rotate(-52)"><path class="mt" d="M18 -7 L78 -7 L78 7 L18 7 C16 16 5 19 -6 14 L4 5 L4 -5 L-6 -14 C5 -19 16 -16 18 -7 Z"/></g></g>
+  <g data-part="c5"><path class="wh" d="M776 130 L934 130 L962 250 L934 370 L776 370 L804 250 Z"/><text class="tl tc" x="878" y="192">C5</text><path class="sy" d="M816 324 C816 284 828 284 840 284"/><path class="sy" d="M940 244 C940 284 928 284 916 284"/><rect class="mt" x="838" y="266" width="30" height="36" rx="4"/><rect class="mt2" x="868" y="276" width="8" height="5"/><rect class="mt2" x="868" y="287" width="8" height="5"/><rect class="mt2" x="886" y="264" width="32" height="40" rx="4"/><circle class="dk" cx="894" cy="278" r="3"/><circle class="dk" cx="894" cy="290" r="3"/></g>
+  <path class="ln" d="M24 112 L24 96 L586 96 L586 112"/><text class="tb tc" x="305" y="72">BC01</text><path class="ln" d="M590 112 L590 96 L962 96 L962 112"/><text class="tb tc" x="776" y="72">BC02</text>
+  <path class="dimf" d="M144 392 L130 414 L158 414 Z"/>
+  <path class="dimf" d="M332 392 L318 414 L346 414 Z"/>
+  <path class="dimf" d="M520 392 L506 414 L534 414 Z"/>
+  <path class="dimf" d="M708 392 L694 414 L722 414 Z"/>
+  <path class="dimf" d="M896 392 L882 414 L910 414 Z"/>
+  <g data-part="controle"><rect class="wh" x="24" y="420" width="938" height="84" rx="18"/><circle class="gl" cx="76" cy="458" r="20"/><path class="ln2" d="M90 472 L108 490"/><text class="t" x="132" y="476">Contrôler à chaque étape</text></g>
+  <g data-part="trace"><rect class="wh" x="24" y="522" width="938" height="84" rx="18"/><rect class="in" x="56" y="540" width="36" height="48" rx="4"/><line class="thin" x1="63" y1="554" x2="85" y2="554"/><line class="thin" x1="63" y1="566" x2="85" y2="566"/><path class="mt2" d="M84 584 L112 548 L120 554 L92 590 Z"/><text class="t" x="132" y="578">Tracer ce qui est fait</text></g>
+  <g class="badges">
+    <g class="badge" data-badge="c1" transform="translate(84 370)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="c2" transform="translate(272 370)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="c3" transform="translate(460 370)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="c4" transform="translate(648 370)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="c5" transform="translate(836 370)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="controle" transform="translate(916 462)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="trace" transform="translate(916 564)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+  </g>
+</svg>

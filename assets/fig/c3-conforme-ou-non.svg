@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 770" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Conforme ou non : le chemin d'une décision</title>
+  <desc id="d">Schéma décisionnel général. En haut, deux boîtes : DOCUMENT, ce qui est exigé, et CONSTAT, ce que tu observes. Leurs flèches se rejoignent dans un losange de comparaison marqué égal point d'interrogation. À gauche, la branche CONFORME, repérée en vert, mène à POURSUIVRE puis à TRACER. À droite, la branche ÉCART, repérée en rouge, enchaîne ARRÊTER, IDENTIFIER, SIGNALER puis TRACER. De SIGNALER, une flèche part vers une boîte DÉCISION au contour pointillé, prise par d'autres que l'opérateur ; une flèche remonte de DÉCISION vers POURSUIVRE : le travail ne reprend qu'après cette décision.</desc>
+  <rect class="bgp" width="1000" height="770"/>
+  <path class="ln2" d="M240 104 L240 220 L338 220"/><path class="dimf" d="M346 220 L322.2 228.6 L322.2 211.4 Z"/>
+  <path class="ln2" d="M760 104 L760 220 L662 220"/><path class="dimf" d="M654 220 L677.8 211.4 L677.8 228.6 Z"/>
+  <path class="ln2" d="M500 292 L500 318 L250 318 L250 340"/><path class="dimf" d="M250 348 L241.4 324.2 L258.6 324.2 Z"/>
+  <path class="ln2" d="M500 318 L750 318 L750 340"/><path class="dimf" d="M750 348 L741.4 324.2 L758.6 324.2 Z"/>
+  <path class="ln2" d="M250 416 L250 426"/><path class="dimf" d="M250 434 L245.2 417.2 L254.8 417.2 Z"/>
+  <path class="ln2" d="M750 416 L750 420"/><path class="dimf" d="M750 428 L745.2 411.2 L754.8 411.2 Z"/>
+  <path class="ln2" d="M750 496 L750 500"/><path class="dimf" d="M750 508 L745.2 491.2 L754.8 491.2 Z"/>
+  <path class="ln2" d="M750 576 L750 580"/><path class="dimf" d="M750 588 L745.2 571.2 L754.8 571.2 Z"/>
+  <path class="ln2" d="M750 656 L750 674"/><path class="dimf" d="M750 682 L741.4 658.2 L758.6 658.2 Z"/>
+  <path class="ln2" d="M560 623 L452 623"/><path class="dimf" d="M444 623 L467.8 614.4 L467.8 631.6 Z"/>
+  <path class="dim" d="M250 590 L250 514"/><path class="dimf" d="M250 506 L258.6 529.8 L241.4 529.8 Z"/>
+  <path class="ln2" d="M60 469 L32 469 L32 717 L50 717"/><path class="dimf" d="M58 717 L34.2 725.6 L34.2 708.4 Z"/>
+  <g data-part="document">
+    <rect class="wh" x="40" y="38" width="400" height="66" rx="12"/>
+  </g>
+  <text class="tb" x="62" y="85" pointer-events="none">DOCUMENT</text>
+  <g data-part="constat">
+    <rect class="wh" x="560" y="38" width="400" height="66" rx="12"/>
+  </g>
+  <text class="tb" x="582" y="85" pointer-events="none">CONSTAT</text>
+  <g data-part="comparer">
+    <path class="eq" d="M350 220 L500 150 L650 220 L500 290 Z"/>
+  </g>
+  <text class="tl tc" x="500" y="237" pointer-events="none">= ?</text>
+  <g data-part="conforme">
+    <rect class="wh" x="60" y="350" width="380" height="66" rx="12"/>
+    <rect class="okf" x="60" y="350" width="44" height="66" rx="12"/>
+  </g>
+  <text class="tb" x="120" y="397" pointer-events="none">CONFORME</text>
+  <g data-part="poursuivre">
+    <rect class="wh" x="60" y="436" width="380" height="66" rx="12"/>
+  </g>
+  <text class="tb" x="82" y="483" pointer-events="none">POURSUIVRE</text>
+  <g data-part="ecart">
+    <rect class="wh" x="560" y="350" width="380" height="66" rx="12"/>
+    <rect class="badf" x="560" y="350" width="44" height="66" rx="12"/>
+  </g>
+  <text class="tb" x="620" y="397" pointer-events="none">ÉCART</text>
+  <g data-part="arreter">
+    <rect class="wh" x="560" y="430" width="380" height="66" rx="12"/>
+  </g>
+  <text class="tb" x="582" y="477" pointer-events="none">ARRÊTER</text>
+  <g data-part="identifier">
+    <rect class="wh" x="560" y="510" width="380" height="66" rx="12"/>
+  </g>
+  <text class="tb" x="582" y="557" pointer-events="none">IDENTIFIER</text>
+  <g data-part="signaler">
+    <rect class="wh" x="560" y="590" width="380" height="66" rx="12"/>
+  </g>
+  <text class="tb" x="582" y="637" pointer-events="none">SIGNALER</text>
+  <g data-part="decision">
+    <rect class="in" x="60" y="590" width="380" height="66" rx="12"/>
+    <rect class="dash" x="68" y="598" width="364" height="50" rx="8"/>
+  </g>
+  <text class="tb" x="86" y="637" pointer-events="none">DÉCISION</text>
+  <g data-part="tracer">
+    <rect class="eq" x="60" y="684" width="880" height="66" rx="12"/>
+  </g>
+  <text class="tb" x="82" y="731" pointer-events="none">TRACER</text>
+  <g class="badges">
+    <g class="badge" data-badge="document" transform="translate(404 71)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="constat" transform="translate(924 71)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="comparer" transform="translate(596 176)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="conforme" transform="translate(404 383)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="poursuivre" transform="translate(404 469)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="ecart" transform="translate(904 383)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="arreter" transform="translate(904 463)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="identifier" transform="translate(904 543)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="signaler" transform="translate(904 623)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="decision" transform="translate(404 623)"><circle class="bd" r="26"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="tracer" transform="translate(904 717)"><circle class="bd" r="26"/><text class="bn">11</text></g>
+  </g>
+</svg>

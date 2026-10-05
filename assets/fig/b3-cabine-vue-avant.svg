@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">La cabine vue depuis l’allée, en regardant vers l’avant</title>
+  <desc id="d">Schéma de principe en perspective : on se tient dans l'allée centrale et on regarde vers l'avant de l'avion. En haut au centre, les panneaux de plafond ; de chaque côté, la rangée des bacs à bagages fermés par leurs portes ; sous les bacs, la bande des PSU avec leurs liseuses ; entre le plafond et les bacs, un bandeau d'éclairage ; plus bas, les parois latérales percées de hublots ; au sol, l'allée bordée par les dossiers des sièges vus de dos ; tout au fond, une cloison ferme la cabine.</desc>
+  <rect class="bgp" width="1000" height="700"/>
+  <path class="fl" d="M950 690 L50 690 L396.8 466.5 L603.2 466.5 Z"/>
+  <g data-part="allee">
+    <path class="wh" d="M585 690 L415 690 L480.5 466.5 L519.5 466.5 Z"/>
+  </g>
+  <g data-part="plafond">
+    <path class="in" d="M260 130 Q500 78 740 130 L555 338.1 Q500 326.1 445 338.1 Z"/>
+    <path class="thin" d="M346.2 226.9 Q500 193.6 653.8 226.9"/>
+    <path class="thin" d="M386.8 272.6 Q500 248.1 613.2 272.6"/>
+    <path class="thin" d="M410.4 299.3 Q500 279.9 589.6 299.3"/>
+    <path class="thin" d="M425.9 316.7 Q500 300.6 574.1 316.7"/>
+    <path class="thin" d="M436.8 328.9 Q500 315.3 563.2 328.9"/>
+  </g>
+  <g data-part="paroi">
+    <path class="in" d="M950 690 L978 540 L935 345 L599.8 387.4 L609.6 432.1 L603.2 466.5 Z"/>
+    <path class="thin" d="M978 540 L609.6 432.1"/>
+    <path class="in" d="M50 690 L22 540 L65 345 L400.2 387.4 L390.4 432.1 L396.8 466.5 Z"/>
+    <path class="thin" d="M22 540 L390.4 432.1"/>
+  </g>
+  <g data-part="hublot">
+    <path class="gl" d="M908.9 374 L867 376.7 L887.8 469.9 L932.1 477.9 Z"/>
+    <path class="gl" d="M91.1 374 L133 376.7 L112.2 469.9 L67.9 477.9 Z"/>
+    <path class="gl" d="M824.6 379.4 L797.7 381.1 L814.5 456.7 L843.1 461.8 Z"/>
+    <path class="gl" d="M175.4 379.4 L202.3 381.1 L185.5 456.7 L156.9 461.8 Z"/>
+    <path class="gl" d="M769.2 382.9 L750.3 384.1 L764.5 447.7 L784.4 451.3 Z"/>
+    <path class="gl" d="M230.8 382.9 L249.7 384.1 L235.5 447.7 L215.6 451.3 Z"/>
+    <path class="gl" d="M729.9 385.4 L716 386.3 L728.3 441.1 L742.9 443.8 Z"/>
+    <path class="gl" d="M270.1 385.4 L284 386.3 L271.7 441.1 L257.1 443.8 Z"/>
+    <path class="gl" d="M700.6 387.3 L690 387.9 L700.7 436.2 L712 438.2 Z"/>
+    <path class="gl" d="M299.4 387.3 L310 387.9 L299.3 436.2 L288 438.2 Z"/>
+    <path class="gl" d="M677.9 388.7 L669.5 389.2 L679.1 432.3 L688 433.9 Z"/>
+    <path class="gl" d="M322.1 388.7 L330.5 389.2 L320.9 432.3 L312 433.9 Z"/>
+    <path class="gl" d="M659.9 389.8 L653 390.3 L661.7 429.2 L668.9 430.5 Z"/>
+    <path class="gl" d="M340.1 389.8 L347 390.3 L338.3 429.2 L331.1 430.5 Z"/>
+    <path class="gl" d="M645.1 390.8 L639.5 391.1 L647.4 426.6 L653.4 427.6 Z"/>
+    <path class="gl" d="M354.9 390.8 L360.5 391.1 L352.6 426.6 L346.6 427.6 Z"/>
+    <path class="gl" d="M632.9 391.6 L628.1 391.9 L635.4 424.4 L640.4 425.3 Z"/>
+    <path class="gl" d="M367.1 391.6 L371.9 391.9 L364.6 424.4 L359.6 425.3 Z"/>
+  </g>
+  <g data-part="psu">
+    <path class="wh" d="M935 345 L700 290 L545.9 374.8 L599.8 387.4 Z"/>
+    <path class="wh" d="M65 345 L300 290 L454.1 374.8 L400.2 387.4 Z"/>
+    <circle class="mt" cx="728.1" cy="315.8" r="7.9"/><circle class="mt" cx="780.7" cy="329.8" r="7.9"/>
+    <circle class="mt" cx="271.9" cy="315.8" r="7.9"/><circle class="mt" cx="219.3" cy="329.8" r="7.9"/>
+    <circle class="mt" cx="683.1" cy="332.4" r="6.3"/><circle class="mt" cx="725.4" cy="343.7" r="6.3"/>
+    <circle class="mt" cx="316.9" cy="332.4" r="6.3"/><circle class="mt" cx="274.6" cy="343.7" r="6.3"/>
+    <circle class="mt" cx="652.9" cy="343.5" r="5.3"/><circle class="mt" cx="688.2" cy="352.9" r="5.3"/>
+    <circle class="mt" cx="347.1" cy="343.5" r="5.3"/><circle class="mt" cx="311.8" cy="352.9" r="5.3"/>
+    <circle class="mt" cx="631.3" cy="351.5" r="4.5"/><circle class="mt" cx="661.6" cy="359.6" r="4.5"/>
+    <circle class="mt" cx="368.7" cy="351.5" r="4.5"/><circle class="mt" cx="338.4" cy="359.6" r="4.5"/>
+    <circle class="mt" cx="615" cy="357.5" r="4"/><circle class="mt" cx="641.6" cy="364.6" r="4"/>
+    <circle class="mt" cx="385" cy="357.5" r="4"/><circle class="mt" cx="358.4" cy="364.6" r="4"/>
+    <circle class="mt" cx="602.4" cy="362.2" r="3.5"/><circle class="mt" cx="626" cy="368.5" r="3.5"/>
+    <circle class="mt" cx="397.6" cy="362.2" r="3.5"/><circle class="mt" cx="374" cy="368.5" r="3.5"/>
+    <circle class="mt" cx="592.2" cy="366" r="3.2"/><circle class="mt" cx="613.5" cy="371.6" r="3.2"/>
+    <circle class="mt" cx="407.8" cy="366" r="3.2"/><circle class="mt" cx="386.5" cy="371.6" r="3.2"/>
+    <path class="thin" d="M839.8 357 L656.3 314.1"/>
+    <path class="thin" d="M160.2 357 L343.8 314.1"/>
+    <path class="thin" d="M778.8 364.7 L628.2 329.5"/>
+    <path class="thin" d="M221.2 364.7 L371.8 329.5"/>
+    <path class="thin" d="M736.4 370.1 L608.7 340.2"/>
+    <path class="thin" d="M263.6 370.1 L391.3 340.2"/>
+    <path class="thin" d="M705.2 374.1 L594.3 348.1"/>
+    <path class="thin" d="M294.8 374.1 L405.7 348.1"/>
+    <path class="thin" d="M681.3 377.1 L583.3 354.2"/>
+    <path class="thin" d="M318.8 377.1 L416.7 354.2"/>
+    <path class="thin" d="M662.3 379.5 L574.6 359"/>
+    <path class="thin" d="M337.7 379.5 L425.4 359"/>
+    <path class="thin" d="M647 381.4 L567.6 362.8"/>
+    <path class="thin" d="M353 381.4 L432.4 362.8"/>
+    <path class="thin" d="M634.3 383 L561.7 366"/>
+    <path class="thin" d="M365.7 383 L438.3 366"/>
+    <path class="thin" d="M623.6 384.4 L556.8 368.8"/>
+    <path class="thin" d="M376.4 384.4 L443.2 368.8"/>
+    <path class="thin" d="M614.5 385.5 L552.6 371.1"/>
+    <path class="thin" d="M385.5 385.5 L447.4 371.1"/>
+    <path class="thin" d="M606.6 386.5 L549 373"/>
+    <path class="thin" d="M393.4 386.5 L451 373"/>
+  </g>
+  <g data-part="bac">
+    <path class="eq" d="M700 290 L740 130 L555 338.1 L545.9 374.8 Z"/>
+    <path class="eq" d="M300 290 L260 130 L445 338.1 L454.1 374.8 Z"/>
+    <path class="ln" d="M628.2 329.5 L653.8 226.9"/>
+    <path class="ln" d="M371.8 329.5 L346.2 226.9"/>
+    <path class="ln" d="M594.3 348.1 L613.2 272.6"/>
+    <path class="ln" d="M405.7 348.1 L386.8 272.6"/>
+    <path class="ln" d="M574.6 359 L589.6 299.3"/>
+    <path class="ln" d="M425.4 359 L410.4 299.3"/>
+    <path class="ln" d="M561.7 366 L574.1 316.7"/>
+    <path class="ln" d="M438.3 366 L425.9 316.7"/>
+    <path class="ln" d="M552.6 371.1 L563.2 328.9"/>
+    <path class="ln" d="M447.4 371.1 L436.8 328.9"/>
+    <rect class="dk" x="648.4" y="286.7" width="25" height="10.9" rx="3"/>
+    <rect class="dk" x="326.6" y="286.7" width="25" height="10.9" rx="3"/>
+    <rect class="dk" x="603.3" y="321.2" width="17.4" height="7.6" rx="3"/>
+    <rect class="dk" x="379.3" y="321.2" width="17.4" height="7.6" rx="3"/>
+    <rect class="dk" x="579.2" y="339.6" width="13.3" height="5.8" rx="3"/>
+    <rect class="dk" x="407.5" y="339.6" width="13.3" height="5.8" rx="3"/>
+    <rect class="dk" x="564.2" y="351" width="10.8" height="4.7" rx="3"/>
+    <rect class="dk" x="425" y="351" width="10.8" height="4.7" rx="3"/>
+    <rect class="dk" x="554" y="358.8" width="9.1" height="4" rx="3"/>
+    <rect class="dk" x="436.9" y="358.8" width="9.1" height="4" rx="3"/>
+  </g>
+  <g data-part="eclairage">
+    <path class="syf" d="M740 130 L716 112 L549.5 333.9 L555 338.1 Z"/>
+    <path class="syf" d="M260 130 L284 112 L450.5 333.9 L445 338.1 Z"/>
+  </g>
+  <g data-part="cloison">
+    <path class="in" d="M603.2 466.5 L609.6 432.1 L599.8 387.4 L545.9 374.8 L555 338.1 Q500 326.1 445 338.1 L454.1 374.8 L400.2 387.4 L390.4 432.1 L396.8 466.5 Z"/>
+    <rect class="dk" x="486.2" y="365.6" width="27.5" height="100.9" rx="4"/>
+  </g>
+  <g data-part="siege">
+    <rect class="eq2" x="526.1" y="422.2" width="94.9" height="60.2" rx="4"/>
+    <rect class="eq2" x="379" y="422.2" width="94.9" height="60.2" rx="4"/>
+    <rect class="eq2" x="528.4" y="424.1" width="103.1" height="65.4" rx="4"/>
+    <rect class="eq2" x="368.5" y="424.1" width="103.1" height="65.4" rx="4"/>
+    <rect class="eq2" x="531.1" y="426.4" width="112.8" height="71.6" rx="4"/>
+    <rect class="eq2" x="356.1" y="426.4" width="112.8" height="71.6" rx="4"/>
+    <rect class="eq2" x="534.3" y="429.1" width="124.6" height="79.1" rx="4"/>
+    <rect class="eq2" x="341" y="429.1" width="124.6" height="79.1" rx="4"/>
+    <rect class="eq2" x="538.3" y="432.5" width="139.2" height="88.3" rx="4"/>
+    <rect class="eq2" x="322.5" y="432.5" width="139.2" height="88.3" rx="4"/>
+    <rect class="eq2" x="543.4" y="436.8" width="50" height="100" rx="7.5"/>
+    <rect class="eq" x="550" y="442.5" width="36.8" height="33" rx="4.7"/>
+    <rect class="eq2" x="597.2" y="436.8" width="50" height="100" rx="7.5"/>
+    <rect class="eq" x="603.8" y="442.5" width="36.8" height="33" rx="4.7"/>
+    <rect class="eq2" x="650.9" y="436.8" width="50" height="100" rx="7.5"/>
+    <rect class="eq" x="657.5" y="442.5" width="36.8" height="33" rx="4.7"/>
+    <rect class="eq2" x="406.6" y="436.8" width="50" height="100" rx="7.5"/>
+    <rect class="eq" x="413.2" y="442.5" width="36.8" height="33" rx="4.7"/>
+    <rect class="eq2" x="352.8" y="436.8" width="50" height="100" rx="7.5"/>
+    <rect class="eq" x="359.4" y="442.5" width="36.8" height="33" rx="4.7"/>
+    <rect class="eq2" x="299.1" y="436.8" width="50" height="100" rx="7.5"/>
+    <rect class="eq" x="305.7" y="442.5" width="36.8" height="33" rx="4.7"/>
+    <rect class="eq2" x="550" y="442.4" width="57.6" height="115.2" rx="8.7"/>
+    <rect class="eq" x="557.6" y="448.9" width="42.4" height="38" rx="5.4"/>
+    <rect class="eq2" x="612" y="442.4" width="57.6" height="115.2" rx="8.7"/>
+    <rect class="eq" x="619.6" y="448.9" width="42.4" height="38" rx="5.4"/>
+    <rect class="eq2" x="673.9" y="442.4" width="57.6" height="115.2" rx="8.7"/>
+    <rect class="eq" x="681.5" y="448.9" width="42.4" height="38" rx="5.4"/>
+    <rect class="eq2" x="392.4" y="442.4" width="57.6" height="115.2" rx="8.7"/>
+    <rect class="eq" x="400" y="448.9" width="42.4" height="38" rx="5.4"/>
+    <rect class="eq2" x="330.4" y="442.4" width="57.6" height="115.2" rx="8.7"/>
+    <rect class="eq" x="338" y="448.9" width="42.4" height="38" rx="5.4"/>
+    <rect class="eq2" x="268.5" y="442.4" width="57.6" height="115.2" rx="8.7"/>
+    <rect class="eq" x="276.1" y="448.9" width="42.4" height="38" rx="5.4"/>
+    <rect class="eq2" x="559" y="450" width="67.9" height="135.9" rx="10.3"/>
+    <rect class="eq" x="567.9" y="457.7" width="50" height="44.9" rx="6.4"/>
+    <rect class="eq2" x="632.1" y="450" width="67.9" height="135.9" rx="10.3"/>
+    <rect class="eq" x="641" y="457.7" width="50" height="44.9" rx="6.4"/>
+    <rect class="eq2" x="705.1" y="450" width="67.9" height="135.9" rx="10.3"/>
+    <rect class="eq" x="714.1" y="457.7" width="50" height="44.9" rx="6.4"/>
+    <rect class="eq2" x="373.1" y="450" width="67.9" height="135.9" rx="10.3"/>
+    <rect class="eq" x="382.1" y="457.7" width="50" height="44.9" rx="6.4"/>
+    <rect class="eq2" x="300" y="450" width="67.9" height="135.9" rx="10.3"/>
+    <rect class="eq" x="309" y="457.7" width="50" height="44.9" rx="6.4"/>
+    <rect class="eq2" x="226.9" y="450" width="67.9" height="135.9" rx="10.3"/>
+    <rect class="eq" x="235.9" y="457.7" width="50" height="44.9" rx="6.4"/>
+    <rect class="eq2" x="571.9" y="460.9" width="82.8" height="165.6" rx="12.5"/>
+    <rect class="eq" x="582.8" y="470.3" width="60.9" height="54.7" rx="7.8"/>
+    <rect class="eq2" x="660.9" y="460.9" width="82.8" height="165.6" rx="12.5"/>
+    <rect class="eq" x="671.9" y="470.3" width="60.9" height="54.7" rx="7.8"/>
+    <rect class="eq2" x="750" y="460.9" width="82.8" height="165.6" rx="12.5"/>
+    <rect class="eq" x="760.9" y="470.3" width="60.9" height="54.7" rx="7.8"/>
+    <rect class="eq2" x="345.3" y="460.9" width="82.8" height="165.6" rx="12.5"/>
+    <rect class="eq" x="356.3" y="470.3" width="60.9" height="54.7" rx="7.8"/>
+    <rect class="eq2" x="256.3" y="460.9" width="82.8" height="165.6" rx="12.5"/>
+    <rect class="eq" x="267.2" y="470.3" width="60.9" height="54.7" rx="7.8"/>
+    <rect class="eq2" x="167.2" y="460.9" width="82.8" height="165.6" rx="12.5"/>
+    <rect class="eq" x="178.1" y="470.3" width="60.9" height="54.7" rx="7.8"/>
+  </g>
+  <path class="thin" d="M884 250 L800 300"/><path class="thin" d="M120 250 L250 180"/><path class="thin" d="M500 300 L500 350"/><path class="thin" d="M56 300 L46 380"/>
+  <g class="badges">
+    <g class="badge" data-badge="plafond" transform="translate(500 150)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="bac" transform="translate(706 228)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="psu" transform="translate(906 236)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="eclairage" transform="translate(100 262)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="paroi" transform="translate(946 600)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="hublot" transform="translate(60 276)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="siege" transform="translate(280 560)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="allee" transform="translate(500 640)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="cloison" transform="translate(500 276)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+  </g>
+</svg>

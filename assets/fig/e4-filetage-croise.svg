@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Filetage bien engagé et filetage croisé (coupe)</title>
+  <desc id="d">Deux coupes d'une vis entrant dans un trou taraudé. À gauche, la vis est dans l'axe du trou : ses filets se logent exactement dans ceux du taraudage sur toute la hauteur engagée, un seul axe bleu commun. À droite, la vis est présentée de travers : son axe rouge fait un angle avec l'axe bleu du trou, les premiers filets se chevauchent au lieu de s'emboîter et s'arrachent à l'entrée, zones marquées en rouge.</desc>
+  <rect class="bgp" width="1000" height="620"/>
+  <g data-part="taraudage">
+<polygon class="st" points="50,300 189,300 189,300 202,314 189,328 202,342 189,356 202,370 189,384 202,398 189,412 202,426 189,440 202,454 189,468 202,482 189,496 202,510 189,524 189,554 50,554"/><polygon class="st" points="450,300 298,300 298,300 311,314 298,328 311,342 298,356 311,370 298,384 311,398 298,412 311,426 298,440 311,454 298,468 311,482 298,496 311,510 298,524 298,554 450,554"/><rect class="st" x="50" y="554" width="400" height="40"/><polygon class="st" points="550,300 689,300 689,300 702,314 689,328 702,342 689,356 702,370 689,384 702,398 689,412 702,426 689,440 702,454 689,468 702,482 689,496 702,510 689,524 689,554 550,554"/><polygon class="st" points="950,300 798,300 798,300 811,314 798,328 811,342 798,356 811,370 798,384 811,398 798,412 811,426 798,440 811,454 798,468 811,482 798,496 811,510 798,524 798,554 950,554"/><rect class="st" x="550" y="554" width="400" height="40"/>
+  </g>
+  <g data-part="vis-alignee">
+<polygon class="mt" points="192,216 205,230 192,244 205,258 192,272 205,286 192,300 205,314 192,328 205,342 192,356 205,370 192,384 205,398 192,412 205,426 192,440 207,455 293,455 295,440 308,426 295,412 308,398 295,384 308,370 295,356 308,342 295,328 308,314 295,300 308,286 295,272 308,258 295,244 308,230 295,216"/><path class="thin" d="M192 216 L308 230 M192 244 L308 258 M192 272 L308 286 M192 300 L308 314 M192 328 L308 342 M192 356 L308 370 M192 384 L308 398 M192 412 L308 426"/><path class="mt" d="M150 216 L150 170 Q150 146 174 146 L326 146 Q350 146 350 170 L350 216 Z"/>
+  </g>
+  <g data-part="axe-commun">
+<path class="dim" d="M250 96 L250 600"/><rect class="none" pointer-events="all" x="220" y="96" width="60" height="60"/>
+  </g>
+  <g data-part="vis-inclinee">
+<g transform="rotate(9 750 300)"><polygon class="mt" points="692,216 705,230 692,244 705,258 692,272 705,286 692,300 705,314 692,328 705,342 692,356 707,371 793,371 795,356 808,342 795,328 808,314 795,300 808,286 795,272 808,258 795,244 808,230 795,216"/><path class="thin" d="M692 216 L808 230 M692 244 L808 258 M692 272 L808 286 M692 300 L808 314 M692 328 L808 342"/><path class="mt" d="M650 216 L650 170 Q650 146 674 146 L826 146 Q850 146 850 170 L850 216 Z"/></g>
+  </g>
+  <g data-part="ecart-axes">
+<path class="dim" d="M750 96 L750 600"/><g transform="rotate(9 750 300)"><path class="ax" d="M750 80 L750 420"/></g><rect class="none" pointer-events="all" x="740" y="80" width="80" height="80"/>
+  </g>
+  <g data-part="filets-abimes">
+<polygon class="badf" points="722,322 701.9,330 705,351.4 688,338 671,351.4 674.1,330 654,322 674.1,314 671,292.6 688,306 705,292.6 701.9,314"/><polygon class="badf" points="834,344 813.9,352 817,373.4 800,360 783,373.4 786.1,352 766,344 786.1,336 783,314.6 800,328 817,314.6 813.9,336"/><rect class="none" pointer-events="all" x="654" y="288" width="180" height="90"/>
+  </g>
+<g transform="translate(60 70) scale(1)"><circle class="okf" r="30"/><path class="ln2" d="M-14 2 L-4 13 L15 -11"/></g><g transform="translate(560 70) scale(1)"><circle class="badf" r="30"/><path class="ln2" d="M-12 -12 L12 12 M12 -12 L-12 12"/></g>
+
+  <g class="badges">
+    <g class="badge" data-badge="vis-alignee" transform="translate(392 190)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="taraudage" transform="translate(96 420)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="axe-commun" transform="translate(250 60)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="vis-inclinee" transform="translate(900 200)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="ecart-axes" transform="translate(730 60)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="filets-abimes" transform="translate(880 360)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>
