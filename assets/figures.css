@@ -1,0 +1,89 @@
+/* ===== Figures SVG — palette thématique (clair / sombre) =====
+   Les SVG n'utilisent QUE ces classes. Voir assets/fig/README.md */
+:root{
+  --f-ink:#14283d; --f-paper:#f7f9fb;
+  --f-skin:#dbe4ec;   /* peau, enveloppe, carter */
+  --f-struct:#7f95aa; /* structure : cadres, lisses, poutres */
+  --f-floor:#c3b49a;  /* plancher, rails, sol */
+  --f-trim:#eef1f4;   /* habillage : panneaux, parois, plafond */
+  --f-equip:#8fc7d6;  /* équipement : sièges, bacs, PSU, galley */
+  --f-equip2:#5aa0b5; /* équipement, ton foncé */
+  --f-sys:#e08a2c;    /* systèmes : câbles, tuyaux */
+  --f-glass:#bfe3f2;  /* vitrage */
+  --f-metal:#aeb8c2;  /* métal usiné : outils, visserie */
+  --f-metal2:#7d8994;
+  --f-dark:#34495e;   /* pièces sombres : caoutchouc, noir */
+  --f-ok:#2f8f5b; --f-bad:#c4402f; --f-accent:#1f6fb2; --f-hl:#ff8a00;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --f-ink:#e6eef6; --f-paper:#142130;
+    --f-skin:#3c5166; --f-struct:#8da4ba; --f-floor:#7a6c55; --f-trim:#2b3d50;
+    --f-equip:#3f8a9f; --f-equip2:#6ec0d6; --f-sys:#f0a04b; --f-glass:#2f607a;
+    --f-metal:#7f8c98; --f-metal2:#aab6c1; --f-dark:#0f1a26;
+    --f-ok:#4fc183; --f-bad:#ff7a66; --f-accent:#6db3ee; --f-hl:#ffb347;
+  }
+}
+:root[data-theme="dark"]{
+  --f-ink:#e6eef6; --f-paper:#142130;
+  --f-skin:#3c5166; --f-struct:#8da4ba; --f-floor:#7a6c55; --f-trim:#2b3d50;
+  --f-equip:#3f8a9f; --f-equip2:#6ec0d6; --f-sys:#f0a04b; --f-glass:#2f607a;
+  --f-metal:#7f8c98; --f-metal2:#aab6c1; --f-dark:#0f1a26;
+  --f-ok:#4fc183; --f-bad:#ff7a66; --f-accent:#6db3ee; --f-hl:#ffb347;
+}
+
+svg.fig{display:block;width:100%;height:auto;max-width:100%;background:var(--f-paper)}
+svg.fig *{vector-effect:none}
+/* remplissages */
+svg.fig .bgp{fill:var(--f-paper)}
+svg.fig .sk{fill:var(--f-skin);stroke:var(--f-ink);stroke-width:3;stroke-linejoin:round}
+svg.fig .st{fill:var(--f-struct);stroke:var(--f-ink);stroke-width:2.5;stroke-linejoin:round}
+svg.fig .stl{fill:none;stroke:var(--f-struct);stroke-width:8;stroke-linecap:round}
+svg.fig .fl{fill:var(--f-floor);stroke:var(--f-ink);stroke-width:2.5;stroke-linejoin:round}
+svg.fig .in{fill:var(--f-trim);stroke:var(--f-ink);stroke-width:2.5;stroke-linejoin:round}
+svg.fig .eq{fill:var(--f-equip);stroke:var(--f-ink);stroke-width:3;stroke-linejoin:round}
+svg.fig .eq2{fill:var(--f-equip2);stroke:var(--f-ink);stroke-width:3;stroke-linejoin:round}
+svg.fig .gl{fill:var(--f-glass);stroke:var(--f-ink);stroke-width:2.5}
+svg.fig .mt{fill:var(--f-metal);stroke:var(--f-ink);stroke-width:2.5;stroke-linejoin:round}
+svg.fig .mt2{fill:var(--f-metal2);stroke:var(--f-ink);stroke-width:2.5;stroke-linejoin:round}
+svg.fig .dk{fill:var(--f-dark);stroke:var(--f-ink);stroke-width:2.5;stroke-linejoin:round}
+svg.fig .wh{fill:var(--f-paper);stroke:var(--f-ink);stroke-width:2.5;stroke-linejoin:round}
+svg.fig .sy{fill:none;stroke:var(--f-sys);stroke-width:9;stroke-linecap:round;stroke-linejoin:round}
+svg.fig .syf{fill:var(--f-sys);stroke:var(--f-ink);stroke-width:2.5}
+svg.fig .okf{fill:var(--f-ok);stroke:var(--f-ink);stroke-width:2.5}
+svg.fig .badf{fill:var(--f-bad);stroke:var(--f-ink);stroke-width:2.5}
+/* traits */
+svg.fig .ln{fill:none;stroke:var(--f-ink);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+svg.fig .ln2{fill:none;stroke:var(--f-ink);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+svg.fig .thin{fill:none;stroke:var(--f-ink);stroke-width:1.5;stroke-linecap:round}
+svg.fig .dash{fill:none;stroke:var(--f-ink);stroke-width:2.5;stroke-dasharray:14 10;stroke-linecap:round}
+svg.fig .dim{fill:none;stroke:var(--f-accent);stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
+svg.fig .dimf{fill:var(--f-accent);stroke:none}
+svg.fig .ax{fill:none;stroke:var(--f-bad);stroke-width:5;stroke-linecap:round}
+svg.fig .axf{fill:var(--f-bad)}
+svg.fig .none{fill:none;stroke:none}
+/* textes */
+svg.fig text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;fill:var(--f-ink)}
+svg.fig .t{font-size:40px}
+svg.fig .tb{font-size:40px;font-weight:700}
+svg.fig .ts{font-size:36px}
+svg.fig .tl{font-size:48px;font-weight:700}
+svg.fig .tc{text-anchor:middle}
+svg.fig .te{text-anchor:end}
+svg.fig .ta{fill:var(--f-accent)}
+svg.fig .tr{fill:var(--f-bad)}
+/* badges numérotés */
+svg.fig .bd{fill:var(--f-accent);stroke:var(--f-paper);stroke-width:4}
+svg.fig .bn{fill:#fff;font-size:30px;font-weight:700;text-anchor:middle;dominant-baseline:central;pointer-events:none}
+svg.fig.nobadges .badges{display:none}
+/* interactions */
+svg.fig [data-part]{outline:none}
+svg.fig.tappable [data-part]{cursor:pointer}
+svg.fig [data-part].hl *{stroke:var(--f-hl)!important;stroke-width:7!important}
+svg.fig [data-part].hl{filter:drop-shadow(0 0 10px var(--f-hl))}
+svg.fig [data-part].sel *{stroke:var(--f-accent)!important;stroke-width:7!important}
+svg.fig [data-part].sel{filter:drop-shadow(0 0 8px var(--f-accent))}
+svg.fig [data-part].good *{stroke:var(--f-ok)!important;stroke-width:7!important}
+svg.fig [data-part].miss *{stroke:var(--f-hl)!important;stroke-width:7!important;stroke-dasharray:12 8}
+svg.fig [data-part].wrong *{stroke:var(--f-bad)!important;stroke-width:7!important}
+svg.fig .badges [data-badge]{pointer-events:none}

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 690" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Avion de ligne : vue de côté et vue de dessus</title>
+  <desc id="d">Schéma de principe d'un avion de ligne à fuselage unique. En haut, vue de côté, avant à gauche : le fuselage contient le poste de pilotage au nez, la cabine passagers dans la partie haute et la soute dans la partie basse ; on voit les portes, la dérive à l'arrière, un moteur sous l'aile et les trains d'atterrissage. En bas, vue de dessus : les deux ailes en flèche, les deux moteurs et le stabilisateur horizontal à l'arrière.</desc>
+  <rect class="bgp" width="1000" height="690"/>
+  <text class="ts" x="24" y="44">Vue de côté (avant à gauche)</text>
+  <line class="dash" x1="30" y1="384" x2="970" y2="384"/>
+
+  <!-- ===== VUE DE CÔTÉ ===== -->
+  <!-- fuselage (enveloppe) -->
+  <g data-part="fuselage">
+    <path class="sk" d="M50 228 C54 180 110 150 200 150 L700 150 C790 150 870 172 940 196 L940 214 C880 250 800 290 710 290 L200 290 C110 290 56 276 50 228 Z"/>
+  </g>
+  <!-- dérive -->
+  <g data-part="derive">
+    <path class="sk" d="M745 152 L855 50 L915 50 L936 200 L880 184 L800 162 Z"/>
+  </g>
+  <!-- poste de pilotage -->
+  <g data-part="cockpit">
+    <path class="in" d="M82 214 C88 190 120 172 168 168 L168 236 L96 236 C88 232 82 224 82 214 Z"/>
+    <path class="gl" d="M104 196 C112 186 130 180 150 178 L150 204 L106 204 Z"/>
+  </g>
+  <!-- cabine -->
+  <g data-part="cabine">
+    <rect class="in" x="176" y="166" width="590" height="68" rx="10"/>
+    <g class="gl"><circle cx="290" cy="186" r="9"/><circle cx="340" cy="186" r="9"/><circle cx="390" cy="186" r="9"/><circle cx="440" cy="186" r="9"/><circle cx="490" cy="186" r="9"/><circle cx="540" cy="186" r="9"/><circle cx="590" cy="186" r="9"/><circle cx="640" cy="186" r="9"/></g>
+    <rect class="eq" x="300" y="206" width="28" height="22" rx="5"/><rect class="eq" x="356" y="206" width="28" height="22" rx="5"/><rect class="eq" x="412" y="206" width="28" height="22" rx="5"/><rect class="eq" x="468" y="206" width="28" height="22" rx="5"/><rect class="eq" x="524" y="206" width="28" height="22" rx="5"/><rect class="eq" x="580" y="206" width="28" height="22" rx="5"/><rect class="eq" x="636" y="206" width="28" height="22" rx="5"/>
+  </g>
+  <!-- soute -->
+  <g data-part="soute">
+    <rect class="st" x="230" y="242" width="480" height="44" rx="8"/>
+    <rect class="wh" x="290" y="252" width="60" height="26" rx="4"/><rect class="wh" x="366" y="252" width="60" height="26" rx="4"/><rect class="wh" x="442" y="252" width="60" height="26" rx="4"/>
+  </g>
+  <!-- voilure vue de côté (profil mince, devant le fuselage) -->
+  <g data-part="voilure">
+    <path class="st" d="M396 284 L706 266 L714 278 L418 302 Z"/>
+  </g>
+  <!-- portes -->
+  <g data-part="portes">
+    <rect class="wh" x="196" y="166" width="38" height="66" rx="8"/>
+    <rect class="wh" x="716" y="166" width="38" height="66" rx="8"/>
+  </g>
+  <!-- moteur sous l'aile -->
+  <g data-part="moteur">
+    <path class="mt2" d="M405 262 L440 268 L440 284 L405 284 Z"/>
+    <rect class="eq2" x="338" y="282" width="138" height="58" rx="28"/>
+    <ellipse class="dk" cx="352" cy="311" rx="12" ry="22"/>
+  </g>
+  <!-- trains -->
+  <g data-part="trains">
+    <path class="ln2" d="M530 292 L530 334"/><circle class="dk" cx="530" cy="352" r="24"/><circle class="wh" cx="530" cy="352" r="8"/>
+    <path class="ln2" d="M126 290 L126 328"/><circle class="dk" cx="126" cy="346" r="19"/><circle class="wh" cx="126" cy="346" r="6"/>
+  </g>
+
+  <!-- ===== VUE DE DESSUS ===== -->
+  <text class="ts" x="24" y="420">Vue de dessus</text>
+  <!-- stabilisateur horizontal -->
+  <g data-part="stabilisateur">
+    <path class="sk" d="M835 524 L895 468 L934 468 L918 524 Z"/>
+    <path class="sk" d="M835 560 L895 616 L934 616 L918 560 Z"/>
+  </g>
+  <!-- fuselage plan -->
+  <path class="sk" d="M50 542 C52 516 90 506 150 506 L800 506 C880 508 936 530 940 542 C936 554 880 576 800 578 L150 578 C90 578 52 568 50 542 Z"/>
+  <!-- voilure -->
+  <g data-part="voilure">
+    <path class="sk" d="M360 506 L575 428 L612 428 L534 506 Z"/>
+    <path class="sk" d="M360 578 L575 656 L612 656 L534 578 Z"/>
+  </g>
+  <!-- moteurs plan -->
+  <g data-part="moteur">
+    <rect class="eq2" x="392" y="452" width="124" height="44" rx="22"/><ellipse class="dk" cx="402" cy="474" rx="9" ry="16"/>
+    <rect class="eq2" x="392" y="588" width="124" height="44" rx="22"/><ellipse class="dk" cx="402" cy="610" rx="9" ry="16"/>
+  </g>
+
+  <path class="thin" d="M215 142 L215 168"/>
+  <!-- ===== BADGES ===== -->
+  <g class="badges">
+    <g class="badge" data-badge="fuselage" transform="translate(160 270)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="cockpit" transform="translate(124 214)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="cabine" transform="translate(470 186)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="soute" transform="translate(600 264)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="portes" transform="translate(215 118)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="derive" transform="translate(870 110)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="stabilisateur" transform="translate(905 440)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="voilure" transform="translate(520 452)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="moteur" transform="translate(414 312)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="trains" transform="translate(588 336)"><circle class="bd" r="24"/><text class="bn">10</text></g>
+  </g>
+</svg>
