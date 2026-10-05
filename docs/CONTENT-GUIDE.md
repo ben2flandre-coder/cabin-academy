@@ -171,3 +171,30 @@ Le contenu de `docs/referentiel-notes.md` est la référence sur le CQP (critèr
 **Pour les situations professionnelles** : un contexte précis (heure, zone, état du produit, ce que tu vois, ce que dit le collègue), une question de décision, 3–4 options crédibles, un débrief qui argumente **pourquoi** et nomme la règle de métier. Pas de pièges administratifs gratuits.
 
 **Mesure de réussite d'un chapitre** : une personne qui n'a jamais vu une cabine, après avoir lu et fait les exercices, doit pouvoir **expliquer le sujet à voix haute** (c'est ce que teste l'oral blanc) et **reconnaître l'objet sur une figure**.
+
+## 11. Cas pratiques transversaux (`content/cases/*.js`)
+
+Scénarios plus longs que les « situations » d'un chapitre : plusieurs décisions successives dans une même intervention fictive, qui mobilisent plusieurs chapitres. Fichier : `CA.addCases([ … ])`.
+
+```js
+CA.addCases([{
+  id: 'k1',                       // 'k' + chiffre, unique
+  title: "Poser un panneau de sidewall un lundi matin",
+  level: 1,                       // 1 (après domaine B) · 2 (après E) · 3 (parcours complet)
+  after: 'b4',                    // id du chapitre à avoir fini pour débloquer le cas (suggestion, pas blocage)
+  chapters: ['b4','c3','e3','g2'],// chapitres mobilisés
+  comps: ['C1','C4'],
+  minutes: 15,
+  intro: ["contexte précis (lieu, heure, équipe, ce qui t'est confié)…"],
+  fig: 'b4-…',                    // optionnel
+  doc: { title:"… — document fictif pédagogique", lines:[…] },   // optionnel
+  steps: [
+    { text: ["ce que tu vois / ce qui se passe"], fig:'id?', question: "Que fais-tu ?",
+      options: [ { t:"…", ok:true, why:"pourquoi c'est la bonne décision ici" }, { t:"…", why:"conséquence réaliste de ce choix" } ] },
+    // 3 à 6 étapes ; 3-4 options, 1 seule ok ; un mauvais choix montre sa conséquence puis on rejoue l'étape
+  ],
+  debrief: ["ce qu'il faut retenir, avec renvois aux chapitres"],
+  sources: ['rncp40664'],
+}]);
+```
+Règles : mêmes règles de fiabilité que les chapitres (aucune valeur technique inventée, documents fictifs `EX-`), décisions argumentées, aucune « piège administratif » gratuit.
