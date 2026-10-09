@@ -1,0 +1,146 @@
+{
+  "version": "1.1",
+  "license": "Illustrations pédagogiques originales; ne pas présenter comme documentation constructeur",
+  "entries": [
+    {
+      "id": "T01",
+      "name": "Repères avion",
+      "category": "A",
+      "file": "assets/media/technical/T01.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T02",
+      "name": "Coupe fuselage",
+      "category": "A",
+      "file": "assets/media/technical/T02.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T03",
+      "name": "Implantation cabine",
+      "category": "A",
+      "file": "assets/media/technical/T03.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T04",
+      "name": "Siège passager",
+      "category": "B",
+      "file": "assets/media/technical/T04.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T05",
+      "name": "Galley",
+      "category": "B",
+      "file": "assets/media/technical/T05.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T06",
+      "name": "Lavatory",
+      "category": "B",
+      "file": "assets/media/technical/T06.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T07",
+      "name": "Clé dynamométrique",
+      "category": "C",
+      "file": "assets/media/technical/T07.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T08",
+      "name": "Pied à coulisse",
+      "category": "C",
+      "file": "assets/media/technical/T08.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T09",
+      "name": "Empilage vissé",
+      "category": "D",
+      "file": "assets/media/technical/T09.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T10",
+      "name": "Insert fileté",
+      "category": "D",
+      "file": "assets/media/technical/T10.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T11",
+      "name": "Faisceau électrique",
+      "category": "E",
+      "file": "assets/media/technical/T11.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T12",
+      "name": "Connecteur détrompé",
+      "category": "E",
+      "file": "assets/media/technical/T12.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T13",
+      "name": "Contrôle FOD",
+      "category": "F",
+      "file": "assets/media/technical/T13.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T14",
+      "name": "Protection de zone",
+      "category": "F",
+      "file": "assets/media/technical/T14.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T15",
+      "name": "Éclaté d’assemblage",
+      "category": "G",
+      "file": "assets/media/technical/T15.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T16",
+      "name": "Nomenclature",
+      "category": "G",
+      "file": "assets/media/technical/T16.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T17",
+      "name": "Contrôle jeu",
+      "category": "H",
+      "file": "assets/media/technical/T17.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T18",
+      "name": "Contrôle affleurement",
+      "category": "H",
+      "file": "assets/media/technical/T18.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T19",
+      "name": "Séquence d’installation",
+      "category": "I",
+      "file": "assets/media/technical/T19.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    },
+    {
+      "id": "T20",
+      "name": "Contrôle de révision",
+      "category": "J",
+      "file": "assets/media/technical/T20.svg",
+      "status": "illustration pédagogique générique, non constructeur"
+    }
+  ]
+}
