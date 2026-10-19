@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Les rôles des documents d'un dossier</title>
+  <desc id="d">Quatre bandes empilées. En haut, trois bandes reliées par des flèches vers le bas : la première, « Définit », avec le plan et la nomenclature ; la deuxième, « Explique », avec l'instruction de travail ; la troisième, « Garde la trace », avec la fiche de suivi, la liste de contrôle et l'étiquette. Sous un trait en pointillé, une quatrième bande hachurée de pointillés : « Ne fait pas foi », avec une photo de plan, une note personnelle, un souvenir de collègue.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+  <g data-part="definit">
+    <rect class="eq" x="110" y="30" width="860" height="140" rx="12"/>
+    <text class="tb" x="150" y="86">Définit</text>
+    <text class="ts" x="150" y="138">plan · nomenclature</text>
+  </g>
+  <path class="dim" d="M540 176 L540 214"/><path class="dimf" d="M524 212 L556 212 L540 232 Z"/>
+  <g data-part="explique">
+    <rect class="eq" x="110" y="238" width="860" height="140" rx="12"/>
+    <text class="tb" x="150" y="294">Explique</text>
+    <text class="ts" x="150" y="346">instruction de travail (gamme)</text>
+  </g>
+  <path class="dim" d="M540 384 L540 422"/><path class="dimf" d="M524 420 L556 420 L540 440 Z"/>
+  <g data-part="trace">
+    <rect class="eq" x="110" y="446" width="860" height="140" rx="12"/>
+    <text class="tb" x="150" y="502">Garde la trace</text>
+    <text class="ts" x="150" y="554">fiche de suivi · liste de contrôle</text>
+  </g>
+  <path class="dash" d="M30 612 L970 612"/>
+  <g data-part="hors">
+    <rect class="wh" x="110" y="630" width="860" height="70" rx="12"/>
+    <text class="tb" x="150" y="676">Ne fait pas foi : photo, note, souvenir</text>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="definit" transform="translate(62 100)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="explique" transform="translate(62 308)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="trace" transform="translate(62 516)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="hors" transform="translate(62 665)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+  </g>
+</svg>

@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 740" class="fig" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 790" class="fig" role="img" aria-labelledby="t d">
   <title id="t">Plan fictif d'un support (document pédagogique)</title>
-  <desc id="d">Plan fictif, pédagogique. À gauche, la vue de face d'un support rectangulaire percé de quatre trous, avec une flèche de sens de montage ; un trait de coupe vertical repéré A-A passe par les deux trous de gauche. Trois bulles numérotées 1, 2 et 3 désignent des pièces par un trait. À droite, la coupe A-A montre l'épaisseur du support hachurée, traversée par deux vis munies chacune d'une rondelle. En dessous, la nomenclature : repère 1, EX-48213-01, quantité 1 ; repère 2, EX-90211-05, quantité 4 ; repère 3, EX-90305-02, quantité 4. En bas à gauche, les notes. En bas à droite, le cartouche : Support, plan EX-48213, indice C, échelle 1 : 2, feuille 1 sur 2.</desc>
-  <rect class="bgp" width="1000" height="740"/>
+  <desc id="d">Plan fictif, pédagogique. À gauche, la vue de face d'un support rectangulaire percé de quatre trous, avec une flèche de sens de montage ; un trait de coupe vertical repéré A-A passe par les deux trous de gauche. Trois bulles numérotées 1, 2 et 3 désignent des pièces par un trait. À droite, la coupe A-A montre l'épaisseur du support hachurée, traversée par deux vis munies chacune d'une rondelle. En dessous, la nomenclature : repère 1, EX-48213-01, quantité 1 ; repère 2, EX-90211-05, quantité 4 ; repère 3, EX-90305-02, quantité 4. En bas à gauche, les notes : 1, cotes en mm ; 2, sens : flèche. En bas à droite, le cartouche : Support, plan EX-48213, indice C, échelle 1 : 2, feuille 1 sur 2.</desc>
+  <rect class="bgp" width="1000" height="790"/>
   <rect class="wh" x="24" y="24" width="952" height="692" rx="4"/>
   <rect class="none" x="0" y="0" width="1" height="1"/>
   <path class="ln" d="M40 40 L960 40 L960 700 L40 700 Z"/>
@@ -80,9 +80,9 @@
     <rect class="wh" x="60" y="508" width="420" height="176" rx="4"/>
     <text class="tb" x="76" y="552">Notes</text>
     <text class="ts" x="76" y="600">1.</text>
-    <line class="ln2" x1="124" y1="588" x2="450" y2="588"/>
+    <text class="ts" x="124" y="600">Cotes en mm.</text>
     <text class="ts" x="76" y="646">2.</text>
-    <line class="ln2" x1="124" y1="634" x2="390" y2="634"/>
+    <text class="ts" x="124" y="646">Sens : flèche.</text>
   </g>
   <g data-part="cartouche">
     <rect class="in" x="520" y="508" width="420" height="176"/>
@@ -98,6 +98,7 @@
     <rect class="wh" x="820" y="566" width="120" height="58"/>
     <text class="tb tc" x="880" y="610">C</text>
   </g>
+  <text class="ts tc" x="500" y="758">Document fictif — pédagogique</text>
   <g class="badges">
     <g class="badge" data-badge="cartouche" transform="translate(500 596)"><circle class="bd" r="26"/><text class="bn">1</text></g>
     <g class="badge" data-badge="indice" transform="translate(940 566)"><circle class="bd" r="26"/><text class="bn">2</text></g>
