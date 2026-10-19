@@ -93,6 +93,7 @@ CA.addChapter({
     },
     {
       h: "La voilure, l'empennage et les moteurs",
+      fig: 'img-m1-avion-profil',
       p: [
         "**La voilure** crée la portance. Une aile de ligne est creuse : elle contient du carburant et sert de support aux moteurs. Elle est « en flèche », c'est-à-dire inclinée vers l'arrière, une forme adaptée aux vitesses élevées des avions de ligne. Son intérieur est une charpente de poutres et de nervures, recouverte d'une peau ; on n'y travaille pas depuis la cabine, mais elle est très proche, sous le plancher, au niveau du caisson central.",
         "**L'empennage** stabilise l'avion, comme les plumes d'une flèche. La dérive empêche l'avion de « partir de travers » ; le stabilisateur horizontal empêche le nez de monter ou de plonger tout seul. Chacun porte à l'arrière une surface mobile, vue plus loin, qui sert à piloter : la gouverne de direction pour la dérive, la gouverne de profondeur pour le stabilisateur.",
@@ -123,6 +124,7 @@ CA.addChapter({
     },
     {
       h: "Où est ta cabine ?",
+      fig: 'img-m1-avion-dessus',
       p: [
         "Récapitulons en plaçant ton futur lieu de travail. La cabine est **dans le fuselage**, dans sa partie haute, au-dessus du plancher cabine, entre le poste de pilotage à l'avant et la cloison étanche arrière. Elle est entourée de la peau du fuselage, percée de hublots et de portes. Sous elle, les soutes et le caisson central ; devant, le poste de pilotage ; derrière, la cloison étanche et le cône arrière.",
         "Quand on te dit « vers l'avant », on parle du côté du nez ; « vers l'arrière », du côté de la dérive. Les mots *nez* et *queue* (en anglais *nose* et *tail*) suffisent pour s'orienter. Le chapitre sur le repérage dans l'avion ajoutera les mots pour la gauche, la droite, les zones et les stations.",

@@ -74,6 +74,7 @@ CA.addChapter({
     },
     {
       h: "Les planchers : un étage porté par les cadres",
+      fig: 'img-a1-section-fuselage',
       p: [
         "Sur la coupe, tu as vu une grande poutre horizontale à mi-hauteur : c'est la **[[traverse de plancher]]** (n° 7, *floor beam*). Elle est attachée de chaque côté à un cadre et traverse tout le fuselage d'un bord à l'autre. Elle porte les **rails de sièges** (n° 6, *seat tracks*), profilés qui courent sur toute la longueur de la cabine, et les **panneaux de plancher** (n° 5) qu'on pose entre les rails et sur lesquels on marche. Pour éviter qu'elle fléchisse, la traverse est soutenue par des **[[Contrefiche de plancher|contrefiches]]** (n° 8, *floor struts*), barres presque verticales qui l'appuient sur le bas du cadre.",
         "Les [[rail de siège|rails de siège]] sont des pièces de structure : on y accroche les sièges et certains meubles, ils encaissent les efforts d'un siège plein en cas de choc, et c'est parce qu'ils sont sur toute la longueur de la cabine qu'une compagnie peut déplacer les rangées sans rien percer. Tu les étudieras en détail plus tard ; retiens dès maintenant qu'on ne les raye pas et qu'on ne s'y appuie pas avec un outil.",

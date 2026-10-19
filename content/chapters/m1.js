@@ -53,6 +53,7 @@ CA.addChapter({
     },
     {
       h: "Ce que fait un intégrateur cabine",
+      fig: 'img-a2-poste-cabine',
       p: [
         "Intégrer, c'est **faire entrer un élément dans un ensemble de façon à ce qu'il en fasse partie** : positionné au bon endroit, fixé comme prévu, raccordé aux réseaux, contrôlé. Un [[intégrateur cabine]] (*cabin integrator*, ou *cabin fitter*) fait cela avec les éléments de la cabine. Concrètement, tu vas apprendre à travailler sur ce qui suit.",
       ],
@@ -97,6 +98,7 @@ CA.addChapter({
     },
     {
       h: "Une journée type (fictive)",
+      fig: 'img-a2-journee-type',
       p: [
         "Les journées varient, mais elles ont presque toutes la même forme. Le tableau suivant décrit une journée **inventée**, pour montrer l'enchaînement et surtout l'exigence qui se cache derrière chaque moment. Les horaires, eux, sont propres à chaque entreprise.",
       ],
