@@ -197,7 +197,7 @@
         const added = keys.every(k => A.state.srs[k]);
         return h('li', { class: 'ca-vcard' },
           h('p', { class: 'ca-vcard-fr' }, A.rich(v.fr), v.abbr ? h('span', { class: 'ca-abbr' }, ' (', v.abbr, ')') : null),
-          h('p', { class: 'ca-vcard-en', lang: 'en' }, A.icon('link', { size: 16 }), ' ', v.en),
+          h('p', { class: 'ca-vcard-en' }, h('abbr', { class: 'ca-lang', title: 'en anglais' }, 'EN'), ' ', h('span', { lang: 'en' }, v.en)),
           A.P(v.def, 'ca-vcard-def'),
           v.tip ? h('p', { class: 'ca-tip' }, A.icon('bulb', { size: 18 }), ' ', A.rich(v.tip)) : null,
           h('button', { type: 'button', class: 'ca-btn is-small' + (added ? ' is-on' : ''), dataset: { act: 'vocabtoggle', ch: c.id, i }, 'aria-pressed': String(added) },
@@ -314,7 +314,7 @@
           A.replace(fb, h('p', { class: 'ca-verdict is-' + (ok ? 'ok' : 'ko') }, A.icon(ok ? 'check' : 'refresh'), h('strong', null, ok ? 'C’est la bonne décision.' : 'Ce n’est pas la meilleure décision.')),
             h('div', { class: 'ca-explain' }, h('p', { class: 'ca-explain-k' }, 'Débrief'), A.P(s.debrief || '')), h('div', { class: 'ca-ex-actions' }, again2));
           fb.hidden = false;
-          A.notify(ok ? 'Bonne décision.' : 'Ce n’est pas la meilleure décision : lis le débrief.', ok ? 'ok' : 'ko');
+          A.notify(ok ? 'Bonne décision.' : 'Ce n’est pas la meilleure décision : lis le débrief.', ok ? 'ok' : 'ko', true);
         },
       }));
     build(!!retry);
@@ -409,7 +409,7 @@
         out.textContent = `Auto-évaluation enregistrée : ${checked.length}/${arr(o.expected).length} éléments cités. Ce n’est pas une note de certification.`;
         out.className = 'ca-verdict is-' + (ok ? 'ok' : 'ko');
         save.disabled = true;
-        A.notify(out.textContent);
+        A.notify(out.textContent, null, true);
       });
       A.focus(A.qs('legend', res));
     });

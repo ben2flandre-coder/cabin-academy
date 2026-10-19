@@ -24,6 +24,9 @@ CA.addChapter({
     { id: 'z8-q2', type: 'hottap', concept: 'Figure absente', fig: 'figure-inexistante', q: "Touche la partie demandée sur une figure qui n'existe pas.",
       targets: [{ prompt: "Touche la partie fantôme.", part: 'fantome' }],
       explain: "Cet exercice référence une figure absente : l'application doit le dire sans se bloquer." },
+    { id: 'z8-q3', type: 'hottap', concept: 'Illustration non interactive', fig: 'img-m1-avion-profil', q: "Touche la dérive sur une illustration raster (interdit : refusé au build).",
+      targets: [{ prompt: "Touche la dérive.", part: 'p4' }],
+      explain: "Une illustration raster n'a pas de zones touchables : la validation doit refuser cet exercice et l'application doit le signaler." },
   ],
   next: { id: 'z7', teaser: "Le chapitre suivant n'existe pas encore." },
 });

@@ -431,7 +431,7 @@
     }
     const hist = A.exHistory(ex.id);
     const needsFig = ex.fig && !['hotid', 'hottap', 'hotfind'].includes(ex.type);
-    root.append(
+    root.appendChild(A.frag(
       h('div', { class: 'ca-ex-head' },
         o.number ? h('span', { class: 'ca-ex-num' }, o.number) : null,
         h('span', { class: 'ca-chip' }, A.icon(t.icon, { size: 16 }), t.label),
@@ -443,7 +443,7 @@
       msg,
       h('div', { class: 'ca-ex-actions' }, validate),
       fb,
-      hist && o.mode !== 'review' ? h('p', { class: 'ca-ex-hist' }, A.icon('clock', { size: 16 }), ' ', hist) : null);
+      hist && o.mode !== 'review' ? h('p', { class: 'ca-ex-hist' }, A.icon('clock', { size: 16 }), ' ', hist) : null));
     if (impl.enter) impl.enter.addEventListener('keydown', ev => { if (ev.key === 'Enter') { ev.preventDefault(); validate.click(); } });
 
     validate.addEventListener('click', () => {
@@ -470,7 +470,7 @@
         h('div', { class: 'ca-explain' }, h('p', { class: 'ca-explain-k' }, 'Correction expliquée'), A.P(ex.explain || '')),
         o.noRetry ? null : h('div', { class: 'ca-ex-actions' }, again));
       fb.hidden = false;
-      A.notify(verdict[1], verdict[0] === 'ok' ? 'ok' : 'ko');
+      A.notify(verdict[1], verdict[0] === 'ok' ? 'ok' : 'ko', true);
       A.focus((fb.firstChild.setAttribute('tabindex', '-1'), fb.firstChild));
       if (o.onResult) o.onResult(g.ok);
     });

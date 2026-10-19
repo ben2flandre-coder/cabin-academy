@@ -92,7 +92,12 @@
     }
     if (!o.interactive) {
       el.appendChild(h('details', { class: 'ca-fig-src' }, h('summary', null, 'Provenance et droits'),
-        h('p', null, meta.provenance || 'Provenance non renseignée'), h('p', null, meta.rights || ''), meta.purpose ? h('p', null, 'But : ', A.rich(meta.purpose)) : null));
+        h('p', null, meta.provenance || 'Provenance non renseignée'), h('p', null, meta.rights || ''), meta.purpose ? h('p', null, 'But : ', A.rich(meta.purpose)) : null,
+        arr(meta.check).length ? h('div', null, h('p', null, 'Points à vérifier :'), h('ul', null, arr(meta.check).map(c => h('li', null, A.rich(c))))) : null));
+    }
+    if (meta.raster) {
+      el.classList.add('is-raster');
+      el.insertBefore(A.ui.aiBadge(meta), el.firstChild.nextSibling);
     }
     const api = { el, meta, svg: null, parts, setHl: null, ready: null };
     api.setHl = ids => {
@@ -100,6 +105,30 @@
       if (api.svg) for (const g of api.svg.querySelectorAll('[data-part]')) g.classList.toggle('hl', set.has(g.getAttribute('data-part')));
       if (legend) for (const li of legend.children) li.classList.toggle('is-hl', set.has(li.dataset.part));
     };
+    if (meta.raster) {
+      api.setHl = () => {};
+      if (o.interactive) {
+        A.replace(stage, missing(`L’illustration « ${meta.title || figId} » n’a pas de zones touchables : cet exercice ne peut pas l’utiliser.`));
+        if (o.onError) o.onError();
+        return el;
+      }
+      const img = h('img', { class: 'ca-raster', src: rasterUrl(meta), alt: meta.alt || meta.title || '', width: meta.w || 1600, height: meta.h || 1200, loading: 'lazy', decoding: 'async' });
+      api.svg = null; api.img = img;
+      api.ready = new Promise(resolve => {
+        img.addEventListener('load', () => resolve(api), { once: true });
+        img.addEventListener('error', () => {
+          A.replace(stage, missing(`Illustration indisponible : « ${meta.title || figId} ». Vérifie ta connexion ; si le problème persiste, utilise « Réparer l'appli » dans les réglages.`, figId));
+          if (o.onError) o.onError();
+          resolve(api);
+        }, { once: true });
+      });
+      const kids = [img];
+      if (o.zoom) kids.push(h('button', { type: 'button', class: 'ca-fig-zoom', dataset: { act: 'figzoom', fig: figId }, 'aria-label': `Agrandir l’illustration « ${meta.title || figId} » en plein écran` }, A.icon('expand'), h('span', null, 'Agrandir')));
+      A.replace(stage, kids);
+      if (o.onReady) api.ready.then(() => o.onReady(api));
+      el._fig = api;
+      return el;
+    }
     api.ready = load(meta).then(doc => {
       const svg = instance(doc);
       // le titre/desc du SVG sert d'alternative ; on garantit un aria-label si le SVG n'en a pas
@@ -137,6 +166,11 @@
     const fresh = A.figure(el.dataset.fig, figEl._opts || {});
     figEl.replaceWith(fresh);
   };
+  /** Chemin d'une illustration raster (relatif à assets/), versionné comme les autres ressources. */
+  const rasterUrl = meta => `assets/${meta.file}?v=${encodeURIComponent(A.VERSION)}`;
+  A.rasterUrl = rasterUrl;
+  /** Mention obligatoire des illustrations générées par IA (statut « à valider »). */
+  A.ui.aiBadge = meta => h('p', { class: 'ca-aibadge' }, A.icon('alert', { size: 18 }), h('span', null, 'Illustration générée par IA — générique, ', meta.status || 'à valider'));
   A.figParts = partsOf;
   A.figLoad = load;
   A.figInstance = instance;
@@ -145,8 +179,8 @@
   A.actions.figzoom = el => {
     const figEl = el.closest('figure.ca-fig');
     const api = figEl && figEl._fig;
-    if (!api || !api.svg) return;
-    A.zoom(api.meta, api.svg);
+    if (!api || !(api.svg || api.img)) return;
+    A.zoom(api.meta, api.svg || api.img);
   };
   A.zoom = (meta, sourceSvg) => {
     const svg = sourceSvg.cloneNode(true);
@@ -160,7 +194,8 @@
     const level = h('span', { class: 'ca-zoom-level', 'aria-live': 'polite' }, '100 %');
     const tb = (act, icon, label) => h('button', { type: 'button', class: 'ca-iconbtn', dataset: { z: act }, 'aria-label': label, title: label }, A.icon(icon));
     const bar = h('div', { class: 'ca-zoom-bar' }, tb('out', 'zoomout', 'Zoom arrière'), level, tb('in', 'zoomin', 'Zoom avant'), tb('reset', 'refresh', 'Taille initiale'));
-    const m = A.modal({ title: meta.title || 'Figure', cls: 'ca-dlg-zoom', body: [bar, stage, h('p', { class: 'ca-zoom-help' }, 'Pince ou double-touche pour zoomer, glisse pour te déplacer. Échap ou « retour » pour fermer.')], focus: '.ca-zoom-stage' });
+    if (svg.tagName === 'IMG') { svg.loading = 'eager'; svg.draggable = false; }
+    const m = A.modal({ title: meta.title || 'Figure', cls: 'ca-dlg-zoom', body: [bar, meta.raster ? A.ui.aiBadge(meta) : null, stage, h('p', { class: 'ca-zoom-help' }, 'Pince ou double-touche pour zoomer, glisse pour te déplacer. Échap ou « retour » pour fermer.')], focus: '.ca-zoom-stage' });
     let s = 1, x = 0, y = 0;
     const MIN = 1, MAX = 6;
     const apply = () => {

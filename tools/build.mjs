@@ -85,6 +85,35 @@ function svgOf(fig) {
 }
 
 // ---------- figures ----------
+// Illustrations raster (raster:true) : fichier assets/<file> en .webp/.png < 500 Ko, légende depuis parts[] (pas de data-part,
+// non interactives). Dimensions lues dans l'en-tête et ajoutées au bundle (w, h) pour réserver la place de l'image.
+const RASTER_MAX = 500 * 1024;
+function rasterSize(buf) {
+  if (buf.length > 30 && buf.toString('ascii', 0, 4) === 'RIFF' && buf.toString('ascii', 8, 12) === 'WEBP') {
+    const k = buf.toString('ascii', 12, 16);
+    if (k === 'VP8X') return [1 + buf.readUIntLE(24, 3), 1 + buf.readUIntLE(27, 3)];
+    if (k === 'VP8 ') return [buf.readUInt16LE(26) & 0x3fff, buf.readUInt16LE(28) & 0x3fff];
+    if (k === 'VP8L') { const b = buf.readUInt32LE(21); return [1 + (b & 0x3fff), 1 + ((b >> 14) & 0x3fff)]; }
+  }
+  if (buf.length > 24 && buf.readUInt32BE(0) === 0x89504e47) return [buf.readUInt32BE(16), buf.readUInt32BE(20)];
+  return null;
+}
+function checkRaster(f, w) {
+  const rel = String(f.file || '');
+  if (!/^[a-z0-9][a-z0-9/._-]*\.(webp|png)$/i.test(rel) || rel.includes('..')) { E(w, `raster : file "${rel}" doit être un chemin relatif à assets/ finissant par .webp ou .png`); return; }
+  const p = path.join(ROOT, 'assets', rel);
+  if (!fs.existsSync(p)) { E(w, `raster : fichier assets/${rel} introuvable`); return; }
+  const buf = fs.readFileSync(p);
+  if (buf.length >= RASTER_MAX) E(w, `raster : ${(buf.length / 1024).toFixed(0)} Ko (≥ 500 Ko)`);
+  const sz = rasterSize(buf);
+  if (!sz) E(w, 'raster : en-tête WebP/PNG illisible'); else { f.w = sz[0]; f.h = sz[1]; }
+  const pids = new Set();
+  for (const p2 of arr(f.parts)) {
+    if (!isStr(p2.id) || !isStr(p2.fr) || !isStr(p2.en) || typeof p2.n !== 'number') E(w, `partie mal formée ${JSON.stringify(p2).slice(0, 60)}`);
+    if (pids.has(p2.id)) E(w, `partie dupliquée ${p2.id}`); pids.add(p2.id);
+  }
+  if (!isStr(f.status)) W(w, 'raster : status manquant (ex. « à valider »)');
+}
 const seenFig = new Set();
 for (const f of CA.figures) {
   const w = `figure ${f.id}`;
@@ -93,6 +122,7 @@ for (const f of CA.figures) {
   for (const k of ['title', 'caption', 'alt', 'purpose', 'provenance', 'rights']) if (!isStr(f[k])) E(w, `champ ${k} manquant`);
   if (isStr(f.alt) && f.alt.length < 60) W(w, 'alt trop court (décris la figure pour un lecteur d’écran)');
   if (!arr(f.chapters).length) E(w, 'chapters[] manquant');
+  if (f.raster === true) { checkRaster(f, w); continue; }
   const svg = svgOf(f);
   if (!svg) { E(w, `fichier assets/fig/${f.file || f.id + '.svg'} introuvable`); continue; }
   if (!/viewBox="0 0 1000 \d+"/.test(svg)) E(w, 'viewBox "0 0 1000 H" requis');
@@ -127,9 +157,10 @@ function checkDoc(doc, w) {
   if (!arr(doc.lines).length && !doc.table) E(w, 'doc sans lines ni table');
   for (const [, s] of strings(doc)) for (const m of s.matchAll(/\b([A-Z]{1,3}\d{4,}|\d{5}[-_]\d{2,})\b/g)) if (!/EX-/.test(s)) W(w, `référence « ${m[0]} » sans préfixe EX-`);
 }
-function checkFigRef(fid, w, partIds = []) {
+function checkFigRef(fid, w, partIds = [], interactive = false) {
   const f = figById.get(fid);
   if (!f) { E(w, `figure "${fid}" inconnue`); return null; }
+  if (interactive && f.raster) { E(w, `figure "${fid}" : une illustration raster ne peut pas servir à un exercice hotid/hottap/hotfind (pas de zones data-part)`); return null; }
   for (const p of partIds) if (!arr(f.parts).some(x => x.id === p)) E(w, `partie "${p}" inconnue dans la figure ${fid}`);
   return f;
 }
@@ -173,7 +204,7 @@ function checkExo(ex, w, cid, kind) {
       if (!arr(ex.answers).length || !arr(ex.answers).every(isStr)) E(w, 'input : answers[] requis');
       break;
     case 'hotid': {
-      const f = checkFigRef(ex.fig, w);
+      const f = checkFigRef(ex.fig, w, [], true);
       if (!f) break;
       if (!arr(ex.targets).length) E(w, 'hotid : targets requis');
       checkFigRef(ex.fig, w, arr(ex.targets).map(t => t.part));
@@ -183,13 +214,13 @@ function checkExo(ex, w, cid, kind) {
     }
     case 'hottap': {
       if (!arr(ex.targets).length) E(w, 'hottap : targets requis');
-      checkFigRef(ex.fig, w, arr(ex.targets).map(t => t.part));
+      checkFigRef(ex.fig, w, arr(ex.targets).map(t => t.part), true);
       for (const t of arr(ex.targets)) if (!isStr(t.prompt)) E(w, 'hottap : prompt manquant');
       break;
     }
     case 'hotfind': {
       if (!arr(ex.targets).length) E(w, 'hotfind : targets requis');
-      const f = checkFigRef(ex.fig, w, arr(ex.targets));
+      const f = checkFigRef(ex.fig, w, arr(ex.targets), true);
       if (f && arr(f.parts).length <= arr(ex.targets).length) E(w, 'hotfind : il faut des leurres (parties non ciblées)');
       for (const t of arr(ex.targets)) if (!isStr((ex.notes || {})[t])) W(w, `hotfind : note manquante pour ${t}`);
       break;
@@ -347,7 +378,7 @@ for (const k of CA.cases) {
 for (const f of CA.figures) for (const ch of arr(f.chapters)) if (!chById.has(ch) && CA.chapters.length >= 32) W(`figure ${f.id}`, `chapitre ${ch} inconnu`);
 const usedFigs = new Set();
 for (const c of [...CA.chapters, ...CA.cases]) for (const [p, s] of strings(c)) if ((p.endsWith('fig') || p.endsWith('.fig')) && figById.has(s)) usedFigs.add(s);
-for (const f of CA.figures) if (!usedFigs.has(f.id)) W(`figure ${f.id}`, 'jamais référencée par un chapitre');
+for (const f of CA.figures) if (!usedFigs.has(f.id)) W(`figure ${f.id}`, f.raster ? 'illustration raster pas encore citée par un chapitre (visible dans la médiathèque)' : 'jamais référencée par un chapitre');
 
 // ---------- rapport ----------
 const sel = ONLY.length ? (m => ONLY.some(id => m.includes(`chapitre ${id} `) || m.includes(`figure ${id}`) || m.includes(`cas ${id} `))) : () => true;
@@ -386,7 +417,7 @@ const exists = rel => fs.existsSync(path.join(ROOT, rel));
 const listDir = (rel, test) => exists(rel) ? fs.readdirSync(path.join(ROOT, rel)).filter(test).sort() : [];
 const jsFiles = listDir('assets/js', f => f.endsWith('.js'));
 const iconFiles = listDir('assets/icons', f => /\.(svg|png|ico)$/.test(f));
-const figFiles = [...new Set(figures.map(f => `assets/fig/${f.file || f.id + '.svg'}`))].filter(rel => {
+const figFiles = [...new Set(figures.map(f => (f.raster ? `assets/${f.file}` : `assets/fig/${f.file || f.id + '.svg'}`)))].filter(rel => {
   if (exists(rel)) return true;
   console.log(`⚠ ${rel} introuvable : non précaché (l'application affichera « figure indisponible »)`);
   return false;

@@ -52,6 +52,7 @@
     const q = h('input', { type: 'search', class: 'ca-input', id: 'md-q', placeholder: 'Ex. : galley, tournevis, rail…', autocomplete: 'off', enterkeyhint: 'search' });
     const chIds = Array.from(new Set(figs.flatMap(f => arr(f.chapters)))).sort((a, b) => ((A.C.planEntry(a) || {}).order || 0) - ((A.C.planEntry(b) || {}).order || 0));
     const filter = A.ui.select([['', 'Tous les chapitres'], ...chIds.map(id => [id, `${id.toUpperCase()} — ${A.C.title(id)}${A.C.chapter(id) ? '' : ' (à venir)'}`])], '', { id: 'md-f' });
+    const kind = A.ui.select([['', 'Schémas et illustrations'], ['svg', 'Schémas (SVG)'], ['raster', 'Illustrations (images)']], '', { id: 'md-k' });
     const count = h('p', { class: 'ca-hint', 'aria-live': 'polite' });
     const grid = h('ul', { class: 'ca-grid' });
     let io = null;
@@ -70,22 +71,27 @@
     const draw = () => {
       const n = A.norm(q.value);
       const ch = filter.value;
-      const hits = figs.filter(f => (!ch || arr(f.chapters).includes(ch)) && (!n || [f.title, f.caption, f.id, ...arr(f.parts).flatMap(p => [p.fr, p.en])].some(x => A.norm(A.plain(x)).includes(n))));
+      const k = kind.value;
+      const hits = figs.filter(f => (!ch || arr(f.chapters).includes(ch)) && (!k || (k === 'raster') === !!f.raster) && (!n || [f.title, f.caption, f.id, ...arr(f.parts).flatMap(p => [p.fr, p.en])].some(x => A.norm(A.plain(x)).includes(n))));
       count.textContent = `${A.count(hits.length, 'figure', 'figures')}.`;
       A.replace(grid, hits.map(f => {
-        const th = h('span', { class: 'ca-thumb', dataset: { thumb: f.id } });
-        if (io) io.observe(th);
+        const th = f.raster
+          ? h('span', { class: 'ca-thumb' }, h('img', { src: A.rasterUrl(f), alt: '', width: f.w || 1600, height: f.h || 1200, loading: 'lazy', decoding: 'async' }))
+          : h('span', { class: 'ca-thumb', dataset: { thumb: f.id } });
+        if (io && !f.raster) io.observe(th);
         return h('li', null, h('a', { href: '#/mediatheque/' + encodeURIComponent(f.id), class: 'ca-grid-a' }, th,
+          f.raster ? h('span', { class: 'ca-chip is-ai' }, 'IA · ' + (f.status || 'à valider')) : null,
           h('span', { class: 'ca-grid-t' }, f.title || f.id), h('span', { class: 'ca-small ca-muted' }, arr(f.chapters).map(x => x.toUpperCase()).join(' · '))));
       }));
       if (!hits.length) grid.appendChild(h('li', { class: 'ca-empty-li' }, 'Aucune figure ne correspond.'));
     };
     q.addEventListener('input', A.debounce(draw, 150));
     filter.addEventListener('change', draw);
+    kind.addEventListener('change', draw);
     draw();
     return { title: 'Médiathèque', node: h('div', { class: 'ca-page' },
-      A.ui.head('Médiathèque', { crumbs: [['Plus', '#/plus'], ['Médiathèque', null]], lead: `${figs.length} schémas originaux RMBD. Touche une figure pour l’ouvrir avec sa légende.` }),
-      h('div', { class: 'ca-filters' }, A.ui.field('Rechercher', q), A.ui.field('Chapitre', filter)), count, grid) };
+      A.ui.head('Médiathèque', { crumbs: [['Plus', '#/plus'], ['Médiathèque', null]], lead: `${figs.filter(f => !f.raster).length} schémas originaux RMBD et ${figs.filter(f => f.raster).length} illustrations. Touche une figure pour l’ouvrir avec sa légende.` }),
+      h('div', { class: 'ca-filters' }, A.ui.field('Rechercher', q), A.ui.field('Chapitre', filter), A.ui.field('Type', kind)), count, grid) };
   };
 
   function viewer(id) {
@@ -99,7 +105,9 @@
       A.figure(f.id, { caption: true }),
       A.ui.card(null,
         h('dl', { class: 'ca-meta' },
-          f.purpose ? h('div', null, h('dt', null, 'À quoi sert ce schéma'), h('dd', null, A.rich(f.purpose))) : null,
+          f.raster ? h('div', null, h('dt', null, 'Statut'), h('dd', null, `Illustration générée par IA — générique, ${f.status || 'à valider'}`)) : null,
+          f.raster && arr(f.check).length ? h('div', null, h('dt', null, 'Points à vérifier'), h('dd', null, h('ul', null, arr(f.check).map(c => h('li', null, A.rich(c)))))) : null,
+          f.purpose ? h('div', null, h('dt', null, f.raster ? 'À quoi sert cette illustration' : 'À quoi sert ce schéma'), h('dd', null, A.rich(f.purpose))) : null,
           h('div', null, h('dt', null, 'Description'), h('dd', null, f.alt || '—')),
           h('div', null, h('dt', null, 'Provenance'), h('dd', null, f.provenance || '—')),
           h('div', null, h('dt', null, 'Droits'), h('dd', null, f.rights || '—')),

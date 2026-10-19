@@ -74,7 +74,7 @@
               ok ? null : h('p', { class: 'ca-hint' }, 'Rejoue l’étape : les options seront mélangées.'),
               h('div', { class: 'ca-ex-actions' }, btn));
             fb.hidden = false;
-            A.notify(ok ? 'Bonne décision.' : 'Ce choix a une conséquence : lis-la, puis rejoue l’étape.', ok ? 'ok' : 'ko');
+            A.notify(ok ? 'Bonne décision.' : 'Ce choix a une conséquence : lis-la, puis rejoue l’étape.', ok ? 'ok' : 'ko', true);
             A.focus((fb.firstChild.setAttribute('tabindex', '-1'), fb.firstChild));
           },
         })));

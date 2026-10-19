@@ -25,7 +25,7 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('activate', event => {
-  event.waitUntil((async () => {
+  const job = (async () => {
     const keys = await caches.keys();
     const old = keys.filter(k => k !== CACHE);
     // L'ancienne application (cache « rmbd-cabin-… », stratégie cache d'abord) ne sait pas écouter nos messages.
@@ -35,13 +35,17 @@ self.addEventListener('activate', event => {
     await self.clients.claim();
     const all = await self.clients.matchAll({ type: 'window' });
     all.forEach(c => c.postMessage({ type: 'sw-activated', version: VERSION, updated, legacy }));
-    if (legacy) {
-      // Les pages encore affichées sont celles de l'ancienne application, servies par son cache : on les recharge
-      // une seule fois (ce cache vient d'être supprimé, la condition ne peut pas se reproduire). Le localStorage
-      // n'est pas concerné : les données restent en place.
-      await Promise.all(all.map(c => (c.navigate ? c.navigate(c.url).catch(() => {}) : null)));
-    }
-  })());
+    return { legacy, all };
+  })();
+  event.waitUntil(job);
+  // Les pages encore affichées sont celles de l'ancienne application, servies par son cache : on les recharge
+  // une seule fois (ce cache vient d'être supprimé, la condition ne peut pas se reproduire). Le localStorage
+  // n'est pas concerné : les données restent en place. Le rechargement est lancé APRÈS l'activation (hors
+  // waitUntil) : la navigation a besoin de ce service worker actif pour être servie.
+  job.then(r => {
+    if (!r.legacy) return;
+    setTimeout(() => r.all.forEach(c => { if (c.navigate) c.navigate(c.url).catch(() => {}); }), 50);
+  }).catch(() => {});
 });
 
 self.addEventListener('message', event => {

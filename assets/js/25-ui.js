@@ -54,16 +54,16 @@
   // ---------- annonces ----------
   /** Annonce pour lecteur d'écran + message visible bref (non bloquant, au-dessus de la barre d'onglets). */
   let toastT = 0;
-  A.notify = (msg, kind) => {
+  A.notify = (msg, kind, quiet) => {
     const live = A.qs('#ca-live');
     if (live) { live.textContent = ''; setTimeout(() => { live.textContent = msg; }, 30); }
     const t = A.qs('#ca-toast');
-    if (!t) return;
+    if (!t || quiet) return;                      // quiet : résultat déjà visible dans la page, annonce vocale seule
     t.className = 'ca-toast' + (kind ? ' is-' + kind : '');
     t.textContent = msg;
     t.hidden = false;
     clearTimeout(toastT);
-    toastT = setTimeout(() => { t.hidden = true; }, 3800);
+    toastT = setTimeout(() => { t.hidden = true; }, 2800);
   };
 
   // ---------- bandeaux persistants (mise à jour, stockage) — dans le flux, jamais par-dessus le contenu ----------
@@ -154,7 +154,7 @@
 
   // ---------- fiche de glossaire ----------
   A.ui.termCard = e => h('div', { class: 'ca-termcard' },
-    h('p', { class: 'ca-term-en', lang: 'en' }, A.icon('link', { size: 18 }), ' ', e.en || '—', e.abbr ? h('span', { class: 'ca-abbr' }, ' · ', e.abbr) : null),
+    h('p', { class: 'ca-term-en' }, h('abbr', { class: 'ca-lang', title: 'en anglais' }, 'EN'), ' ', h('span', { lang: 'en' }, e.en || '—'), e.abbr ? h('span', { class: 'ca-abbr' }, ' · ', e.abbr) : null),
     A.P(e.def || 'Définition à venir.'),
     e.tip ? h('p', { class: 'ca-tip' }, A.icon('bulb', { size: 18 }), ' ', A.rich(e.tip)) : null,
     e.cat ? h('p', { class: 'ca-muted' }, 'Catégorie : ', e.cat) : null,

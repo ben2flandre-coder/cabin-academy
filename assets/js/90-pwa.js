@@ -75,6 +75,17 @@
     A.router.saveNow();
     const reg = P.reg;
     const go = () => { try { sessionStorage.setItem('rmbd-ca:updated-from', A.VERSION); } catch (e) { /* rien */ } location.reload(); };
+    const inst = reg && reg.installing;
+    if (inst) {
+      // Le nouveau service worker télécharge encore la version : on attend qu'il soit prêt (sinon la page
+      // rechargée serait servie par l'ancien, puis la mise à jour se terminerait en arrière-plan).
+      A.ui.banner('update', { kind: 'info', icon: 'refresh', title: 'Mise à jour en cours…', text: 'Téléchargement de la nouvelle version. Tes données sont conservées.' });
+      let done = false;
+      const fin = () => { if (!done) { done = true; go(); } };
+      inst.addEventListener('statechange', () => { if (inst.state === 'activated' || inst.state === 'redundant') fin(); });
+      setTimeout(fin, 20000);
+      return;
+    }
     if (reg && reg.waiting) {
       let done = false;
       navigator.serviceWorker.addEventListener('controllerchange', () => { if (!done) { done = true; go(); } });

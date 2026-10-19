@@ -16,6 +16,9 @@
 
     // Délégation globale : tout élément data-act="nom" appelle A.actions[nom](élément, événement).
     document.addEventListener('click', ev => {
+      // Lien vers l'écran déjà affiché (ex. onglet « Réviser » pendant une session) : on reconstruit l'écran.
+      const a = ev.target instanceof Element ? ev.target.closest('a[href^="#/"]') : null;
+      if (a && !ev.defaultPrevented && a.getAttribute('href') === location.hash && !a.closest('dialog')) { ev.preventDefault(); A.router.render(); }
       const el = ev.target instanceof Element ? ev.target.closest('[data-act]') : null;
       if (!el) return;
       const fn = A.actions[el.dataset.act];

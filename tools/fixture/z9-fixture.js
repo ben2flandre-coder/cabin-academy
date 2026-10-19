@@ -45,6 +45,7 @@ CA.addChapter({
     },
     {
       h: "Le plancher : traverse, rails, panneaux",
+      fig: 'img-m1-avion-profil',
       p: [
         "En bas de la coupe, une poutre traverse le fuselage d'un bord à l'autre : c'est la **traverse de plancher** (*floor beam*, n° 4). Elle porte tout ce qui se trouve dans la cabine.",
         "Sur les traverses courent les [[Rail de siège]] (*seat tracks*, n° 6) : des profilés munis d'une rangée d'encoches. Les pieds des sièges s'y verrouillent, ce qui permet de déplacer une rangée sans percer quoi que ce soit. Entre les rails, les **panneaux de plancher** (n° 5) ferment la surface sur laquelle on marche.",

@@ -59,7 +59,7 @@ fs.writeFileSync(path.join(OUT.legacy, 'index.html'), `<!doctype html><html lang
 fs.writeFileSync(path.join(OUT.legacy, 'sw.js'), `const C='rmbd-cabin-v4.1.1';self.addEventListener('install',e=>{e.waitUntil(caches.open(C).then(c=>c.addAll(['./','index.html'])).then(()=>self.skipWaiting()))});self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));self.addEventListener('fetch',e=>{e.respondWith(caches.match(e.request,{ignoreSearch:true}).then(r=>r||fetch(e.request)))});`);
 
 // ---------------------------------------------------------------- serveur statique
-const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.webmanifest': 'application/manifest+json', '.ico': 'image/x-icon', '.md': 'text/plain; charset=utf-8' };
+const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.webmanifest': 'application/manifest+json', '.ico': 'image/x-icon', '.webp': 'image/webp', '.md': 'text/plain; charset=utf-8' };
 const srv = { root: OUT.v1, offline: false, legacy: false, log: [] };
 const server = http.createServer((req, res) => {
   if (srv.offline) { req.socket.destroy(); return; }
@@ -104,7 +104,7 @@ async function ctxOpen(o = {}) {
 }
 const appReady = page => page.waitForFunction(() => window.CA_BOOT && window.CA_BOOT.done === true && document.querySelector('#ca-main h1'), null, { timeout: 15000 });
 async function go(page, hash) {
-  await page.evaluate(h => { window.CAApp.router.focusOnRender = true; location.hash = h; }, hash);
+  await page.evaluate(h => { window.CAApp.router.focusOnRender = true; window.CAApp.router.go(h); }, hash);
   await page.waitForFunction(h => location.hash === h || h === '#/', hash);
   await settle(page);
 }
@@ -134,6 +134,8 @@ if (want('routes')) await step('Routes et mise en page (4 viewports)', async () 
     const chs = full ? C.chapters : C.chapters.slice(0, 1);
     for (const c of chs) for (const r of RUBRICS) routes.push(`#/chapitre/${c.id}/${r}`);
     if (C.figures[0]) routes.push('#/mediatheque/' + C.figures[0].id);
+    const rf = C.figures.find(f => f.raster);
+    if (rf) routes.push('#/mediatheque/' + rf.id);
     routes.push('#/glossaire/' + encodeURIComponent('rail'), '#/chapitre/zz9', '#/chapitre/' + C.chapters[0].id + '/inconnue', '#/nimporte/quoi', '#/mediatheque/inexistante', '#/cas/k99', '#/chapitre/a1');
     let over = [], noH1 = [], errPanel = [], badBtn = [];
     for (const r of routes) {
@@ -255,7 +257,7 @@ async function answer(page, ex, correct) {
         const fig = CONTENT.v1.figures.find(f => f.id === ex.fig) || CONTENT.fix.figures.find(f => f.id === ex.fig);
         const pool = ex.pool || fig.parts.map(p => p.id);
         const v = correct ? ex.targets[i].part : pool.find(p => p !== ex.targets[i].part);
-        await root.locator(`input[type="radio"][value="${v}"]`).check({ force: true });
+        await root.locator('label.ca-opt-l', { has: page.locator(`input[type="radio"][value="${v}"]`) }).click();
         await page.waitForTimeout(350);
       }
       break;
@@ -304,6 +306,7 @@ async function exerciseSuite(contentKey, label) {
     // 1) réponse incomplète (sauf « order », toujours complet)
     if (t !== 'order') {
       await validate(page, e);
+      await page.waitForTimeout(120);
       const msg = (await root.locator('.ca-ex-msg').textContent()).trim();
       ok(`${t} : réponse incomplète refusée avec un message`, msg.length > 10 && !(await exRec(page, e.id)), msg);
     }
@@ -464,6 +467,28 @@ if (want('fixture')) await step('Contenu d’essai : chapitre incomplet, figure 
   ok('Terme inconnu marqué', (await page.evaluate(() => { location.hash = '#/chapitre/z8/explication'; return 1; })) && true);
   await settle(page);
   ok('Terme absent du glossaire : lien neutre', await page.locator('.ca-term-missing').count() > 0);
+  // illustrations raster (IA) : <img>, légende numérotée, mention « à valider », zoom, refus en exercice touchable
+  await go(page, '#/chapitre/z9/explication');
+  const rimg = page.locator('#ca-main figure.is-raster img.ca-raster').first();
+  await rimg.scrollIntoViewIfNeeded();
+  await page.waitForFunction(() => { const i = document.querySelector('figure.is-raster img'); return i && i.complete && i.naturalWidth > 0; }, null, { timeout: 8000 }).catch(() => {});
+  ok('Raster : image chargée avec alt, width/height et lazy', await rimg.evaluate(i => i.naturalWidth > 0 && i.alt.length > 20 && i.getAttribute('width') && i.loading === 'lazy'));
+  ok('Raster : légende numérotée depuis parts[]', await page.locator('#ca-main figure.is-raster .ca-legend li').count() === 6);
+  ok('Raster : mention « Illustration générée par IA — à valider »', await page.locator('#ca-main figure.is-raster .ca-aibadge', { hasText: 'générée par IA' }).count() === 1);
+  await page.locator('#ca-main figure.is-raster .ca-fig-zoom').click();
+  ok('Raster : visionneuse plein écran avec la mention', await page.locator('dialog.ca-dlg-zoom img').count() === 1 && await page.locator('dialog.ca-dlg-zoom .ca-aibadge').count() === 1);
+  await shot(page, 'vp360-raster-zoom');
+  await page.keyboard.press('Escape');
+  await go(page, '#/chapitre/z8/evaluation');
+  ok('Raster dans un exercice touchable → message, pas d’écran blanc', await page.locator('section[data-ex="z8-q3"] .ca-fig-missing', { hasText: 'zones touchables' }).count() === 1);
+  await go(page, '#/mediatheque');
+  await page.locator('#md-k').selectOption('raster');
+  ok('Médiathèque : filtre « illustrations »', await page.locator('.ca-grid .ca-chip.is-ai').count() > 0 && await page.locator('.ca-grid li').count() === await page.locator('.ca-grid .ca-chip.is-ai').count());
+  await shot(page, 'vp360-mediatheque-raster');
+  await page.locator('#md-k').selectOption('svg');
+  ok('Médiathèque : filtre « schémas »', await page.locator('.ca-grid .ca-chip.is-ai').count() === 0 && await page.locator('.ca-grid li').count() > 0);
+  const chk = (() => { try { execFileSync(process.execPath, [path.join(ROOT, 'tools/build.mjs'), '--check', '--fixture', 'z8'], { cwd: ROOT, encoding: 'utf8' }); return ''; } catch (e) { return String(e.stdout); } })();
+  ok('Validation : raster interdit dans hotid/hottap/hotfind', /raster ne peut pas servir/.test(chk));
   // cas pratique : mauvais choix → conséquence → rejouer → bonne réponse → débrief → résultat conservé
   await go(page, '#/cas');
   ok('Liste des cas pratiques', await page.locator('.ca-chcard a[href="#/cas/k9"]').count() === 1);
@@ -543,14 +568,17 @@ if (want('data')) await step('Carnet, export / import, réinitialisation', async
   const badFile = path.join(TMP, 'bad.json');
   fs.writeFileSync(badFile, JSON.stringify({ app: 'autre', data: {} }));
   await page.locator('#imp-file').setInputFiles(badFile);
+  await page.waitForTimeout(200);
   ok('Import : fichier étranger refusé, rien modifié', await page.locator('.ca-import', { hasText: 'Import refusé' }).count() === 1);
   const badFile2 = path.join(TMP, 'bad2.json');
   fs.writeFileSync(badFile2, JSON.stringify({ app: 'rmbd-cabin-academy', schema: 1, data: { journal: 'pas un tableau', ex: [] } }));
   await page.locator('#imp-file').setInputFiles(badFile2);
-  ok('Import : types invalides refusés', await page.locator('.ca-import', { hasText: 'type' }).count() === 1);
+  await page.waitForTimeout(200);
+  ok('Import : types invalides refusés', await page.locator('.ca-import', { hasText: 'type' }).count() === 1, await page.locator('.ca-import').textContent());
   // import valide → aperçu → remplacement confirmé
   await page.locator('#imp-file').setInputFiles(expPath);
-  ok('Import : aperçu avant écrasement', await page.locator('.ca-import', { hasText: 'Aperçu du fichier' }).count() === 1);
+  await page.waitForTimeout(200);
+  ok('Import : aperçu avant écrasement', await page.locator('.ca-import', { hasText: 'Aperçu du fichier' }).count() === 1, await page.locator('.ca-import').textContent());
   await page.locator('.ca-import button', { hasText: 'Remplacer' }).click();
   await page.locator('dialog button', { hasText: 'Remplacer' }).click();
   await settle(page);
@@ -583,14 +611,14 @@ if (want('storage')) await step('Stockage absent, corrompu, anciennes clés', as
   }
   // stockage corrompu + anciennes clés
   {
-    const { ctx, page, bad } = await ctxOpen({ sw: false, init: () => {
-      if (!sessionStorage.getItem('seeded')) {
+    const { ctx, page, bad } = await ctxOpen({ sw: false, init: () => { try {
+      if (location.protocol === 'http:' && !sessionStorage.getItem('seeded')) {
         sessionStorage.setItem('seeded', '1');
         localStorage.setItem('rmbd-ca:v1', '{"v":1,"ex":{ corrompu');
         localStorage.setItem('rmbd-cabin-binder-v1', JSON.stringify({ logs: [{ date: '2026-09-01', task: 'Observation pose sièges', zone: 'R12' }] }));
         localStorage.setItem('rmbd-academy-v4', '{"progress":{"a1":true}}');
       }
-    } });
+    } catch (e) { /* about:blank */ } } });
     await page.goto(BASE); await appReady(page);
     ok('Stockage corrompu : l’application démarre', await page.locator('#ca-main h1').count() === 1);
     const keys = await page.evaluate(() => Object.keys(localStorage));
@@ -611,7 +639,7 @@ if (want('storage')) await step('Stockage absent, corrompu, anciennes clés', as
   }
   // schéma ancien (0) → migration
   {
-    const { ctx, page, bad } = await ctxOpen({ sw: false, init: () => { if (!sessionStorage.getItem('s')) { sessionStorage.setItem('s', '1'); localStorage.setItem('rmbd-ca:v1', JSON.stringify({ done: { 'x-q1': true }, logs: [{ date: '2026-09-02', task: 'Tâche migrée' }] })); } } });
+    const { ctx, page, bad } = await ctxOpen({ sw: false, init: () => { if (location.protocol === 'http:' && !sessionStorage.getItem('s')) { sessionStorage.setItem('s', '1'); localStorage.setItem('rmbd-ca:v1', JSON.stringify({ done: { 'x-q1': true }, logs: [{ date: '2026-09-02', task: 'Tâche migrée' }] })); } } });
     await page.goto(BASE); await appReady(page);
     const st = await page.evaluate(() => ({ ex: window.CAApp.state.ex['x-q1'], j: window.CAApp.state.journal.length, bk: !!localStorage.getItem('rmbd-ca:backup') }));
     ok('Migration d’un schéma ancien (sauvegarde faite avant)', st.ex && st.ex.ok && st.j === 1 && st.bk, JSON.stringify(st));
@@ -638,6 +666,8 @@ if (want('sw')) await step('Service worker : installation, hors ligne, mise à j
   ctx.allowFail = 1; srv.offline = true;
   await page.reload(); await appReady(page);
   await go(page, `#/chapitre/${c.id}/decouverte`);
+  const rf = CONTENT.v1.figures.find(f => f.raster);
+  if (rf) ok('Hors ligne : illustration raster servie par le cache', await page.evaluate(u => fetch(u).then(r => r.ok && /image/.test(r.headers.get('content-type') || ''), () => false), 'assets/' + rf.file));
   ok('Hors ligne : l’application et la figure s’affichent depuis le cache', await page.locator('#ca-main svg.fig').count() > 0 && await page.locator('.ca-fig-missing').count() === 0);
   await page.evaluate(() => window.dispatchEvent(new Event('offline')));
   const missing = await page.evaluate(() => fetch('assets/fig/inexistante.svg').then(r => r.status, () => 'erreur réseau'));
@@ -664,13 +694,23 @@ if (want('sw')) await step('Service worker : installation, hors ligne, mise à j
   ok('Saisie en cours conservée (brouillon)', after.draft === 'Saisie en cours pendant la mise à jour', String(after.draft));
   await page.waitForFunction(v => caches.keys().then(k => !k.includes('rmbd-ca-' + v)), V1, { timeout: 10000 }).catch(() => {});
   const keys2 = await page.evaluate(() => caches.keys());
-  ok('Ancien cache purgé, nouveau cache présent', !keys2.includes('rmbd-ca-' + V1) && keys2.includes('rmbd-ca-' + V2), JSON.stringify(keys2));
+  const regInfo = await page.evaluate(async () => { const r = await navigator.serviceWorker.getRegistration(); const d = w => w && (w.scriptURL.split('/').pop() + ':' + w.state); return r ? [d(r.active), d(r.waiting), d(r.installing)] : null; });
+  ok('Ancien cache purgé, nouveau cache présent', !keys2.includes('rmbd-ca-' + V1) && keys2.includes('rmbd-ca-' + V2), JSON.stringify(keys2) + ' ' + JSON.stringify(regInfo));
   // pas de boucle de rechargement
   const navs = srv.log.length;
   await page.waitForTimeout(2500);
   const reloads = srv.log.slice(navs).filter(p => p === PREFIX || p.endsWith('index.html')).length;
   ok('Aucune boucle de rechargement', reloads === 0, `${reloads} navigations`);
   ok('Aucun bandeau de mise à jour une fois à jour', await page.locator('.ca-banner[data-banner="update"]').count() === 0);
+  // « Réparer l'appli » : désinscrit le SW, vide les caches, recharge ; les données restent
+  await go(page, '#/reglages');
+  await page.locator('[data-act="repair"]').click();
+  await Promise.all([page.waitForURL(/repare=/, { timeout: 15000 }), page.locator('dialog button', { hasText: 'Réparer' }).click()]);
+  await appReady(page);
+  const rep = await page.evaluate(async () => ({ caches: await caches.keys(), ex: !!window.CAApp.state.ex['test-ex'] }));
+  ok('Réparer : caches vidés puis application rechargée, données conservées', rep.ex && !rep.caches.includes('rmbd-ca-' + V1), JSON.stringify(rep));
+  await page.waitForFunction(() => navigator.serviceWorker.controller, null, { timeout: 15000 }).catch(() => {});
+  ok('Réparer : service worker réinstallé', await page.evaluate(() => !!navigator.serviceWorker.controller));
   cleanBad(bad, 'service worker');
   await ctx.close();
   srv.root = OUT.v1;
@@ -686,6 +726,7 @@ if (want('legacy')) await step('Remplacement de l’ancienne application (cache 
   ok('Ancienne application installée (cache d’abord)', (await page.evaluate(() => caches.keys())).includes('rmbd-cabin-v4.1.1'));
   srv.legacy = false; srv.root = OUT.v1;
   await page.reload();                                            // servi par l'ancien cache, déclenche la vérification du SW
+  if (process.env.E2E_DEBUG) { for (let i = 0; i < 6; i++) { await page.waitForTimeout(1500); console.log(await page.evaluate(async () => { const r = await navigator.serviceWorker.getRegistration(); const d = w => w && (w.scriptURL.split('/').pop() + ':' + w.state); return JSON.stringify([document.title, r && [d(r.active), d(r.waiting), d(r.installing)], await caches.keys()]); }).catch(e => 'ERR ' + e.message), srv.log.slice(-5)); } }
   await page.waitForFunction(() => window.CA_BOOT && window.CA_BOOT.done, null, { timeout: 30000 });
   ok('Nouvelle application affichée sans intervention', await page.locator('#ca-main h1').count() === 1);
   await page.waitForFunction(() => caches.keys().then(k => !k.includes('rmbd-cabin-v4.1.1')), null, { timeout: 10000 }).catch(() => {});
