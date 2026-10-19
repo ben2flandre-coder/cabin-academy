@@ -70,7 +70,10 @@ self.addEventListener('fetch', event => {
       try {
         // Réseau d'abord : c'est ce qui permet à une nouvelle version d'arriver. La réponse n'est PAS recopiée
         // dans le cache : l'index précaché reste celui qui correspond aux scripts de cette version.
-        return await Promise.race([fetch(req), timeout(NAV_TIMEOUT_MS)]);
+        // « no-cache » : revalidation auprès du serveur (sinon le cache HTTP de GitHub Pages, ~10 min, servirait
+        // l'ancienne page juste après une mise à jour). Redirection : laissée au navigateur (manual).
+        const net = fetch(req.url, { cache: 'no-cache', credentials: 'same-origin', redirect: 'manual' });
+        return await Promise.race([net, timeout(NAV_TIMEOUT_MS)]);
       } catch (e) {
         const cached = await caches.match('index.html', { cacheName: CACHE }) || await caches.match('./', { cacheName: CACHE });
         if (cached) return cached;

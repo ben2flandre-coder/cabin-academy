@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RMBD Cabin Integration Academy</title>
+<meta name="description" content="Compagnon de formation RMBD pour préparer le CQP Intégrateur cabine aéronautique : chapitres illustrés, exercices, révision espacée, carnet de bord.">
+<meta name="theme-color" content="#14283d">
+<meta name="color-scheme" content="light dark">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Cabin Academy">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/icons/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+<script>
+/* Avant le premier affichage : version, thème et taille du texte (évite un flash clair/sombre). */
+window.CA_VERSION = '2026.10.19-658d07a6b5';
+(function () {
+  try {
+    var raw = window.localStorage.getItem('rmbd-ca:v1');
+    var s = raw ? JSON.parse(raw) : null;
+    var set = s && s.settings ? s.settings : {};
+    var root = document.documentElement;
+    if (set.theme === 'light' || set.theme === 'dark') root.setAttribute('data-theme', set.theme);
+    if (/^(m|l|xl|xxl)$/.test(set.textSize)) root.setAttribute('data-size', set.textSize);
+  } catch (e) { /* stockage indisponible ou illisible : réglages par défaut */ }
+})();
+</script>
+<link rel="stylesheet" href="assets/figures.css?v=2026.10.19-658d07a6b5">
+<link rel="stylesheet" href="assets/app.css?v=2026.10.19-658d07a6b5">
+<style>
+/* Styles minimaux de l'écran de démarrage : lisibles même si app.css ne se charge pas. */
+#ca-boot{max-width:34rem;margin:0 auto;padding:2.5rem 1.25rem;font:1.0625rem/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+#ca-boot h1{font-size:1.35rem;margin:0 0 .5rem}
+#ca-boot p{margin:.5rem 0}
+#ca-boot button{font:inherit;min-height:48px;padding:.6rem 1rem;margin:.4rem .5rem .4rem 0;border-radius:10px;border:2px solid currentColor;background:transparent;color:inherit;cursor:pointer}
+#ca-boot pre{white-space:pre-wrap;word-break:break-word;font-size:.85rem;opacity:.85;max-height:12rem;overflow:auto}
+#ca-boot[hidden]{display:none}
+</style>
+</head>
+<body>
+<noscript>
+  <div style="max-width:34rem;margin:0 auto;padding:2.5rem 1.25rem;font:1.0625rem/1.5 system-ui,sans-serif">
+    <h1 style="font-size:1.35rem">JavaScript est désactivé</h1>
+    <p>RMBD Cabin Integration Academy est une application : elle a besoin de JavaScript pour afficher les chapitres, les exercices et ta progression.</p>
+    <p>Active JavaScript dans les réglages de ton navigateur, puis recharge cette page.</p>
+  </div>
+</noscript>
+
+<div id="ca-boot" role="status" aria-live="polite">
+  <div id="ca-boot-wait">
+    <h1>RMBD Cabin Integration Academy</h1>
+    <p>Chargement de l'application…</p>
+  </div>
+  <div id="ca-boot-error" hidden>
+    <h1>L'application n'a pas pu démarrer</h1>
+    <p id="ca-boot-msg">Un fichier de l'application est manquant ou abîmé.</p>
+    <p><strong>Tes données (progression, carnet, notes) ne sont pas touchées</strong> : elles restent enregistrées sur cet appareil.</p>
+    <p>
+      <button type="button" id="ca-boot-retry">Réessayer</button>
+      <button type="button" id="ca-boot-repair">Réparer (vider le cache)</button>
+    </p>
+    <p>« Réparer » supprime les fichiers de l'application gardés en mémoire par le navigateur, puis les télécharge à nouveau. Il faut être connectée à Internet.</p>
+    <details><summary>Détail technique</summary><pre id="ca-boot-detail"></pre></details>
+  </div>
+</div>
+
+<div id="ca-app" hidden></div>
+
+<script>
+/* Gestionnaire d'erreur de démarrage (écrit en JavaScript volontairement simple, sans dépendance). */
+(function () {
+  var boot = window.CA_BOOT = { done: false, errors: [], shown: false };
+  var $ = function (id) { return document.getElementById(id); };
+
+  // Réparation : désinscrit le service worker et vide les caches, puis recharge. Ne touche JAMAIS au localStorage.
+  window.CA_REPAIR = function () {
+    var jobs = [];
+    try {
+      if ('serviceWorker' in navigator) {
+        jobs.push(navigator.serviceWorker.getRegistrations().then(function (regs) {
+          return Promise.all(regs.map(function (r) { return r.unregister(); }));
+        }));
+      }
+      if (window.caches && caches.keys) {
+        jobs.push(caches.keys().then(function (keys) {
+          return Promise.all(keys.map(function (k) { return caches.delete(k); }));
+        }));
+      }
+    } catch (e) { /* on recharge quand même */ }
+    var reload = function () {
+      var url = location.pathname + '?repare=' + Date.now() + location.hash;
+      location.replace(url);
+    };
+    return Promise.all(jobs).then(reload, reload);
+  };
+
+  function show(msg, detail) {
+    if (boot.done) return;
+    boot.shown = true;
+    var wait = $('ca-boot-wait'), err = $('ca-boot-error'), box = $('ca-boot');
+    if (!box || !err) return;
+    box.hidden = false;
+    if (wait) wait.hidden = true;
+    err.hidden = false;
+    if (msg) $('ca-boot-msg').textContent = msg;
+    $('ca-boot-detail').textContent = boot.errors.concat(detail ? [detail] : []).join('\n') || 'Aucun détail disponible.';
+    var app = $('ca-app'); if (app) app.hidden = true;
+  }
+  boot.fail = show;
+
+  window.addEventListener('error', function (ev) {
+    if (boot.done) return;
+    var t = ev.target;
+    if (t && t !== window && (t.tagName === 'SCRIPT' || t.tagName === 'LINK')) {
+      var src = t.src || t.href || '';
+      boot.errors.push('Fichier non chargé : ' + src);
+      if (t.tagName === 'SCRIPT') show('Un fichier de l\'application n\'a pas pu être chargé. Vérifie ta connexion, puis réessaie.');
+      return;
+    }
+    boot.errors.push((ev.message || 'Erreur') + (ev.filename ? ' — ' + ev.filename.split('/').pop() + ':' + ev.lineno : ''));
+    show('Une erreur a interrompu le démarrage de l\'application.');
+  }, true);
+  window.addEventListener('unhandledrejection', function (ev) {
+    if (boot.done) return;
+    boot.errors.push('Promesse rejetée : ' + (ev.reason && ev.reason.message ? ev.reason.message : String(ev.reason)));
+  });
+
+  $('ca-boot-retry').addEventListener('click', function () { location.reload(); });
+  $('ca-boot-repair').addEventListener('click', function () {
+    this.disabled = true; this.textContent = 'Réparation en cours…';
+    window.CA_REPAIR();
+  });
+
+  // Si rien n'a démarré après un délai raisonnable, on le dit au lieu de laisser « Chargement… » indéfiniment.
+  setTimeout(function () {
+    if (!boot.done && !boot.shown) show('Le chargement est anormalement long. Vérifie ta connexion, puis réessaie.');
+  }, 15000);
+})();
+</script>
+<script src="assets/content.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/00-core.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/05-icons.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/10-store.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/15-content.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/20-progress.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/25-ui.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/30-figure.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/35-exercise.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/40-router.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/50-home.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/55-chapter.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/60-review.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/62-library.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/66-journal.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/68-certification.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/70-cases.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/74-settings.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/90-pwa.js?v=2026.10.19-658d07a6b5" defer></script>
+<script src="assets/js/99-boot.js?v=2026.10.19-658d07a6b5" defer></script>
+</body>
+</html>

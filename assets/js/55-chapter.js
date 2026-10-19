@@ -82,7 +82,13 @@
       st.textContent = 'Enregistré.';
     }, 600);
     ta.addEventListener('input', () => { st.textContent = 'Saisie…'; save(); });
-    A.router.onLeave(() => { save.cancel(); const v = ta.value; if (v.trim()) A.state.notes[c.id] = v; else delete A.state.notes[c.id]; A.store.save(); });
+    A.router.onSave(() => {
+      save.cancel();
+      const v = ta.value;
+      if (v === (A.state.notes[c.id] || '')) return;
+      if (v.trim()) A.state.notes[c.id] = v; else delete A.state.notes[c.id];
+      A.store.save();
+    });
     return h('details', { class: 'ca-notes', open: !!A.state.notes[c.id] },
       h('summary', null, A.icon('edit', { size: 20 }), ' Mes notes sur ce chapitre'),
       h('label', { for: ta.id, class: 'ca-sr' }, 'Mes notes sur le chapitre ' + c.id),

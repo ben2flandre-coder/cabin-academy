@@ -19,6 +19,8 @@
     const r = parse();
     const main = A.qs('#ca-main');
     if (!main) return;
+    savers.forEach(fn => { try { fn(); } catch (e) { /* rien */ } });
+    savers = [];
     leave.forEach(fn => { try { fn(); } catch (e) { /* rien */ } });
     leave = [];
     A.store.flush();
@@ -55,8 +57,15 @@
         h('details', null, h('summary', null, 'Détail technique'), h('pre', { class: 'ca-pre' }, String(e && e.stack ? e.stack : e)))));
   }
 
+  /** Les écrans enregistrent ici leurs sauvegardes de saisie (notes, brouillons) : appelées en quittant l'écran,
+      quand la page passe en arrière-plan et avant un rechargement de mise à jour. */
+  let savers = [];
+  const saveNow = () => { savers.forEach(fn => { try { fn(); } catch (e) { /* rien */ } }); A.store.flush(); };
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') saveNow(); });
+  window.addEventListener('pagehide', saveNow);
   A.router = {
-    parse, render, focusOnRender: false,
+    parse, render, focusOnRender: false, saveNow,
+    onSave(fn) { savers.push(fn); },
     go(hash) { if (location.hash === hash) render(); else location.hash = hash; },
     onLeave(fn) { leave.push(fn); },
     current: () => current,
