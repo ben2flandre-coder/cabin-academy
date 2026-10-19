@@ -81,5 +81,27 @@ CA.addFigures([
       { id: 'prise-raccord', n: 8, fr: 'Main sur un raccord', en: 'Hand on a fitting', fn: "Mauvaise prise : un raccord tordu ou fêlé, c'est une fuite ou un branchement impossible." },
       { id: 'outil-oublie', n: 9, fr: 'Outil oublié dans une cavité', en: 'Tool left in a cavity (FOD)', fn: "Objet étranger : une fois le monument en place, plus personne ne le verra." }
     ]
+  },
+  {
+    id: 'b5-reseaux-eau', file: 'b5-reseaux-eau.svg',
+    title: "Les trois circuits d'eau : potable, grise, usée",
+    caption: "Schéma de principe, vu de côté. La place des réservoirs, le nombre de mâts de drainage et le trajet des tuyaux dépendent de l'avion ; sur certains avions récents, l'eau des lavabos ne part pas dehors mais rejoint le réservoir d'eaux usées. Couleurs : bleu = eau potable, orange = eau grise, rouge = eaux usées des cuvettes.",
+    alt: "Coupe de principe vue de côté. Au-dessus du plancher : à gauche un galley avec son évier, à droite des toilettes avec lavabo et cuvette. Sous le plancher : un réservoir d'eau potable et un réservoir d'eaux usées. En bleu, l'eau potable monte du réservoir vers les deux robinets. En orange, l'eau de l'évier et du lavabo descend jusqu'à deux mâts de drainage sous le fuselage. En rouge, le contenu de la cuvette traverse une vanne de chasse puis rejoint le réservoir d'eaux usées, relié à un panneau de service pour la vidange au sol.",
+    purpose: "Distinguer les trois circuits d'eau qui desservent les monuments et savoir d'où vient et où va chacun.",
+    chapters: ['b5'],
+    provenance: "Schéma original RMBD — création pédagogique", rights: "© RMBD, usage pédagogique",
+    parts: [
+      { id: 'reservoir-eau', n: 1, fr: "Réservoir d'eau potable", en: 'Potable water tank', fn: "Réserve d'eau propre de l'avion, remplie au sol avant le vol." },
+      { id: 'eau-potable', n: 2, fr: "Canalisations d'eau potable", en: 'Potable water lines', fn: "Tuyaux sous pression qui distribuent l'eau propre aux robinets et aux machines des galleys." },
+      { id: 'evier', n: 3, fr: 'Évier du galley', en: 'Galley sink', fn: "Point d'eau du galley : l'eau propre y arrive, l'eau grise en repart." },
+      { id: 'lavabo', n: 4, fr: 'Lavabo des toilettes', en: 'Washbasin', fn: "Point d'eau des toilettes, alimenté comme l'évier." },
+      { id: 'eaux-grises', n: 5, fr: 'Évacuation des eaux grises', en: 'Grey water drain lines', fn: "Tuyaux en pente qui emportent l'eau des éviers et des lavabos par simple écoulement." },
+      { id: 'mat-drainage', n: 6, fr: 'Mât de drainage', en: 'Drain mast', fn: "Petit profilé réchauffé, sous le fuselage, par lequel l'eau grise est rejetée dehors." },
+      { id: 'cuvette', n: 7, fr: 'Cuvette', en: 'Toilet bowl', fn: "Reçoit les déchets ; elle n'est reliée ni à l'évier ni au mât de drainage." },
+      { id: 'vanne-chasse', n: 8, fr: 'Vanne de chasse', en: 'Flush valve', fn: "S'ouvre un court instant quand on actionne la chasse : l'aspiration vide alors la cuvette." },
+      { id: 'eaux-vannes', n: 9, fr: "Canalisation d'eaux usées (sous vide)", en: 'Vacuum waste line', fn: "Tuyau en dépression qui aspire le contenu de la cuvette vers le réservoir." },
+      { id: 'reservoir-usees', n: 10, fr: "Réservoir d'eaux usées", en: 'Waste tank', fn: "Garde tout ce qui vient des cuvettes jusqu'à la vidange au sol." },
+      { id: 'panneau-vidange', n: 11, fr: 'Panneau de service (vidange)', en: 'Waste service panel', fn: "Trappe extérieure où le véhicule de vidange se raccorde, au sol." }
+    ]
   }
 ]);

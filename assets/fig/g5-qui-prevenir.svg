@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 740" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Qui prévenir, et pour quoi</title>
+  <desc id="d">Schéma de principe en étoile. Au centre, toi. Une flèche épaisse monte vers le chef d'équipe, qui tient un bloc-notes. Des flèches plus fines partent vers quatre autres ronds : en haut à gauche, le collègue voisin, une clé à la main ; en haut à droite, la qualité, avec une loupe ; en bas à droite, la sécurité ou prévention, casque sur la tête, avec un bouclier ; en bas à gauche, les secours, représentés par un combiné de téléphone et une croix verte. En bas au centre, une feuille et un crayon : la trace écrite qui accompagne le signalement.</desc>
+  <rect class="bgp" width="1000" height="740"/>
+  <g>
+    <line class="ln" x1="414.2" y1="328.9" x2="256.3" y2="249.5"/>
+    <path class="dk" d="M237.6 240 L261 240.1 L251.6 258.8 Z"/>
+    <line class="ln" x1="585.8" y1="328.9" x2="743.7" y2="249.5"/>
+    <path class="dk" d="M762.4 240 L748.4 258.8 L739 240.1 Z"/>
+    <line class="ln" x1="584.6" y1="417.4" x2="745.2" y2="503.7"/>
+    <path class="dk" d="M763.7 513.6 L740.2 512.9 L750.1 494.4 Z"/>
+    <line class="ln" x1="415.4" y1="417.4" x2="254.8" y2="503.7"/>
+    <path class="dk" d="M236.3 513.6 L249.9 494.4 L259.8 512.9 Z"/>
+    <line class="dash" x1="500" y1="468" x2="500" y2="541"/>
+    <path class="dk" d="M500 562 L489.5 541 L510.5 541 Z"/>
+  </g>
+  <g>
+    <line class="ax" x1="500" y1="276" x2="500" y2="243"/>
+    <path class="axf" d="M500 210 L516.5 243 L483.5 243 Z"/>
+  </g>
+  <g data-part="toi">
+    <circle class="wh" cx="500" cy="372" r="92"/>
+    <path class="eq2" d="M442 438 C442 388 466 376 500 376 C534 376 558 388 558 438 Z"/>
+    <circle class="wh" cx="500" cy="342" r="30"/>
+  </g>
+  <g data-part="chef">
+    <circle class="in" cx="500" cy="112" r="92"/>
+    <path class="st" d="M426 178 C426 128 450 116 484 116 C518 116 542 128 542 178 Z"/>
+    <circle class="wh" cx="484" cy="82" r="30"/>
+    <rect class="wh" x="522" y="110" width="50" height="64" rx="5"/><rect class="mt2" x="535" y="102" width="24" height="13" rx="3"/>
+    <line class="ln" x1="531" y1="132" x2="563" y2="132"/><line class="ln" x1="531" y1="146" x2="563" y2="146"/><line class="ln" x1="531" y1="160" x2="551" y2="160"/>
+  </g>
+  <g data-part="voisin">
+    <circle class="in" cx="150" cy="196" r="92"/>
+    <path class="eq" d="M78 262 C78 212 102 200 136 200 C170 200 194 212 194 262 Z"/>
+    <circle class="wh" cx="136" cy="166" r="30"/>
+    <path class="mt2" d="M190 152 a18 18 0 0 1 26 2 l-8 9 l2 10 l-6 2 v62 h-14 v-62 l-6 -2 l2 -10 Z"/>
+  </g>
+  <g data-part="qualite">
+    <circle class="in" cx="850" cy="196" r="92"/>
+    <path class="wh" d="M778 262 C778 212 802 200 836 200 C870 200 894 212 894 262 Z"/>
+    <circle class="wh" cx="836" cy="166" r="30"/>
+    <path class="mt2" d="M900 226 l22 26 l-10 9 l-22 -26 Z"/>
+    <circle class="gl" cx="890" cy="208" r="24"/>
+  </g>
+  <g data-part="securite">
+    <circle class="in" cx="850" cy="560" r="92"/>
+    <path class="syf" d="M778 626 C778 576 802 564 836 564 C870 564 894 576 894 626 Z"/>
+    <circle class="wh" cx="836" cy="530" r="30"/>
+    <path class="mt2" d="M804 524 a32 32 0 0 1 64 0 Z"/><rect class="mt2" x="798" y="522" width="76" height="8" rx="3"/>
+    <path class="okf" d="M894 554 l26 8 v24 c0 18 -12 28 -26 34 c-14 -6 -26 -16 -26 -34 v-24 Z"/>
+    <path class="bgp" d="M889 572 h10 v10 h10 v10 h-10 v10 h-10 v-10 h-10 v-10 h10 Z"/>
+  </g>
+  <g data-part="secours">
+    <circle class="in" cx="150" cy="560" r="92"/>
+    <rect class="okf" x="146" y="502" width="64" height="64" rx="8"/>
+    <path class="bgp" d="M170 512 h16 v14 h14 v16 h-14 v14 h-16 v-14 h-14 v-16 h14 Z"/>
+    <path class="dk" d="M92 540 c-6 30 16 62 50 72 l14 -16 l-18 -16 l-10 8 c-8 -6 -14 -14 -16 -24 l10 -8 l-12 -20 Z"/>
+    <path class="ax" d="M148 582 q14 6 16 22"/><path class="ax" d="M158 568 q24 10 28 36"/>
+  </g>
+  <g data-part="ecrit">
+    <rect class="wh" x="446" y="572" width="108" height="136" rx="6"/>
+    <line class="stl" x1="464" y1="600" x2="536" y2="600"/><line class="stl" x1="464" y1="626" x2="536" y2="626"/><line class="stl" x1="464" y1="652" x2="514" y2="652"/>
+    <path class="mt" d="M522 698 L530 672 L584 626 L602 646 L548 692 Z"/>
+    <path class="dk" d="M522 698 L530 672 L548 692 Z"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="toi" transform="translate(412 316)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="chef" transform="translate(398 62)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="voisin" transform="translate(62 132)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="qualite" transform="translate(938 132)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="securite" transform="translate(938 496)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="secours" transform="translate(62 496)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="ecrit" transform="translate(418 640)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+  </g>
+</svg>

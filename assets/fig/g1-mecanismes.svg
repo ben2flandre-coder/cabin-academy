@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 730" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Six façons pour un objet d'arriver là où on ne le cherche pas</title>
+  <desc id="d">Planche de six schémas de principe. Tomber : une vis tombe par un interstice entre deux panneaux de plancher. Rouler : une rondelle roule sur un sol légèrement incliné et file sous un meuble. Être enfermé : un tournevis est resté dans une cavité dont on referme le panneau d'accès. Être transporté : un débris est planté dans la semelle d'une chaussure qui avance. Être aspiré : une étiquette est entraînée par le courant d'air dans l'extrémité ouverte d'un conduit. Être recouvert : un écrou, dessiné en pointillé, est caché sous une protection souple posée sur le plancher.</desc>
+  <rect class="bgp" width="1000" height="730"/>
+  <path class="thin" d="M340 24 L340 706"/>
+  <path class="thin" d="M660 24 L660 706"/>
+  <path class="thin" d="M24 365 L976 365"/>
+  <text class="ts tc" x="180" y="66">Tomber</text>
+  <g data-part="tomber">
+    <rect class="fl" x="44" y="210" width="112" height="28"/><rect class="fl" x="204" y="210" width="112" height="28"/><rect class="sk" x="44" y="238" width="272" height="100"/><rect class="bgp" x="158" y="210" width="44" height="28"/><g transform="translate(180 142) rotate(90)"><rect class="mt2" x="-48.4" y="-17.4" width="14.9" height="34.7" rx="5"/><path class="mt" d="M-33.5 -6.8 L39.7 -6.8 L50.8 0 L39.7 6.8 L-33.5 6.8 Z"/><path class="thin" d="M-18.6 -6.8 L-13.6 6.8"/><path class="thin" d="M-8.7 -6.8 L-3.7 6.8"/><path class="thin" d="M1.2 -6.8 L6.2 6.8"/><path class="thin" d="M11.2 -6.8 L16.1 6.8"/><path class="thin" d="M21.1 -6.8 L26 6.8"/><path class="thin" d="M31 -6.8 L36 6.8"/></g><path class="dim" d="M180 206 L180 298.4"/><path class="dimf" d="M180 316 L170.1 294 L189.9 294 Z"/>
+  </g>
+  <text class="ts tc" x="500" y="66">Rouler</text>
+  <g data-part="rouler">
+    <path class="fl" d="M360 252 L640 282 L640 306 L360 276 Z"/><rect class="eq" x="536" y="104" width="104" height="140" rx="8"/><rect class="mt2" x="616" y="244" width="14" height="38"/><circle class="dash" cx="402" cy="226" r="28"/><circle class="mt" cx="490" cy="236" r="28"/><circle class="wh" cx="490" cy="236" r="12"/><path class="dim" d="M526 242 L575.7 248.2"/><path class="dimf" d="M590 250 L571.1 255.8 L573.1 239.7 Z"/>
+  </g>
+  <text class="ts tc" x="820" y="66">Être enfermé</text>
+  <g data-part="enfermer">
+    <rect class="st" x="690" y="96" width="180" height="250" rx="6"/><rect class="wh" x="708" y="114" width="144" height="214"/><g transform="translate(780 224) rotate(78)"><rect class="eq2" x="-86" y="-17" width="76" height="34" rx="12"/><rect class="mt" x="-10" y="-6" width="86" height="12"/><path class="mt" d="M76 -9 L92 -4 L92 4 L76 9 Z"/></g><path class="in" d="M870 100 L956 132 L956 320 L870 342 Z"/><circle class="mt" cx="938" cy="226" r="8"/><path class="dim" d="M950 96 C922 72 892 70 874 80"/><path class="dimf" d="M856 86 L880 70 L882 90 Z"/>
+  </g>
+  <text class="ts tc" x="180" y="411">Être transporté</text>
+  <g data-part="transporter">
+    <path class="eq2" d="M84 603 L84 485 L170 485 L190 547 C250 553 288 571 292 603 Z"/><path class="thin" d="M170 515 L140 515"/><path class="thin" d="M178 537 L146 537"/><rect class="dk" x="74" y="601" width="226" height="30" rx="10"/><rect class="bgp" x="100" y="621" width="12" height="12"/><rect class="bgp" x="132" y="621" width="12" height="12"/><rect class="bgp" x="164" y="621" width="12" height="12"/><rect class="bgp" x="228" y="621" width="12" height="12"/><rect class="bgp" x="260" y="621" width="12" height="12"/><path class="badf" d="M186 617 L220 617 L210 655 L192 647 Z"/><path class="ln" d="M60 665 L320 665"/><path class="dim" d="M210 455 L284 455"/><path class="dimf" d="M300 455 L280 464 L280 446 Z"/>
+  </g>
+  <text class="ts tc" x="500" y="411">Être aspiré</text>
+  <g data-part="aspirer">
+    <rect class="gl" x="530" y="485" width="110" height="130"/><ellipse class="wh" cx="530" cy="550" rx="24" ry="65"/><ellipse class="thin" cx="640" cy="550" rx="1" ry="65"/><path class="dim" d="M376 475 L476.8 519.2"/><path class="dimf" d="M490 525 L470.3 525.2 L476.8 510.4 Z"/><path class="dim" d="M376 625 L476.7 582.6"/><path class="dimf" d="M490 577 L476.6 591.5 L470.3 576.5 Z"/><g transform="translate(478 553) rotate(-16)"><path class="wh" d="M-40 -22 L24 -22 L40 -8 L40 22 L-40 22 Z"/><path class="ln" d="M-28 -6 L18 -6"/><path class="ln" d="M-28 8 L26 8"/></g><path class="dim" d="M540 550 L587.6 550"/><path class="dimf" d="M602 550 L584 558.1 L584 541.9 Z"/>
+  </g>
+  <text class="ts tc" x="820" y="411">Être recouvert</text>
+  <g data-part="recouvrir">
+    <rect class="fl" x="680" y="627" width="280" height="26"/><path class="in" d="M684 627 C730 615 756 627 778 597 C796 561 850 561 866 597 C882 627 918 613 956 627 Z"/><path class="thin" d="M720 621 C740 613 760 621 772 609"/><path class="thin" d="M874 611 C896 621 916 615 936 623"/><path class="dash" d="M846 603 L834 623.8 L810 623.8 L798 603 L810 582.2 L834 582.2 Z"/><circle class="dash" cx="822" cy="603" r="9"/><path class="dim" d="M720 475 C770 455 810 475 820 525"/><path class="dimf" d="M822 549 L810 525 L832 523 Z"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="tomber" transform="translate(64 116)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="rouler" transform="translate(384 116)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="enfermer" transform="translate(704 116)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="transporter" transform="translate(64 461)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="aspirer" transform="translate(384 461)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="recouvrir" transform="translate(704 461)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>

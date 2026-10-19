@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 730" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Quatre conséquences d'un objet oublié</title>
+  <desc id="d">Planche de quatre schémas de principe. Blocage : un écrou est coincé entre un câble de commande et la poulie sur laquelle il s'enroule. Usure lente : une vis est prise entre un faisceau électrique et une pièce de structure ; des traits de vibration encadrent la scène et une marque rouge signale l'isolant entamé. Blessure : la queue coupée en biseau d'un serre-câble dépasse d'un faisceau et un doigt s'y blesse, une goutte rouge tombe. Immobilisation : une horloge, et un panneau de plancher déposé, appuyé contre le bord de l'ouverture qu'une lampe éclaire.</desc>
+  <rect class="bgp" width="1000" height="730"/>
+  <path class="thin" d="M500 24 L500 706"/>
+  <path class="thin" d="M24 365 L976 365"/>
+  <text class="ts tc" x="260" y="66">Blocage</text>
+  <g data-part="blocage">
+    <rect class="st" x="170" y="104" width="210" height="22" rx="4"/><rect class="st" x="252" y="126" width="16" height="80"/><circle class="mt" cx="260" cy="224" r="72"/><circle class="thin" cx="260" cy="224" r="56"/><circle class="wh" cx="260" cy="224" r="16"/><path class="ln2" d="M50 150 L260 150 A74 74 0 0 1 334 224 L334 346"/><path class="badf" d="M213 138 L204.5 152.7 L187.5 152.7 L179 138 L187.5 123.3 L204.5 123.3 Z"/><path class="ax" d="M170 170 L152 192"/><path class="ax" d="M196 176 L192 204"/><path class="ax" d="M146 156 L120 166"/>
+  </g>
+  <text class="ts tc" x="740" y="66">Usure lente</text>
+  <g data-part="usure">
+    <rect class="st" x="530" y="252" width="420" height="30" rx="4"/><g transform="translate(740 236) rotate(0)"><rect class="mt2" x="-42.9" y="-15.4" width="13.2" height="30.8" rx="4.4"/><path class="mt" d="M-29.7 -6.1 L35.2 -6.1 L45.1 0 L35.2 6.1 L-29.7 6.1 Z"/><path class="thin" d="M-16.5 -6.1 L-12.1 6.1"/><path class="thin" d="M-7.7 -6.1 L-3.3 6.1"/><path class="thin" d="M1.1 -6.1 L5.5 6.1"/><path class="thin" d="M9.9 -6.1 L14.3 6.1"/><path class="thin" d="M18.7 -6.1 L23.1 6.1"/><path class="thin" d="M27.5 -6.1 L31.9 6.1"/></g><path class="sy" d="M530 216 C650 216 670 192 700 192 C730 192 800 216 950 216"/><path class="sy" d="M530 204 C650 204 670 180 700 180 C730 180 800 204 950 204"/><path class="sy" d="M530 192 C650 192 670 168 700 168 C730 168 800 192 950 192"/><ellipse class="badf" cx="702" cy="200" rx="18" ry="9"/><path class="ln" d="M610 140 C622 152 622 166 610 178"/><path class="ln" d="M592 146 C602 154 602 164 592 172"/><path class="ln" d="M830 140 C818 152 818 166 830 178"/><path class="ln" d="M848 146 C838 154 838 164 848 172"/>
+  </g>
+  <text class="ts tc" x="260" y="411">Blessure</text>
+  <g data-part="blessure">
+    <path class="sy" d="M50 627 L470 627"/><path class="sy" d="M50 639 L470 639"/><path class="sy" d="M50 651 L470 651"/><rect class="wh" x="170" y="617" width="20" height="44" rx="4"/><rect class="wh" x="158" y="591" width="44" height="30" rx="6"/><path class="wh" d="M170 591 L192 591 L220 493 L206 515 Z"/><g transform="translate(300 495) rotate(34)"><rect class="in" x="-34" y="-110" width="68" height="200" rx="34"/><path class="thin" d="M-22 60 C-10 74 10 74 22 60"/><path class="thin" d="M-30 0 L-12 0"/><path class="thin" d="M30 0 L12 0"/></g><path class="badf" d="M232 515 C220 537 218 553 232 557 C246 553 244 537 232 515 Z"/>
+  </g>
+  <text class="ts tc" x="740" y="411">Immobilisation</text>
+  <g data-part="immobilisation">
+    <circle class="wh" cx="610" cy="555" r="74"/><path class="ln2" d="M610 555 L610 505"/><path class="ln2" d="M610 555 L646 573"/><circle class="dk" cx="610" cy="555" r="6"/><path class="ln" d="M670 555 L680 555"/><path class="ln" d="M610 615 L610 625"/><path class="ln" d="M550 555 L540 555"/><path class="ln" d="M610 495 L610 485"/><rect class="fl" x="720" y="635" width="70" height="24"/><rect class="fl" x="900" y="635" width="60" height="24"/><rect class="sk" x="720" y="659" width="240" height="30"/><path class="fl" d="M892 633 L916 633 L952 495 L928 495 Z"/><path class="gl" d="M800 561 L800 657 L888 657 Z"/><g transform="translate(780 525) rotate(62)"><rect class="dk" x="-60" y="-16" width="86" height="32" rx="8"/><path class="mt" d="M26 -22 L52 -26 L52 26 L26 22 Z"/></g>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="blocage" transform="translate(70 310)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="usure" transform="translate(550 310)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="blessure" transform="translate(70 655)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="immobilisation" transform="translate(550 655)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+  </g>
+</svg>

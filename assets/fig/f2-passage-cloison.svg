@@ -11,8 +11,8 @@
     <rect class="sk" x="318" y="398" width="30" height="192"/>
   </g>
   <g data-part="support">
-    <rect class="mt" x="136" y="104" width="28" height="190" rx="3"/>,<circle class="wh" cx="150" cy="126" r="7"/>
-    <rect class="mt" x="486" y="104" width="28" height="190" rx="3"/>,<circle class="wh" cx="500" cy="126" r="7"/>
+    <rect class="mt" x="136" y="104" width="28" height="190" rx="3"/><circle class="wh" cx="150" cy="126" r="7"/>
+    <rect class="mt" x="486" y="104" width="28" height="190" rx="3"/><circle class="wh" cx="500" cy="126" r="7"/>
   </g>
   <g data-part="faisceau">
     <path class="sy" d="M30 313.5 L640 313.5"/>
@@ -29,8 +29,8 @@
     <path class="thin" d="M248 301 L254 318"/>
   </g>
   <g data-part="collier">
-    <rect class="dk" x="126" y="292" width="48" height="76" rx="9"/>,<circle class="mt" cx="150" cy="290" r="7"/>
-    <rect class="dk" x="476" y="292" width="48" height="76" rx="9"/>,<circle class="mt" cx="500" cy="290" r="7"/>
+    <rect class="dk" x="126" y="292" width="48" height="76" rx="9"/><circle class="mt" cx="150" cy="290" r="7"/>
+    <rect class="dk" x="476" y="292" width="48" height="76" rx="9"/><circle class="mt" cx="500" cy="290" r="7"/>
   </g>
   <g data-part="passefil">
     <path class="dk" d="M302 232 h62 v44 q0 12 -12 12 h-38 q-12 0 -12 -12 Z"/>

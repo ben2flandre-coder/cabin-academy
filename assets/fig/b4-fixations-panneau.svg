@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Comment tient un panneau : six familles de fixations, en coupe</title>
+  <desc id="d">Planche de six schémas de principe en coupe. Un : un panneau sandwich, fait de deux peaux minces et d'une âme en nid d'abeilles, avec un insert noyé dans l'âme ; une vis et sa rondelle traversent le pied d'une équerre et se vissent dans l'insert. Deux : une équerre rivetée sur un cadre de structure tient un panneau par l'intermédiaire d'un amortisseur en caoutchouc. Trois : une agrafe fixée au dos d'un panneau se referme sur un téton à tête ronde porté par un support. Quatre : un pion de centrage à bout conique, porté par le panneau, entre dans le trou d'un support. Cinq : un verrou quart de tour vu de face, avec sa fente et une flèche d'un quart de tour, et vu en coupe, avec sa tige à barrette prise dans un réceptacle. Six : deux panneaux bord à bord et le couvre-joint enfoncé dans l'intervalle.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+  <path class="thin" d="M340 30 L340 690 M660 30 L660 690 M30 362 L970 362"/>
+  <g data-part="sandwich">
+    <rect class="wh" x="44" y="180" width="282" height="76"/><path class="thin" d="M58 180 L58 256 M72 180 L72 256 M86 180 L86 256 M100 180 L100 256 M114 180 L114 256 M128 180 L128 256 M142 180 L142 256 M156 180 L156 256 M170 180 L170 256 M184 180 L184 256 M198 180 L198 256 M212 180 L212 256 M226 180 L226 256 M240 180 L240 256 M254 180 L254 256 M268 180 L268 256 M282 180 L282 256 M296 180 L296 256 M310 180 L310 256 M324 180 L324 256"/>
+    <rect class="in" x="44" y="172" width="282" height="10"/><rect class="in" x="44" y="254" width="282" height="10"/>
+    <rect class="wh" x="566" y="70" width="34" height="240"/><path class="thin" d="M566 96 L600 96 M566 122 L600 122 M566 148 L600 148 M566 174 L600 174 M566 226 L600 226 M566 252 L600 252 M566 278 L600 278"/>
+    <rect class="in" x="560" y="70" width="8" height="240"/><rect class="in" x="598" y="70" width="8" height="240"/>
+    <rect class="in" x="690" y="270" width="260" height="20"/>
+    <rect class="in" x="50" y="440" width="22" height="170"/>
+    <rect class="in" x="520" y="548" width="120" height="14"/>
+    <rect class="in" x="686" y="520" width="124" height="20"/><rect class="in" x="834" y="520" width="124" height="20"/>
+  </g>
+  <g data-part="insert">
+    <rect class="st" x="146" y="182" width="78" height="70" rx="6"/>
+    <path class="mt2" d="M154 170 L216 170 L216 182 L204 182 L204 244 L166 244 L166 182 L154 182 Z"/>
+  </g>
+  <g data-part="equerre">
+    <path class="mt" d="M84 156 L286 156 L286 170 L98 170 L98 96 L84 96 Z"/>
+    <path class="mt" d="M410 120 L424 120 L424 184 L520 184 L520 198 L424 198 L424 262 L410 262 Z"/><circle class="dk" cx="417" cy="142" r="6"/><circle class="dk" cx="417" cy="240" r="6"/>
+  </g>
+  <g data-part="vis">
+    <rect class="mt2" x="176" y="150" width="18" height="86"/><path class="thin" d="M176 190 L194 186 M176 202 L194 198 M176 214 L194 210 M176 226 L194 222"/>
+    <rect class="mt2" x="150" y="148" width="70" height="8" rx="2"/>
+    <path class="mt2" d="M158 148 L158 134 Q185 118 212 134 L212 148 Z"/>
+  </g>
+  <rect class="st" x="366" y="70" width="44" height="240"/>
+  <g data-part="amortisseur">
+    <rect class="dk" x="516" y="162" width="50" height="58" rx="12"/><rect class="mt" x="528" y="184" width="76" height="14" rx="3"/><rect class="mt" x="604" y="174" width="12" height="34" rx="3"/>
+  </g>
+  <rect class="st" x="700" y="84" width="240" height="18"/>
+  <g data-part="agrafe">
+    <path class="mt2" d="M774 270 L774 222 Q774 198 796 198 L806 198 L806 212 L800 212 Q790 212 790 224 L790 254 L850 254 L850 224 Q850 212 840 212 L834 212 L834 198 L844 198 Q866 198 866 222 L866 270 Z"/>
+    <rect class="mt" x="813" y="102" width="14" height="112"/><circle class="mt" cx="820" cy="230" r="19"/>
+  </g>
+  <rect class="st" x="230" y="440" width="18" height="74"/><rect class="st" x="230" y="542" width="18" height="68"/>
+  <g data-part="pion">
+    <rect class="mt2" x="72" y="500" width="44" height="56" rx="4"/>
+    <path class="mt" d="M116 516 L262 516 L286 528 L262 540 L116 540 Z"/>
+  </g>
+  <g data-part="quart-de-tour">
+    <circle class="mt" cx="430" cy="500" r="52"/><circle class="thin" cx="430" cy="500" r="40"/><rect class="dk" x="394" y="492" width="72" height="16" rx="4"/>
+    <path class="mt" d="M556 530 L604 530 L610 548 L550 548 Z"/><rect class="mt" x="573" y="548" width="14" height="74"/><rect class="mt2" x="552" y="598" width="56" height="12" rx="4"/>
+    <path class="mt2" d="M536 562 L560 562 L560 584 L548 584 L548 632 L612 632 L612 584 L600 584 L600 562 L624 562 L624 646 L536 646 Z"/>
+  </g>
+  <path class="dim" d="M498 500 A68 68 0 0 0 430 432"/><path class="dimf" d="M416 432 L434 423 L434 441 Z"/>
+  <g data-part="couvre-joint">
+    <path class="eq2" d="M780 504 Q822 488 864 504 L864 520 L830 520 L830 544 L840 552 L830 560 L830 580 L814 580 L814 560 L804 552 L814 544 L814 520 L780 520 Z"/>
+  </g>
+  <text class="ts tc" x="185" y="336">Insert</text><text class="ts tc" x="500" y="336">Support</text><text class="ts tc" x="820" y="336">Agrafe</text><text class="ts tc" x="185" y="690">Pion</text><text class="ts tc" x="500" y="690">Quart de tour</text><text class="ts tc" x="820" y="690">Couvre-joint</text>
+  <path class="thin" d="M262 220 L228 220"/><path class="thin" d="M250 116 L214 134"/><path class="thin" d="M470 140 L440 180"/><path class="thin" d="M540 110 L540 162"/><path class="thin" d="M900 196 L866 216"/><path class="thin" d="M190 466 L190 516"/><path class="thin" d="M900 470 L860 500"/>
+  <g class="badges">
+    <g class="badge" data-badge="sandwich" transform="translate(80 218)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="insert" transform="translate(286 220)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="vis" transform="translate(270 104)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="equerre" transform="translate(480 120)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="amortisseur" transform="translate(540 88)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="agrafe" transform="translate(916 180)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="pion" transform="translate(190 444)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="quart-de-tour" transform="translate(430 420)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="couvre-joint" transform="translate(916 454)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+  </g>
+</svg>

@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 730" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Six façons d'utiliser une clé dynamométrique</title>
+  <desc id="d">Six vignettes légendées. Sur la poignée : une main tient la clé au milieu de sa poignée, une flèche rouge pousse perpendiculairement, une flèche courbe indique le sens du serrage. Sur le tube : la main tient la clé par le corps, près de la tête. Tube rallonge : un tube est enfilé sur la poignée pour allonger la clé, la main pousse au bout du tube. Pour desserrer : la main est sur la poignée mais la flèche d'effort et la flèche courbe sont dans le sens inverse. Après une chute : la clé est par terre, une flèche montre la chute et des traits rouges marquent le choc sur la tête. Dans son coffret : la clé est rangée dans un coffret à deux fermoirs.</desc>
+  <rect class="bgp" width="1000" height="730"/>
+  <g data-part="prise-poignee">
+    <rect class="in" x="20" y="16" width="310" height="336" rx="14"/>
+    <text class="ts tc" x="175" y="62">Sur la poignée</text>
+    <path class="mt2" d="M285.9 174 L272 182 L258.1 174 L258.1 158 L272 150 L285.9 158 Z"/>
+    <circle class="wh" cx="272" cy="166" r="7.2"/>
+    <rect class="mt" x="173" y="158.1" width="58.2" height="15.8" rx="2"/>
+    <path class="mt" d="M227.1 158.1 L237.7 156.8 L252.6 146 L252.6 186 L237.7 175.2 L227.1 173.9 Z"/>
+    <circle class="mt" cx="272" cy="166" r="27.7"/>
+    <circle class="thin" cx="272" cy="166" r="21.1"/>
+    <rect class="dash" x="263.4" y="157.4" width="17.2" height="17.2"/>
+    <path class="dk" d="M42 157.3 Q42 153.3 46 153.3 L59.2 153.3 Q63.2 153.3 63.2 157.3 L63.2 174.7 Q63.2 178.7 59.2 178.7 L46 178.7 Q42 178.7 42 174.7 Z"/>
+    <path class="eq2" d="M59.2 154.1 Q59.2 150.2 63.1 150.2 L151.2 150.2 Q155.2 150.2 155.2 154.1 L155.2 177.9 Q155.2 181.8 151.2 181.8 L63.1 181.8 Q59.2 181.8 59.2 177.9 Z"/>
+    <rect class="wh" x="103.2" y="150.2" width="7.9" height="31.7"/>
+    <path class="mt2" d="M155.2 150.2 L166.1 150.2 L175 156.1 L175 175.9 L166.1 181.8 L155.2 181.8 Z"/>
+    <path class="in" d="M82.4 148.6 Q82.4 137.4 93.6 137.4 L120.8 137.4 Q132 137.4 133.2 148.5 L135.5 169.2 Q136.8 180.3 132.1 190.5 L131.9 190.9 Q127.2 201 116.1 199.5 L93.4 196.2 Q82.4 194.6 82.4 183.4 Z"/>
+    <path class="thin" d="M94.8 139.4 L94.8 176"/>
+    <path class="thin" d="M107.2 139.4 L107.2 176"/>
+    <path class="thin" d="M119.6 139.4 L119.6 176"/>
+    <path class="in" d="M79.2 181.8 Q79.2 174.6 86.3 175.4 L109.9 178.1 Q117.1 178.9 117.1 186.1 L117.1 190.6 Q117.1 197.8 109.9 197.2 L86.3 195.2 Q79.2 194.6 79.2 187.4 Z"/>
+    <path class="ax" d="M107.2 316 L107.2 241.2"/><path class="axf" d="M107.2 228 L116.7 247.8 L97.6 247.8 Z"/>
+    <path class="dim" d="M232.2 143 A46 46 0 0 1 296.4 127"/><path class="dimf" d="M307.2 136.4 L291.6 133 L301.7 121.4 Z"/>
+  </g>
+  <g data-part="prise-tube">
+    <rect class="in" x="345" y="16" width="310" height="336" rx="14"/>
+    <text class="ts tc" x="500" y="62">Sur le tube</text>
+    <path class="mt2" d="M610.9 174 L597 182 L583.1 174 L583.1 158 L597 150 L610.9 158 Z"/>
+    <circle class="wh" cx="597" cy="166" r="7.2"/>
+    <rect class="mt" x="498" y="158.1" width="58.2" height="15.8" rx="2"/>
+    <path class="mt" d="M552.1 158.1 L562.7 156.8 L577.6 146 L577.6 186 L562.7 175.2 L552.1 173.9 Z"/>
+    <circle class="mt" cx="597" cy="166" r="27.7"/>
+    <circle class="thin" cx="597" cy="166" r="21.1"/>
+    <rect class="dash" x="588.4" y="157.4" width="17.2" height="17.2"/>
+    <path class="dk" d="M367 157.3 Q367 153.3 371 153.3 L384.2 153.3 Q388.2 153.3 388.2 157.3 L388.2 174.7 Q388.2 178.7 384.2 178.7 L371 178.7 Q367 178.7 367 174.7 Z"/>
+    <path class="eq2" d="M384.2 154.1 Q384.2 150.2 388.1 150.2 L476.2 150.2 Q480.2 150.2 480.2 154.1 L480.2 177.9 Q480.2 181.8 476.2 181.8 L388.1 181.8 Q384.2 181.8 384.2 177.9 Z"/>
+    <rect class="wh" x="428.2" y="150.2" width="7.9" height="31.7"/>
+    <path class="mt2" d="M480.2 150.2 L491.1 150.2 L500 156.1 L500 175.9 L491.1 181.8 L480.2 181.8 Z"/>
+    <path class="in" d="M498.2 156.5 Q498.2 145.3 509.4 145.3 L536.6 145.3 Q547.8 145.3 549.5 156.3 L550.9 165.3 Q552.6 176.4 547.8 184.7 L547.8 184.7 Q543 193.1 531.9 191.5 L509.3 188.3 Q498.2 186.7 498.2 175.5 Z"/>
+    <path class="thin" d="M510.6 147.3 L510.6 173.3"/>
+    <path class="thin" d="M523 147.3 L523 173.3"/>
+    <path class="thin" d="M535.4 147.3 L535.4 173.3"/>
+    <path class="in" d="M495 179.4 Q495 172.2 502.2 172.8 L525.7 174.7 Q532.9 175.3 532.9 182.5 L532.9 182.7 Q532.9 189.9 525.7 189.3 L502.2 187.3 Q495 186.7 495 179.5 Z"/>
+    <path class="ax" d="M523 316 L523 235.2"/><path class="axf" d="M523 222 L532.6 241.8 L513.4 241.8 Z"/>
+    <path class="dim" d="M557.2 143 A46 46 0 0 1 621.4 127"/><path class="dimf" d="M632.2 136.4 L616.6 133 L626.7 121.4 Z"/>
+  </g>
+  <g data-part="tube-rallonge">
+    <rect class="in" x="670" y="16" width="310" height="336" rx="14"/>
+    <text class="ts tc" x="825" y="62">Tube rallonge</text>
+    <path class="mt2" d="M949.3 172.5 L938 179 L926.7 172.5 L926.7 159.5 L938 153 L949.3 159.5 Z"/>
+    <circle class="wh" cx="938" cy="166" r="5.9"/>
+    <rect class="mt" x="876" y="160" width="32" height="12" rx="2"/>
+    <path class="mt" d="M904 160 L912 159 L923.3 150.9 L923.3 181.1 L912 173 L904 172 Z"/>
+    <circle class="mt" cx="938" cy="166" r="21"/>
+    <circle class="thin" cx="938" cy="166" r="16"/>
+    <rect class="dash" x="931.5" y="159.5" width="13" height="13"/>
+    <path class="dk" d="M790 159.4 Q790 156.4 793 156.4 L804 156.4 Q807 156.4 807 159.4 L807 172.6 Q807 175.6 804 175.6 L793 175.6 Q790 175.6 790 172.6 Z"/>
+    <path class="eq2" d="M803 157 Q803 154 806 154 L860 154 Q863 154 863 157 L863 175 Q863 178 860 178 L806 178 Q803 178 803 175 Z"/>
+    <rect class="wh" x="830" y="154" width="6" height="24"/>
+    <path class="mt2" d="M863 154 L871.3 154 L878 158.5 L878 173.5 L871.3 178 L863 178 Z"/>
+    <path class="st" d="M686 151 Q686 147 690 147 L855 147 Q859 147 859 151 L859 181 Q859 185 855 185 L690 185 Q686 185 686 181 Z"/>
+    <path class="thin" d="M694 155 L851 155"/>
+    <path class="in" d="M701.2 145.4 Q701.2 134.2 712.4 134.2 L739.6 134.2 Q750.8 134.2 751.9 145.3 L754.5 170.8 Q755.6 181.9 751.2 192.2 L750.4 193.9 Q746 204.2 734.9 202.6 L712.3 199.4 Q701.2 197.8 701.2 186.6 Z"/>
+    <path class="thin" d="M713.6 136.2 L713.6 177.1"/>
+    <path class="thin" d="M726 136.2 L726 177.1"/>
+    <path class="thin" d="M738.4 136.2 L738.4 177.1"/>
+    <path class="in" d="M698 182.7 Q698 175.5 705.1 176.4 L728.8 179.4 Q735.9 180.3 735.9 187.5 L735.9 193.8 Q735.9 201 728.7 200.4 L705.2 198.4 Q698 197.8 698 190.6 Z"/>
+    <path class="ax" d="M726 316 L726 241.2"/><path class="axf" d="M726 228 L735.6 247.8 L716.4 247.8 Z"/>
+    <path class="dim" d="M903.4 146 A40 40 0 0 1 957.6 131.1"/><path class="dimf" d="M968.6 140.3 L952.9 137.2 L962.7 125.4 Z"/>
+  </g>
+  <g data-part="desserrage">
+    <rect class="in" x="20" y="376" width="310" height="336" rx="14"/>
+    <text class="ts tc" x="175" y="422">Pour desserrer</text>
+    <path class="mt2" d="M285.9 604 L272 612 L258.1 604 L258.1 588 L272 580 L285.9 588 Z"/>
+    <circle class="wh" cx="272" cy="596" r="7.2"/>
+    <rect class="mt" x="173" y="588.1" width="58.2" height="15.8" rx="2"/>
+    <path class="mt" d="M227.1 588.1 L237.7 586.8 L252.6 576 L252.6 616 L237.7 605.2 L227.1 603.9 Z"/>
+    <circle class="mt" cx="272" cy="596" r="27.7"/>
+    <circle class="thin" cx="272" cy="596" r="21.1"/>
+    <rect class="dash" x="263.4" y="587.4" width="17.2" height="17.2"/>
+    <path class="dk" d="M42 587.3 Q42 583.3 46 583.3 L59.2 583.3 Q63.2 583.3 63.2 587.3 L63.2 604.7 Q63.2 608.7 59.2 608.7 L46 608.7 Q42 608.7 42 604.7 Z"/>
+    <path class="eq2" d="M59.2 584.1 Q59.2 580.2 63.1 580.2 L151.2 580.2 Q155.2 580.2 155.2 584.1 L155.2 607.9 Q155.2 611.8 151.2 611.8 L63.1 611.8 Q59.2 611.8 59.2 607.9 Z"/>
+    <rect class="wh" x="103.2" y="580.2" width="7.9" height="31.7"/>
+    <path class="mt2" d="M155.2 580.2 L166.1 580.2 L175 586.1 L175 605.9 L166.1 611.8 L155.2 611.8 Z"/>
+    <path class="in" d="M82.4 578.6 Q82.4 567.4 93.6 567.4 L120.8 567.4 Q132 567.4 133.2 578.5 L135.5 599.2 Q136.8 610.3 132.1 620.5 L131.9 620.9 Q127.2 631 116.1 629.5 L93.4 626.2 Q82.4 624.6 82.4 613.4 Z"/>
+    <path class="thin" d="M94.8 569.4 L94.8 606"/>
+    <path class="thin" d="M107.2 569.4 L107.2 606"/>
+    <path class="thin" d="M119.6 569.4 L119.6 606"/>
+    <path class="in" d="M79.2 611.8 Q79.2 604.6 86.3 605.4 L109.9 608.1 Q117.1 608.9 117.1 616.1 L117.1 620.6 Q117.1 627.8 109.9 627.2 L86.3 625.2 Q79.2 624.6 79.2 617.4 Z"/>
+    <path class="ax" d="M107.2 456 L107.2 536.8"/><path class="axf" d="M107.2 550 L97.6 530.2 L116.7 530.2 Z"/>
+    <path class="dim" d="M232.2 619 A46 46 0 0 0 296.4 635"/><path class="dimf" d="M307.2 625.6 L301.7 640.6 L291.6 629 Z"/>
+  </g>
+  <g data-part="chute">
+    <rect class="in" x="345" y="376" width="310" height="336" rx="14"/>
+    <text class="ts tc" x="500" y="422">Après une chute</text>
+    <path class="ln2" d="M365 666 L635 666"/>
+    <g transform="translate(500 628) rotate(-9)"><rect class="mt" x="16" y="-7.9" width="58.2" height="15.8" rx="2"/><path class="mt" d="M70.1 -7.9 L80.7 -9.2 L95.6 -20 L95.6 20 L80.7 9.2 L70.1 7.9 Z"/><circle class="mt" cx="115" cy="0" r="27.7"/><circle class="thin" cx="115" cy="0" r="21.1"/><rect class="dash" x="106.4" y="-8.6" width="17.2" height="17.2"/><path class="dk" d="M-115 -8.7 Q-115 -12.7 -111 -12.7 L-97.8 -12.7 Q-93.8 -12.7 -93.8 -8.7 L-93.8 8.7 Q-93.8 12.7 -97.8 12.7 L-111 12.7 Q-115 12.7 -115 8.7 Z"/><path class="eq2" d="M-97.8 -11.9 Q-97.8 -15.8 -93.9 -15.8 L-5.8 -15.8 Q-1.8 -15.8 -1.8 -11.9 L-1.8 11.9 Q-1.8 15.8 -5.8 15.8 L-93.9 15.8 Q-97.8 15.8 -97.8 11.9 Z"/><rect class="wh" x="-53.8" y="-15.8" width="7.9" height="31.7"/><path class="mt2" d="M-1.8 -15.8 L9 -15.8 L18 -9.9 L18 9.9 L9 15.8 L-1.8 15.8 Z"/></g>
+    <path class="dim" d="M480 450 L480 542.8"/><path class="dimf" d="M480 556 L470.4 536.2 L489.6 536.2 Z"/>
+    <path class="ax" d="M607 570 L625 544"/>
+    <path class="ax" d="M585 562 L589 532"/>
+    <path class="ax" d="M623 588 L645 576"/>
+  </g>
+  <g data-part="coffret">
+    <rect class="in" x="670" y="376" width="310" height="336" rx="14"/>
+    <text class="ts tc" x="825" y="422">Dans son coffret</text>
+    <path class="st" d="M688 504 Q688 490 702 490 L948 490 Q962 490 962 504 L962 628 Q962 642 948 642 L702 642 Q688 642 688 628 Z"/>
+    <path class="dk" d="M702 542 Q702 522 722 522 L928 522 Q948 522 948 542 L948 590 Q948 610 928 610 L722 610 Q702 610 702 590 Z"/>
+    <rect class="mt" x="827.4" y="559.3" width="52.6" height="13.4" rx="2"/>
+    <path class="mt" d="M875.9 559.3 L884.9 558.2 L897.5 549.1 L897.5 582.9 L884.9 573.8 L875.9 572.7 Z"/>
+    <circle class="mt" cx="914" cy="566" r="23.5"/>
+    <circle class="thin" cx="914" cy="566" r="17.9"/>
+    <rect class="dash" x="906.7" y="558.7" width="14.6" height="14.6"/>
+    <path class="dk" d="M714 558.6 Q714 555.2 717.4 555.2 L729.2 555.2 Q732.6 555.2 732.6 558.6 L732.6 573.4 Q732.6 576.8 729.2 576.8 L717.4 576.8 Q714 576.8 714 573.4 Z"/>
+    <path class="eq2" d="M728.6 555.9 Q728.6 552.6 731.9 552.6 L809.2 552.6 Q812.6 552.6 812.6 555.9 L812.6 576.1 Q812.6 579.4 809.2 579.4 L731.9 579.4 Q728.6 579.4 728.6 576.1 Z"/>
+    <rect class="wh" x="767.2" y="552.6" width="6.7" height="26.9"/>
+    <path class="mt2" d="M812.6 552.6 L821.8 552.6 L829.4 557.6 L829.4 574.4 L821.8 579.4 L812.6 579.4 Z"/>
+    <rect class="mt" x="740" y="642" width="40" height="22" rx="4"/>
+    <rect class="mt" x="870" y="642" width="40" height="22" rx="4"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="prise-poignee" transform="translate(54 50)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="prise-tube" transform="translate(379 50)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="tube-rallonge" transform="translate(704 50)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="desserrage" transform="translate(54 676)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="chute" transform="translate(379 410)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="coffret" transform="translate(704 410)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>

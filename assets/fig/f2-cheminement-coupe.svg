@@ -9,9 +9,9 @@
     <rect class="st" x="730" y="120" width="44" height="490"/>
   </g>
   <g data-part="support">
-    <rect class="mt" x="106" y="146" width="92" height="48" rx="6"/>,<circle class="wh" cx="126" cy="170" r="7"/>,<circle class="wh" cx="178" cy="170" r="7"/>
-    <rect class="mt" x="406" y="146" width="92" height="48" rx="6"/>,<circle class="wh" cx="426" cy="170" r="7"/>,<circle class="wh" cx="478" cy="170" r="7"/>
-    <rect class="mt" x="706" y="146" width="92" height="48" rx="6"/>,<circle class="wh" cx="726" cy="170" r="7"/>,<circle class="wh" cx="778" cy="170" r="7"/>
+    <rect class="mt" x="106" y="146" width="92" height="48" rx="6"/><circle class="wh" cx="126" cy="170" r="7"/><circle class="wh" cx="178" cy="170" r="7"/>
+    <rect class="mt" x="406" y="146" width="92" height="48" rx="6"/><circle class="wh" cx="426" cy="170" r="7"/><circle class="wh" cx="478" cy="170" r="7"/>
+    <rect class="mt" x="706" y="146" width="92" height="48" rx="6"/><circle class="wh" cx="726" cy="170" r="7"/><circle class="wh" cx="778" cy="170" r="7"/>
   </g>
   <g data-part="faisceau">
     <path class="sy" d="M30 215.5 L970 215.5"/>
@@ -20,9 +20,9 @@
     <path class="sy" d="M30 248.5 L970 248.5"/>
   </g>
   <g data-part="collier">
-    <rect class="mt" x="142" y="190" width="20" height="22"/>,<rect class="dk" x="129" y="196" width="46" height="72" rx="9"/>,<circle class="mt" cx="152" cy="205" r="7"/>
-    <rect class="mt" x="442" y="190" width="20" height="22"/>,<rect class="dk" x="429" y="196" width="46" height="72" rx="9"/>,<circle class="mt" cx="452" cy="205" r="7"/>
-    <rect class="mt" x="742" y="190" width="20" height="22"/>,<rect class="dk" x="729" y="196" width="46" height="72" rx="9"/>,<circle class="mt" cx="752" cy="205" r="7"/>
+    <rect class="mt" x="142" y="190" width="20" height="22"/><rect class="dk" x="129" y="196" width="46" height="72" rx="9"/><circle class="mt" cx="152" cy="205" r="7"/>
+    <rect class="mt" x="442" y="190" width="20" height="22"/><rect class="dk" x="429" y="196" width="46" height="72" rx="9"/><circle class="mt" cx="452" cy="205" r="7"/>
+    <rect class="mt" x="742" y="190" width="20" height="22"/><rect class="dk" x="729" y="196" width="46" height="72" rx="9"/><circle class="mt" cx="752" cy="205" r="7"/>
   </g>
   <g data-part="equipement">
     <rect class="eq" x="640" y="330" width="270" height="112" rx="10"/>

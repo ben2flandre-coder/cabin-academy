@@ -65,23 +65,23 @@
   </g>
   <g data-part="air-indiv">
     <circle class="dk" cx="380" cy="250" r="13"/>
-    <path class="dim" d="M380 264 L380 299.4"/>,<path class="dimf" d="M380 312 L372.7 295.6 L387.3 295.6 Z"/>
+    <path class="dim" d="M380 264 L380 299.4"/><path class="dimf" d="M380 312 L372.7 295.6 L387.3 295.6 Z"/>
     <circle class="dk" cx="620" cy="250" r="13"/>
-    <path class="dim" d="M620 264 L620 299.4"/>,<path class="dimf" d="M620 312 L612.7 295.6 L627.3 295.6 Z"/>
+    <path class="dim" d="M620 264 L620 299.4"/><path class="dimf" d="M620 312 L612.7 295.6 L627.3 295.6 Z"/>
   </g>
   <g data-part="oxygene">
     <g transform="rotate(-3.5 328 245)"><rect class="eq2" x="296" y="233" width="64" height="24" rx="5"/><circle class="wh" cx="314" cy="245" r="6"/><circle class="wh" cx="342" cy="245" r="6"/></g>
     <g transform="rotate(3.5 672 245)"><rect class="eq2" x="640" y="233" width="64" height="24" rx="5"/><circle class="wh" cx="658" cy="245" r="6"/><circle class="wh" cx="686" cy="245" r="6"/></g>
   </g>
   <g data-part="eau">
-    <circle class="dk" cx="292" cy="520" r="27"/>
-    <circle class="mt" cx="292" cy="520" r="20"/>
-    <circle class="gl" cx="292" cy="520" r="12"/>
+    <circle class="dk" cx="297" cy="522" r="30"/>
+    <circle class="mt" cx="297" cy="522" r="22"/>
+    <circle class="gl" cx="297" cy="522" r="13"/>
   </g>
   <g data-part="vidange">
-    <circle class="dk" cx="708" cy="520" r="27"/>
-    <circle class="mt" cx="708" cy="520" r="20"/>
-    <circle class="gl" cx="708" cy="520" r="12"/>
+    <circle class="dk" cx="703" cy="522" r="30"/>
+    <circle class="mt" cx="703" cy="522" r="22"/>
+    <circle class="gl" cx="703" cy="522" r="13"/>
     <path class="stl" d="M712.8 539.2 A270 270 0 0 1 574.4 614.5 L562 655"/>
     <path class="mt" d="M546 676 L578 676 L570 730 L554 730 Z"/>
   </g>
@@ -93,16 +93,16 @@
   </g>
   <path class="thin" d="M120 110 L378 118"/>
   <path class="thin" d="M120 250 L290 246"/>
-  <path class="thin" d="M880 280 L634 280"/>
+  <path class="thin" d="M880 312 L633 259"/>
   <path class="thin" d="M880 110 L644 96"/>
-  <path class="thin" d="M120 600 L280 532"/>
-  <path class="thin" d="M880 600 L722 532"/>
+  <path class="thin" d="M120 600 L272 538"/>
+  <path class="thin" d="M880 600 L728 538"/>
   <path class="thin" d="M500 40 L500 76"/>
   <g class="badges">
     <g class="badge" data-badge="air" transform="translate(500 40)"><circle class="bd" r="26"/><text class="bn">1</text></g>
     <g class="badge" data-badge="elec" transform="translate(96 110)"><circle class="bd" r="26"/><text class="bn">2</text></g>
     <g class="badge" data-badge="oxygene" transform="translate(96 250)"><circle class="bd" r="26"/><text class="bn">3</text></g>
-    <g class="badge" data-badge="air-indiv" transform="translate(904 280)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="air-indiv" transform="translate(904 316)"><circle class="bd" r="26"/><text class="bn">4</text></g>
     <g class="badge" data-badge="metal" transform="translate(904 110)"><circle class="bd" r="26"/><text class="bn">5</text></g>
     <g class="badge" data-badge="eau" transform="translate(96 600)"><circle class="bd" r="26"/><text class="bn">6</text></g>
     <g class="badge" data-badge="vidange" transform="translate(904 600)"><circle class="bd" r="26"/><text class="bn">7</text></g>

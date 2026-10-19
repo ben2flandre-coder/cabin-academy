@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Avant de poser les sièges : un tronçon de plancher vu de dessus, avec des objets oubliés</title>
+  <desc id="d">Schéma de principe, vue de dessus très agrandie d'un morceau de plancher de cabine avant la pose des sièges. Deux rails de siège parallèles traversent l'image ; leur gorge montre l'alternance d'ouvertures rondes et de parties étroites. Entre les rails et autour, des panneaux de plancher tenus par des vis à tête affleurante, alignées le long des rails. Une portion du rail du bas est déjà fermée par un cache-rail ; une ferrure de pied de siège est verrouillée sur le rail du haut. Six objets n'ont rien à faire là : une vis couchée dans la gorge du rail du haut, un embout de vissage dans la gorge du rail du bas, une rondelle et un morceau d'adhésif froissé sur le panneau, une chute de collier de câblage et des copeaux de métal.</desc>
+  <rect class="bgp" width="1000" height="640"/>
+  <text class="ts" x="30" y="50">Vue de dessus (agrandie)</text>
+  <g data-part="panneau">
+    <rect class="wh" x="30" y="76" width="940" height="60"/>
+    <rect class="wh" x="30" y="246" width="940" height="150"/>
+    <rect class="wh" x="30" y="506" width="940" height="110"/>
+    <path class="thin" d="M520 246 L520 396"/><path class="thin" d="M300 506 L300 616"/><path class="thin" d="M700 76 L700 136"/>
+  </g>
+  <g data-part="rail">
+    <rect class="fl" x="30" y="136" width="940" height="110"/>
+    <rect class="st" x="30" y="157" width="30" height="68"/>
+    <rect class="st" x="120" y="157" width="60" height="68"/>
+    <rect class="st" x="240" y="157" width="60" height="68"/>
+    <rect class="st" x="360" y="157" width="60" height="68"/>
+    <rect class="st" x="480" y="157" width="60" height="68"/>
+    <rect class="st" x="600" y="157" width="60" height="68"/>
+    <rect class="st" x="720" y="157" width="60" height="68"/>
+    <rect class="st" x="840" y="157" width="60" height="68"/>
+    <rect class="st" x="960" y="157" width="10" height="68"/>
+    <rect class="dk" x="30" y="179" width="940" height="24"/>
+    <circle class="dk" cx="90" cy="191" r="30"/>
+    <circle class="dk" cx="210" cy="191" r="30"/>
+    <circle class="dk" cx="330" cy="191" r="30"/>
+    <circle class="dk" cx="450" cy="191" r="30"/>
+    <circle class="dk" cx="570" cy="191" r="30"/>
+    <circle class="dk" cx="690" cy="191" r="30"/>
+    <circle class="dk" cx="810" cy="191" r="30"/>
+    <circle class="dk" cx="930" cy="191" r="30"/>
+    <rect class="fl" x="30" y="396" width="940" height="110"/>
+    <rect class="st" x="30" y="417" width="30" height="68"/>
+    <rect class="st" x="120" y="417" width="60" height="68"/>
+    <rect class="st" x="240" y="417" width="60" height="68"/>
+    <rect class="st" x="360" y="417" width="60" height="68"/>
+    <rect class="st" x="480" y="417" width="60" height="68"/>
+    <rect class="st" x="600" y="417" width="60" height="68"/>
+    <rect class="st" x="720" y="417" width="60" height="68"/>
+    <rect class="st" x="840" y="417" width="60" height="68"/>
+    <rect class="st" x="960" y="417" width="10" height="68"/>
+    <rect class="dk" x="30" y="439" width="940" height="24"/>
+    <circle class="dk" cx="90" cy="451" r="30"/>
+    <circle class="dk" cx="210" cy="451" r="30"/>
+    <circle class="dk" cx="330" cy="451" r="30"/>
+    <circle class="dk" cx="450" cy="451" r="30"/>
+    <circle class="dk" cx="570" cy="451" r="30"/>
+    <circle class="dk" cx="690" cy="451" r="30"/>
+    <circle class="dk" cx="810" cy="451" r="30"/>
+    <circle class="dk" cx="930" cy="451" r="30"/>
+  </g>
+  <g data-part="vis-panneau">
+    <circle class="mt" cx="100" cy="108" r="13"/><path class="thin" d="M93 108 L107 108 M100 101 L100 115"/>
+    <circle class="mt" cx="260" cy="108" r="13"/><path class="thin" d="M253 108 L267 108 M260 101 L260 115"/>
+    <circle class="mt" cx="420" cy="108" r="13"/><path class="thin" d="M413 108 L427 108 M420 101 L420 115"/>
+    <circle class="mt" cx="580" cy="108" r="13"/><path class="thin" d="M573 108 L587 108 M580 101 L580 115"/>
+    <circle class="mt" cx="740" cy="108" r="13"/><path class="thin" d="M733 108 L747 108 M740 101 L740 115"/>
+    <circle class="mt" cx="900" cy="108" r="13"/><path class="thin" d="M893 108 L907 108 M900 101 L900 115"/>
+    <circle class="mt" cx="100" cy="274" r="13"/><path class="thin" d="M93 274 L107 274 M100 267 L100 281"/>
+    <circle class="mt" cx="260" cy="274" r="13"/><path class="thin" d="M253 274 L267 274 M260 267 L260 281"/>
+    <circle class="mt" cx="420" cy="274" r="13"/><path class="thin" d="M413 274 L427 274 M420 267 L420 281"/>
+    <circle class="mt" cx="580" cy="274" r="13"/><path class="thin" d="M573 274 L587 274 M580 267 L580 281"/>
+    <circle class="mt" cx="740" cy="274" r="13"/><path class="thin" d="M733 274 L747 274 M740 267 L740 281"/>
+    <circle class="mt" cx="900" cy="274" r="13"/><path class="thin" d="M893 274 L907 274 M900 267 L900 281"/>
+    <circle class="mt" cx="100" cy="368" r="13"/><path class="thin" d="M93 368 L107 368 M100 361 L100 375"/>
+    <circle class="mt" cx="260" cy="368" r="13"/><path class="thin" d="M253 368 L267 368 M260 361 L260 375"/>
+    <circle class="mt" cx="420" cy="368" r="13"/><path class="thin" d="M413 368 L427 368 M420 361 L420 375"/>
+    <circle class="mt" cx="580" cy="368" r="13"/><path class="thin" d="M573 368 L587 368 M580 361 L580 375"/>
+    <circle class="mt" cx="740" cy="368" r="13"/><path class="thin" d="M733 368 L747 368 M740 361 L740 375"/>
+    <circle class="mt" cx="900" cy="368" r="13"/><path class="thin" d="M893 368 L907 368 M900 361 L900 375"/>
+    <circle class="mt" cx="420" cy="534" r="13"/><path class="thin" d="M413 534 L427 534 M420 527 L420 541"/>
+    <circle class="mt" cx="580" cy="534" r="13"/><path class="thin" d="M573 534 L587 534 M580 527 L580 541"/>
+    <circle class="mt" cx="740" cy="534" r="13"/><path class="thin" d="M733 534 L747 534 M740 527 L740 541"/>
+    <circle class="mt" cx="900" cy="534" r="13"/><path class="thin" d="M893 534 L907 534 M900 527 L900 541"/>
+  </g>
+  <g data-part="cache-rail">
+    <rect class="in" x="30" y="402" width="318" height="98" rx="10"/>
+    <path class="thin" d="M46 426 L332 426"/><path class="thin" d="M46 476 L332 476"/>
+  </g>
+  <g data-part="ferrure">
+    <rect class="mt2" x="626" y="146" width="268" height="90" rx="12"/>
+    <circle class="eq2" cx="700" cy="191" r="32"/><circle class="thin" cx="700" cy="191" r="18"/>
+    <circle class="dk" cx="810" cy="191" r="22"/><circle class="mt" cx="810" cy="191" r="9"/>
+    <circle class="mt" cx="862" cy="166" r="8"/><circle class="mt" cx="862" cy="216" r="8"/>
+  </g>
+  <g data-part="vis-libre">
+    <path class="mt" d="M286 172 L304 172 L310 180 L310 202 L304 210 L286 210 Z"/>
+    <rect class="mt" x="310" y="182" width="74" height="18"/>
+    <path class="thin" d="M322 182 L318 200 M334 182 L330 200 M346 182 L342 200 M358 182 L354 200 M370 182 L366 200"/>
+  </g>
+  <g data-part="embout">
+    <path class="mt2" d="M528 440 L590 440 L596 444 L596 458 L590 462 L528 462 L522 458 L522 444 Z"/>
+    <path class="mt" d="M596 445 L626 447 L634 451 L626 455 L596 457 Z"/>
+    <path class="thin" d="M528 451 L590 451"/>
+  </g>
+  <g data-part="rondelle">
+    <circle class="mt" cx="430" cy="322" r="31"/><circle class="wh" cx="430" cy="322" r="13"/>
+  </g>
+  <g data-part="adhesif">
+    <path class="eq" d="M120 292 L176 282 L214 300 L206 328 L226 350 L182 362 L150 350 L118 358 L128 326 Z"/>
+    <path class="thin" d="M176 282 L170 320 L206 328 M170 320 L150 350 M128 326 L170 320"/>
+  </g>
+  <g data-part="collier">
+    <g transform="rotate(-18 720 322)">
+      <rect class="in" x="650" y="314" width="118" height="16" rx="3"/>
+      <path class="thin" d="M662 314 L662 330 M674 314 L674 330 M686 314 L686 330 M698 314 L698 330 M710 314 L710 330 M722 314 L722 330 M734 314 L734 330 M746 314 L746 330"/>
+      <rect class="in" x="768" y="304" width="34" height="36" rx="4"/><rect class="dk" x="778" y="316" width="14" height="12"/>
+    </g>
+  </g>
+  <g data-part="copeaux">
+    <path class="mt" d="M820 556 C812 540 836 532 844 546 C850 558 834 566 828 558 C824 552 832 546 836 550 L832 554 C830 552 828 554 830 556 C834 560 844 556 840 548 C834 538 818 544 824 556 Z"/>
+    <path class="mt" d="M866 580 C858 564 882 556 890 570 C896 582 880 590 874 582 C870 576 878 570 882 574 L878 578 C876 576 874 578 876 580 C880 584 890 580 886 572 C880 562 864 568 870 580 Z"/>
+    <path class="mt" d="M876 536 L900 528 L906 540 L884 550 Z"/>
+    <path class="mt" d="M806 590 L832 584 L836 596 L812 602 Z"/>
+  </g>
+  <path class="thin" d="M934 306 L910 284"/>
+  <g class="badges">
+    <g class="badge" data-badge="rail" transform="translate(150 191)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="panneau" transform="translate(600 330)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="vis-panneau" transform="translate(948 322)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="cache-rail" transform="translate(190 451)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="ferrure" transform="translate(820 104)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="vis-libre" transform="translate(336 150)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="embout" transform="translate(580 412)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="rondelle" transform="translate(486 290)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="adhesif" transform="translate(96 330)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="collier" transform="translate(800 370)"><circle class="bd" r="24"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="copeaux" transform="translate(930 570)"><circle class="bd" r="24"/><text class="bn">11</text></g>
+  </g>
+</svg>

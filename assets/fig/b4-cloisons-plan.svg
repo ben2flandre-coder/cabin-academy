@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Où sont les cloisons : une cabine vue de dessus</title>
+  <desc id="d">Schéma de principe, très raccourci, d'une cabine à un couloir vue de dessus, avant de l'avion à gauche. Tout à l'avant, la cloison du poste de pilotage avec sa porte. Viennent ensuite deux portes passagers face à face, puis deux cloisons d'entrée qui protègent la première rangée. La zone avant compte deux rangées de sièges larges, deux de chaque côté de l'allée. Une cloison de classe de chaque côté et un rideau en travers de l'allée la séparent de la zone arrière, où quatre rangées de trois sièges encadrent l'allée. À l'arrière, un meuble de rangement d'un côté et un bloc toilettes de l'autre, avec sa porte qui s'ouvre vers l'allée, puis deux autres portes passagers.</desc>
+  <rect class="bgp" width="1000" height="620"/>
+  <rect class="wh" x="30" y="92" width="940" height="436"/>
+  <rect class="sk" x="30" y="70" width="940" height="22"/><rect class="sk" x="30" y="528" width="940" height="22"/>
+  <g data-part="allee">
+    <rect class="in" x="44" y="274" width="926" height="72"/>
+  </g>
+  <g data-part="porte-passagers">
+    <rect class="gl" x="58" y="64" width="66" height="34" rx="6"/>
+    <rect class="gl" x="58" y="522" width="66" height="34" rx="6"/>
+    <rect class="gl" x="886" y="64" width="66" height="34" rx="6"/>
+    <rect class="gl" x="886" y="522" width="66" height="34" rx="6"/>
+  </g>
+  <g data-part="zone-avant">
+    <rect class="eq" x="184" y="104" width="58" height="76" rx="6"/><rect class="eq2" x="232" y="104" width="10" height="76" rx="3"/>
+    <rect class="eq" x="184" y="186" width="58" height="76" rx="6"/><rect class="eq2" x="232" y="186" width="10" height="76" rx="3"/>
+    <rect class="eq" x="184" y="358" width="58" height="76" rx="6"/><rect class="eq2" x="232" y="358" width="10" height="76" rx="3"/>
+    <rect class="eq" x="184" y="440" width="58" height="76" rx="6"/><rect class="eq2" x="232" y="440" width="10" height="76" rx="3"/>
+    <rect class="eq" x="268" y="104" width="58" height="76" rx="6"/><rect class="eq2" x="316" y="104" width="10" height="76" rx="3"/>
+    <rect class="eq" x="268" y="186" width="58" height="76" rx="6"/><rect class="eq2" x="316" y="186" width="10" height="76" rx="3"/>
+    <rect class="eq" x="268" y="358" width="58" height="76" rx="6"/><rect class="eq2" x="316" y="358" width="10" height="76" rx="3"/>
+    <rect class="eq" x="268" y="440" width="58" height="76" rx="6"/><rect class="eq2" x="316" y="440" width="10" height="76" rx="3"/>
+  </g>
+  <g data-part="zone-arriere">
+    <rect class="eq" x="392" y="100" width="48" height="54" rx="6"/><rect class="eq2" x="430" y="100" width="10" height="54" rx="3"/>
+    <rect class="eq" x="392" y="157" width="48" height="54" rx="6"/><rect class="eq2" x="430" y="157" width="10" height="54" rx="3"/>
+    <rect class="eq" x="392" y="214" width="48" height="54" rx="6"/><rect class="eq2" x="430" y="214" width="10" height="54" rx="3"/>
+    <rect class="eq" x="392" y="352" width="48" height="54" rx="6"/><rect class="eq2" x="430" y="352" width="10" height="54" rx="3"/>
+    <rect class="eq" x="392" y="409" width="48" height="54" rx="6"/><rect class="eq2" x="430" y="409" width="10" height="54" rx="3"/>
+    <rect class="eq" x="392" y="466" width="48" height="54" rx="6"/><rect class="eq2" x="430" y="466" width="10" height="54" rx="3"/>
+    <rect class="eq" x="470" y="100" width="48" height="54" rx="6"/><rect class="eq2" x="508" y="100" width="10" height="54" rx="3"/>
+    <rect class="eq" x="470" y="157" width="48" height="54" rx="6"/><rect class="eq2" x="508" y="157" width="10" height="54" rx="3"/>
+    <rect class="eq" x="470" y="214" width="48" height="54" rx="6"/><rect class="eq2" x="508" y="214" width="10" height="54" rx="3"/>
+    <rect class="eq" x="470" y="352" width="48" height="54" rx="6"/><rect class="eq2" x="508" y="352" width="10" height="54" rx="3"/>
+    <rect class="eq" x="470" y="409" width="48" height="54" rx="6"/><rect class="eq2" x="508" y="409" width="10" height="54" rx="3"/>
+    <rect class="eq" x="470" y="466" width="48" height="54" rx="6"/><rect class="eq2" x="508" y="466" width="10" height="54" rx="3"/>
+    <rect class="eq" x="548" y="100" width="48" height="54" rx="6"/><rect class="eq2" x="586" y="100" width="10" height="54" rx="3"/>
+    <rect class="eq" x="548" y="157" width="48" height="54" rx="6"/><rect class="eq2" x="586" y="157" width="10" height="54" rx="3"/>
+    <rect class="eq" x="548" y="214" width="48" height="54" rx="6"/><rect class="eq2" x="586" y="214" width="10" height="54" rx="3"/>
+    <rect class="eq" x="548" y="352" width="48" height="54" rx="6"/><rect class="eq2" x="586" y="352" width="10" height="54" rx="3"/>
+    <rect class="eq" x="548" y="409" width="48" height="54" rx="6"/><rect class="eq2" x="586" y="409" width="10" height="54" rx="3"/>
+    <rect class="eq" x="548" y="466" width="48" height="54" rx="6"/><rect class="eq2" x="586" y="466" width="10" height="54" rx="3"/>
+    <rect class="eq" x="626" y="100" width="48" height="54" rx="6"/><rect class="eq2" x="664" y="100" width="10" height="54" rx="3"/>
+    <rect class="eq" x="626" y="157" width="48" height="54" rx="6"/><rect class="eq2" x="664" y="157" width="10" height="54" rx="3"/>
+    <rect class="eq" x="626" y="214" width="48" height="54" rx="6"/><rect class="eq2" x="664" y="214" width="10" height="54" rx="3"/>
+    <rect class="eq" x="626" y="352" width="48" height="54" rx="6"/><rect class="eq2" x="664" y="352" width="10" height="54" rx="3"/>
+    <rect class="eq" x="626" y="409" width="48" height="54" rx="6"/><rect class="eq2" x="664" y="409" width="10" height="54" rx="3"/>
+    <rect class="eq" x="626" y="466" width="48" height="54" rx="6"/><rect class="eq2" x="664" y="466" width="10" height="54" rx="3"/>
+    <rect class="eq" x="704" y="100" width="48" height="54" rx="6"/><rect class="eq2" x="742" y="100" width="10" height="54" rx="3"/>
+    <rect class="eq" x="704" y="157" width="48" height="54" rx="6"/><rect class="eq2" x="742" y="157" width="10" height="54" rx="3"/>
+    <rect class="eq" x="704" y="214" width="48" height="54" rx="6"/><rect class="eq2" x="742" y="214" width="10" height="54" rx="3"/>
+    <rect class="eq" x="704" y="352" width="48" height="54" rx="6"/><rect class="eq2" x="742" y="352" width="10" height="54" rx="3"/>
+    <rect class="eq" x="704" y="409" width="48" height="54" rx="6"/><rect class="eq2" x="742" y="409" width="10" height="54" rx="3"/>
+    <rect class="eq" x="704" y="466" width="48" height="54" rx="6"/><rect class="eq2" x="742" y="466" width="10" height="54" rx="3"/>
+  </g>
+  <g data-part="cloison-entree">
+    <rect class="dk" x="142" y="92" width="16" height="182"/><rect class="dk" x="142" y="346" width="16" height="182"/>
+  </g>
+  <g data-part="cloison-classe">
+    <rect class="dk" x="350" y="92" width="16" height="182"/><rect class="dk" x="350" y="346" width="16" height="182"/>
+  </g>
+  <g data-part="rideau">
+    <path class="syf" d="M350 274 L366 274 L374 286 L358 298 L374 310 L358 322 L374 334 L366 346 L350 346 L342 334 L358 322 L342 310 L358 298 L342 286 Z"/>
+  </g>
+  <g data-part="rangement">
+    <rect class="eq2" x="790" y="92" width="76" height="182"/><path class="thin" d="M790 92 L866 274 M866 92 L790 274"/>
+  </g>
+  <g data-part="toilettes">
+    <rect class="eq2" x="780" y="346" width="96" height="182"/><ellipse class="wh" cx="828" cy="478" rx="20" ry="26"/><rect class="wh" x="790" y="368" width="34" height="26" rx="6"/>
+  </g>
+  <g data-part="porte">
+    <rect class="dk" x="30" y="92" width="14" height="182"/><rect class="dk" x="30" y="346" width="14" height="182"/>
+    <path class="ln2" d="M37 274 L98 300"/><path class="dash" d="M98 300 A66 66 0 0 1 37 346"/>
+    <path class="ln2" d="M836 346 L862 290"/><path class="dash" d="M862 290 A62 62 0 0 0 780 346"/><path class="ln2" d="M780 346 L836 346"/>
+  </g>
+  <path class="dim" d="M170 590 L40 590"/><path class="dimf" d="M40 590 L56.2 582.2 L56.2 597.8 Z"/><text class="ts" x="186" y="602">Avant</text>
+  <path class="thin" d="M91 52 L91 64"/><path class="thin" d="M150 56 L150 92"/><path class="thin" d="M358 56 L358 92"/><path class="thin" d="M410 310 L372 310"/><path class="thin" d="M92 406 L88 304"/>
+  <g class="badges">
+    <g class="badge" data-badge="porte" transform="translate(92 430)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="porte-passagers" transform="translate(91 30)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="cloison-entree" transform="translate(172 34)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="zone-avant" transform="translate(250 310)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="cloison-classe" transform="translate(358 34)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="rideau" transform="translate(432 310)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="zone-arriere" transform="translate(588 310)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="rangement" transform="translate(828 150)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="toilettes" transform="translate(836 430)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="allee" transform="translate(710 310)"><circle class="bd" r="24"/><text class="bn">10</text></g>
+  </g>
+</svg>

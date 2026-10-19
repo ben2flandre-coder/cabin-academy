@@ -67,4 +67,20 @@ CA.addFigures([
       { id: 'contre-ecrou', n: 5, fr: 'Contre-écrou', en: 'Jam nut', fn: "Écrou serré contre l'embout pour empêcher le réglage de tourner tout seul." },
     ],
   },
+  {
+    id: 'e3-lecture-jauge', file: 'e3-lecture-jauge.svg',
+    title: "Lire un jeu avec une jauge d'épaisseur",
+    caption: "Schémas de principe, épaisseurs exagérées, aucune valeur. Le jeu se lit en plusieurs points du joint ; il est compris entre l'épaisseur de la lame qui passe et celle de la lame qui ne passe pas.",
+    alt: "Trois schémas. À gauche, une jauge d'épaisseur : quatre lames déployées en éventail depuis leur étui. Au centre, deux panneaux de face séparés par un joint vertical, trois repères de lecture en haut, au milieu et en bas, une lame glissée dans le joint au milieu. À droite, en coupe : une lame mince entre dans l'espace entre deux panneaux, elle passe ; une lame épaisse reste posée sur les bords, elle ne passe pas.",
+    purpose: "Comprendre le principe « passe / ne passe pas » et l'intérêt de lire un jeu en plusieurs points.",
+    chapters: ['e3'],
+    provenance: "Schéma original RMBD — création pédagogique", rights: "© RMBD, usage pédagogique",
+    parts: [
+      { id: 'jauge', n: 1, fr: "Jauge d'épaisseur", en: 'Feeler gauge', fn: "Jeu de lames d'épaisseurs connues ; on choisit une lame et on la glisse dans l'espace à contrôler." },
+      { id: 'joint', n: 2, fr: 'Joint', en: 'Joint line', fn: "La ligne où deux pièces voisines se font face ; c'est là que le jeu se lit." },
+      { id: 'points', n: 3, fr: 'Points de lecture', en: 'Measuring points', fn: "Plusieurs endroits le long du même joint : une seule lecture ne dit pas si le jeu est régulier." },
+      { id: 'passe', n: 4, fr: 'La lame passe', en: 'Go', fn: "La lame entre et glisse sans être poussée : le jeu est au moins égal à son épaisseur." },
+      { id: 'ne-passe-pas', n: 5, fr: 'La lame ne passe pas', en: 'No-go', fn: "La lame bute sur les bords : le jeu est plus petit que son épaisseur. On ne la force pas." },
+    ],
+  },
 ]);

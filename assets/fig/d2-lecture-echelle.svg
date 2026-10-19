@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Lire le réglage d'une clé à bague graduée</title>
+  <desc id="d">Gros plan sur la zone de réglage d'une clé à déclenchement, poignée à gauche. Le corps de la clé porte une échelle principale : des traits verticaux numérotés 30, 40 et 50, et un long trait de repère horizontal. La poignée se termine par une bague biseautée graduée 2, 3, 4, 5, 6 ; la graduation 4 est exactement en face du trait de repère. Le bord de la bague se trouve entre la graduation 20, masquée sous la bague et dessinée en pointillé, et la graduation 30. Exemple fictif sans unité.</desc>
+  <rect class="bgp" width="1000" height="560"/>
+  <text class="ts" x="24" y="46">Exemple fictif, sans unité</text>
+  <rect class="mt" x="300" y="204" width="690" height="192"/>
+  <g data-part="echelle">
+    <rect class="none" x="400" y="144" width="590" height="146"/>
+    <path class="ln2" d="M512 208 L512 292"/>
+    <text class="tb tc" x="512" y="188">30</text>
+    <path class="ln" d="M622 208 L622 254"/>
+    <path class="ln2" d="M732 208 L732 292"/>
+    <text class="tb tc" x="732" y="188">40</text>
+    <path class="ln" d="M842 208 L842 254"/>
+    <path class="ln2" d="M952 208 L952 292"/>
+    <text class="tb tc" x="952" y="188">50</text>
+    <path class="ln" d="M402 208 L402 254"/>
+  </g>
+  <g data-part="trait">
+    <rect class="none" x="400" y="296" width="590" height="70"/>
+    <path class="ln2" d="M380 300 L984 300"/>
+  </g>
+  <path class="eq2" d="M20 164 L224 164 L224 436 L20 436 Z"/><path class="thin" d="M40 170 L56 430"/><path class="thin" d="M66 170 L82 430"/><path class="thin" d="M92 170 L108 430"/><path class="thin" d="M118 170 L134 430"/><path class="thin" d="M144 170 L160 430"/><path class="thin" d="M170 170 L186 430"/><path class="thin" d="M196 170 L212 430"/>
+  <g data-part="bague">
+    <path class="mt2" d="M220 164 L250 164 L380 198 L380 402 L250 436 L220 436 Z"/>
+    <path class="ln" d="M346 192 L377 192"/>
+    <path class="thin" d="M362 219 L377 219"/>
+    <path class="ln" d="M346 246 L377 246"/>
+    <text class="tb te" x="336" y="260">3</text>
+    <path class="thin" d="M362 273 L377 273"/>
+    <path class="ln2" d="M346 300 L377 300"/>
+    <text class="tb te" x="336" y="314">4</text>
+    <path class="thin" d="M362 327 L377 327"/>
+    <path class="ln" d="M346 354 L377 354"/>
+    <text class="tb te" x="336" y="368">5</text>
+    <path class="thin" d="M362 381 L377 381"/>
+    <path class="ln" d="M346 408 L377 408"/>
+  </g>
+  <g data-part="masquee">
+    <rect class="none" x="252" y="94" width="80" height="200"/>
+    <path class="dash" d="M292 208 L292 292"/>
+    <path class="thin" d="M292 152 L292 208"/>
+    <text class="ts tc" x="292" y="142">20</text>
+  </g>
+  <g data-part="bord">
+    <rect class="none" x="350" y="402" width="60" height="110"/>
+    <path class="dim" d="M380 406 L380 492"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="echelle" transform="translate(842 128)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="trait" transform="translate(930 344)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="bague" transform="translate(110 124)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="bord" transform="translate(380 524)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="masquee" transform="translate(222 130)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+  </g>
+</svg>

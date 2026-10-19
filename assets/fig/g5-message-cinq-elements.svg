@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 670" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Un message clair : cinq éléments, puis la reformulation</title>
+  <desc id="d">Schéma de principe. À gauche, la personne qui parle. Au centre, son message sous la forme d'une grande bulle découpée en cinq lignes, chacune avec un pictogramme et un mot : QUI (une silhouette), OÙ (une épingle de localisation), QUOI (un œil), QUAND (une horloge), ET DONC (une flèche vers un triangle d'avertissement). À droite, la personne qui reçoit le message, un bloc-notes à la main. En bas, une flèche revient du destinataire vers l'émetteur, avec une petite bulle cochée : le destinataire reformule ce qu'il a compris.</desc>
+  <rect class="bgp" width="1000" height="670"/>
+  <g>
+    <path class="wh" d="M231 22 H769 a16 16 0 0 1 16 16 V468 a16 16 0 0 1 -16 16 H231 a16 16 0 0 1 -16 -16 V420 L150 404 L215 372 V38 a16 16 0 0 1 16 -16 Z"/>
+  </g>
+  <g data-part="qui">
+    <rect class="in" x="233" y="38" width="534" height="78" rx="10"/>
+    <path class="eq2" d="M259 105 C259 81 271 75 285 75 C299 75 311 81 311 105 Z"/>
+    <circle class="wh" cx="285" cy="61" r="13"/>
+    <text class="tb" x="340" y="91">QUI ?</text>
+  </g>
+  <g data-part="ou">
+    <rect class="in" x="233" y="126" width="534" height="78" rx="10"/>
+    <path class="badf" d="M285 195 C275 177 262 169 262 155 a23 23 0 0 1 46 0 C308 169 295 177 285 195 Z"/>
+    <circle class="wh" cx="285" cy="155" r="9"/>
+    <text class="tb" x="340" y="179">OÙ ?</text>
+  </g>
+  <g data-part="quoi">
+    <rect class="in" x="233" y="214" width="534" height="78" rx="10"/>
+    <path class="wh" d="M253 253 Q285 219 317 253 Q285 287 253 253 Z"/>
+    <circle class="dk" cx="285" cy="253" r="11"/>
+    <text class="tb" x="340" y="267">QUOI ?</text>
+  </g>
+  <g data-part="quand">
+    <rect class="in" x="233" y="302" width="534" height="78" rx="10"/>
+    <circle class="wh" cx="285" cy="341" r="27"/>
+    <path class="ln2" d="M285 324 V341 L298 349"/>
+    <text class="tb" x="340" y="355">QUAND ?</text>
+  </g>
+  <g data-part="consequence">
+    <rect class="in" x="233" y="390" width="534" height="78" rx="10"/>
+    <path class="dk" d="M251 422 H269 V413 L287 429 L269 445 V436 H251 Z"/>
+    <path class="syf" d="M307 405 L329 449 L285 449 Z"/>
+    <text class="tb" x="350" y="443">ET DONC ?</text>
+  </g>
+  <g data-part="emetteur">
+    <path class="dk" d="M70 544 L69 644 L95 644 L97 544 Z"/>
+    <ellipse class="dk" cx="81" cy="645" rx="20" ry="9"/>
+    <path class="dk" d="M103 544 L105 644 L131 644 L130 544 Z"/>
+    <ellipse class="dk" cx="119" cy="645" rx="20" ry="9"/>
+    <path class="eq2" d="M62 440 L138 440 L131 546 L69 546 Z"/>
+    <path class="eq2" d="M64 444 L48 536 L66 539 L80 448 Z"/><circle class="wh" cx="57" cy="540" r="11"/>
+    <path class="eq2" d="M122 448 L160 478 L170 464 L134 436 Z"/><circle class="eq2" cx="165" cy="471" r="9"/>
+    <path class="eq2" d="M157 468 L176 424 L193 431 L173 476 Z"/><circle class="wh" cx="186" cy="424" r="11"/>
+    <circle class="wh" cx="100" cy="406" r="28"/>
+  </g>
+  <g data-part="destinataire">
+    <path class="dk" d="M870 544 L869 644 L895 644 L897 544 Z"/>
+    <ellipse class="dk" cx="881" cy="645" rx="20" ry="9"/>
+    <path class="dk" d="M903 544 L905 644 L931 644 L930 544 Z"/>
+    <ellipse class="dk" cx="919" cy="645" rx="20" ry="9"/>
+    <path class="st" d="M862 440 L938 440 L931 546 L869 546 Z"/>
+    <path class="st" d="M936 444 L952 536 L934 539 L920 448 Z"/><circle class="wh" cx="943" cy="540" r="11"/>
+    <path class="st" d="M878 448 L846 492 L860 502 L890 462 Z"/>
+    <rect class="wh" x="806" y="470" width="58" height="76" rx="5"/>
+    <rect class="mt2" x="822" y="462" width="26" height="14" rx="3"/>
+    <line class="ln" x1="816" y1="496" x2="854" y2="496"/><line class="ln" x1="816" y1="512" x2="854" y2="512"/><line class="ln" x1="816" y1="528" x2="840" y2="528"/>
+    <circle class="wh" cx="852" cy="500" r="11"/>
+    <circle class="wh" cx="900" cy="406" r="28"/>
+  </g>
+  <g data-part="retour">
+    <line class="dim" x1="780" y1="590" x2="223" y2="590"/>
+    <path class="dimf" d="M196 590 L223 576.5 L223 603.5 Z"/>
+    <path class="wh" d="M430 548 H574 a12 12 0 0 1 12 12 V620 a12 12 0 0 1 -12 12 H430 a12 12 0 0 1 -12 -12 V560 a12 12 0 0 1 12 -12 Z"/>
+    <circle class="okf" cx="502" cy="590" r="28"/>
+    <path class="bgp" d="M485 592 L496 605 L503 598 L492 585 Z"/>
+    <path class="bgp" d="M499.5 604.6 L521.5 578.6 L514.5 572.4 L492.5 598.4 Z"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="emetteur" transform="translate(44 388)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="qui" transform="translate(727 77)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="ou" transform="translate(727 165)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="quoi" transform="translate(727 253)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="quand" transform="translate(727 341)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="consequence" transform="translate(727 429)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="destinataire" transform="translate(956 388)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="retour" transform="translate(640 628)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

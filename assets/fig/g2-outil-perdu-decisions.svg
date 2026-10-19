@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 770" class="fig" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" class="fig" role="img" aria-labelledby="t d">
   <title id="t">Un outil manque à l'inventaire : l'arbre de décision</title>
   <desc id="d">Arbre de décision. Première question : le compte est-il juste ? Si oui, la clôture est possible. Si non, on fige la zone, on informe sans attendre, puis on cherche par zones. Deuxième question : l'outil est-il retrouvé ? Si oui, on vérifie qu'il est entier, on trace, et la clôture redevient possible. Si non, pas de clôture : la suite appartient au responsable.</desc>
-  <rect class="bgp" width="1000" height="770"/>
+  <rect class="bgp" width="1000" height="760"/>
   <g data-part="compte">
     <path class="in" d="M40 100 L290 30 L540 100 L290 170 Z"/><text class="tb tc" x="290" y="113">Compte juste ?</text>
   </g>
@@ -33,7 +33,7 @@
   <path class="dim" d="M290 530 L290 554"/><path class="dimf" d="M290 560 L283 539.6 L297 539.6 Z"/>
   <path class="dim" d="M510 628 L580 628 L580 350 L630 350"/><path class="dimf" d="M636 350 L615.6 357 L615.6 343 Z"/><text class="ts ta" x="596" y="560">oui</text>
   <path class="dim" d="M800 310 L800 150"/><path class="dimf" d="M800 144 L807 164.4 L793 164.4 Z"/>
-  <path class="dim" d="M290 694 L290 720 L550 720"/><path class="dimf" d="M556 720 L535.6 727 L535.6 713 Z"/><text class="ts ta" x="306" y="752">non</text>
+  <path class="dim" d="M290 694 L290 720 L550 720"/><path class="dimf" d="M556 720 L535.6 727 L535.6 713 Z"/><text class="ts ta" x="306" y="748">non</text>
   <g class="badges">
     <g class="badge" data-badge="compte" transform="translate(60 50)"><circle class="bd" r="26"/><text class="bn">1</text></g>
     <g class="badge" data-badge="cloture" transform="translate(950 50)"><circle class="bd" r="26"/><text class="bn">2</text></g>

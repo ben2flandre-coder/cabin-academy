@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 670" class="fig" role="img" aria-labelledby="t d">
   <title id="t">Étiquette de pièce non conforme fictive</title>
-  <desc id="d">Document fictif pédagogique. Étiquette volante à bout pointu, percée d'un œillet où passe un lien d'attache. Sous un bandeau rouge, le titre NON CONFORME. Viennent ensuite les champs : FICHE EX-NC-0031 ; P/N EX-48213-07 et S/N EX-000412 ; CONSTAT rayure face visible ; TROUVÉ à la pose, zone EX-B ; DATE 2026-03-12 suivie d'un visa ; enfin la mention document fictif pédagogique.</desc>
+  <desc id="d">Document fictif pédagogique. Étiquette volante à bout pointu, percée d'un œillet où passe un lien d'attache. Sous un bandeau rouge, le titre NON CONFORME. Viennent ensuite les champs : FICHE EX-NC-0031 ; P/N EX-52107-02 et S/N EX-000731 ; CONSTAT rayure face visible ; TROUVÉ à la pose, zone EX-B ; DATE 2026-03-12 suivie d'un visa ; enfin la mention document fictif pédagogique.</desc>
   <rect class="bgp" width="1000" height="670"/>
   <path class="wh" d="M210 20 H966 V650 H210 L60 510 V160 Z"/>
   <g data-part="lien">
@@ -23,9 +23,9 @@
     <rect class="wh" x="226" y="230" width="724" height="128" rx="10"/>
   </g>
   <text class="ts" x="244" y="275" pointer-events="none">P/N</text>
-  <text class="tb" x="440" y="276" pointer-events="none">EX-48213-07</text>
+  <text class="tb" x="440" y="276" pointer-events="none">EX-52107-02</text>
   <text class="ts" x="244" y="337" pointer-events="none">S/N</text>
-  <text class="tb" x="440" y="338" pointer-events="none">EX-000412</text>
+  <text class="tb" x="440" y="338" pointer-events="none">EX-000731</text>
   <g data-part="constat">
     <rect class="wh" x="226" y="366" width="724" height="64" rx="10"/>
   </g>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Cinq outils dynamométriques à main</title>
+  <desc id="d">Cinq outils dessinés l'un sous l'autre, poignée à gauche. Premier : clé à déclenchement, poignée avec bague graduée, corps tubulaire, tête à cliquet. Deuxième : clé à cadran, avec un cadran rond à aiguille au milieu du corps et une seconde aiguille témoin. Troisième : clé électronique, avec un boîtier portant un écran, des boutons et des voyants. Quatrième : clé à lame flexible, avec une lame qui relie la poignée à la tête, une fine tige indicatrice partant de la tête et une petite plaque graduée près de la poignée. Cinquième : tournevis dynamométrique, gros manche, bague graduée avec une fenêtre de lecture, tige et embout.</desc>
+  <rect class="bgp" width="1000" height="760"/>
+  <g data-part="t-declenchement">
+    <rect class="none" x="110" y="28" width="840" height="112"/>
+    <rect class="mt" x="412.4" y="70.2" width="403.4" height="27.6" rx="2"/>
+    <path class="mt" d="M811.8 70.2 L830.2 67.9 L856.2 49.2 L856.2 118.8 L830.2 100.1 L811.8 97.8 Z"/>
+    <circle class="mt" cx="890" cy="84" r="48.3"/>
+    <circle class="thin" cx="890" cy="84" r="36.7"/>
+    <rect class="dash" x="875.1" y="69.1" width="29.9" height="29.9"/>
+    <path class="dk" d="M120 68.8 Q120 61.9 126.9 61.9 L147 61.9 Q153.9 61.9 153.9 68.8 L153.9 99.2 Q153.9 106.1 147 106.1 L126.9 106.1 Q120 106.1 120 99.2 Z"/>
+    <path class="eq2" d="M149.9 63.3 Q149.9 56.4 156.8 56.4 L373 56.4 Q379.9 56.4 379.9 63.3 L379.9 104.7 Q379.9 111.6 373 111.6 L156.8 111.6 Q149.9 111.6 149.9 104.7 Z"/>
+    <rect class="wh" x="258" y="56.4" width="13.8" height="55.2"/>
+    <path class="mt2" d="M379.9 56.4 L398.9 56.4 L414.4 66.8 L414.4 101.3 L398.9 111.6 L379.9 111.6 Z"/>
+    <path class="thin" d="M430.4 70.2 L430.4 86.2"/>
+    <path class="thin" d="M444.4 70.2 L444.4 80.2"/>
+    <path class="thin" d="M458.4 70.2 L458.4 86.2"/>
+    <path class="thin" d="M472.4 70.2 L472.4 80.2"/>
+    <path class="thin" d="M486.4 70.2 L486.4 86.2"/>
+  </g>
+  <g data-part="t-cadran">
+    <rect class="none" x="110" y="166" width="840" height="132"/>
+    <rect class="mt" x="330" y="219" width="520" height="26" rx="2"/>
+    <circle class="mt" cx="890" cy="232" r="46"/>,<circle class="thin" cx="890" cy="232" r="35"/>,<rect class="dash" x="876" y="218" width="28" height="28"/>
+    <path class="eq2" d="M120 218 Q120 206 132 206 L328 206 Q340 206 340 218 L340 246 Q340 258 328 258 L132 258 Q120 258 120 246 Z"/>
+    <circle class="mt2" cx="600" cy="232" r="64"/>
+    <circle class="wh" cx="600" cy="232" r="54"/>
+    <path class="ln" d="M555 258 L561.9 254"/>
+    <path class="ln" d="M548.3 237.4 L556.2 236.6"/>
+    <path class="ln" d="M550.5 215.9 L558.2 218.4"/>
+    <path class="ln" d="M561.4 197.2 L567.3 202.6"/>
+    <path class="ln" d="M578.8 184.5 L582.1 191.8"/>
+    <path class="ln" d="M600 180 L600 188"/>
+    <path class="ln" d="M621.2 184.5 L617.9 191.8"/>
+    <path class="ln" d="M638.6 197.2 L632.7 202.6"/>
+    <path class="ln" d="M649.5 215.9 L641.8 218.4"/>
+    <path class="ln" d="M651.7 237.4 L643.8 236.6"/>
+    <path class="ln" d="M645 258 L638.1 254"/>
+    <path class="ln2" d="M600 232 L618.7 190"/>
+    <path class="ax" d="M600 232 L581.3 190"/>
+    <circle class="dk" cx="600" cy="232" r="7"/>
+  </g>
+  <g data-part="t-electronique">
+    <rect class="none" x="110" y="324" width="840" height="120"/>
+    <rect class="mt" x="500" y="371" width="350" height="26" rx="2"/>
+    <circle class="mt" cx="890" cy="384" r="46"/>,<circle class="thin" cx="890" cy="384" r="35"/>,<rect class="dash" x="876" y="370" width="28" height="28"/>
+    <path class="eq2" d="M120 370 Q120 358 132 358 L288 358 Q300 358 300 370 L300 398 Q300 410 288 410 L132 410 Q120 410 120 398 Z"/>
+    <path class="dk" d="M290 354 Q290 344 300 344 L530 344 Q540 344 546.7 351.4 L553.3 358.6 Q560 366 560 376 L560 392 Q560 402 553.3 409.4 L546.7 416.6 Q540 424 530 424 L300 424 Q290 424 290 414 Z"/>
+    <rect class="gl" x="310" y="358" width="130" height="52" rx="5"/>
+    <path class="ln" d="M326 370 L348 370 L348 398 L326 398 Z"/>
+    <path class="ln" d="M364 370 L386 370 L386 398 L364 398 Z"/>
+    <path class="ln" d="M402 370 L424 370 L424 398 L402 398 Z"/>
+    <circle class="wh" cx="468" cy="370" r="9"/>
+    <circle class="wh" cx="468" cy="398" r="9"/>
+    <circle class="wh" cx="498" cy="370" r="9"/>
+    <circle class="okf" cx="498" cy="398" r="9"/>
+    <circle class="badf" cx="528" cy="384" r="9"/>
+  </g>
+  <g data-part="t-lame">
+    <rect class="none" x="110" y="466" width="840" height="140"/>
+    <path class="mt" d="M330 544 L850 542 L850 562 L330 560 Z"/>
+    <circle class="mt" cx="890" cy="552" r="46"/>,<circle class="thin" cx="890" cy="552" r="35"/>,<rect class="dash" x="876" y="538" width="28" height="28"/>
+    <path class="eq2" d="M120 538 Q120 526 132 526 L328 526 Q340 526 340 538 L340 566 Q340 578 328 578 L132 578 Q120 578 120 566 Z"/>
+    <path class="wh" d="M352 530 L352 492 Q400 470 448 492 L448 530 Z"/>
+    <path class="ln" d="M361 492.6 L361 508.6"/>
+    <path class="ln" d="M374 490.4 L374 506.4"/>
+    <path class="ln" d="M387 488.2 L387 504.2"/>
+    <path class="ln" d="M400 486 L400 512"/>
+    <path class="ln" d="M413 488.2 L413 504.2"/>
+    <path class="ln" d="M426 490.4 L426 506.4"/>
+    <path class="ln" d="M439 492.6 L439 508.6"/>
+    <path class="ln2" d="M862 530 L404 520"/>
+    <circle class="dk" cx="400" cy="520" r="6"/>
+  </g>
+  <g data-part="t-tournevis">
+    <rect class="none" x="110" y="624" width="840" height="120"/>
+    <rect class="mt" x="560" y="673" width="250" height="22" rx="2"/>
+    <path class="mt2" d="M806 673 L850 673 L900 680 L900 688 L850 695 L806 695 Z"/>
+    <path class="eq2" d="M150 714 L151.3 715 L152.8 716.4 L154.4 718 L156.2 719.8 L158.4 721.8 L160.9 723.7 L163.9 725.6 L167.3 727.3 L171.3 728.8 L176 730 L181.4 730.9 L187.6 731.7 L194.5 732.3 L201.9 732.8 L209.6 733.1 L217.7 733.4 L225.8 733.6 L234 733.8 L242.1 733.9 L250 734 L257.8 734.1 L265.8 734.1 L273.9 734 L282 733.9 L290.3 733.8 L298.4 733.5 L306.5 733.2 L314.5 732.9 L322.4 732.5 L330 732 L337.6 731.4 L345.3 730.7 L353 729.8 L360.6 728.9 L368.1 727.9 L375.4 727 L382.3 726.1 L388.7 725.2 L394.7 724.5 L400 724 L404.8 723.6 L409 723.3 L412.9 723.2 L416.3 723 L419.4 723 L422.1 723 L424.5 723 L426.6 723 L428.4 723 L430 723 L430 645 L428.4 645 L426.6 645 L424.5 645 L422.1 645 L419.4 645 L416.3 645 L412.9 644.8 L409 644.7 L404.8 644.4 L400 644 L394.7 643.5 L388.7 642.8 L382.3 641.9 L375.4 641 L368.1 640.1 L360.6 639.1 L353 638.2 L345.3 637.3 L337.6 636.6 L330 636 L322.4 635.5 L314.5 635.1 L306.5 634.8 L298.4 634.5 L290.3 634.3 L282 634.1 L273.9 634 L265.8 633.9 L257.8 633.9 L250 634 L242.1 634.1 L234 634.2 L225.8 634.4 L217.7 634.6 L209.6 634.9 L201.9 635.2 L194.5 635.7 L187.6 636.3 L181.4 637.1 L176 638 L171.3 639.2 L167.3 640.7 L163.9 642.4 L160.9 644.3 L158.4 646.3 L156.2 648.2 L154.4 650 L152.8 651.6 L151.3 653 L150 654 Z"/>
+    <path class="ln" d="M230 658 L330 658"/>
+    <path class="ln" d="M230 684 L340 684"/>
+    <path class="ln" d="M230 710 L330 710"/>
+    <path class="mt2" d="M430 644 L520 644 L560 664 L560 704 L520 724 L430 724 Z"/>
+    <path class="ln" d="M444 644 L444 668"/>
+    <path class="ln" d="M458 644 L458 658"/>
+    <path class="ln" d="M472 644 L472 668"/>
+    <path class="ln" d="M486 644 L486 658"/>
+    <path class="ln" d="M500 644 L500 668"/>
+    <path class="ln" d="M514 644 L514 658"/>
+    <rect class="wh" x="448" y="688" width="62" height="24" rx="3"/>
+    <path class="ln" d="M479 688 L479 712"/>
+    <path class="dk" d="M122 668 Q122 660 130 660 L148 660 Q156 660 156 668 L156 700 Q156 708 148 708 L130 708 Q122 708 122 700 Z"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="t-declenchement" transform="translate(58 84)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="t-cadran" transform="translate(58 232)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="t-electronique" transform="translate(58 384)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="t-lame" transform="translate(58 552)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="t-tournevis" transform="translate(58 684)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+  </g>
+</svg>

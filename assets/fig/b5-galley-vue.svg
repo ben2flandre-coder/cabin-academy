@@ -65,7 +65,7 @@
     <rect class="mt2" x="744" y="520" width="30" height="12" rx="4"/>
   </g>
   <g class="badges">
-    <g class="badge" data-badge="conteneurs" transform="translate(342 111)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="conteneurs" transform="translate(402 111)"><circle class="bd" r="26"/><text class="bn">1</text></g>
     <g class="badge" data-badge="tableau" transform="translate(742 96)"><circle class="bd" r="26"/><text class="bn">2</text></g>
     <g class="badge" data-badge="four" transform="translate(401 266)"><circle class="bd" r="26"/><text class="bn">3</text></g>
     <g class="badge" data-badge="boissons" transform="translate(564 290)"><circle class="bd" r="26"/><text class="bn">4</text></g>

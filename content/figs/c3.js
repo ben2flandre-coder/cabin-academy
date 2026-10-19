@@ -61,7 +61,7 @@ CA.addFigures([
     id: 'c3-etiquette-nc', file: 'c3-etiquette-nc.svg',
     title: "Étiquette de pièce non conforme fictive",
     caption: "Document fictif — pédagogique. La couleur, la forme et les rubriques réelles sont celles de ton entreprise.",
-    alt: "Étiquette volante fictive avec œillet et lien. Bandeau rouge et titre NON CONFORME. Champs : FICHE EX-NC-0031 ; P/N EX-48213-07 ; S/N EX-000412 ; CONSTAT rayure face visible ; TROUVÉ à la pose, zone EX-B ; DATE 2026-03-12 et visa ; mention document fictif pédagogique.",
+    alt: "Étiquette volante fictive avec œillet et lien. Bandeau rouge et titre NON CONFORME. Champs : FICHE EX-NC-0031 ; P/N EX-52107-02 ; S/N EX-000731 ; CONSTAT rayure face visible ; TROUVÉ à la pose, zone EX-B ; DATE 2026-03-12 et visa ; mention document fictif pédagogique.",
     purpose: "Reconnaître les informations qui rendent une pièce non conforme impossible à confondre avec une pièce bonne.",
     chapters: ['c3'],
     provenance: "Schéma original RMBD — création pédagogique", rights: "© RMBD, usage pédagogique",

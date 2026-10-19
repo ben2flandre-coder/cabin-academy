@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Le hublot en coupe : de la vitre extérieure au store</title>
+  <desc id="d">Schéma de principe en deux vues, épaisseurs fortement grossies. À gauche, coupe verticale d'un hublot, extérieur de l'avion à gauche et cabine à droite. Dans l'ouverture de la peau, un cadre de hublot riveté à la peau reçoit deux vitres épaisses tenues ensemble par un joint : la vitre extérieure, au ras de la peau, et la vitre médiane, percée d'un petit trou vers le bas ; des brides de maintien serrent l'ensemble contre le cadre. Plus à droite, séparé par un espace d'air, le panneau latéral forme un entonnoir, l'encadrement, qui porte une vitre intérieure mince puis, côté cabine, le store ; le store est à moitié baissé et un tracé en tirets montre le logement où il remonte. À droite, le même hublot vu de la cabine une fois le panneau latéral déposé : la peau, le cadre de hublot, le joint, la vitre médiane avec son petit trou en bas, et six brides de maintien.</desc>
+  <rect class="bgp" width="1000" height="680"/>
+  <g data-part="peau">
+    <rect class="sk" x="70" y="30" width="18" height="120"/><rect class="sk" x="70" y="490" width="18" height="120"/>
+    <path class="sk" d="M620 60 L960 60 L960 580 L620 580 Z"/>
+  </g>
+  <g data-part="cadre-hublot">
+    <path class="mt2" d="M88 44 L108 44 L108 148 L198 148 L198 172 L88 172 Z"/><path class="mt2" d="M88 596 L108 596 L108 492 L198 492 L198 468 L88 468 Z"/>
+    <path class="ln" d="M62 74 L114 74 M62 112 L114 112 M62 528 L114 528 M62 566 L114 566"/>
+    <rect class="mt2" x="650" y="96" width="280" height="448" rx="118"/>
+  </g>
+  <g data-part="joint">
+    <rect class="dk" x="64" y="172" width="114" height="26" rx="4"/><rect class="dk" x="64" y="442" width="114" height="26" rx="4"/>
+    <rect class="dk" x="676" y="126" width="228" height="388" rx="96"/>
+  </g>
+  <g data-part="vitre-ext">
+    <path class="gl" d="M72 198 L106 198 L106 442 L72 442 Z"/>
+  </g>
+  <g data-part="vitre-med">
+    <rect class="gl" x="142" y="198" width="20" height="192"/><rect class="gl" x="142" y="402" width="20" height="40"/>
+    <rect class="gl" x="694" y="144" width="192" height="352" rx="80"/><circle class="wh" cx="790" cy="470" r="8"/>
+  </g>
+  <g data-part="retenue">
+    <path class="mt" d="M178 172 L198 172 L198 220 L162 220 L162 206 L178 206 Z"/><path class="mt" d="M178 468 L198 468 L198 420 L162 420 L162 434 L178 434 Z"/>
+    <rect class="mt" x="772" y="104" width="36" height="46" rx="5"/><circle class="dk" cx="790" cy="127" r="6"/>
+    <rect class="mt" x="772" y="490" width="36" height="46" rx="5"/><circle class="dk" cx="790" cy="513" r="6"/>
+    <rect class="mt" x="656" y="220" width="46" height="36" rx="5"/><circle class="dk" cx="679" cy="238" r="6"/>
+    <rect class="mt" x="656" y="384" width="46" height="36" rx="5"/><circle class="dk" cx="679" cy="402" r="6"/>
+    <rect class="mt" x="878" y="220" width="46" height="36" rx="5"/><circle class="dk" cx="901" cy="238" r="6"/>
+    <rect class="mt" x="878" y="384" width="46" height="36" rx="5"/><circle class="dk" cx="901" cy="402" r="6"/>
+  </g>
+  <path class="dim" d="M196 396 L128 396"/><path class="dimf" d="M118 396 L134 388 L134 404 Z"/>
+  <g data-part="panneau">
+    <rect class="in" x="430" y="30" width="16" height="90"/><rect class="in" x="430" y="520" width="16" height="90"/>
+  </g>
+  <g data-part="encadrement">
+    <path class="in" d="M430 120 L446 120 L266 200 L254 190 Z"/><path class="in" d="M430 520 L446 520 L266 440 L254 450 Z"/>
+  </g>
+  <g data-part="vitre-int">
+    <rect class="gl" x="298" y="186" width="10" height="268"/>
+  </g>
+  <path class="dash" d="M336 166 L336 56 L348 56 L348 162"/>
+  <g data-part="store">
+    <rect class="eq2" x="336" y="170" width="12" height="138"/><rect class="eq2" x="348" y="292" width="24" height="16" rx="4"/>
+  </g>
+  <text class="ts" x="30" y="656">Coupe : dehors à gauche</text><text class="ts tc" x="790" y="640">Panneau déposé</text>
+  <path class="thin" d="M130 96 L104 96"/><path class="thin" d="M48 320 L72 320"/><path class="thin" d="M216 322 L162 322"/><path class="thin" d="M46 196 L66 186"/><path class="thin" d="M232 228 L198 214"/><path class="thin" d="M392 196 L384 150"/><path class="thin" d="M262 370 L298 366"/><path class="thin" d="M410 316 L372 302"/><path class="thin" d="M490 76 L446 76"/><path class="thin" d="M46 100 L70 100"/>
+  <g class="badges">
+    <g class="badge" data-badge="peau" transform="translate(30 84)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="cadre-hublot" transform="translate(152 96)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="vitre-ext" transform="translate(30 330)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="vitre-med" transform="translate(236 322)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="joint" transform="translate(30 206)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="retenue" transform="translate(254 234)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="encadrement" transform="translate(396 218)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="vitre-int" transform="translate(248 386)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="store" transform="translate(428 326)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="panneau" transform="translate(508 76)"><circle class="bd" r="24"/><text class="bn">10</text></g>
+  </g>
+</svg>

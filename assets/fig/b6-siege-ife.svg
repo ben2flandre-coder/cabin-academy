@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 710" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Le dos d'un siège passager et ses équipements</title>
+  <desc id="d">Schéma de principe du dos d'un siège passager, tel que le voit le passager assis derrière. De haut en bas : une étiquette indiquant que le gilet est sous le siège, un écran individuel, un bandeau de prises (casque, USB, secteur), la tablette relevée, la carte de consignes de sécurité qui dépasse de la pochette. Sous le siège : la pochette du gilet de sauvetage et un boîtier électronique fixé à la structure du siège. Un câble descend du boîtier et longe le rail au sol ; à gauche il est caché par le cache de rail, à droite le cache est retiré et on voit le câble.</desc>
+  <rect class="bgp" width="1000" height="710"/>
+  <rect class="fl" x="30" y="650" width="940" height="40"/>
+  <rect class="st" x="340" y="572" width="22" height="62" rx="3"/>
+  <rect class="st" x="640" y="572" width="22" height="62" rx="3"/>
+  <rect class="mt" x="290" y="556" width="420" height="20" rx="5"/>
+  <path class="eq" d="M330 40 L670 40 Q700 40 700 70 L700 556 L300 556 L300 70 Q300 40 330 40 Z"/>
+  <rect class="in" x="340" y="330" width="320" height="92" rx="8"/>
+  <rect class="mt2" x="484" y="320" width="32" height="20" rx="4"/>
+  <g data-part="etiquette">
+    <rect class="wh" x="400" y="58" width="200" height="50" rx="6"/>
+    <path class="syf" d="M420 68 L432 68 L438 76 L444 68 L456 68 L456 98 L420 98 Z"/>
+    <path class="badf" d="M500 66 L516 66 L516 84 L526 84 L508 102 L490 84 L500 84 Z"/>
+    <line class="ln" x1="544" y1="74" x2="584" y2="74"/>
+    <line class="ln" x1="544" y1="92" x2="574" y2="92"/>
+  </g>
+  <g data-part="ecran">
+    <rect class="dk" x="370" y="122" width="260" height="150" rx="10"/>
+    <rect class="gl" x="384" y="136" width="232" height="122" rx="4"/>
+  </g>
+  <g data-part="prise">
+    <rect class="mt" x="370" y="280" width="260" height="36" rx="6"/>
+    <circle class="dk" cx="400" cy="298" r="8"/>
+    <rect class="dk" x="438" y="291" width="24" height="14" rx="2"/>
+    <rect class="dk" x="478" y="291" width="24" height="14" rx="2"/>
+    <rect class="wh" x="548" y="286" width="60" height="24" rx="4"/>
+    <circle class="dk" cx="566" cy="298" r="4"/><circle class="dk" cx="590" cy="298" r="4"/>
+  </g>
+  <g data-part="consignes">
+    <rect class="wh" x="410" y="430" width="130" height="80" rx="4"/>
+    <rect class="badf" x="420" y="438" width="110" height="10"/>
+    <line class="thin" x1="424" y1="458" x2="526" y2="458"/>
+  </g>
+  <rect class="eq2" x="330" y="466" width="340" height="80" rx="8"/>
+  <g data-part="faisceau">
+    <path class="sy" d="M600 626 L600 640 L960 640"/>
+    <rect class="fl" x="700" y="646" width="270" height="8"/>
+  </g>
+  <g data-part="cache-rail">
+    <rect class="in" x="30" y="626" width="670" height="26" rx="5"/>
+    <line class="thin" x1="250" y1="626" x2="250" y2="652"/>
+    <line class="thin" x1="480" y1="626" x2="480" y2="652"/>
+  </g>
+  <g data-part="gilet">
+    <rect class="syf" x="380" y="580" width="150" height="42" rx="10"/>
+    <rect class="badf" x="516" y="590" width="34" height="14" rx="4"/>
+  </g>
+  <g data-part="boitier">
+    <rect class="mt" x="566" y="582" width="74" height="44" rx="5"/>
+    <rect class="dk" x="576" y="592" width="22" height="12" rx="2"/>
+    <rect class="dk" x="606" y="592" width="22" height="12" rx="2"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="ecran" transform="translate(500 196)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="prise" transform="translate(668 298)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="etiquette" transform="translate(640 83)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="consignes" transform="translate(582 440)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="gilet" transform="translate(338 600)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="boitier" transform="translate(712 598)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="faisceau" transform="translate(850 600)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="cache-rail" transform="translate(150 612)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

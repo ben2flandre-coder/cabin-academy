@@ -48,17 +48,17 @@
 <rect class="mt2" x="478" y="530" width="80" height="80"/>
   </g>
 <path class="sy" d="M558 550 C640 540 700 510 960 510"/><path class="sy" d="M558 570 L960 570"/><path class="sy" d="M558 590 C640 600 700 630 960 630"/>
-
+<path class="thin" d="M66 215 L146 219 M70 345 L176 258 M392 338 L303 288 M408 108 L328 158 M230 58 L230 98 M940 262 L796 205 M520 110 L604 140 M940 70 L896 84"/>
   <g class="badges">
-    <g class="badge" data-badge="bague" transform="translate(92 90)"><circle class="bd" r="26"/><text class="bn">1</text></g>
-    <g class="badge" data-badge="coque" transform="translate(312 300)"><circle class="bd" r="26"/><text class="bn">2</text></g>
-    <g class="badge" data-badge="isolant" transform="translate(230 284)"><circle class="bd" r="26"/><text class="bn">3</text></g>
-    <g class="badge" data-badge="douilles" transform="translate(230 215)"><circle class="bd" r="26"/><text class="bn">4</text></g>
-    <g class="badge" data-badge="broches" transform="translate(730 215)"><circle class="bd" r="26"/><text class="bn">5</text></g>
-    <g class="badge" data-badge="detrompeur-principal" transform="translate(230 52)"><circle class="bd" r="26"/><text class="bn">6</text></g>
-    <g class="badge" data-badge="detrompeurs-secondaires" transform="translate(366 150)"><circle class="bd" r="26"/><text class="bn">7</text></g>
-    <g class="badge" data-badge="ergots" transform="translate(730 400)"><circle class="bd" r="26"/><text class="bn">8</text></g>
-    <g class="badge" data-badge="bride" transform="translate(888 62)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="bague" transform="translate(60 80)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="coque" transform="translate(406 346)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="isolant" transform="translate(42 214)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="douilles" transform="translate(52 360)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="broches" transform="translate(958 270)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="detrompeur-principal" transform="translate(230 34)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="detrompeurs-secondaires" transform="translate(424 98)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="ergots" transform="translate(510 104)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="bride" transform="translate(958 62)"><circle class="bd" r="26"/><text class="bn">9</text></g>
     <g class="badge" data-badge="raccord-arriere" transform="translate(230 640)"><circle class="bd" r="26"/><text class="bn">10</text></g>
   </g>
 </svg>

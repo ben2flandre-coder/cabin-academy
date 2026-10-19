@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Zone de porte pendant un chantier, vue de dessus : cherche ce qui gêne l'issue</title>
+  <desc id="d">Vue de dessus d'une zone de porte pendant des travaux en cabine, avant à gauche. En haut, à l'extérieur, une passerelle d'accès est accostée devant l'ouverture ; la porte est ouverte et plaquée le long du fuselage. Sur le sol, juste derrière l'ouverture, une protection de seuil hachurée est en place. De chaque côté du passage, un meuble de cabine. Un chariot à outils est rangé le long du meuble de droite, hors du passage. Un bac marqué FOD est posé le long du meuble de gauche, hors du passage. Quatre anomalies : deux cartons empilés au milieu du passage ; une rallonge électrique orange qui serpente depuis la passerelle, passe sur le seuil et traverse le passage ; deux vis et une rondelle au sol près du seuil ; un panneau d'habillage posé debout contre la porte ouverte.</desc>
+  <rect class="bgp" width="1000" height="680"/>
+  <g data-part="passerelle">
+    <rect class="mt" x="330" y="20" width="340" height="124" rx="6"/>
+    <path class="thin" d="M330 50 L670 50 M330 80 L670 80 M330 110 L670 110 M390 20 L390 144 M450 20 L450 144 M510 20 L510 144 M570 20 L570 144 M630 20 L630 144"/>
+    <path class="ln2" d="M330 20 L330 144 M670 20 L670 96"/>
+  </g>
+  <rect class="sk" x="20" y="144" width="360" height="30"/><rect class="sk" x="620" y="144" width="360" height="30"/>
+  <rect class="fl" x="20" y="174" width="960" height="486"/>
+  <rect class="eq" x="20" y="174" width="330" height="236" rx="6"/><path class="thin" d="M130 174 L130 410 M240 174 L240 410"/>
+  <rect class="eq" x="650" y="174" width="330" height="236" rx="6"/><path class="thin" d="M650 292 L980 292"/><path class="ln" d="M760 410 A60 60 0 0 1 820 350"/>
+  <rect class="eq" x="20" y="560" width="92" height="100" rx="10"/><rect class="eq" x="122" y="560" width="92" height="100" rx="10"/><rect class="eq" x="786" y="560" width="92" height="100" rx="10"/><rect class="eq" x="888" y="560" width="92" height="100" rx="10"/>
+  <g data-part="porte">
+    <rect class="sk" opacity="0" x="676" y="84" width="250" height="64" rx="8"/>
+    <rect class="wh" x="684" y="104" width="236" height="34" rx="12"/>
+    <rect class="gl" x="790" y="112" width="40" height="18" rx="6"/>
+    <path class="ln2" d="M640 150 L690 122"/>
+  </g>
+  <g data-part="protection-seuil">
+    <rect class="in" x="384" y="140" width="232" height="70" rx="6"/>
+    <path class="thin" d="M400 140 L384 164 M440 140 L394 210 M480 140 L434 210 M520 140 L474 210 M560 140 L514 210 M600 140 L554 210 M616 176 L594 210"/>
+  </g>
+  <g data-part="chariot">
+    <rect class="mt" x="676" y="424" width="170" height="92" rx="8"/>
+    <rect class="mt2" x="690" y="436" width="142" height="30" rx="4"/><rect class="mt2" x="690" y="474" width="142" height="30" rx="4"/>
+    <circle class="dk" cx="690" cy="524" r="10"/><circle class="dk" cx="832" cy="524" r="10"/>
+  </g>
+  <g data-part="bac-fod">
+    <rect class="dk" x="232" y="424" width="108" height="92" rx="8"/>
+    <rect class="wh" x="242" y="434" width="88" height="72" rx="4"/>
+    <text class="ts tc" x="286" y="484">FOD</text>
+  </g>
+  <g data-part="carton">
+    <rect class="wh" x="440" y="254" width="150" height="120" rx="4"/>
+    <path class="ln" d="M440 314 L590 314"/>
+    <rect class="wh" x="464" y="232" width="110" height="92" rx="4"/>
+    <path class="ln" d="M519 232 L519 324"/>
+    <path class="thin" d="M464 254 L574 254"/>
+  </g>
+  <g data-part="rallonge">
+    <path class="sy" d="M360 70 C420 100 372 170 400 214 C430 262 368 330 388 420 C398 470 470 480 520 470"/>
+    <rect class="dk" x="514" y="452" width="56" height="34" rx="6"/>
+    <circle class="wh" cx="530" cy="469" r="6"/><circle class="wh" cx="552" cy="469" r="6"/>
+  </g>
+  <g data-part="vis">
+    <rect class="sk" opacity="0" x="592" y="216" width="86" height="80" rx="8"/>
+    <g transform="translate(616 240) rotate(20)"><rect class="mt2" x="-4" y="-2" width="30" height="8" rx="2"/><rect class="mt" x="-14" y="-8" width="12" height="20" rx="3"/></g>
+    <g transform="translate(650 262) rotate(-35)"><rect class="mt2" x="-4" y="-2" width="30" height="8" rx="2"/><rect class="mt" x="-14" y="-8" width="12" height="20" rx="3"/></g>
+    <circle class="mt" cx="622" cy="278" r="8"/><circle class="dk" cx="622" cy="278" r="3"/>
+  </g>
+  <g data-part="panneau">
+    <rect class="sk" opacity="0" x="690" y="40" width="220" height="62" rx="8"/>
+    <rect class="in" x="700" y="74" width="200" height="24" rx="4"/>
+    <path class="thin" d="M700 86 L900 86"/>
+  </g>
+  <path class="dim" d="M366 610 L440 610"/><path class="dimf" d="M340 610 L370 596 L370 624 Z"/>
+  <text class="tb ta" x="456" y="624">FWD</text>
+  <g class="badges">
+    <g class="badge" data-badge="passerelle" transform="translate(500 64)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="porte" transform="translate(950 120)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="protection-seuil" transform="translate(560 176)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="chariot" transform="translate(760 470)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="bac-fod" transform="translate(200 470)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="carton" transform="translate(514 344)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="rallonge" transform="translate(380 376)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="vis" transform="translate(650 310)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="panneau" transform="translate(800 46)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+  </g>
+</svg>

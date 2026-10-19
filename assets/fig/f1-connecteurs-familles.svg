@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Connecteurs : verrouillages, contacts, détrompage, protection</title>
+  <desc id="d">Planche de six dessins. En haut à gauche, connecteur circulaire à baïonnette vu de côté : la bague porte une rampe inclinée terminée par un trou, l'embase porte un ergot ; une flèche courte indique une fraction de tour. En haut au centre, connecteur circulaire à verrouillage fileté : l'embase porte un filetage, une flèche en spirale indique plusieurs tours. En haut à droite, coupe d'un contact femelle, la douille, tube creux logé dans son isolant, face à un contact mâle, la broche, tige pleine qui dépasse de son isolant. En bas à gauche, connecteur rectangulaire vu de face : coque en trapèze, deux rangées de contacts, une vis de verrouillage à chaque extrémité ; dessous, deux croquis montrent le trapèze qui entre dans le bon sens et qui bute dans le mauvais sens. En bas au centre, connecteur rectangulaire à loquet vu de côté : une languette élastique accroche un bossage, une flèche montre où appuyer pour libérer. En bas à droite, connecteur en attente fermé par un bouchon de protection retenu par un cordon.</desc>
+  <rect class="bgp" width="1000" height="700"/>
+  <g data-part="baionnette" transform="translate(16 16)">
+<rect class="wh" x="0" y="0" width="312" height="320" rx="16"/><rect class="dk" x="14" y="150" width="50" height="30" rx="8"/><rect class="mt2" x="206" y="120" width="70" height="90"/><rect class="mt" x="276" y="92" width="16" height="146" rx="3"/><circle class="dk" cx="226" cy="191" r="10"/><rect class="mt" x="60" y="105" width="120" height="120" rx="8"/><path class="thin" d="M70 105 L70 225 M84 105 L84 225 M98 105 L98 225 M112 105 L112 225"/><polygon class="wh" points="181,179 181,203 130,164 144,146"/><circle class="wh" cx="136" cy="152" r="14"/><path class="dim" d="M78 84 Q120 50 158 80"/><polygon class="dimf" points="172.1,94.1 164.4,70.8 148.8,86.4"/>
+  </g>
+  <g data-part="filete" transform="translate(344 16)">
+<rect class="wh" x="0" y="0" width="312" height="320" rx="16"/><rect class="dk" x="14" y="150" width="50" height="30" rx="8"/><rect class="mt2" x="206" y="120" width="70" height="90"/><path class="thin" d="M212 120 L218 210 M222 120 L228 210 M232 120 L238 210 M242 120 L248 210 M252 120 L258 210 M262 120 L268 210"/><path class="ln" d="M206 120 L211 114 L216 120 L221 114 L226 120 L231 114 L236 120 L241 114 L246 120 L251 114 L256 120 L261 114 L266 120 L271 114 L276 120"/><path class="ln" d="M206 210 L211 216 L216 210 L221 216 L226 210 L231 216 L236 210 L241 216 L246 210 L251 216 L256 210 L261 216 L266 210 L271 216 L276 210"/><rect class="mt" x="276" y="92" width="16" height="146" rx="3"/><rect class="mt" x="60" y="105" width="120" height="120" rx="8"/><path class="thin" d="M70 105 L70 225 M84.5 105 L84.5 225 M99 105 L99 225 M113.5 105 L113.5 225 M128 105 L128 225 M142.5 105 L142.5 225 M157 105 L157 225 M171.5 105 L171.5 225"/><path class="dim" d="M76 86 C76 44 168 44 168 68 C168 92 100 92 100 70 C100 54 140 52 150 66"/><polygon class="dimf" points="161.5,82.4 157.9,58.1 139.8,70.7"/>
+  </g>
+<rect class="wh" x="672" y="16" width="312" height="320" rx="16"/>
+  <g data-part="douille" transform="translate(672 16)">
+<rect class="in" x="24" y="120" width="96" height="110" rx="6"/><path class="sy" d="M8 175 L52 175"/><rect class="mt" x="50" y="157" width="98" height="36" rx="5"/><rect class="wh" x="86" y="167" width="64" height="16"/>
+  </g>
+  <g data-part="broche" transform="translate(672 16)">
+<rect class="in" x="204" y="120" width="88" height="110" rx="6"/><path class="sy" d="M262 175 L304 175"/><rect class="mt2" x="226" y="160" width="40" height="30" rx="4"/><path class="mt" d="M232 168 L176 168 Q164 175 176 182 L232 182 Z"/>
+  </g>
+<g transform="translate(672 16)"><path class="dim" d="M196 268 L124 268"/><polygon class="dimf" points="104.0,268.0 126.0,279.0 126.0,257.0"/></g>
+<rect class="wh" x="16" y="352" width="312" height="320" rx="16"/>
+  <g data-part="rectangulaire" transform="translate(16 352)">
+<rect class="mt" x="14" y="50" width="284" height="102" rx="10"/><polygon class="mt2" points="62,64 250,64 236,138 76,138"/><polygon class="in" points="76,74 236,74 227,128 85,128"/><circle class="dk" cx="96" cy="90" r="7"/><circle class="dk" cx="120" cy="90" r="7"/><circle class="dk" cx="144" cy="90" r="7"/><circle class="dk" cx="168" cy="90" r="7"/><circle class="dk" cx="192" cy="90" r="7"/><circle class="dk" cx="216" cy="90" r="7"/><circle class="dk" cx="108" cy="112" r="7"/><circle class="dk" cx="132" cy="112" r="7"/><circle class="dk" cx="156" cy="112" r="7"/><circle class="dk" cx="180" cy="112" r="7"/><circle class="dk" cx="204" cy="112" r="7"/>
+  </g>
+  <g data-part="vis-verrouillage" transform="translate(16 352)">
+<circle class="mt2" cx="38" cy="101" r="17"/><rect class="dk" x="27" y="98" width="22" height="6" rx="2"/><circle class="mt2" cx="274" cy="101" r="17"/><rect class="dk" x="263" y="98" width="22" height="6" rx="2"/><rect class="none" pointer-events="all" x="14" y="68" width="48" height="66"/><rect class="none" pointer-events="all" x="250" y="68" width="48" height="66"/>
+  </g>
+  <g data-part="detrompage-forme" transform="translate(16 352)">
+<polygon class="ln" points="20,236 124,236 112,300 32,300"/><polygon class="okf" points="32,244 112,244 103,292 41,292"/><polygon class="ln" points="190,236 294,236 282,300 202,300"/><polygon class="badf" points="211,196 273,196 282,244 202,244"/><rect class="none" pointer-events="all" x="14" y="192" width="286" height="116"/>
+  </g>
+  <g data-part="loquet" transform="translate(344 352)">
+<rect class="wh" x="0" y="0" width="312" height="320" rx="16"/><path class="sy" d="M8 158 L52 164"/><path class="sy" d="M8 194 L52 188"/><path class="sy" d="M250 164 L304 158"/><path class="sy" d="M250 188 L304 194"/><rect class="eq2" x="150" y="134" width="100" height="84" rx="6"/><rect class="mt2" x="160" y="118" width="16" height="16"/><rect class="eq" x="50" y="140" width="100" height="72" rx="6"/><path class="wh" d="M64 140 L64 108 L194 108 L194 132 L178 132 L178 120 L80 120 L80 140 Z"/><path class="dim" d="M100 40 L100 84"/><polygon class="dimf" points="100.0,104.0 111.0,82.0 89.0,82.0"/>
+  </g>
+  <g data-part="bouchon" transform="translate(672 352)">
+<rect class="wh" x="0" y="0" width="312" height="320" rx="16"/><rect class="dk" x="14" y="150" width="50" height="30" rx="8"/><rect class="mt" x="60" y="110" width="100" height="110" rx="8"/><path class="thin" d="M70 110 L70 220 M83.5 110 L83.5 220 M97 110 L97 220 M110.5 110 L110.5 220 M124 110 L124 220 M137.5 110 L137.5 220 M151 110 L151 220"/><rect class="mt2" x="160" y="124" width="24" height="82"/><path class="ln" d="M216 110 C216 44 70 30 40 150"/><rect class="dk" x="180" y="110" width="70" height="110" rx="14"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="baionnette" transform="translate(52 54)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="filete" transform="translate(380 54)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="douille" transform="translate(744 92)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="broche" transform="translate(920 92)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="rectangulaire" transform="translate(172 536)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="vis-verrouillage" transform="translate(54 536)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="detrompage-forme" transform="translate(173 620)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="loquet" transform="translate(598 414)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="bouchon" transform="translate(944 414)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+  </g>
+</svg>

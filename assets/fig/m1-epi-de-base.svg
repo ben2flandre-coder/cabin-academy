@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 708" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Les équipements de protection individuelle de base à reconnaître</title>
+  <desc id="d">Schéma de principe. À gauche, une personne debout, de face, en tenue de travail fermée, qui porte tous ses équipements : casquette, lunettes, protections sur les oreilles, gants, genouillères et chaussures. À droite, six vignettes montrent chaque équipement en grand : des lunettes de protection avec leurs coques latérales ; un casque antibruit à deux coquilles et une paire de bouchons d'oreille reliés par un cordon ; un gant de travail ; une chaussure de sécurité vue de côté, dont le bout renforcé est dessiné en clair ; une casquette anti-heurt vue de côté, avec en pointillés la coque rigide cachée à l'intérieur ; une jambe pliée, genou au sol, protégée par une genouillère.</desc>
+  <rect class="bgp" width="1000" height="708"/>
+  <g data-part="tenue">
+    <rect class="wh" x="24" y="24" width="276" height="660" rx="18"/>
+    <rect class="dk" x="116" y="110" width="14" height="38" rx="6"/><rect class="dk" x="194" y="110" width="14" height="38" rx="6"/>
+    <circle class="in" cx="162" cy="122" r="36"/>
+    <path class="eq2" d="M124 114 C124 74 200 74 200 114 Z"/><path class="dk" d="M118 112 L206 112 L200 122 L124 122 Z"/>
+    <rect class="gl" x="136" y="126" width="23" height="15" rx="5"/><rect class="gl" x="165" y="126" width="23" height="15" rx="5"/><line class="thin" x1="159" y1="132" x2="165" y2="132"/>
+    <rect class="in" x="150" y="154" width="24" height="20" rx="4"/>
+    <path class="eq" d="M110 400 L214 400 L208 630 L172 630 L162 446 L152 630 L116 630 Z"/>
+    <path class="eq" d="M112 172 L212 172 C232 174 240 190 242 212 L250 366 L222 368 L216 244 L214 404 L110 404 L108 244 L102 368 L74 366 L82 212 C84 190 92 174 112 172 Z"/>
+    <line class="thin" x1="162" y1="176" x2="162" y2="400"/><rect class="eq2" x="120" y="218" width="30" height="26" rx="3"/><rect class="eq2" x="174" y="218" width="30" height="26" rx="3"/>
+    <rect class="dk" x="70" y="362" width="36" height="46" rx="12"/><rect class="dk" x="218" y="362" width="36" height="46" rx="12"/>
+    <rect class="dk" x="110" y="506" width="48" height="42" rx="12"/><rect class="dk" x="166" y="506" width="48" height="42" rx="12"/>
+    <path class="dk" d="M100 654 C100 634 112 626 126 626 L158 626 L158 654 Z"/><path class="dk" d="M224 654 C224 634 212 626 198 626 L166 626 L166 654 Z"/>
+  </g>
+  <g data-part="lunettes">
+    <rect class="wh" x="322" y="24" width="318" height="212" rx="18"/>
+    <path class="gl" d="M392 108 L372 102 L372 150 L392 156 Z"/><path class="gl" d="M570 108 L590 102 L590 150 L570 156 Z"/>
+    <rect class="gl" x="392" y="102" width="80" height="58" rx="18"/><rect class="gl" x="490" y="102" width="80" height="58" rx="18"/>
+    <path class="ln2" d="M472 120 C476 110 486 110 490 120"/>
+    <rect class="dk" x="386" y="94" width="190" height="12" rx="5"/>
+    <path class="ln2" d="M372 108 L350 124"/><path class="ln2" d="M590 108 L612 124"/>
+  </g>
+  <g data-part="antibruit">
+    <rect class="wh" x="658" y="24" width="318" height="212" rx="18"/>
+    <path class="dk" d="M736 150 C736 36 898 36 898 150 L884 150 C884 56 750 56 750 150 Z"/>
+    <rect class="eq2" x="716" y="134" width="50" height="76" rx="18"/><rect class="eq2" x="868" y="134" width="50" height="76" rx="18"/>
+    <rect class="dk" x="760" y="144" width="12" height="56" rx="5"/><rect class="dk" x="862" y="144" width="12" height="56" rx="5"/>
+    <path class="ln" d="M800 174 C800 214 834 214 834 174"/>
+    <path class="syf" d="M790 176 C790 150 810 150 810 176 L806 184 L794 184 Z"/><path class="syf" d="M824 176 C824 150 844 150 844 176 L840 184 L828 184 Z"/>
+  </g>
+  <g data-part="gants">
+    <rect class="wh" x="322" y="248" width="318" height="212" rx="18"/>
+    <path class="eq" d="M452 364 L418 334 C408 324 422 310 432 320 L462 346 Z"/>
+    <rect class="eq" x="446" y="290" width="19" height="70" rx="9"/><rect class="eq" x="468" y="274" width="19" height="86" rx="9"/><rect class="eq" x="490" y="278" width="19" height="82" rx="9"/><rect class="eq" x="512" y="294" width="19" height="66" rx="9"/>
+    <path class="eq" d="M444 340 L532 340 L532 398 C532 410 524 416 514 416 L462 416 C452 416 444 410 444 398 Z"/>
+    <rect class="eq2" x="448" y="410" width="80" height="34" rx="6"/>
+    <line class="thin" x1="466" y1="350" x2="466" y2="372"/><line class="thin" x1="488" y1="350" x2="488" y2="372"/><line class="thin" x1="510" y1="350" x2="510" y2="372"/>
+  </g>
+  <g data-part="chaussures">
+    <rect class="wh" x="658" y="248" width="318" height="212" rx="18"/>
+    <path class="mt2" d="M722 404 C722 380 744 368 776 360 L828 344 L834 290 L902 290 L910 404 Z"/>
+    <path class="mt" d="M722 404 C722 380 744 368 776 360 L786 404 Z"/>
+    <path class="dash" d="M786 404 L776 360"/>
+    <path class="dk" d="M716 404 L912 404 C918 404 920 410 920 418 L920 428 L714 428 C708 428 708 412 716 404 Z"/>
+    <line class="thin" x1="796" y1="356" x2="812" y2="372"/><line class="thin" x1="812" y1="350" x2="828" y2="366"/><line class="thin" x1="828" y1="338" x2="846" y2="350"/><line class="thin" x1="832" y1="316" x2="852" y2="324"/>
+    <path class="dk" d="M832 290 L904 290 L904 304 L832 304 Z"/>
+  </g>
+  <g data-part="casquette">
+    <rect class="wh" x="322" y="472" width="318" height="212" rx="18"/>
+    <path class="eq2" d="M424 618 C424 548 470 520 512 520 C560 520 590 560 590 618 Z"/>
+    <path class="dash" d="M446 610 C448 566 478 542 512 542 C546 542 568 570 570 610"/>
+    <path class="dk" d="M428 596 C398 598 372 608 360 622 L428 622 Z"/>
+    <rect class="dk" x="424" y="612" width="166" height="12" rx="4"/>
+    <circle class="dk" cx="512" cy="520" r="6"/>
+  </g>
+  <g data-part="genouilleres">
+    <rect class="wh" x="658" y="472" width="318" height="212" rx="18"/>
+    <line class="ln" x1="686" y1="660" x2="950" y2="660"/>
+    <path class="eq" d="M760 498 L818 498 L818 606 L920 612 L920 656 L770 656 C756 650 750 632 752 612 Z"/>
+    <path class="dk" d="M912 606 L946 606 C950 624 950 642 946 658 L912 658 Z"/>
+    <path class="dk" d="M736 586 C730 612 734 646 754 660 L806 660 L806 644 C782 642 768 620 770 586 Z"/>
+    <path class="mt2" d="M768 590 L820 594 L820 606 L768 602 Z"/><path class="mt2" d="M800 640 L812 606 L824 608 L812 644 Z"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="tenue" transform="translate(64 64)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="lunettes" transform="translate(362 64)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="antibruit" transform="translate(698 64)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="gants" transform="translate(362 288)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="chaussures" transform="translate(698 288)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="casquette" transform="translate(362 512)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="genouilleres" transform="translate(698 512)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+  </g>
+</svg>

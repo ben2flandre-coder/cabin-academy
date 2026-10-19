@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Quel document as-tu le droit d'utiliser ?</title>
+  <desc id="d">Document fictif, pédagogique. En haut, ce que demande le dossier : plan EX-48213, indice C. En dessous, quatre documents trouvés au poste. Premier : EX-48213 indice B, marqué périmé. Deuxième : EX-48231 indice C, validé, mais son numéro n'est pas celui demandé (deux chiffres inversés). Troisième : EX-48213 indice D, marqué projet, donc pas encore validé. Quatrième : EX-48213 indice C, validé : c'est le seul qui correspond à la demande.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+  <g data-part="demande">
+    <rect class="eq" x="40" y="30" width="920" height="170" rx="12"/>
+    <rect class="mt2" x="430" y="16" width="140" height="34" rx="8"/>
+    <text class="ts" x="70" y="100">Le dossier demande :</text>
+    <text class="tl" x="70" y="166">EX-48213 — indice C</text>
+  </g>
+  <g data-part="doc-b">
+    <rect class="wh" x="40" y="236" width="440" height="216" rx="6"/>
+    <rect class="in" x="58" y="256" width="112" height="92" rx="6"/>
+    <circle class="wh" cx="84" cy="280" r="9"/><circle class="wh" cx="144" cy="280" r="9"/><circle class="wh" cx="84" cy="324" r="9"/><circle class="wh" cx="144" cy="324" r="9"/>
+    <text class="tb" x="190" y="296">EX-48213</text>
+    <text class="ts" x="190" y="344">Indice B</text>
+    <line class="ln" x1="40" y1="372" x2="480" y2="372"/>
+    <rect class="badf" x="62" y="392" width="40" height="40" rx="8"/>
+    <text class="tb tr" x="124" y="427">PÉRIMÉ</text>
+  </g>
+  <g data-part="doc-voisin">
+    <rect class="wh" x="520" y="236" width="440" height="216" rx="6"/>
+    <rect class="in" x="538" y="256" width="112" height="92" rx="6"/>
+    <circle class="wh" cx="564" cy="280" r="9"/><circle class="wh" cx="624" cy="280" r="9"/><circle class="wh" cx="564" cy="324" r="9"/><circle class="wh" cx="624" cy="324" r="9"/>
+    <text class="tb" x="670" y="296">EX-48231</text>
+    <text class="ts" x="670" y="344">Indice C</text>
+    <line class="ln" x1="520" y1="372" x2="960" y2="372"/>
+    <rect class="okf" x="542" y="392" width="40" height="40" rx="8"/>
+    <text class="tb" x="604" y="427">VALIDÉ</text>
+  </g>
+  <g data-part="doc-d">
+    <rect class="wh" x="40" y="474" width="440" height="216" rx="6"/>
+    <rect class="in" x="58" y="494" width="112" height="92" rx="6"/>
+    <circle class="wh" cx="84" cy="518" r="9"/><circle class="wh" cx="144" cy="518" r="9"/><circle class="wh" cx="84" cy="562" r="9"/><circle class="wh" cx="144" cy="562" r="9"/>
+    <text class="tb" x="190" y="534">EX-48213</text>
+    <text class="ts" x="190" y="582">Indice D</text>
+    <line class="ln" x1="40" y1="610" x2="480" y2="610"/>
+    <rect class="mt" x="62" y="630" width="40" height="40" rx="8"/>
+    <text class="tb ta" x="124" y="665">PROJET</text>
+  </g>
+  <g data-part="doc-c">
+    <rect class="wh" x="520" y="474" width="440" height="216" rx="6"/>
+    <rect class="in" x="538" y="494" width="112" height="92" rx="6"/>
+    <circle class="wh" cx="564" cy="518" r="9"/><circle class="wh" cx="624" cy="518" r="9"/><circle class="wh" cx="564" cy="562" r="9"/><circle class="wh" cx="624" cy="562" r="9"/>
+    <text class="tb" x="670" y="534">EX-48213</text>
+    <text class="ts" x="670" y="582">Indice C</text>
+    <line class="ln" x1="520" y1="610" x2="960" y2="610"/>
+    <rect class="okf" x="542" y="630" width="40" height="40" rx="8"/>
+    <text class="tb" x="604" y="665">VALIDÉ</text>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="demande" transform="translate(912 74)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="doc-b" transform="translate(440 268)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="doc-voisin" transform="translate(920 268)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="doc-d" transform="translate(440 506)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="doc-c" transform="translate(920 506)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+  </g>
+</svg>

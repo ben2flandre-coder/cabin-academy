@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Fiche d'observation (document fictif) : les zones à remplir</title>
+  <desc id="d">Schéma d'un formulaire fictif, intitulé FICHE D'OBSERVATION et référencé EX-OBS-0417. Sous l'en-tête, les zones sont rangées de haut en bas, chacune marquée par un pictogramme et des lignes d'écriture : à gauche l'auteur (silhouette), à droite la date et l'heure (horloge) ; puis le lieu (épingle de localisation) ; puis une grande zone pour le constat (œil) ; puis la mesure prise sur place (cône de balisage) ; enfin, à gauche, le destinataire avec une signature (flèche vers une silhouette) et, à droite, une zone encadrée en pointillé réservée à la décision (coche), que l'auteur ne remplit pas.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+  <g>
+    <rect class="wh" x="30" y="20" width="940" height="680" rx="10"/>
+  </g>
+  <g data-part="reference">
+    <rect class="eq" x="50" y="36" width="900" height="112" rx="8"/>
+    <text class="tb" x="72" y="86">FICHE D'OBSERVATION</text>
+    <text class="tb te" x="930" y="86">EX-OBS-0417</text>
+    <text class="ts" x="72" y="132">document fictif, pédagogique</text>
+  </g>
+  <g data-part="auteur">
+    <rect class="in" x="50" y="160" width="442" height="84" rx="8"/>
+    <path class="eq2" d="M70 232 C70 206 82 198 98 198 C114 198 126 206 126 232 Z"/><circle class="wh" cx="98" cy="184" r="14"/>
+    <line class="stl" x1="150" y1="190" x2="450" y2="190"/>
+    <line class="stl" x1="150" y1="220" x2="340" y2="220"/>
+  </g>
+  <g data-part="date-heure">
+    <rect class="in" x="508" y="160" width="442" height="84" rx="8"/>
+    <circle class="wh" cx="556" cy="202" r="27"/><path class="ln2" d="M556 185 V202 L569 210"/>
+    <line class="stl" x1="608" y1="190" x2="808" y2="190"/>
+    <line class="stl" x1="608" y1="220" x2="728" y2="220"/>
+  </g>
+  <g data-part="lieu">
+    <rect class="in" x="50" y="256" width="900" height="84" rx="8"/>
+    <path class="badf" d="M98 330 C88 312 75 304 75 290 a23 23 0 0 1 46 0 C121 304 108 312 98 330 Z"/><circle class="wh" cx="98" cy="290" r="9"/>
+    <line class="stl" x1="150" y1="286" x2="750" y2="286"/>
+    <line class="stl" x1="150" y1="316" x2="530" y2="316"/>
+  </g>
+  <g data-part="constat">
+    <rect class="in" x="50" y="352" width="900" height="130" rx="8"/>
+    <path class="wh" d="M66 402 Q98 368 130 402 Q98 436 66 402 Z"/><circle class="dk" cx="98" cy="402" r="11"/>
+    <line class="stl" x1="150" y1="386" x2="910" y2="386"/>
+    <line class="stl" x1="150" y1="416" x2="850" y2="416"/>
+    <line class="stl" x1="150" y1="446" x2="570" y2="446"/>
+  </g>
+  <g data-part="mesure">
+    <rect class="in" x="50" y="494" width="900" height="84" rx="8"/>
+    <path class="syf" d="M98 506 L118 560 H78 Z"/><rect class="dk" x="68" y="558" width="60" height="10" rx="3"/><path class="bgp" d="M89.5 530 H106.5 L110 540 H86 Z"/>
+    <line class="stl" x1="150" y1="524" x2="790" y2="524"/>
+    <line class="stl" x1="150" y1="554" x2="450" y2="554"/>
+  </g>
+  <g data-part="transmis">
+    <rect class="in" x="50" y="590" width="442" height="94" rx="8"/>
+    <path class="dk" d="M64 631 H86 V620 L106 637 L86 654 V643 H64 Z"/>
+    <path class="st" d="M112 668 C112 644 122 636 136 636 C150 636 160 644 160 668 Z"/><circle class="wh" cx="136" cy="622" r="13"/>
+    <line class="stl" x1="184" y1="624" x2="364" y2="624"/>
+    <path class="ln" d="M184 664 q16 -30 30 -6 q10 16 22 -10 q10 -18 22 10 q8 14 40 2"/>
+  </g>
+  <g data-part="suite">
+    <rect class="wh" x="508" y="590" width="442" height="94" rx="8"/>
+    <rect class="dash" x="516" y="598" width="426" height="78" rx="6"/>
+    <circle class="okf" cx="566" cy="637" r="27"/>
+    <path class="bgp" d="M550 639 L561 652 L568 645 L557 632 Z"/>
+    <path class="bgp" d="M564.5 651.6 L585.5 626.6 L578.5 620.4 L557.5 645.4 Z"/>
+    <line class="stl" x1="620" y1="624" x2="910" y2="624"/>
+    <line class="stl" x1="620" y1="654" x2="820" y2="654"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="reference" transform="translate(600 72)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="auteur" transform="translate(462 202)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="date-heure" transform="translate(920 202)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="lieu" transform="translate(920 298)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="constat" transform="translate(920 380)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="mesure" transform="translate(920 536)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="transmis" transform="translate(462 637)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="suite" transform="translate(920 600)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

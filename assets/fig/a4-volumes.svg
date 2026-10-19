@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 610" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Les volumes de l'avion, vue de côté écorchée</title>
+  <desc id="d">Schéma de principe d'un avion de ligne vu de côté, avant à gauche, fuselage ouvert. De l'avant vers l'arrière : le radôme, pointe avant non pressurisée ; un trait rouge vertical, la cloison étanche avant ; le poste de pilotage ; la cabine passagers avec ses hublots, ses sièges et une porte à chaque bout ; un trait rouge bombé, le fond étanche arrière ; le cône arrière non pressurisé. Un plancher sépare le haut du bas. Sous le plancher, de l'avant vers l'arrière : la baie avionique, la soute avant, le caisson central de voilure, le logement de train principal qui n'est pas pressurisé, la soute arrière. Les deux traits rouges marquent les extrémités de la zone pressurisée.</desc>
+  <rect class="bgp" width="1000" height="610"/>
+  <path class="sk" d="M750 172 L858 60 L916 60 L948 228 L890 208 Z"/>
+  <path class="sk" d="M846 228 L940 220 L958 222 L958 232 L866 244 Z"/>
+  <path class="sk" d="M50 312 C54 262 110 170 230 170 L730 170 C820 170 900 200 958 226 L958 246 C900 300 830 410 730 410 L230 410 C120 410 56 372 50 312 Z"/>
+  <g data-part="radome">
+    <path class="mt" d="M50 312 C52 286 68 258 96 236 L96 384 C68 366 52 340 50 312 Z"/>
+  </g>
+  <g data-part="cone-arriere">
+    <path class="mt" d="M800 186 C860 196 912 210 958 226 L958 246 C912 292 866 356 800 396 C826 330 826 252 800 186 Z"/>
+    <rect class="mt2" x="868" y="262" width="56" height="34" rx="15"/>
+  </g>
+  <g data-part="cockpit">
+    <path class="in" d="M104 232 C130 206 170 188 216 180 L216 300 L104 300 Z"/>
+    <path class="gl" d="M114 244 C132 226 158 214 186 208 L190 240 L122 252 Z"/>
+    <rect class="eq2" x="150" y="262" width="26" height="36" rx="6"/>
+  </g>
+  <g data-part="cabine">
+    <path class="in" d="M224 180 L730 180 C760 180 778 182 792 186 C806 220 812 262 808 300 L224 300 Z"/>
+    <circle class="gl" cx="300" cy="214" r="8"/>
+    <circle class="gl" cx="350" cy="214" r="8"/>
+    <circle class="gl" cx="400" cy="214" r="8"/>
+    <circle class="gl" cx="450" cy="214" r="8"/>
+    <circle class="gl" cx="500" cy="214" r="8"/>
+    <circle class="gl" cx="550" cy="214" r="8"/>
+    <circle class="gl" cx="600" cy="214" r="8"/>
+    <circle class="gl" cx="650" cy="214" r="8"/>
+    <circle class="gl" cx="700" cy="214" r="8"/>
+    <rect class="eq" x="290" y="262" width="28" height="34" rx="6"/>
+    <rect class="eq" x="340" y="262" width="28" height="34" rx="6"/>
+    <rect class="eq" x="390" y="262" width="28" height="34" rx="6"/>
+    <rect class="eq" x="440" y="262" width="28" height="34" rx="6"/>
+    <rect class="eq" x="490" y="262" width="28" height="34" rx="6"/>
+    <rect class="eq" x="540" y="262" width="28" height="34" rx="6"/>
+    <rect class="eq" x="590" y="262" width="28" height="34" rx="6"/>
+    <rect class="eq" x="640" y="262" width="28" height="34" rx="6"/>
+    <rect class="eq" x="690" y="262" width="28" height="34" rx="6"/>
+    <rect class="eq" x="740" y="262" width="28" height="34" rx="6"/>
+    <rect class="wh" x="234" y="198" width="36" height="98" rx="8"/>
+    <rect class="wh" x="756" y="198" width="36" height="98" rx="8"/>
+  </g>
+  <g data-part="plancher">
+    <rect class="sk" opacity="0" x="100" y="286" width="712" height="36" rx="8"/>
+    <path class="fl" d="M100 300 L810 300 L808 312 L102 312 Z"/>
+  </g>
+  <g data-part="baie-avionique">
+    <path class="eq2" d="M150 318 L250 318 L250 398 L196 398 C176 394 160 386 150 376 Z"/>
+    <path class="thin" d="M166 338 L236 338 M166 358 L236 358 M172 378 L236 378"/>
+    <path class="thin" d="M190 322 L190 394 M214 322 L214 396"/>
+  </g>
+  <g data-part="soute-avant">
+    <rect class="st" x="262" y="318" width="158" height="80" rx="6"/>
+    <rect class="wh" x="276" y="334" width="58" height="52" rx="4"/>
+    <rect class="wh" x="346" y="334" width="58" height="52" rx="4"/>
+  </g>
+  <g data-part="caisson-central">
+    <rect class="mt2" x="432" y="318" width="84" height="80" rx="4"/>
+    <path class="thin" d="M432 318 L516 398 M516 318 L432 398"/>
+  </g>
+  <g data-part="logement-train">
+    <rect class="dk" x="524" y="318" width="76" height="80" rx="4"/>
+    <circle class="wh" cx="562" cy="362" r="22"/>
+    <circle class="dk" cx="562" cy="362" r="9"/>
+  </g>
+  <g data-part="soute-arriere">
+    <path class="st" d="M612 318 L790 318 C794 344 790 372 778 398 L612 398 Z"/>
+    <rect class="wh" x="626" y="334" width="58" height="52" rx="4"/>
+    <rect class="wh" x="696" y="334" width="58" height="52" rx="4"/>
+  </g>
+  <g data-part="cloison-avant">
+    <rect class="sk" opacity="0" x="66" y="226" width="64" height="170" rx="8"/>
+    <path class="ax" d="M98 236 L98 384"/>
+  </g>
+  <g data-part="cloison-arriere">
+    <rect class="sk" opacity="0" x="770" y="176" width="64" height="230" rx="8"/>
+    <path class="ax" d="M796 184 C824 250 824 332 796 398"/>
+  </g>
+  <path class="st" d="M410 404 L620 386 L650 386 L650 396 L560 416 L420 416 Z"/>
+  <path class="mt2" d="M428 412 L466 414 L466 430 L428 430 Z"/><rect class="eq2" x="330" y="426" width="150" height="60" rx="30"/><ellipse class="dk" cx="346" cy="456" rx="11" ry="23"/>
+  <path class="ln2" d="M562 412 L562 478"/><circle class="dk" cx="562" cy="498" r="26"/><circle class="wh" cx="562" cy="498" r="8"/>
+  <path class="ln2" d="M140 404 L140 486"/><circle class="dk" cx="140" cy="502" r="20"/><circle class="wh" cx="140" cy="502" r="6"/>
+  <line class="thin" x1="24" y1="524" x2="976" y2="524"/>
+  <path class="ax" d="M40 574 L100 574"/><text class="ts" x="116" y="587">limite de la zone pressurisée</text>
+  <line class="thin" x1="190" y1="120" x2="190" y2="196"/><line class="thin" x1="832" y1="436" x2="804" y2="392"/>
+  <line class="thin" x1="74" y1="170" x2="96" y2="240"/><line class="thin" x1="46" y1="420" x2="72" y2="368"/><line class="thin" x1="612" y1="430" x2="586" y2="394"/>
+  <g class="badges">
+    <g class="badge" data-badge="cockpit" transform="translate(190 96)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="cabine" transform="translate(500 240)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="plancher" transform="translate(440 306)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="baie-avionique" transform="translate(216 360)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="soute-avant" transform="translate(340 360)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="caisson-central" transform="translate(474 360)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="logement-train" transform="translate(624 452)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="soute-arriere" transform="translate(690 360)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="cloison-avant" transform="translate(74 146)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="cloison-arriere" transform="translate(846 456)"><circle class="bd" r="26"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="radome" transform="translate(40 440)"><circle class="bd" r="26"/><text class="bn">11</text></g>
+    <g class="badge" data-badge="cone-arriere" transform="translate(900 330)"><circle class="bd" r="26"/><text class="bn">12</text></g>
+  </g>
+</svg>

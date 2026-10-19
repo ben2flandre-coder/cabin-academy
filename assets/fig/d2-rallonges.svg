@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Rallonge et prolongateur : ce qui change le bras de levier</title>
+  <desc id="d">Trois schémas d'une clé dynamométrique, poignée à gauche. Premier, vu de côté : la clé est horizontale ; sous sa tête, une rallonge verticale et une douille descendent jusqu'à la vis, dans l'axe de celle-ci ; une cote bleue mesure le bras de levier, du milieu de la poignée à l'axe de la vis. Deuxième, vu de dessus : un prolongateur plat est emboîté sur le carré de la clé et s'étend dans le prolongement de la clé jusqu'à un écrou situé plus loin ; la cote bleue du bras de levier s'arrête au carré de la clé, et une cote rouge mesure le décalage supplémentaire entre le carré et l'écrou. Troisième, vu de dessus : le même prolongateur est monté à angle droit par rapport à la clé ; l'écrou est décalé sur le côté, la cote bleue du bras de levier, mesurée le long de la clé, est inchangée, et la cote rouge du décalage est perpendiculaire à la clé.</desc>
+  <rect class="bgp" width="1000" height="760"/>
+  <text class="ts" x="24" y="44">1. Rallonge dans l'axe de la vis (de côté)</text>
+  <rect class="mt" x="300" y="106" width="300" height="20" rx="2"/><path class="mt" d="M590 102 Q590 94 598 94 L682 94 Q690 94 690 102 L690 130 Q690 138 682 138 L598 138 Q590 138 590 130 Z"/><path class="dk" d="M60 104 Q60 98 66 98 L86 98 Q92 98 92 104 L92 128 Q92 134 86 134 L66 134 Q60 134 60 128 Z"/><path class="eq2" d="M88 98 Q88 92 94 92 L264 92 Q270 92 270 98 L270 134 Q270 140 264 140 L94 140 Q88 140 88 134 Z"/><rect class="wh" x="172" y="92" width="14" height="48"/><path class="mt2" d="M270 92 L286 92 L304 103 L304 129 L286 140 L270 140 Z"/>
+  <rect class="st" x="520" y="244" width="240" height="30"/>
+  <path class="mt2" d="M610 244 L670 244 L664 224 L616 224 Z"/>
+  <g data-part="rallonge-axiale">
+    <rect class="none" x="596" y="138" width="88" height="110"/>
+    <rect class="mt2" x="625" y="138" width="30" height="14"/>
+    <rect class="mt" x="629" y="152" width="22" height="40"/>
+    <path class="mt" d="M604 197 Q604 192 609 192 L671 192 Q676 192 676 197 L676 227 Q676 232 671 232 L609 232 Q604 232 604 227 Z"/>
+    <path class="thin" d="M604 206 L676 206"/>
+  </g>
+  <path class="dash" d="M640 58 L640 286"/>
+  <g data-part="bras">
+    <rect class="none" x="179" y="52" width="461" height="44"/>
+    <path class="dim" d="M179 60 L179 88 M640 60 L640 88 M187 74 L632 74"/><path class="dimf" d="M181 74 L197 66 L197 82 Z M638 74 L622 66 L622 82 Z"/>
+  </g>
+  <path class="dash" d="M30 294 L970 294"/>
+  <text class="ts" x="24" y="336">2. Prolongateur aligné avec la clé (de dessus)</text>
+  <g data-part="prolong-ligne">
+    <path class="mt2" d="M610 424 Q610 412 622 412.4 L798 417.6 Q810 418 821.1 413.5 L838.9 406.5 Q850 402 856.5 412.1 L869.5 431.9 Q876 442 869.5 452.1 L856.5 471.9 Q850 482 838.9 477.5 L821.1 470.5 Q810 466 798 466.4 L622 471.6 Q610 472 610 460 Z"/>
+    <path class="mt2" d="M854.2 456 L830 470 L805.8 456 L805.8 428 L830 414 L854.2 428 Z"/>
+    <circle class="wh" cx="830" cy="442" r="12.6"/>
+  </g>
+  <rect class="mt" x="309.6" y="428.8" width="259.6" height="26.4" rx="2"/><path class="mt" d="M565.2 428.8 L582.8 426.6 L607.7 408.7 L607.7 475.3 L582.8 457.4 L565.2 455.2 Z"/><circle class="mt" cx="640" cy="442" r="46.2"/><circle class="thin" cx="640" cy="442" r="35.1"/><rect class="dash" x="625.7" y="427.7" width="28.6" height="28.6"/><path class="dk" d="M60 427.5 Q60 420.9 66.6 420.9 L86 420.9 Q92.6 420.9 92.6 427.5 L92.6 456.5 Q92.6 463.1 86 463.1 L66.6 463.1 Q60 463.1 60 456.5 Z"/><path class="eq2" d="M88.6 422.2 Q88.6 415.6 95.2 415.6 L272 415.6 Q278.6 415.6 278.6 422.2 L278.6 461.8 Q278.6 468.4 272 468.4 L95.2 468.4 Q88.6 468.4 88.6 461.8 Z"/><rect class="wh" x="177" y="415.6" width="13.2" height="52.8"/><path class="mt2" d="M278.6 415.6 L296.8 415.6 L311.6 425.5 L311.6 458.5 L296.8 468.4 L278.6 468.4 Z"/>
+  <g data-part="bras">
+    <rect class="none" x="183.6" y="350" width="456.4" height="44"/>
+    <path class="dim" d="M183.6 358 L183.6 386 M640 358 L640 386 M191.6 372 L632 372"/><path class="dimf" d="M185.6 372 L201.6 364 L201.6 380 Z M638 372 L622 364 L622 380 Z"/>
+    <path class="thin" d="M183.6 386 L183.6 414"/>
+    <path class="thin" d="M640 386 L640 396"/>
+  </g>
+  <g data-part="decalage">
+    <rect class="none" x="640" y="344" width="190" height="56"/>
+    <path class="ax" d="M640 358 L640 386 M830 358 L830 386 M648 372 L822 372"/><path class="axf" d="M642 372 L658 364 L658 380 Z M828 372 L812 364 L812 380 Z"/>
+    <path class="thin" d="M830 386 L830 412"/>
+  </g>
+  <path class="dash" d="M30 508 L970 508"/>
+  <text class="ts" x="24" y="550">3. Prolongateur à l'équerre (de dessus)</text>
+  <g data-part="prolong-equerre">
+    <rect class="none" x="600" y="640" width="80" height="100"/>
+    <path class="mt2" d="M617.5 628 Q618 618 628 618 L652 618 Q662 618 662.5 628 L665.5 682 Q666 692 669.2 701.5 L670.8 706.5 Q674 716 665.6 721.4 L648.4 732.6 Q640 738 631.6 732.6 L614.4 721.4 Q606 716 609.2 706.5 L610.8 701.5 Q614 692 614.5 682 Z"/>
+    <path class="mt2" d="M659.1 717 L640 728 L620.9 717 L620.9 695 L640 684 L659.1 695 Z"/>
+    <circle class="wh" cx="640" cy="706" r="9.9"/>
+  </g>
+  <rect class="mt" x="292.8" y="630.4" width="296.8" height="19.2" rx="2"/><path class="mt" d="M585.6 630.4 L598.4 628.8 L616.5 615.8 L616.5 664.2 L598.4 651.2 L585.6 649.6 Z"/><circle class="mt" cx="640" cy="640" r="33.6"/><circle class="thin" cx="640" cy="640" r="25.5"/><rect class="dash" x="629.6" y="629.6" width="20.8" height="20.8"/><path class="dk" d="M60 629.4 Q60 624.6 64.8 624.6 L80 624.6 Q84.8 624.6 84.8 629.4 L84.8 650.6 Q84.8 655.4 80 655.4 L64.8 655.4 Q60 655.4 60 650.6 Z"/><path class="eq2" d="M80.8 625.6 Q80.8 620.8 85.6 620.8 L266 620.8 Q270.8 620.8 270.8 625.6 L270.8 654.4 Q270.8 659.2 266 659.2 L85.6 659.2 Q80.8 659.2 80.8 654.4 Z"/><rect class="wh" x="171" y="620.8" width="9.6" height="38.4"/><path class="mt2" d="M270.8 620.8 L284 620.8 L294.8 628 L294.8 652 L284 659.2 L270.8 659.2 Z"/>
+  <g data-part="bras">
+    <rect class="none" x="175.8" y="564" width="464.2" height="44"/>
+    <path class="dim" d="M175.8 572 L175.8 600 M640 572 L640 600 M183.8 586 L632 586"/><path class="dimf" d="M177.8 586 L193.8 578 L193.8 594 Z M638 586 L622 578 L622 594 Z"/>
+    <path class="thin" d="M175.8 600 L175.8 620"/>
+    <path class="thin" d="M640 600 L640 606"/>
+  </g>
+  <g data-part="decalage">
+    <rect class="none" x="686" y="634" width="60" height="78"/>
+    <path class="ax" d="M702 640 L730 640 M702 706 L730 706 M716 648 L716 698"/><path class="axf" d="M716 642 L708 658 L724 658 Z M716 704 L708 688 L724 688 Z"/>
+    <path class="thin" d="M670 640 L702 640"/>
+    <path class="thin" d="M670 706 L702 706"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="rallonge-axiale" transform="translate(722 176)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="prolong-ligne" transform="translate(922 442)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="prolong-equerre" transform="translate(560 714)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="bras" transform="translate(400 74)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="decalage" transform="translate(880 372)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+  </g>
+</svg>

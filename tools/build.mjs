@@ -1,5 +1,13 @@
 #!/usr/bin/env node
-// Validation + bundle du contenu.  Usage : node tools/build.mjs [--check] [id…]
+// Validation + bundle du contenu.  Usage : node tools/build.mjs [--check] [--strict] [--lenient] [--fixture] [--out dossier] [--tag suffixe] [id…]
+//   --check     valide seulement (aucun fichier écrit)
+//   --strict    les avertissements bloquent aussi
+//   --lenient   génère malgré les erreurs de validation (chapitres en cours de rédaction) — avec avertissement ;
+//               les entrées inutilisables (id absent ou dupliqué, fichier illisible) sont écartées du bundle
+//   --fixture   charge aussi tools/fixture/*.js (contenu d'essai du moteur ; jamais pour une mise en ligne)
+//   --out dir   écrit les fichiers générés (index.html, sw.js, assets/content.js, assets/version.json) dans « dir »
+//               au lieu de la racine du dépôt (utilisé par tools/e2e.mjs, qui sert « dir » par-dessus le dépôt)
+//   --tag x     ajoute « -x » au numéro de version (simulation d'une nouvelle version dans les tests)
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
@@ -9,8 +17,13 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
 const CHECK_ONLY = args.includes('--check');
-const ONLY = args.filter(a => !a.startsWith('--'));
 const STRICT = args.includes('--strict');
+const LENIENT = args.includes('--lenient');
+const FIXTURE = args.includes('--fixture');
+const optVal = name => { const i = args.indexOf(name); return i >= 0 && args[i + 1] && !args[i + 1].startsWith('--') ? args[i + 1] : null; };
+const OUT = optVal('--out') ? path.resolve(optVal('--out')) : ROOT;
+const TAG = optVal('--tag');
+const ONLY = args.filter((a, i) => !a.startsWith('--') && !['--out', '--tag'].includes(args[i - 1]));
 
 const errors = [];
 const warns = [];
@@ -38,6 +51,7 @@ function loadDir(dir) {
   }
 }
 for (const d of ['content/figs', 'content/chapters', 'content/glossary', 'content/cases']) loadDir(d);
+if (FIXTURE) loadDir('tools/fixture');
 if (fs.existsSync(path.join(ROOT, 'content/sources.js'))) {
   cur = 'content/sources.js';
   try { vm.runInNewContext(fs.readFileSync(path.join(ROOT, cur), 'utf8'), { CA: api }, { filename: cur }); }
@@ -290,14 +304,53 @@ for (const g of CA.glossary) {
 }
 for (const c of CA.chapters) for (const [p, s] of strings(c)) for (const m of s.matchAll(/\[\[([^\]|]+)(?:\|[^\]]*)?\]\]/g)) if (!gl.has(norm(m[1]))) E(`chapitre ${c.id}`, `lien glossaire [[${m[1]}]] introuvable (${p})`);
 
+// ---------- cas pratiques (schéma : docs/CONTENT-GUIDE.md §11) ----------
+const caseIds = new Set();
+for (const k of CA.cases) {
+  const w = `cas ${k.id || '?'} (${k.__file})`;
+  if (!/^k\d{1,3}$/.test(k.id || '')) E(w, "id invalide ('k' + chiffres)");
+  if (caseIds.has(k.id)) E(w, 'id dupliqué'); caseIds.add(k.id);
+  if (!isStr(k.title)) E(w, 'title manquant');
+  if (![1, 2, 3].includes(k.level)) E(w, 'level : 1, 2 ou 3');
+  if (!isStr(k.after)) E(w, 'after (id de chapitre) manquant'); else if (!chById.has(k.after)) W(w, `after "${k.after}" non trouvé (chapitre pas encore écrit ?)`);
+  if (!arr(k.chapters).length) E(w, 'chapters[] manquant');
+  for (const c of arr(k.chapters)) if (!chById.has(c)) W(w, `chapitre mobilisé "${c}" non trouvé`);
+  if (!arr(k.comps).length || !arr(k.comps).every(x => COMPS.includes(x))) E(w, 'comps invalide');
+  if (!(k.minutes >= 5 && k.minutes <= 60)) E(w, 'minutes : 5..60');
+  if (!arr(k.intro).length || !arr(k.intro).every(isStr) || words(arr(k.intro).join(' ')) < 25) E(w, 'intro : contexte précis requis (≥ 25 mots)');
+  if (k.fig) checkFigRef(k.fig, w);
+  checkDoc(k.doc, w + '.doc');
+  const steps = arr(k.steps);
+  if (steps.length < 3 || steps.length > 6) E(w, `steps : 3 à 6 étapes (${steps.length})`);
+  steps.forEach((st, i) => {
+    const ww = `${w}.steps[${i}]`;
+    if (!st || typeof st !== 'object') return E(ww, 'étape invalide');
+    if (!arr(st.text).length || !arr(st.text).every(isStr)) E(ww, 'text[] manquant');
+    if (!isStr(st.question)) E(ww, 'question manquante');
+    const o = arr(st.options);
+    if (o.length < 3 || o.length > 4) E(ww, '3 ou 4 options');
+    if (o.filter(x => x && x.ok).length !== 1) E(ww, 'exactement 1 option ok');
+    o.forEach((x, j) => { if (!x || !isStr(x.t)) E(ww, `option ${j} sans t`); if (!x || !isStr(x.why) || words(x.why) < 4) E(ww, `option ${j} : why manquant (bonne décision argumentée / conséquence réaliste)`); });
+    if (st.fig) checkFigRef(st.fig, ww);
+  });
+  if (!arr(k.debrief).length || !arr(k.debrief).every(isStr)) E(w, 'debrief[] manquant');
+  for (const s of arr(k.sources)) if (!srcIds.has(s)) W(w, `source "${s}" absente de content/sources.js`);
+  for (const [p, s] of strings(k)) {
+    if (/<\/?[a-z][^>]*>/i.test(s)) E(w, `HTML interdit dans ${p}`);
+    if (/\b\d+([.,]\d+)?\s?(N\.?m|N·m|daN\.?m|lbf[.\- ]?in|in[.\- ]?lb|ft[.\- ]?lb)\b/i.test(s)) W(w, `valeur de couple possible dans ${p}`);
+    if (/lorem|TODO|À COMPLÉTER|XXX/.test(s)) E(w, `texte provisoire dans ${p}`);
+    for (const m of s.matchAll(/\[\[([^\]|]+)(?:\|[^\]]*)?\]\]/g)) if (!gl.has(norm(m[1]))) E(w, `lien glossaire [[${m[1]}]] introuvable (${p})`);
+  }
+}
+
 // ---------- cohérence globale ----------
 for (const f of CA.figures) for (const ch of arr(f.chapters)) if (!chById.has(ch) && CA.chapters.length >= 32) W(`figure ${f.id}`, `chapitre ${ch} inconnu`);
 const usedFigs = new Set();
-for (const c of CA.chapters) for (const [p, s] of strings(c)) if ((p.endsWith('fig') || p.endsWith('.fig')) && figById.has(s)) usedFigs.add(s);
+for (const c of [...CA.chapters, ...CA.cases]) for (const [p, s] of strings(c)) if ((p.endsWith('fig') || p.endsWith('.fig')) && figById.has(s)) usedFigs.add(s);
 for (const f of CA.figures) if (!usedFigs.has(f.id)) W(`figure ${f.id}`, 'jamais référencée par un chapitre');
 
 // ---------- rapport ----------
-const sel = ONLY.length ? (m => ONLY.some(id => m.includes(`chapitre ${id} `) || m.includes(`figure ${id}`))) : () => true;
+const sel = ONLY.length ? (m => ONLY.some(id => m.includes(`chapitre ${id} `) || m.includes(`figure ${id}`) || m.includes(`cas ${id} `))) : () => true;
 const show = (list, tag) => { const l = list.filter(sel); l.forEach(m => console.log(m)); return l.length; };
 const ne = show(errors, 'E');
 const nw = show(warns, 'W');
@@ -305,35 +358,59 @@ console.log(`\nChapitres : ${CA.chapters.length} · Figures : ${CA.figures.lengt
 const tab = stats.filter(s => !ONLY.length || ONLY.includes(s.id)).sort((a, b) => a.id.localeCompare(b.id));
 for (const s of tab) console.log(`  ${s.id.padEnd(3)} mots=${String(s.words).padStart(5)} explain=${String(s.expl).padStart(4)} vocab=${s.vocab} act=${s.acts} quiz=${s.quiz} parts=${s.parts} demo=${s.steps}`);
 console.log(`Erreurs : ${errors.length}${ONLY.length ? ` (affichées : ${ne})` : ''} · Avertissements : ${warns.length}${ONLY.length ? ` (affichés : ${nw})` : ''}`);
-if (errors.length || (STRICT && warns.length)) { if (CHECK_ONLY || true) process.exitCode = 1; }
-if (CHECK_ONLY || errors.length) process.exit(process.exitCode || 0);
+const blocking = errors.length || (STRICT && warns.length);
+if (blocking && !(LENIENT && !CHECK_ONLY)) process.exitCode = 1;
+if (CHECK_ONLY || (blocking && !LENIENT)) process.exit(process.exitCode || 0);
+if (LENIENT && errors.length) console.log(`\n⚠ MODE --lenient : génération malgré ${errors.length} erreur(s) de validation. Ne pas mettre en ligne tel quel.`);
+if (FIXTURE) console.log('⚠ MODE --fixture : le bundle contient le contenu d’essai de tools/fixture/. Ne pas mettre en ligne tel quel.');
 
 // ---------- génération ----------
-const chapters = CA.chapters.sort((a, b) => a.order - b.order).map(({ __file, ...c }) => c);
-const figures = CA.figures.map(({ __file, ...f }) => f);
-const glossary = CA.glossary.map(({ __file, ...g }) => g);
-const sources = CA.sources.map(({ __file, ...s }) => s);
-const cases = CA.cases.map(({ __file, ...s }) => s);
+const strip = ({ __file, ...x }) => x;
+const uniqBy = (list, ok, what) => {
+  const seen = new Set();
+  return list.filter(x => {
+    if (!ok(x) || seen.has(x.id)) { console.log(`⚠ ${what} écarté du bundle (id absent, invalide ou dupliqué) : ${x.id || '?'} (${x.__file})`); return false; }
+    seen.add(x.id); return true;
+  });
+};
+const chapters = uniqBy(CA.chapters, c => /^[a-z]\d{1,2}$/.test(c.id || ''), 'chapitre')
+  .sort((a, b) => (typeof a.order === 'number' ? a.order : 1e9) - (typeof b.order === 'number' ? b.order : 1e9) || String(a.id).localeCompare(String(b.id))).map(strip);
+const figures = uniqBy(CA.figures, f => /^[a-z][a-z0-9-]+$/.test(f.id || ''), 'figure').map(strip);
+const glossary = CA.glossary.filter(g => isStr(g.fr)).map(strip);
+const sources = uniqBy(CA.sources, s => isStr(s.id), 'source').map(strip);
+const cases = uniqBy(CA.cases, k => /^k\d{1,3}$/.test(k.id || ''), 'cas').map(strip);
 const content = { chapters, figures, glossary, sources, cases };
-const json = JSON.stringify(content);
-const hash = crypto.createHash('sha256').update(json).digest('hex').slice(0, 10);
+const json = JSON.stringify(content).replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029').replace(/<\/(script)/gi, '<\\/$1');
+
+const exists = rel => fs.existsSync(path.join(ROOT, rel));
+const listDir = (rel, test) => exists(rel) ? fs.readdirSync(path.join(ROOT, rel)).filter(test).sort() : [];
+const jsFiles = listDir('assets/js', f => f.endsWith('.js'));
+const iconFiles = listDir('assets/icons', f => /\.(svg|png|ico)$/.test(f));
+const figFiles = [...new Set(figures.map(f => `assets/fig/${f.file || f.id + '.svg'}`))].filter(rel => {
+  if (exists(rel)) return true;
+  console.log(`⚠ ${rel} introuvable : non précaché (l'application affichera « figure indisponible »)`);
+  return false;
+});
+const staticFiles = ['manifest.webmanifest', 'assets/app.css', 'assets/figures.css', ...jsFiles.map(f => `assets/js/${f}`), ...iconFiles.map(f => `assets/icons/${f}`), ...figFiles];
+for (const rel of ['tools/index.template.html', 'tools/sw.template.js', 'manifest.webmanifest', 'assets/app.css', 'assets/figures.css']) {
+  if (!exists(rel)) { console.log(`✖ ${rel} introuvable : génération impossible`); process.exit(1); }
+}
+// La version dépend du contenu ET de tous les fichiers de l'application : toute modification (JS, CSS, figure,
+// gabarit) change le nom du cache du service worker, donc déclenche une mise à jour chez l'apprenante.
+const hasher = crypto.createHash('sha256').update(json);
+for (const rel of ['tools/index.template.html', 'tools/sw.template.js', ...staticFiles]) hasher.update('\0' + rel + '\0').update(fs.readFileSync(path.join(ROOT, rel)));
+const hash = hasher.digest('hex').slice(0, 10);
 const stamp = new Date().toISOString().slice(0, 10).replace(/-/g, '.');
-const version = `${stamp}-${hash}`;
-fs.writeFileSync(path.join(ROOT, 'assets/content.js'), `/* généré par tools/build.mjs — ne pas éditer */\nwindow.CA_CONTENT=${json};\nwindow.CA_CONTENT_HASH=${JSON.stringify(hash)};\n`);
-// SVG pour inlining hors-ligne : inutile, fichiers séparés précachés.
-const jsFiles = fs.readdirSync(path.join(ROOT, 'assets/js')).filter(f => f.endsWith('.js')).sort();
-const precache = [
-  './', 'index.html', 'manifest.webmanifest', 'assets/app.css', 'assets/figures.css', 'assets/content.js',
-  ...jsFiles.map(f => `assets/js/${f}`),
-  ...fs.readdirSync(path.join(ROOT, 'assets/icons')).map(f => `assets/icons/${f}`),
-  ...figures.map(f => `assets/fig/${f.file || f.id + '.svg'}`),
-];
-fs.writeFileSync(path.join(ROOT, 'assets/version.json'), JSON.stringify({ version, hash, built: new Date().toISOString(), chapters: chapters.length, figures: figures.length }, null, 1));
+const version = `${stamp}-${hash}${TAG ? '-' + TAG.replace(/[^a-zA-Z0-9]/g, '') : ''}`;
+const outFile = (rel, data) => { const p = path.join(OUT, rel); fs.mkdirSync(path.dirname(p), { recursive: true }); fs.writeFileSync(p, data); };
+outFile('assets/content.js', `/* généré par tools/build.mjs — ne pas éditer */\nwindow.CA_CONTENT=${json};\nwindow.CA_CONTENT_HASH=${JSON.stringify(hash)};\n`);
+const precache = ['./', 'index.html', 'assets/content.js', ...staticFiles];
+outFile('assets/version.json', JSON.stringify({ version, hash, built: new Date().toISOString(), chapters: chapters.length, figures: figures.length, cases: cases.length, fixture: FIXTURE || undefined, lenient: (LENIENT && errors.length > 0) || undefined }, null, 1));
 const swTpl = fs.readFileSync(path.join(ROOT, 'tools/sw.template.js'), 'utf8');
-fs.writeFileSync(path.join(ROOT, 'sw.js'), swTpl.replace('__VERSION__', version).replace('__PRECACHE__', JSON.stringify(precache)));
+outFile('sw.js', swTpl.replaceAll('__VERSION__', version).replace('__PRECACHE__', JSON.stringify(precache)));
 // index.html : versionner les ressources
 let idx = fs.readFileSync(path.join(ROOT, 'tools/index.template.html'), 'utf8');
 idx = idx.replaceAll('__V__', version);
 idx = idx.replace('<!--SCRIPTS-->', jsFiles.map(f => `<script src="assets/js/${f}?v=${version}" defer></script>`).join('\n'));
-fs.writeFileSync(path.join(ROOT, 'index.html'), idx);
-console.log(`\n✔ Build ${version} — ${chapters.length} chapitres, ${figures.length} figures, ${(json.length / 1024).toFixed(0)} Ko de contenu, ${precache.length} fichiers précachés`);
+outFile('index.html', idx);
+console.log(`\n✔ Build ${version} — ${chapters.length} chapitres, ${figures.length} figures, ${cases.length} cas, ${(json.length / 1024).toFixed(0)} Ko de contenu, ${precache.length} fichiers précachés${OUT !== ROOT ? ` → ${OUT}` : ''}`);

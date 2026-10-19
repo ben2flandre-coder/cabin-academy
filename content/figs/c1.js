@@ -21,7 +21,7 @@ CA.addFigures([
     id: 'c1-plan-fictif', file: 'c1-plan-fictif.svg',
     title: "Plan fictif EX-48213 (document pédagogique)",
     caption: "Document fictif — pédagogique. Il imite la construction générale d'un plan (vues, coupe, bulles, nomenclature, notes, cartouche) sans reproduire le format d'aucune entreprise ; toutes les références commencent par EX-.",
-    alt: "Plan fictif. À gauche, vue de face d'un support rectangulaire à quatre trous, avec une flèche de sens de montage et un trait de coupe A-A. Trois bulles numérotées 1, 2, 3 désignent des pièces. À droite, la coupe A-A : épaisseur hachurée et deux vis. Dessous, la nomenclature : repère 1, EX-48213-01, quantité 1 ; repère 2, EX-90211-05, quantité 4 ; repère 3, EX-90305-02, quantité 4. En bas à gauche, les notes ; en bas à droite, le cartouche : Support, EX-48213, indice C, échelle 1 : 2, feuille 1/2.",
+    alt: "Plan fictif. À gauche, vue de face d'un support rectangulaire à quatre trous, avec une flèche de sens de montage ; un trait de coupe A-A passe par les deux trous de gauche. Trois bulles numérotées 1, 2, 3 désignent des pièces. À droite, la coupe A-A : l'épaisseur du support hachurée, traversée par deux vis munies chacune d'une rondelle. Dessous, la nomenclature : repère 1, EX-48213-01, quantité 1 ; repère 2, EX-90211-05, quantité 4 ; repère 3, EX-90305-02, quantité 4. En bas à gauche, les notes ; en bas à droite, le cartouche : Support, EX-48213, indice C, échelle 1 : 2, feuille 1/2.",
     purpose: "Repérer les zones d'un plan et savoir où chercher chaque type d'information.",
     chapters: ['c1'],
     provenance: "Schéma original RMBD — création pédagogique", rights: "© RMBD, usage pédagogique",
@@ -69,6 +69,22 @@ CA.addFigures([
       { id: 'vue', n: 4, fr: 'Étage 4 : les vues', en: 'Views', fn: "Où va la pièce, dans quel sens ?" },
       { id: 'notes', n: 5, fr: 'Étage 5 : les notes', en: 'Notes', fn: "Y a-t-il une condition particulière ou un renvoi ?" },
       { id: 'information', n: 6, fr: "L'information vérifiée", en: 'Verified information', fn: "Ce que tu cherchais, trouvé dans le bon document à la bonne version." }
+    ]
+  },
+  {
+    id: 'c1-bonne-version', file: 'c1-bonne-version.svg',
+    title: "Quatre documents au poste : lequel utiliser ?",
+    caption: "Document fictif — pédagogique. Les mentions « périmé », « projet », « validé » sont des exemples : chaque entreprise a ses propres mots et ses propres marquages pour dire qu'un document est utilisable ou non.",
+    alt: "En haut, ce que demande le dossier : plan EX-48213, indice C. En dessous, quatre documents. EX-48213 indice B, marqué périmé. EX-48231 indice C, validé, mais deux chiffres du numéro sont inversés par rapport à la demande. EX-48213 indice D, marqué projet. EX-48213 indice C, validé : le seul qui correspond à la demande.",
+    purpose: "S'entraîner à comparer numéro, indice et état d'un document avec ce que demande le dossier.",
+    chapters: ['c1'],
+    provenance: "Schéma original RMBD — création pédagogique", rights: "© RMBD, usage pédagogique",
+    parts: [
+      { id: 'demande', n: 1, fr: 'Ce que demande le dossier', en: 'What the work order calls for', fn: "Le numéro et l'indice du plan à utiliser, tels que les cite l'instruction de travail." },
+      { id: 'doc-b', n: 2, fr: 'EX-48213 indice B (périmé)', en: 'Superseded revision', fn: "Bon numéro, mais version ancienne : elle a été remplacée." },
+      { id: 'doc-voisin', n: 3, fr: 'EX-48231 indice C (autre plan)', en: 'Look-alike drawing number', fn: "Bon indice, document validé, mais deux chiffres sont inversés : c'est le plan d'une autre pièce." },
+      { id: 'doc-d', n: 4, fr: 'EX-48213 indice D (projet)', en: 'Draft revision', fn: "Bon numéro, version plus récente, mais pas encore validée : on ne travaille pas avec." },
+      { id: 'doc-c', n: 5, fr: 'EX-48213 indice C (validé)', en: 'Applicable revision', fn: "Même numéro, même indice que la demande, état validé : c'est le document applicable." }
     ]
   }
 ]);

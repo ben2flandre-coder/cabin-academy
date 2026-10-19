@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Panneau de plafond ouvert : ce qu’on voit, et ce qui ne devrait pas y être</title>
+  <desc id="d">Schéma de principe : coupe transversale du haut de la cabine, vue vers l'avant, avec un panneau de plafond ouvert. Le panneau pivote autour d'une charnière placée du côté du bac gauche et pend dans l'allée ; un câble de retenue le relie encore à un support de la structure ; son verrou est à l'extrémité libre, et la gâche qui le reçoit est restée en haut, côté bac droit. Par l'ouverture on voit le conduit d'air au centre, un faisceau électrique tenu par son collier à gauche et les supports qui descendent du cadre. Quatre anomalies sont à trouver avant de refermer : un chiffon oublié sur le bac gauche, une clé oubliée sur le bac droit, un morceau de matelas isolant décroché qui pend, et à droite un faisceau sorti de son collier, descendu dans le passage du panneau.</desc>
+  <rect class="bgp" width="1000" height="700"/>
+  <path class="sk" d="M20 196.1 A852 852 0 0 1 980 196.1 L980 210.7 A840 840 0 0 0 20 210.7 Z"/>
+  <path class="st" d="M20 210.7 A840 840 0 0 1 980 210.7 L980 250 A808 808 0 0 0 20 250 Z"/>
+  <path class="wh" d="M20 250 A808 808 0 0 1 980 250 L980 287.7 A778 778 0 0 0 20 287.7 Z"/>
+  <path class="thin" d="M60 224.7 L52 256"/><path class="thin" d="M115 191.9 L107 221.6"/><path class="thin" d="M170 164.7 L162 193.2"/><path class="thin" d="M225 142.4 L217 170.1"/><path class="thin" d="M280 124.6 L272 151.7"/><path class="thin" d="M335 111.1 L327 137.7"/><path class="thin" d="M390 101.5 L382 127.8"/><path class="thin" d="M445 95.9 L437 121.9"/><path class="thin" d="M500 94 L508 120"/><path class="thin" d="M555 95.9 L563 121.9"/><path class="thin" d="M610 101.5 L618 127.8"/><path class="thin" d="M665 111.1 L673 137.7"/><path class="thin" d="M720 124.6 L728 151.7"/><path class="thin" d="M775 142.4 L783 170.1"/><path class="thin" d="M830 164.7 L838 193.2"/><path class="thin" d="M885 191.9 L893 221.6"/><path class="thin" d="M940 224.7 L948 256"/>
+  <rect class="in" x="110" y="486" width="190" height="30" rx="6"/><circle class="mt" cx="160" cy="516" r="8"/><circle class="mt" cx="205" cy="516" r="8"/><circle class="mt" cx="250" cy="516" r="8"/>
+  <rect class="in" x="700" y="486" width="190" height="30" rx="6"/><circle class="mt" cx="750" cy="516" r="8"/><circle class="mt" cx="795" cy="516" r="8"/><circle class="mt" cx="840" cy="516" r="8"/>
+  <g data-part="support">
+    <rect class="mt" x="405" y="128" width="10" height="170"/><rect class="mt" x="585" y="128" width="10" height="170"/>
+    <rect class="mt2" x="392" y="288" width="36" height="12" rx="3"/><rect class="mt2" x="572" y="288" width="36" height="12" rx="3"/>
+  </g>
+  <g data-part="conduit">
+    <circle class="gl" cx="500" cy="196" r="58"/><circle class="thin" cx="500" cy="196" r="48"/><path class="ln" d="M470 142 L470 128 M530 142 L530 128"/>
+  </g>
+  <g data-part="faisceau">
+    <path class="ln" d="M300 148.1 L300 180"/><circle class="wh" cx="300" cy="214" r="34"/><circle class="syf" cx="300" cy="214" r="9"/><circle class="syf" cx="285" cy="205" r="9"/><circle class="syf" cx="315" cy="205" r="9"/><circle class="syf" cx="285" cy="223" r="9"/><circle class="syf" cx="315" cy="223" r="9"/><circle class="syf" cx="300" cy="196" r="9"/><circle class="syf" cx="300" cy="232" r="9"/>
+  </g>
+  <g data-part="bac">
+    <path class="eq" d="M20 300 L318 300 L350 330 L360 420 L330 480 L20 480 Z"/><path class="eq2" d="M318 300 L350 330 L360 420 L330 480 L318 472 L346 418 L338 336 L310 310 Z"/>
+    <path class="eq" d="M980 300 L682 300 L650 330 L640 420 L670 480 L980 480 Z"/><path class="eq2" d="M682 300 L650 330 L640 420 L670 480 L682 472 L654 418 L662 336 L690 310 Z"/>
+  </g>
+  <path class="dash" d="M536 564 A312 312 0 0 0 652 330"/>
+  <g data-part="cable-retenue">
+    <path class="ln2" d="M590 300 Q566 430 492 505"/><circle class="mt" cx="590" cy="302" r="9"/><circle class="mt" cx="492" cy="505" r="9"/>
+  </g>
+  <g data-part="panneau">
+    <g transform="rotate(52 344 318)"><rect class="in" x="344" y="310" width="312" height="16" rx="3"/></g>
+  </g>
+  <g data-part="verrou">
+    <g transform="rotate(52 344 318)"><rect class="dk" x="618" y="296" width="42" height="34" rx="6"/><rect class="mt" x="656" y="304" width="16" height="12" rx="2"/></g>
+    <path class="mt2" d="M628 300 L664 300 L664 312 L648 312 L648 330 L628 330 Z"/>
+  </g>
+  <g data-part="charniere">
+    <circle class="mt2" cx="344" cy="318" r="16"/><circle class="dk" cx="344" cy="318" r="5"/>
+  </g>
+  <g data-part="chiffon">
+    <path class="in" d="M58 298 C52 280 70 262 92 268 C104 254 128 256 136 270 C156 262 174 276 168 298 Z"/><path class="thin" d="M92 268 C96 282 88 290 94 298 M136 270 C128 282 136 290 130 298"/>
+  </g>
+  <g data-part="cle-oubliee">
+    <rect class="mt" x="786" y="274" width="96" height="16" rx="3"/>
+    <path class="mt" d="M790 262 L768 258 L758 268 L772 276 L772 288 L758 296 L768 300 L790 300 Z"/>
+    <circle class="mt" cx="898" cy="280" r="20"/><circle class="wh" cx="898" cy="280" r="9"/>
+  </g>
+  <g data-part="isolant-pendant">
+    <path class="wh" d="M336 136 L392 126 L388 212 L346 220 Z"/><path class="thin" d="M348 150 L384 144 M348 172 L386 166 M348 194 L386 188"/>
+  </g>
+  <g data-part="faisceau-pendant">
+    <path class="ln" d="M690 145.6 L690 180"/><path class="ln2" d="M668 240 A34 34 0 1 1 712 240"/>
+    <circle class="wh" cx="636" cy="266" r="30"/><circle class="syf" cx="636" cy="266" r="9"/><circle class="syf" cx="621" cy="257" r="9"/><circle class="syf" cx="651" cy="257" r="9"/><circle class="syf" cx="621" cy="275" r="9"/><circle class="syf" cx="651" cy="275" r="9"/><circle class="syf" cx="636" cy="248" r="9"/><circle class="syf" cx="636" cy="284" r="9"/>
+  </g>
+  <text class="ts" x="30" y="640">Coupe (vue vers l’avant)</text>
+  <path class="thin" d="M304 336 L332 324"/><path class="thin" d="M572 578 L550 568"/><path class="thin" d="M584 420 L556 412"/><path class="thin" d="M830 248 L830 272"/><path class="thin" d="M700 270 L668 268"/><path class="thin" d="M428 276 L416 262"/>
+  <g class="badges">
+    <g class="badge" data-badge="bac" transform="translate(130 400)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="panneau" transform="translate(430 428)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="charniere" transform="translate(286 344)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="verrou" transform="translate(594 588)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="cable-retenue" transform="translate(606 426)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="conduit" transform="translate(500 196)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="faisceau" transform="translate(244 206)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="support" transform="translate(446 292)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="cle-oubliee" transform="translate(830 226)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="chiffon" transform="translate(204 278)"><circle class="bd" r="24"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="faisceau-pendant" transform="translate(722 272)"><circle class="bd" r="24"/><text class="bn">11</text></g>
+    <g class="badge" data-badge="isolant-pendant" transform="translate(366 250)"><circle class="bd" r="24"/><text class="bn">12</text></g>
+  </g>
+</svg>

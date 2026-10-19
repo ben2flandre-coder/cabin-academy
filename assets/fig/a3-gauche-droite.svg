@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Gauche et droite de l'avion : LH et RH ne changent jamais</title>
+  <desc id="d">Avion vu de dessus, avant à gauche, proportions volontairement déformées. La moitié du bas, colorée, est le côté gauche de l'avion, noté LH ; la moitié du haut est le côté droit, noté RH. Deux personnes vues de dessus se tiennent dans la cabine, bras gauche tendu, marqué G. La première regarde vers l'avant : son bras gauche pointe vers le côté LH. La seconde regarde vers l'arrière : son bras gauche pointe vers le côté RH. Le côté de l'avion ne dépend donc pas de la personne mais du nez de l'avion.</desc>
+  <rect class="bgp" width="1000" height="660"/>
+  <g data-part="rh">
+    <path class="sk" d="M400 182 L520 62 L600 62 L570 182 Z"/>
+    <path class="sk" d="M60 330 C60 250 130 180 250 180 L760 180 C850 180 920 280 950 322 L950 330 Z"/>
+    <path class="gl" d="M104 322 C108 280 130 250 162 234 L176 256 C152 270 140 292 138 322 Z"/>
+    <text class="tl tc" x="496" y="262">RH</text>
+  </g>
+  <g data-part="lh">
+    <path class="eq" d="M400 478 L520 598 L600 598 L570 478 Z"/>
+    <path class="eq" d="M60 330 C60 410 130 480 250 480 L760 480 C850 480 920 380 950 338 L950 330 Z"/>
+    <path class="gl" d="M104 338 C108 380 130 410 162 426 L176 404 C152 390 140 368 138 338 Z"/>
+    <text class="tl tc" x="496" y="432">LH</text>
+  </g>
+  <path class="dash" d="M60 330 L950 330"/>
+  <g data-part="avant">
+    <rect class="sk" opacity="0" x="20" y="30" width="250" height="90" rx="8"/>
+    <path class="dim" d="M52 66 L150 66"/>
+    <path class="dimf" d="M26 66 L56 51 L56 81 Z"/>
+    <text class="tb ta" x="166" y="80">FWD</text>
+  </g>
+  <g data-part="obs-avant">
+    <rect class="sk" opacity="0" x="250" y="195" width="120" height="270" rx="8"/>
+    <rect class="wh" x="298" y="380" width="24" height="68" rx="10"/>
+    <circle class="syf" cx="310" cy="448" r="17"/>
+    <ellipse class="dk" cx="310" cy="330" rx="27" ry="62"/>
+    <circle class="wh" cx="302" cy="330" r="27"/>
+    <path class="dk" d="M275 321 L260 330 L275 339 Z"/>
+    <path class="dim" d="M246 330 L182 330"/>
+    <path class="dimf" d="M160 330 L186 317 L186 343 Z"/>
+    <text class="tb" x="340" y="462">G</text>
+  </g>
+  <g data-part="obs-arriere">
+    <rect class="sk" opacity="0" x="630" y="195" width="120" height="270" rx="8"/>
+    <rect class="wh" x="678" y="212" width="24" height="68" rx="10"/>
+    <circle class="syf" cx="690" cy="212" r="17"/>
+    <ellipse class="dk" cx="690" cy="330" rx="27" ry="62"/>
+    <circle class="wh" cx="698" cy="330" r="27"/>
+    <path class="dk" d="M725 321 L740 330 L725 339 Z"/>
+    <path class="dim" d="M754 330 L818 330"/>
+    <path class="dimf" d="M840 330 L814 317 L814 343 Z"/>
+    <text class="tb" x="720" y="226">G</text>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="avant" transform="translate(300 66)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="lh" transform="translate(810 408)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="rh" transform="translate(810 252)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="obs-avant" transform="translate(372 296)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="obs-arriere" transform="translate(626 366)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+  </g>
+</svg>

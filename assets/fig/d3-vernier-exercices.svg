@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" class="fig" role="img" aria-labelledby="t d">
+<title id="t">Trois lectures de vernier au dixième à faire seule</title>
+<desc id="d">Trois vues très agrandies de la zone de lecture d'un pied à coulisse à vernier au dixième, repérées C, D et E, sans la réponse. Chaque vue montre en haut la règle graduée en millimètres, chiffrée tous les dix millimètres, et en dessous le vernier de dix divisions numéroté 0, 5 et 10. Lecture C : le zéro du vernier est entre 22 et 23 et c'est le septième trait du vernier qui est aligné avec un trait de la règle. Lecture D : le zéro du vernier est exactement en face du trait 8 de la règle, et le dixième trait est lui aussi aligné. Lecture E : le zéro du vernier est juste avant le trait 40 et c'est le neuvième trait du vernier qui est aligné.</desc>
+<rect class="bgp" width="1000" height="760"/>
+<text class="tl" x="20" y="54">C</text>
+<g data-part="lecture-c">
+<rect class="mt" x="12" y="62" width="976" height="96" rx="6"/>
+<path class="ln" d="M20 158 v-34 M80 158 v-34 M200 158 v-34 M260 158 v-34 M320 158 v-34 M380 158 v-34 M500 158 v-34 M560 158 v-34 M620 158 v-34 M680 158 v-34 M800 158 v-34 M860 158 v-34 M920 158 v-34 M980 158 v-34"/>
+<path class="ln2" d="M140 158 v-50 M440 158 v-44 M740 158 v-50"/>
+<text class="t tc" x="140" y="103">20</text>
+<text class="t tc" x="740" y="103">30</text>
+<rect class="wh" x="232" y="158" width="700" height="100" rx="6"/>
+<path class="ln" d="M356 158 v34 M410 158 v34 M464 158 v34 M518 158 v34 M572 158 v46 M626 158 v34 M680 158 v34 M734 158 v34 M788 158 v34 M842 158 v46"/>
+<path class="ln2" d="M302 158 v50"/>
+<text class="t tc" x="302" y="248">0</text>
+<text class="t tc" x="572" y="248">5</text>
+<text class="t tc" x="842" y="248">10</text>
+</g>
+<text class="tl" x="20" y="302">D</text>
+<g data-part="lecture-d">
+<rect class="mt" x="12" y="310" width="976" height="96" rx="6"/>
+<path class="ln" d="M20 406 v-34 M80 406 v-34 M200 406 v-34 M260 406 v-34 M320 406 v-34 M380 406 v-34 M500 406 v-34 M560 406 v-34 M620 406 v-34 M680 406 v-34 M800 406 v-34 M860 406 v-34 M920 406 v-34 M980 406 v-34"/>
+<path class="ln2" d="M140 406 v-44 M440 406 v-50 M740 406 v-44"/>
+<text class="t tc" x="440" y="351">10</text>
+<rect class="wh" x="250" y="406" width="700" height="100" rx="6"/>
+<path class="ln" d="M374 406 v34 M428 406 v34 M482 406 v34 M536 406 v34 M590 406 v46 M644 406 v34 M698 406 v34 M752 406 v34 M806 406 v34 M860 406 v46"/>
+<path class="ln2" d="M320 406 v50"/>
+<text class="t tc" x="320" y="496">0</text>
+<text class="t tc" x="590" y="496">5</text>
+<text class="t tc" x="860" y="496">10</text>
+</g>
+<text class="tl" x="20" y="550">E</text>
+<g data-part="lecture-e">
+<rect class="mt" x="12" y="558" width="976" height="96" rx="6"/>
+<path class="ln" d="M80 654 v-34 M140 654 v-34 M200 654 v-34 M260 654 v-34 M380 654 v-34 M440 654 v-34 M500 654 v-34 M560 654 v-34 M680 654 v-34 M740 654 v-34 M800 654 v-34 M860 654 v-34 M980 654 v-34"/>
+<path class="ln2" d="M20 654 v-44 M320 654 v-50 M620 654 v-44 M920 654 v-50"/>
+<text class="t tc" x="320" y="599">40</text>
+<text class="t tc" x="920" y="599">50</text>
+<rect class="wh" x="244" y="654" width="700" height="100" rx="6"/>
+<path class="ln" d="M368 654 v34 M422 654 v34 M476 654 v34 M530 654 v34 M584 654 v46 M638 654 v34 M692 654 v34 M746 654 v34 M800 654 v34 M854 654 v46"/>
+<path class="ln2" d="M314 654 v50"/>
+<text class="t tc" x="314" y="744">0</text>
+<text class="t tc" x="584" y="744">5</text>
+<text class="t tc" x="854" y="744">10</text>
+</g>
+<g class="badges">
+<g class="badge" data-badge="lecture-c" transform="translate(898 224)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+<g class="badge" data-badge="lecture-d" transform="translate(916 472)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+<g class="badge" data-badge="lecture-e" transform="translate(910 720)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+</g>
+</svg>

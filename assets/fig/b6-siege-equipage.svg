@@ -60,14 +60,15 @@
   <path class="dash" d="M826 470 L640 470 L640 500 L826 500"/>
   <path class="dim" d="M700 440 Q760 330 790 300"/>
   <path class="dimf" d="M800 286 L772 296 L792 316 Z"/>
+  <line class="thin" x1="946" y1="214" x2="900" y2="186"/>
   <g class="badges">
     <g class="badge" data-badge="appui-tete" transform="translate(300 132)"><circle class="bd" r="26"/><text class="bn">1</text></g>
-    <g class="badge" data-badge="dossier" transform="translate(232 300)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="dossier" transform="translate(222 338)"><circle class="bd" r="26"/><text class="bn">2</text></g>
     <g class="badge" data-badge="assise" transform="translate(220 492)"><circle class="bd" r="26"/><text class="bn">3</text></g>
-    <g class="badge" data-badge="harnais" transform="translate(372 300)"><circle class="bd" r="26"/><text class="bn">4</text></g>
-    <g class="badge" data-badge="boucle" transform="translate(300 340)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="harnais" transform="translate(340 250)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="boucle" transform="translate(372 372)"><circle class="bd" r="26"/><text class="bn">5</text></g>
     <g class="badge" data-badge="interphone" transform="translate(485 284)"><circle class="bd" r="26"/><text class="bn">6</text></g>
     <g class="badge" data-badge="rangement" transform="translate(360 620)"><circle class="bd" r="26"/><text class="bn">7</text></g>
-    <g class="badge" data-badge="fixations" transform="translate(920 330)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="fixations" transform="translate(958 236)"><circle class="bd" r="26"/><text class="bn">8</text></g>
   </g>
 </svg>

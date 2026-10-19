@@ -9,9 +9,9 @@
     <path class="st" d="M40 70 h90 v26 h-58 v470 h58 v26 h-90 Z"/>
   </g>
   <g data-part="bras">
-    <rect class="mt" x="72" y="148" width="168" height="24" rx="4"/>,<circle class="wh" cx="92" cy="160" r="7"/>
-    <rect class="mt" x="72" y="308" width="168" height="24" rx="4"/>,<circle class="wh" cx="92" cy="320" r="7"/>
-    <rect class="mt" x="72" y="488" width="168" height="24" rx="4"/>,<circle class="wh" cx="92" cy="500" r="7"/>
+    <rect class="mt" x="72" y="148" width="168" height="24" rx="4"/><circle class="wh" cx="92" cy="160" r="7"/>
+    <rect class="mt" x="72" y="308" width="168" height="24" rx="4"/><circle class="wh" cx="92" cy="320" r="7"/>
+    <rect class="mt" x="72" y="488" width="168" height="24" rx="4"/><circle class="wh" cx="92" cy="500" r="7"/>
   </g>
   <g data-part="puissance">
     <circle class="dk" cx="300" cy="160" r="68"/>

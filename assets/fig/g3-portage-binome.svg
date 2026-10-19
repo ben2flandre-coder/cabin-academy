@@ -28,7 +28,7 @@
     <g class="badge" data-badge="meneuse" transform="translate(60 100)"><circle class="bd" r="26"/><text class="bn">1</text></g>
     <g class="badge" data-badge="equipiere" transform="translate(676 226)"><circle class="bd" r="26"/><text class="bn">2</text></g>
     <g class="badge" data-badge="charge" transform="translate(430 356)"><circle class="bd" r="26"/><text class="bn">3</text></g>
-    <g class="badge" data-badge="prises" transform="translate(346 470)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="prises" transform="translate(340 432)"><circle class="bd" r="26"/><text class="bn">4</text></g>
     <g class="badge" data-badge="trajet" transform="translate(300 96)"><circle class="bd" r="26"/><text class="bn">5</text></g>
     <g class="badge" data-badge="obstacle" transform="translate(770 360)"><circle class="bd" r="26"/><text class="bn">6</text></g>
     <g class="badge" data-badge="depose" transform="translate(904 320)"><circle class="bd" r="26"/><text class="bn">7</text></g>

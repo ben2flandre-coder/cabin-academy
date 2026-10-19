@@ -62,7 +62,7 @@ CA.addFigures([
     id: 'c2-marquage-piece', file: 'c2-marquage-piece.svg',
     title: "Où se trouve l'identification : six cas de principe",
     caption: "Schéma de principe. Selon la taille et la nature de la pièce, l'identification est sur la pièce, sur une plaque, sur un repère ou seulement sur le contenant. Références fictives.",
-    alt: "Six vignettes. Un : équerre métallique avec la référence EX-48213-07 gravée dans le métal. Deux : boîtier portant une plaque rivetée avec les lignes P/N et S/N. Trois : panneau d'habillage à hublot avec la référence EX-52107-02 imprimée à l'encre. Quatre : faisceau de câbles avec une étiquette de repère EX-W12. Cinq : sachet transparent de vis dont l'étiquette porte P/N et LOT. Six : pièce sans marquage à laquelle est attachée une étiquette volante ATTENTE.",
+    alt: "Six vignettes. Un : support métallique à deux trous avec la référence EX-48213-07 gravée dans le métal. Deux : boîtier portant une plaque rivetée avec les lignes P/N et S/N. Trois : panneau d'habillage à hublot avec la référence EX-52107-02 imprimée à l'encre. Quatre : faisceau de câbles avec une étiquette de repère EX-W12. Cinq : sachet transparent de vis dont l'étiquette porte P/N et LOT. Six : pièce sans marquage à laquelle est attachée une étiquette volante ATTENTE.",
     purpose: "Savoir où chercher l'identification selon le type de pièce, et repérer une pièce dont l'identité dépend entièrement de son contenant.",
     chapters: ['c2'],
     provenance: "Schéma original RMBD — création pédagogique", rights: "© RMBD, usage pédagogique",

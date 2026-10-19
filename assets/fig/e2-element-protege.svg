@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Un élément protégé, prêt à être acheminé</title>
+  <desc id="d">Un panneau avec ouverture de hublot, vu de face, préparé pour le transport. Il est enveloppé d'un film de protection qui dépasse tout autour. Ses quatre coins portent une protection de coin verte. Deux zones de prise sont marquées sur ses bords gauche et droit. Une étiquette d'identification reste visible par-dessus le film. Un pictogramme à deux flèches vers le haut indique le sens de transport. Sur le côté droit, un court faisceau sort du panneau ; son connecteur est fermé par un capuchon vert. En bas à droite, la caisse d'origine, ouverte, garnie de mousse.</desc>
+  <rect class="bgp" width="1000" height="680"/>
+
+  <!-- film de protection (dépasse autour du panneau) -->
+  <g data-part="film">
+    <rect class="gl" x="200" y="80" width="500" height="520" rx="18"/>
+    <path class="dash" d="M218 98 L682 98 L682 582 L218 582 Z"/>
+  </g>
+  <!-- le panneau sous le film -->
+  <rect class="in" x="240" y="120" width="420" height="440" rx="12"/>
+  <rect class="wh" x="370" y="160" width="160" height="190" rx="56"/>
+
+  <!-- protections de coins -->
+  <g data-part="coins">
+    <path class="okf" d="M178 58 L292 58 L292 100 L220 100 L220 172 L178 172 Z"/>
+    <path class="okf" d="M722 58 L608 58 L608 100 L680 100 L680 172 L722 172 Z"/>
+    <path class="okf" d="M178 622 L292 622 L292 580 L220 580 L220 508 L178 508 Z"/>
+    <path class="okf" d="M722 622 L608 622 L608 580 L680 580 L680 508 L722 508 Z"/>
+  </g>
+
+  <!-- zones de prise -->
+  <g data-part="prises">
+    <rect class="eq2" x="170" y="270" width="60" height="140" rx="18"/>
+    <path class="ln" d="M188 304 L212 304 M188 340 L212 340 M188 376 L212 376"/>
+    <rect class="eq2" x="670" y="270" width="60" height="140" rx="18"/>
+    <path class="ln" d="M688 304 L712 304 M688 340 L712 340 M688 376 L712 376"/>
+  </g>
+
+  <!-- étiquette visible -->
+  <g data-part="etiquette">
+    <rect class="wh" x="262" y="410" width="180" height="120" rx="8"/>
+    <text class="ts" x="278" y="458">P/N</text>
+    <path class="ln" d="M356 446 L424 446 M278 486 L424 486 M278 510 L380 510"/>
+  </g>
+
+  <!-- pictogramme « haut » -->
+  <g data-part="sens-haut">
+    <rect class="wh" x="500" y="400" width="130" height="130" rx="8"/>
+    <path class="ln2" d="M538 506 L538 440 M592 506 L592 440 M520 514 L610 514"/>
+    <path class="dk" d="M538 416 L520 448 L556 448 Z M592 416 L574 448 L610 448 Z"/>
+  </g>
+
+  <!-- faisceau + capuchon -->
+  <g data-part="capuchon">
+    <rect class="none" pointer-events="all" x="760" y="150" width="130" height="200"/>
+    <path class="sy" d="M662 200 C730 196 800 190 826 240"/>
+    <rect class="mt" x="806" y="236" width="44" height="40" rx="5"/>
+    <path class="okf" d="M796 272 L860 272 L860 322 Q860 332 850 332 L806 332 Q796 332 796 322 Z"/>
+  </g>
+
+  <!-- caisse d'origine -->
+  <g data-part="emballage">
+    <path class="fl" d="M770 440 L970 440 L970 640 L770 640 Z"/>
+    <path class="dk" d="M790 440 L950 440 L950 480 L790 480 Z"/>
+    <path class="thin" d="M770 520 L970 520 M770 580 L970 580"/>
+    <path class="fl" d="M770 440 L744 392 L900 392 L926 440 Z"/>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="film" transform="translate(450 90)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="coins" transform="translate(140 100)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="prises" transform="translate(124 340)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="etiquette" transform="translate(442 400)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="sens-haut" transform="translate(634 398)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="capuchon" transform="translate(902 300)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="emballage" transform="translate(940 420)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+  </g>
+</svg>

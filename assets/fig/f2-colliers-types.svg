@@ -13,8 +13,8 @@
   </g>
   <g data-part="coussin">
     <circle class="dk" cx="226" cy="250" r="75"/>
+    <circle class="wh" cx="226" cy="250" r="61"/>
   </g>
-  <circle class="wh" cx="226" cy="250" r="61"/>
   <circle class="syf" cx="226" cy="250" r="19.3"/>
   <circle class="syf" cx="263.4" cy="259.9" r="19.3"/>
   <circle class="syf" cx="236.1" cy="287.3" r="19.3"/>
@@ -30,8 +30,8 @@
   <text class="ts tc" x="745" y="60">Serre-câble</text>
   <g data-part="sangle">
     <circle class="wh" cx="735" cy="222" r="100"/>
+    <circle class="wh" cx="735" cy="222" r="88"/>
   </g>
-  <circle class="wh" cx="735" cy="222" r="88"/>
   <circle class="syf" cx="735" cy="222" r="28.3"/>
   <circle class="syf" cx="789.8" cy="236.6" r="28.3"/>
   <circle class="syf" cx="749.8" cy="276.7" r="28.3"/>
@@ -49,9 +49,9 @@
   <path class="sy" d="M44 571 L466 571"/>
   <path class="sy" d="M44 582 L466 582"/>
   <g data-part="lacet">
-    <rect class="wh" x="121" y="528" width="18" height="64" rx="4"/>,<path class="ln2" d="M126 520 L108 492"/>,<path class="ln2" d="M134 520 L152 492"/>,<circle class="wh" cx="130" cy="522" r="13"/>
-    <rect class="wh" x="246" y="528" width="18" height="64" rx="4"/>,<path class="ln2" d="M251 520 L233 492"/>,<path class="ln2" d="M259 520 L277 492"/>,<circle class="wh" cx="255" cy="522" r="13"/>
-    <rect class="wh" x="371" y="528" width="18" height="64" rx="4"/>,<path class="ln2" d="M376 520 L358 492"/>,<path class="ln2" d="M384 520 L402 492"/>,<circle class="wh" cx="380" cy="522" r="13"/>
+    <rect class="wh" x="121" y="528" width="18" height="64" rx="4"/><path class="ln2" d="M126 520 L108 492"/><path class="ln2" d="M134 520 L152 492"/><circle class="wh" cx="130" cy="522" r="13"/>
+    <rect class="wh" x="246" y="528" width="18" height="64" rx="4"/><path class="ln2" d="M251 520 L233 492"/><path class="ln2" d="M259 520 L277 492"/><circle class="wh" cx="255" cy="522" r="13"/>
+    <rect class="wh" x="371" y="528" width="18" height="64" rx="4"/><path class="ln2" d="M376 520 L358 492"/><path class="ln2" d="M384 520 L402 492"/><circle class="wh" cx="380" cy="522" r="13"/>
   </g>
   <text class="ts tc tr" x="745" y="410">À éviter</text>
   <g data-part="surserre">

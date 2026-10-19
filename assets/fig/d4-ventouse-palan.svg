@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" class="fig" role="img" aria-labelledby="t d">
+<title id="t">Ventouse de manutention et palan à chaîne : le principe</title>
+<desc id="d">À gauche, une ventouse de manutention double vue de face, plaquée sur un grand panneau lisse : deux coupelles rondes en caoutchouc reliées par une poignée, chacune avec un levier rouge qui crée le vide quand on le rabat. À droite, un palan à chaîne à main suspendu à une poutre par son crochet haut : un carter avec sa roue, une plaque marquée CMU, la chaîne de manœuvre qui pend en boucle sur le côté et que l'on tire à la main, la chaîne de levage qui descend jusqu'au crochet bas muni d'un linguet de sécurité ; une charge est suspendue au crochet par une élingue.</desc>
+<rect class="bgp" width="1000" height="640"/>
+<g data-part="surface">
+<rect class="in" x="30" y="60" width="440" height="520" rx="10"/>
+<path class="thin" d="M60 110 L130 70 M60 170 L190 96"/>
+</g>
+<g data-part="coupelle">
+<circle class="dk" cx="160" cy="340" r="86"/>
+<circle class="mt2" cx="160" cy="340" r="30"/>
+<circle class="dk" cx="340" cy="340" r="86"/>
+<circle class="mt2" cx="340" cy="340" r="30"/>
+</g>
+<g data-part="poignee">
+<rect class="mt2" x="150" y="316" width="200" height="48" rx="20"/>
+<rect class="eq2" x="196" y="306" width="108" height="68" rx="24"/>
+</g>
+<g data-part="levier">
+<path class="badf" d="M146 326 L96 236 L120 224 L176 316 Z"/>
+<path class="badf" d="M354 326 L404 236 L380 224 L324 316 Z"/>
+</g>
+<rect class="st" x="580" y="28" width="380" height="30" rx="3"/>
+<g data-part="crochet-haut">
+<path class="ln2" d="M770 58 A22 22 0 1 0 792 80 M770 102 V118"/>
+<rect class="mt2" x="756" y="112" width="28" height="14" rx="3"/>
+</g>
+<g data-part="chaine-manoeuvre">
+<ellipse class="ln" cx="668" cy="190" rx="8" ry="12"/>
+<ellipse class="ln" cx="668" cy="210.4" rx="3.6" ry="12"/>
+<ellipse class="ln" cx="668" cy="230.8" rx="8" ry="12"/>
+<ellipse class="ln" cx="668" cy="251.2" rx="3.6" ry="12"/>
+<ellipse class="ln" cx="668" cy="271.6" rx="8" ry="12"/>
+<ellipse class="ln" cx="668" cy="292" rx="3.6" ry="12"/>
+<ellipse class="ln" cx="668" cy="312.4" rx="8" ry="12"/>
+<ellipse class="ln" cx="668" cy="332.8" rx="3.6" ry="12"/>
+<ellipse class="ln" cx="668" cy="353.2" rx="8" ry="12"/>
+<ellipse class="ln" cx="668" cy="373.6" rx="3.6" ry="12"/>
+<ellipse class="ln" cx="668" cy="394" rx="8" ry="12"/>
+<ellipse class="ln" cx="668" cy="414.4" rx="3.6" ry="12"/>
+<ellipse class="ln" cx="668" cy="434.8" rx="8" ry="12"/>
+<ellipse class="ln" cx="668" cy="455.2" rx="3.6" ry="12"/>
+<ellipse class="ln" cx="668" cy="475.6" rx="8" ry="12"/>
+<ellipse class="ln" cx="668" cy="496" rx="3.6" ry="12"/>
+<ellipse class="ln" cx="708" cy="240" rx="8" ry="12"/>
+<ellipse class="ln" cx="708" cy="260.4" rx="3.6" ry="12"/>
+<ellipse class="ln" cx="708" cy="280.8" rx="8" ry="12"/>
+<ellipse class="ln" cx="708" cy="301.2" rx="3.6" ry="12"/>
+<ellipse class="ln" cx="708" cy="321.6" rx="8" ry="12"/>
+<ellipse class="ln" cx="708" cy="342" rx="3.6" ry="12"/>
+<ellipse class="ln" cx="708" cy="362.4" rx="8" ry="12"/>
+<ellipse class="ln" cx="708" cy="382.8" rx="3.6" ry="12"/>
+<ellipse class="ln" cx="708" cy="403.2" rx="8" ry="12"/>
+<ellipse class="ln" cx="708" cy="423.6" rx="3.6" ry="12"/>
+<ellipse class="ln" cx="708" cy="444" rx="8" ry="12"/>
+<ellipse class="ln" cx="708" cy="464.4" rx="3.6" ry="12"/>
+<ellipse class="ln" cx="708" cy="484.8" rx="8" ry="12"/>
+<path class="ln" d="M668 500 Q688 540 708 500"/>
+</g>
+<g data-part="carter">
+<rect class="eq2" x="690" y="124" width="160" height="126" rx="26"/>
+<circle class="eq" cx="770" cy="187" r="44"/>
+<circle class="dk" cx="770" cy="187" r="10"/>
+<rect class="eq2" x="652" y="150" width="44" height="76" rx="14"/>
+</g>
+<g data-part="plaque-cmu">
+<rect class="wh" x="842" y="150" width="110" height="70" rx="6"/>
+<text class="ts tc" x="897" y="198">CMU</text>
+</g>
+<g data-part="chaine-levage">
+<ellipse class="ln" cx="790" cy="262" rx="10" ry="14"/>
+<ellipse class="ln" cx="790" cy="285.8" rx="4.5" ry="14"/>
+<ellipse class="ln" cx="790" cy="309.6" rx="10" ry="14"/>
+<ellipse class="ln" cx="790" cy="333.4" rx="4.5" ry="14"/>
+<ellipse class="ln" cx="790" cy="357.2" rx="10" ry="14"/>
+<ellipse class="ln" cx="790" cy="381" rx="4.5" ry="14"/>
+</g>
+<g data-part="crochet-bas">
+<rect class="mt2" x="770" y="404" width="40" height="34" rx="5"/>
+<path class="ln2" d="M790 438 V462 A36 36 0 1 1 754 498"/>
+<path class="ln" d="M790 452 L758 490"/>
+</g>
+<path class="sy" d="M790 534 L724 576 M790 534 L856 576"/>
+<rect class="in" x="700" y="576" width="180" height="44" rx="4"/>
+<path class="thin" d="M790 576 V620"/>
+<g class="badges">
+<g class="badge" data-badge="surface" transform="translate(420 110)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+<g class="badge" data-badge="coupelle" transform="translate(100 432)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+<g class="badge" data-badge="poignee" transform="translate(250 272)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+<g class="badge" data-badge="levier" transform="translate(440 240)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+<g class="badge" data-badge="crochet-haut" transform="translate(834 92)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+<g class="badge" data-badge="carter" transform="translate(626 122)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+<g class="badge" data-badge="plaque-cmu" transform="translate(930 252)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+<g class="badge" data-badge="chaine-manoeuvre" transform="translate(620 340)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+<g class="badge" data-badge="chaine-levage" transform="translate(848 330)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+<g class="badge" data-badge="crochet-bas" transform="translate(868 478)"><circle class="bd" r="26"/><text class="bn">10</text></g>
+</g>
+</svg>

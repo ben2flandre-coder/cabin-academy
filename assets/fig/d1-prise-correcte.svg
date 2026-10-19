@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Six prises d'outil : deux correctes, quatre fautives</title>
+  <desc id="d">Six vignettes. En haut, trois clés à fourche vues de dessus sur un écrou six pans. Première : la fourche a la bonne taille et l'écrou est au fond, les deux mâchoires portent sur toute la longueur de deux pans opposés. Deuxième : la fourche est trop grande, l'écrou a tourné dans le jeu et seules deux arêtes touchent les mâchoires. Troisième : la fourche a la bonne taille mais n'est engagée que du bout, les mâchoires ne tiennent qu'une petite partie des pans. En bas, trois embouts de vissage dans la tête d'une vis, vus en coupe. Quatrième : l'embout remplit l'empreinte et il est dans l'axe de la vis. Cinquième : l'embout est trop petit, il touche le fond mais laisse un vide sur les côtés. Sixième : l'embout a la bonne taille mais il est incliné, il ne porte que d'un côté.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+  <text class="ts" x="24" y="44">Clé sur un écrou, vue de dessus</text>
+  <g data-part="fourche-fond">
+    <rect class="none" x="20" y="60" width="300" height="300"/>
+    <path class="mt" d="M113.5 109 Q113.5 106 110.5 106 L95.5 106 Q83.5 106 80.5 117.6 L75.5 137 Q67.5 168 80.5 205 L80.5 205 Q93.5 242 119.3 255 L123.6 257.2 Q145 268 146.1 292 L149 358 L191 358 L193.9 292 Q195 268 216.4 257.2 L220.8 255 Q246.5 242 259.5 205 L259.5 205 Q272.5 168 264.5 137 L259.5 117.6 Q256.5 106 244.5 106 L229.5 106 Q226.5 106 226.5 109 L226.5 193 Q226.5 198 221.5 198 L118.5 198 Q113.5 198 113.5 193 Z"/>
+    <path class="mt2" d="M225 163.8 L170 195.5 L115 163.8 L115 100.2 L170 68.5 L225 100.2 Z"/>
+    <circle class="wh" cx="170" cy="132" r="30"/>
+    <circle class="thin" cx="170" cy="132" r="22"/>
+  </g>
+  <g data-part="fourche-grande">
+    <rect class="none" x="350" y="60" width="300" height="300"/>
+    <path class="mt" d="M438.5 113 Q438.5 110 435.5 110 L420.5 110 Q408.5 110 405.5 121.6 L400.5 141 Q392.5 172 405.5 209 L405.5 209 Q418.5 246 446.8 259 L453.2 262 Q475 272 476.1 296 L479 358 L521 358 L523.9 296 Q525 272 546.8 262 L553.3 259 Q581.5 246 594.5 209 L594.5 209 Q607.5 172 599.5 141 L594.5 121.6 Q591.5 110 579.5 110 L564.5 110 Q561.5 110 561.5 113 L561.5 197 Q561.5 202 556.5 202 L443.5 202 Q438.5 202 438.5 197 Z"/>
+    <path class="mt2" d="M546.1 175.7 L485.2 193.8 L439.1 150 L453.9 88.3 L514.8 70.2 L560.9 114 Z"/>
+    <circle class="wh" cx="500" cy="132" r="30"/>
+    <circle class="thin" cx="500" cy="132" r="22"/>
+  </g>
+  <g data-part="fourche-bout">
+    <rect class="none" x="680" y="60" width="300" height="300"/>
+    <path class="mt" d="M773.5 143 Q773.5 140 770.5 140 L755.5 140 Q743.5 140 740.5 151.6 L735.5 171 Q727.5 202 740.5 239 L740.5 239 Q753.5 276 779.3 289 L783.6 291.2 Q805 302 806.7 325.9 L809 358 L851 358 L853.3 325.9 Q855 302 876.4 291.2 L880.8 289 Q906.5 276 919.5 239 L919.5 239 Q932.5 202 924.5 171 L919.5 151.6 Q916.5 140 904.5 140 L889.5 140 Q886.5 140 886.5 143 L886.5 227 Q886.5 232 881.5 232 L778.5 232 Q773.5 232 773.5 227 Z"/>
+    <path class="mt2" d="M885 155.8 L830 187.5 L775 155.8 L775 92.2 L830 60.5 L885 92.2 Z"/>
+    <circle class="wh" cx="830" cy="124" r="30"/>
+    <circle class="thin" cx="830" cy="124" r="22"/>
+  </g>
+  <path class="dash" d="M30 378 L970 378"/>
+  <text class="ts" x="24" y="424">Embout dans une vis, vue en coupe</text>
+  <g data-part="embout-fond">
+    <rect class="none" x="20" y="438" width="300" height="252"/>
+    <rect class="st" x="30" y="612" width="280" height="66"/>
+    <rect class="mt2" x="148" y="612" width="44" height="66"/>
+    <path class="dk" d="M139 448 L201 448 L201 558.5 L175 601 L165 601 L139 558.5 Z"/>
+    <path class="mt" d="M92 612 L92 580 Q92 566 108 566 L143 566 L165 602 L175 602 L197 566 L232 566 Q248 566 248 580 L248 612 Z"/>
+    <path class="dash" d="M170 438 L170 690"/>
+  </g>
+  <g data-part="embout-petit">
+    <rect class="none" x="350" y="438" width="300" height="252"/>
+    <rect class="st" x="360" y="612" width="280" height="66"/>
+    <rect class="mt2" x="478" y="612" width="44" height="66"/>
+    <path class="dk" d="M483 448 L517 448 L517 578.1 L503 601 L497 601 L483 578.1 Z"/>
+    <path class="mt" d="M422 612 L422 580 Q422 566 438 566 L473 566 L495 602 L505 602 L527 566 L562 566 Q578 566 578 580 L578 612 Z"/>
+    <path class="dash" d="M500 438 L500 690"/>
+  </g>
+  <g data-part="embout-incline">
+    <rect class="none" x="680" y="438" width="300" height="252"/>
+    <rect class="st" x="690" y="612" width="280" height="66"/>
+    <rect class="mt2" x="808" y="612" width="44" height="66"/>
+    <path class="dk" d="M839.8 443.9 L899.7 459.9 L871.1 566.6 L835 601 L825.3 598.4 L811.2 550.6 Z"/>
+    <path class="mt" d="M752 612 L752 580 Q752 566 768 566 L803 566 L825 602 L835 602 L857 566 L892 566 Q908 566 908 580 L908 612 Z"/>
+    <path class="dash" d="M830 438 L830 690"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="fourche-fond" transform="translate(52 96)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="fourche-grande" transform="translate(382 96)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="fourche-bout" transform="translate(712 96)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="embout-fond" transform="translate(52 486)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="embout-petit" transform="translate(382 486)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="embout-incline" transform="translate(712 486)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>

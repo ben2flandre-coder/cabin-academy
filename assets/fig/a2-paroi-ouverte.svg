@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">La paroi de la cabine, habillée puis ouverte</title>
+  <desc id="d">Schéma de principe : la paroi droite d'une cabine vue depuis l'allée, avant de l'avion à gauche. Sur la partie gauche de l'image, la paroi est habillée : un grand panneau clair percé de deux hublots, un panneau bas à grille au ras du plancher, et devant, un siège vu de profil. Sur la partie droite, les panneaux ont été retirés : on voit la peau au fond ; devant elle, des lisses horizontales ; devant les lisses, trois cadres verticaux régulièrement espacés ; entre deux cadres, à hauteur des yeux d'un passager assis, une fenêtre entourée d'un encadrement épais. En haut, un faisceau de câbles orange court d'un cadre à l'autre, tenu sur chaque cadre par un support et un collier. En bas à droite, des matelas isolants matelassés remplissent encore deux intervalles entre cadres. Le plancher court en bas sur toute la largeur.</desc>
+  <rect class="bgp" width="1000" height="680"/>
+  <g data-part="peau"><rect class="sk" x="380" y="30" width="600" height="560"/></g>
+  <g data-part="lisse">
+    <rect class="mt2" x="380" y="56" width="600" height="16"/><rect class="mt2" x="380" y="122" width="600" height="16"/><rect class="mt2" x="380" y="188" width="600" height="16"/>
+    <rect class="mt2" x="380" y="388" width="600" height="16"/><rect class="mt2" x="380" y="454" width="600" height="16"/><rect class="mt2" x="380" y="520" width="600" height="16"/>
+  </g>
+  <g data-part="encadrement">
+    <rect class="st" x="473" y="212" width="124" height="164" rx="46"/><rect class="gl" x="493" y="232" width="84" height="124" rx="32"/>
+    <rect class="st" x="663" y="212" width="124" height="164" rx="46"/><rect class="gl" x="683" y="232" width="84" height="124" rx="32"/>
+    <rect class="st" x="853" y="212" width="124" height="164" rx="46"/><rect class="gl" x="873" y="232" width="84" height="124" rx="32"/>
+  </g>
+  <g data-part="isolant">
+    <rect class="in" x="647" y="412" width="156" height="174" rx="10"/>
+    <path class="thin" d="M647 456 L803 456 M647 500 L803 500 M647 544 L803 544 M699 412 L699 586 M751 412 L751 586"/>
+    <rect class="in" x="837" y="412" width="140" height="174" rx="10"/>
+    <path class="thin" d="M837 456 L977 456 M837 500 L977 500 M837 544 L977 544 M884 412 L884 586 M931 412 L931 586"/>
+  </g>
+  <g data-part="cadre">
+    <rect class="st" x="427" y="30" width="26" height="560"/><rect class="st" x="617" y="30" width="26" height="560"/><rect class="st" x="807" y="30" width="26" height="560"/>
+  </g>
+  <g data-part="support">
+    <rect class="mt" x="414" y="70" width="52" height="56" rx="5"/><rect class="mt" x="604" y="70" width="52" height="56" rx="5"/><rect class="mt" x="794" y="70" width="52" height="56" rx="5"/>
+  </g>
+  <g data-part="faisceau"><path class="sy" d="M380 102 Q410 106 440 98 Q535 114 630 98 Q725 114 820 98 Q900 110 980 102"/></g>
+  <g data-part="support">
+    <rect class="dk" x="431" y="84" width="18" height="28" rx="7"/><rect class="dk" x="621" y="84" width="18" height="28" rx="7"/><rect class="dk" x="811" y="84" width="18" height="28" rx="7"/>
+  </g>
+  <rect class="fl" x="20" y="590" width="960" height="60"/>
+  <g data-part="panneau">
+    <path class="in" d="M20 30 L412 30 L420 110 L406 200 L420 300 L406 400 L418 500 L20 500 Z"/>
+    <rect class="wh" x="97" y="219" width="116" height="150" rx="42"/><rect class="gl" x="113" y="235" width="84" height="118" rx="32"/>
+    <rect class="wh" x="287" y="219" width="116" height="150" rx="42"/><rect class="gl" x="303" y="235" width="84" height="118" rx="32"/>
+    <path class="in" d="M20 500 L418 500 L410 590 L20 590 Z"/>
+    <path class="thin" d="M230 532 L380 532 M230 546 L380 546 M230 560 L380 560"/>
+  </g>
+  <g data-part="siege">
+    <path class="ln2" d="M84 522 L74 586 M162 522 L172 586"/><rect class="mt2" x="62" y="580" width="122" height="10" rx="3"/>
+    <path class="eq" d="M152 316 L190 316 C198 316 202 324 200 332 L190 508 L146 508 Z"/>
+    <rect class="eq2" x="58" y="494" width="132" height="30" rx="12"/>
+    <rect class="dk" x="84" y="446" width="80" height="13" rx="6"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="peau" transform="translate(535 495)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="cadre" transform="translate(630 300)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="lisse" transform="translate(535 396)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="encadrement" transform="translate(725 212)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="isolant" transform="translate(725 500)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="faisceau" transform="translate(535 106)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="support" transform="translate(820 158)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="panneau" transform="translate(250 120)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="siege" transform="translate(120 410)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+  </g>
+</svg>

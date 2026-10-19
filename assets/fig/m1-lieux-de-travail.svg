@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 690" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Les lieux de travail autour de l'avion</title>
+  <desc id="d">Plan de principe d'un hall d'assemblage vu de dessus, avec des pictogrammes. En haut, trois locaux côte à côte : le magasin d'outillage, avec un panneau d'outils et une caisse ; la zone logistique, avec une étagère de cartons et un chariot chargé ; le point d'équipe, avec un tableau d'affichage et un personnage. Au milieu, une allée de circulation bordée de deux lignes, avec deux piétons. En bas, l'avion vu de dessus, nez à gauche ; à l'intérieur du fuselage, une bande claire marque la cabine. Quatre plateformes d'accès longent le fuselage, deux de chaque côté, avec chacune un escalier. À droite de l'avion, en haut, trois bacs de tri ; en bas, un établi avec un étau.</desc>
+  <rect class="bgp" width="1000" height="690"/>
+  <g data-part="magasin">
+    <rect class="in" x="24" y="24" width="300" height="172" rx="10"/>
+    <rect class="wh" x="46" y="44" width="150" height="100" rx="6"/>
+    <g transform="translate(76 122) rotate(-58)"><path class="mt" d="M18 -7 L70 -7 L70 7 L18 7 C16 16 5 19 -6 14 L4 5 L4 -5 L-6 -14 C5 -19 16 -16 18 -7 Z"/></g>
+    <rect class="mt" x="140" y="58" width="9" height="44" rx="3"/><rect class="syf" x="134" y="100" width="21" height="34" rx="7"/>
+    <rect class="mt" x="170" y="58" width="9" height="44" rx="3"/><rect class="syf" x="164" y="100" width="21" height="34" rx="7"/>
+    <path class="ln2" d="M236 92 C236 70 288 70 288 92"/><rect class="eq2" x="216" y="92" width="92" height="52" rx="6"/><rect class="mt" x="252" y="110" width="20" height="12" rx="3"/>
+    <rect class="fl" x="40" y="160" width="268" height="22" rx="4"/>
+  </g>
+  <g data-part="logistique">
+    <rect class="in" x="350" y="24" width="300" height="172" rx="10"/>
+    <rect class="mt2" x="372" y="44" width="8" height="140"/><rect class="mt2" x="504" y="44" width="8" height="140"/>
+    <rect class="mt2" x="372" y="96" width="140" height="8"/><rect class="mt2" x="372" y="156" width="140" height="8"/>
+    <rect class="fl" x="388" y="56" width="50" height="40" rx="3"/><rect class="fl" x="446" y="64" width="50" height="32" rx="3"/>
+    <rect class="fl" x="388" y="118" width="40" height="38" rx="3"/><rect class="fl" x="434" y="112" width="62" height="44" rx="3"/>
+    <path class="ln2" d="M534 96 L548 96 L548 160 L636 160"/><rect class="fl" x="560" y="110" width="66" height="48" rx="3"/><line class="thin" x1="593" y1="110" x2="593" y2="158"/>
+    <circle class="dk" cx="566" cy="174" r="10"/><circle class="dk" cx="620" cy="174" r="10"/>
+  </g>
+  <g data-part="point-equipe">
+    <rect class="in" x="676" y="24" width="300" height="172" rx="10"/>
+    <rect class="wh" x="698" y="44" width="170" height="112" rx="6"/>
+    <rect class="gl" x="712" y="58" width="42" height="54" rx="3"/><rect class="in" x="764" y="58" width="42" height="54" rx="3"/><rect class="okf" x="816" y="58" width="38" height="24" rx="3"/><rect class="badf" x="816" y="88" width="38" height="24" rx="3"/>
+    <line class="thin" x1="712" y1="126" x2="854" y2="126"/><line class="thin" x1="712" y1="140" x2="820" y2="140"/>
+    <circle class="eq2" cx="924" cy="96" r="20"/><path class="eq2" d="M888 176 C888 138 904 124 924 124 C944 124 960 138 960 176 Z"/>
+  </g>
+  <g data-part="allee">
+    <rect class="wh" x="24" y="214" width="952" height="56" rx="6"/>
+    <line class="dash" x1="40" y1="242" x2="250" y2="242"/><line class="dash" x1="380" y1="242" x2="640" y2="242"/><line class="dash" x1="770" y1="242" x2="960" y2="242"/>
+    <circle class="dk" cx="300" cy="228" r="9"/><path class="dk" d="M284 264 C284 244 292 240 300 240 C308 240 316 244 316 264 Z"/><path class="dimf" d="M330 242 L350 232 L350 252 Z" transform="rotate(180 340 242)"/>
+    <circle class="dk" cx="700" cy="228" r="9"/><path class="dk" d="M684 264 C684 244 692 240 700 240 C708 240 716 244 716 264 Z"/><path class="dimf" d="M730 242 L750 232 L750 252 Z" transform="rotate(180 740 242)"/>
+  </g>
+  <g data-part="plateformes">
+    <rect class="fl" x="112" y="382" width="200" height="48" rx="4"/><rect class="mt" x="112" y="312" width="44" height="70" rx="3"/><line class="thin" x1="112" y1="326" x2="156" y2="326"/><line class="thin" x1="112" y1="340" x2="156" y2="340"/><line class="thin" x1="112" y1="354" x2="156" y2="354"/><line class="thin" x1="112" y1="368" x2="156" y2="368"/>
+    <rect class="fl" x="512" y="382" width="160" height="48" rx="4"/><rect class="mt" x="628" y="312" width="44" height="70" rx="3"/><line class="thin" x1="628" y1="326" x2="672" y2="326"/><line class="thin" x1="628" y1="340" x2="672" y2="340"/><line class="thin" x1="628" y1="354" x2="672" y2="354"/><line class="thin" x1="628" y1="368" x2="672" y2="368"/>
+    <rect class="fl" x="112" y="510" width="200" height="48" rx="4"/><rect class="mt" x="112" y="558" width="44" height="70" rx="3"/><line class="thin" x1="112" y1="572" x2="156" y2="572"/><line class="thin" x1="112" y1="586" x2="156" y2="586"/><line class="thin" x1="112" y1="600" x2="156" y2="600"/><line class="thin" x1="112" y1="614" x2="156" y2="614"/>
+    <rect class="fl" x="512" y="510" width="160" height="48" rx="4"/><rect class="mt" x="628" y="558" width="44" height="70" rx="3"/><line class="thin" x1="628" y1="572" x2="672" y2="572"/><line class="thin" x1="628" y1="586" x2="672" y2="586"/><line class="thin" x1="628" y1="600" x2="672" y2="600"/><line class="thin" x1="628" y1="614" x2="672" y2="614"/>
+  </g>
+  <g data-part="avion">
+    <path class="sk" d="M690 442 L744 388 L768 388 L752 452 Z"/><path class="sk" d="M690 498 L744 552 L768 552 L752 488 Z"/>
+    <rect class="eq2" x="366" y="352" width="66" height="26" rx="13"/><rect class="eq2" x="366" y="562" width="66" height="26" rx="13"/>
+    <path class="sk" d="M330 432 L500 292 L536 292 L470 432 Z"/><path class="sk" d="M330 508 L500 648 L536 648 L470 508 Z"/>
+    <path class="sk" d="M66 470 C70 448 108 432 160 432 L620 432 C690 432 742 452 772 466 L772 474 C742 488 690 508 620 508 L160 508 C108 508 70 492 66 470 Z"/>
+    <rect class="in" x="150" y="444" width="512" height="52" rx="22"/>
+    <path class="gl" d="M92 458 C100 450 114 446 130 446 L130 458 Z"/><path class="gl" d="M92 482 C100 490 114 494 130 494 L130 482 Z"/>
+  </g>
+  <g data-part="bacs">
+    <rect class="eq2" x="812" y="318" width="44" height="64" rx="5"/><rect class="dk" x="808" y="308" width="52" height="12" rx="4"/>
+    <rect class="mt" x="866" y="318" width="44" height="64" rx="5"/><rect class="dk" x="862" y="308" width="52" height="12" rx="4"/>
+    <rect class="okf" x="920" y="318" width="44" height="64" rx="5"/><rect class="dk" x="916" y="308" width="52" height="12" rx="4"/>
+  </g>
+  <g data-part="etabli">
+    <rect class="fl" x="806" y="548" width="164" height="26" rx="4"/><rect class="mt2" x="818" y="574" width="14" height="70"/><rect class="mt2" x="944" y="574" width="14" height="70"/><rect class="mt2" x="832" y="604" width="112" height="10"/>
+    <rect class="mt" x="838" y="516" width="16" height="32" rx="2"/><rect class="mt" x="862" y="516" width="16" height="32" rx="2"/><rect class="mt2" x="830" y="536" width="56" height="12" rx="2"/><line class="ln2" x1="878" y1="526" x2="904" y2="526"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="avion" transform="translate(400 470)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="plateformes" transform="translate(232 372)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="magasin" transform="translate(296 52)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="logistique" transform="translate(622 52)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="point-equipe" transform="translate(948 52)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="allee" transform="translate(500 242)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="etabli" transform="translate(930 500)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="bacs" transform="translate(780 350)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

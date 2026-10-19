@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Nettoyer : souffler déplace, aspirer retire</title>
+  <desc id="d">Schéma de principe en deux scènes vues en coupe, séparées par un trait pointillé. Chaque scène montre un plancher avec un interstice entre deux panneaux et, dessous, une cavité sombre où passe un faisceau. À gauche, marquée d'une croix rouge : une soufflette envoie un jet d'air sur des copeaux ; un copeau est projeté en l'air, un autre passe par l'interstice et finit posé sur le faisceau, sous le plancher, là où on ne le voit plus. À droite, marquée d'une coche verte : une buse d'aspiration posée près de l'interstice avale les copeaux, qui se retrouvent dans la cuve transparente de l'aspirateur, où on peut les voir et les compter ; la cavité reste propre.</desc>
+  <rect class="bgp" width="1000" height="640"/>
+  <path class="dash" d="M500 30 V610"/>
+  <rect class="dk" x="20" y="440" width="460" height="170"/><rect class="fl" x="20" y="400" width="352" height="40"/><rect class="fl" x="404" y="400" width="76" height="40"/><rect class="st" x="60" y="440" width="30" height="170"/>
+  <path class="sy" d="M24 566 C140 556 300 578 476 564"/>
+  <rect class="dk" x="520" y="440" width="460" height="170"/><rect class="fl" x="520" y="400" width="300" height="40"/><rect class="fl" x="852" y="400" width="128" height="40"/><rect class="st" x="560" y="440" width="30" height="170"/>
+  <path class="sy" d="M524 566 C640 556 800 578 976 564"/>
+  <circle class="badf" cx="58" cy="62" r="28"/><path class="ln2" d="M46 50 L70 74 M70 50 L46 74"/><text class="tb" x="100" y="76">Souffler</text>
+  <circle class="okf" cx="558" cy="62" r="28"/><path class="ln2" d="M544 62 L554 74 L574 50"/><text class="tb" x="600" y="76">Aspirer</text>
+  <g data-part="interstice">
+    <rect class="dk" x="372" y="400" width="32" height="42"/><rect class="none" pointer-events="all" x="352" y="386" width="72" height="70" rx="10"/>
+    <rect class="dk" x="820" y="400" width="32" height="42"/><rect class="none" pointer-events="all" x="800" y="386" width="72" height="70" rx="10"/>
+  </g>
+  <g data-part="soufflette">
+    <path class="ln2" d="M66 288 C54 330 44 360 30 394"/>
+    <g transform="rotate(32 150 220)"><rect class="dk" x="92" y="226" width="46" height="96" rx="12"/><rect class="mt2" x="88" y="196" width="118" height="44" rx="12"/><rect class="mt" x="206" y="210" width="84" height="16" rx="4"/><path class="mt" d="M146 240 L170 240 L160 286 L148 286 Z"/></g>
+  </g>
+  <g data-part="jet">
+    <path class="dim" d="M286 300 L338 356 M300 288 L368 332 M276 314 L306 372"/><path class="dimf" d="M346 364 L326 356 L336 346 Z M378 338 L357 334 L364 322 Z M310 382 L296 366 L309 360 Z"/><rect class="none" pointer-events="all" x="262" y="280" width="124" height="108" rx="10"/><path class="wh" transform="rotate(8 318 392)" d="M305 398 L315 384 L331 389 L323 400 Z"/><path class="wh" transform="rotate(-30 346 390)" d="M333 396 L343 382 L359 387 L351 398 Z"/>
+  </g>
+  <g data-part="debris-projete">
+    <path class="wh" transform="rotate(-20 430 236)" d="M417 242 L427 228 L443 233 L435 244 Z"/><path class="thin" d="M392 262 L410 250 M398 280 L414 268 M384 246 L404 236"/><rect class="none" pointer-events="all" x="392" y="200" width="76" height="76" rx="10"/>
+  </g>
+  <g data-part="debris-cache">
+    <path class="dash" d="M356 392 C380 380 390 404 388 440 L388 520"/><path class="wh" transform="rotate(10 390 548)" d="M377 554 L387 540 L403 545 L395 556 Z"/><rect class="none" pointer-events="all" x="352" y="512" width="76" height="72" rx="10"/>
+  </g>
+  <g data-part="cuve">
+    <rect class="gl" x="540" y="232" width="150" height="140" rx="10"/><rect class="eq2" x="532" y="204" width="166" height="36" rx="10"/><circle class="dk" cx="566" cy="386" r="14"/><circle class="dk" cx="664" cy="386" r="14"/><rect class="mt" x="596" y="186" width="38" height="20" rx="4"/>
+  </g>
+  <g data-part="buse">
+    <path class="stl" d="M615 186 C615 96 742 96 776 250"/>
+    <path class="mt" d="M764 252 L788 246 L806 330 L846 392 L770 392 L784 340 Z"/><path class="thin" d="M784 340 L806 330"/><rect class="none" pointer-events="all" x="750" y="240" width="100" height="156" rx="10"/>
+  </g>
+  <g data-part="debris-capte">
+    <path class="wh" transform="rotate(-15 586 352)" d="M573 358 L583 344 L599 349 L591 360 Z"/><path class="wh" transform="rotate(20 626 358)" d="M613 364 L623 350 L639 355 L631 366 Z"/><path class="wh" transform="rotate(-40 656 348)" d="M643 354 L653 340 L669 345 L661 356 Z"/><rect class="none" pointer-events="all" x="556" y="318" width="124" height="54" rx="8"/>
+    <path class="wh" transform="rotate(12 884 390)" d="M871 396 L881 382 L897 387 L889 398 Z"/><path class="dim" d="M900 366 L866 380 M836 432 L826 404"/><path class="dimf" d="M856 388 L872 374 L876 390 Z M822 394 L834 410 L818 412 Z"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="soufflette" transform="translate(96 168)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="jet" transform="translate(232 330)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="debris-projete" transform="translate(452 178)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="interstice" transform="translate(446 420)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="debris-cache" transform="translate(458 548)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="buse" transform="translate(842 286)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="cuve" transform="translate(720 222)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="debris-capte" transform="translate(720 330)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Le couple : un effort multiplié par un bras de levier</title>
+  <desc id="d">Deux schémas vus de dessus d'une clé posée sur un écrou situé à droite. En haut, une clé courte : une flèche rouge longue, perpendiculaire à la clé, pousse sur le bout du manche ; une cote bleue mesure le bras de levier, de l'axe de l'écrou jusqu'à la ligne de l'effort ; une flèche courbe bleue autour de l'écrou montre le couple, dans le sens des aiguilles d'une montre. En bas, une clé deux fois plus longue : la cote du bras de levier est doublée, la flèche d'effort est deux fois plus courte, et la flèche courbe du couple est identique.</desc>
+  <rect class="bgp" width="1000" height="640"/>
+  <text class="ts" x="24" y="46">Bras court : grand effort</text>
+  <path class="mt" d="M414 183 Q414 173 424 173.1 L770 174.9 Q780 175 780 185 L780 195 Q780 205 770 205.1 L424 206.9 Q414 207 414 197 Z"/>
+  <circle class="mt" cx="820" cy="190" r="62"/>
+  <g data-part="axe">
+    <rect class="none" x="780" y="150" width="80" height="80"/>
+    <path class="mt2" d="M858.1 212 L820 234 L781.9 212 L781.9 168 L820 146 L858.1 168 Z"/>
+    <circle class="wh" cx="820" cy="190" r="19.8"/>
+    <circle class="dk" cx="820" cy="190" r="7"/>
+  </g>
+  <g data-part="bras">
+    <rect class="none" x="460" y="82" width="360" height="56"/>
+    <path class="dim" d="M460 96 L460 124 M820 96 L820 124 M468 110 L812 110"/><path class="dimf" d="M462 110 L478 102 L478 118 Z M818 110 L802 102 L802 118 Z"/>
+    <path class="thin" d="M820 124 L820 182"/>
+    <path class="thin" d="M460 124 L460 170"/>
+  </g>
+  <g data-part="force">
+    <rect class="none" x="426" y="204" width="68" height="160"/>
+    <path class="ax" d="M460 342 L460 226.4"/><path class="axf" d="M460 212 L470.4 233.6 L449.6 233.6 Z"/>
+  </g>
+  <g data-part="couple">
+    <rect class="none" x="870" y="100" width="100" height="180"/>
+    <path class="dim" d="M865.1 105.2 A96 96 0 0 1 887.8 258"/><path class="dimf" d="M870.9 271.4 L880.2 249.3 L894.5 267.3 Z"/>
+  </g>
+  <path class="dash" d="M30 366 L970 366"/>
+  <text class="ts" x="24" y="412">Bras doublé : effort divisé par deux</text>
+  <path class="mt" d="M54 505 Q54 495 64 495 L770 497 Q780 497 780 507 L780 517 Q780 527 770 527 L64 529 Q54 529 54 519 Z"/>
+  <circle class="mt" cx="820" cy="512" r="62"/>
+  <g data-part="axe">
+    <rect class="none" x="780" y="472" width="80" height="80"/>
+    <path class="mt2" d="M858.1 534 L820 556 L781.9 534 L781.9 490 L820 468 L858.1 490 Z"/>
+    <circle class="wh" cx="820" cy="512" r="19.8"/>
+    <circle class="dk" cx="820" cy="512" r="7"/>
+  </g>
+  <g data-part="bras">
+    <rect class="none" x="100" y="404" width="720" height="56"/>
+    <path class="dim" d="M100 418 L100 446 M820 418 L820 446 M108 432 L812 432"/><path class="dimf" d="M102 432 L118 424 L118 440 Z M818 432 L802 424 L802 440 Z"/>
+    <path class="thin" d="M820 446 L820 504"/>
+    <path class="thin" d="M100 446 L100 492"/>
+  </g>
+  <g data-part="force">
+    <rect class="none" x="66" y="526" width="68" height="95"/>
+    <path class="ax" d="M100 599 L100 548.4"/><path class="axf" d="M100 534 L110.4 555.6 L89.6 555.6 Z"/>
+  </g>
+  <g data-part="couple">
+    <rect class="none" x="870" y="422" width="100" height="180"/>
+    <path class="dim" d="M865.1 427.2 A96 96 0 0 1 887.8 580"/><path class="dimf" d="M870.9 593.4 L880.2 571.3 L894.5 589.3 Z"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="axe" transform="translate(760 266)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="bras" transform="translate(640 74)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="force" transform="translate(400 300)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="couple" transform="translate(950 190)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+  </g>
+</svg>

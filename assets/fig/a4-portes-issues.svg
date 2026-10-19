@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Portes et issues d'un avion de ligne, vue de dessus</title>
+  <desc id="d">Schéma de principe d'un avion monocouloir vu de dessus, avant à gauche : le côté gauche (LH) est en bas, le côté droit (RH) en haut. Sur le côté gauche, deux portes passagers, une à l'avant et une à l'arrière. En face, sur le côté droit, deux portes de service. Au milieu, au-dessus de chaque aile, une issue de secours sur l'aile ; une flèche montre le chemin d'évacuation sur l'aile vers son bord arrière. Sur le côté droit, deux portes de soute dessinées plus sombres : elles sont plus bas, sous le niveau du plancher cabine. Deux toboggans orange sont déployés, l'un à la porte avant droite, l'autre à la porte arrière gauche. Dans la cabine, des pointillés montrent l'allée et les passages transversaux qui mènent à chaque issue. À l'avant, la porte du poste de pilotage ferme la cloison entre cabine et cockpit.</desc>
+  <rect class="bgp" width="1000" height="680"/>
+  <path class="sk" d="M400 278 L610 60 L680 60 L590 278 Z"/>
+  <path class="sk" d="M400 402 L610 620 L680 620 L590 402 Z"/>
+  <rect class="eq2" x="418" y="150" width="110" height="40" rx="20"/><ellipse class="dk" cx="428" cy="170" rx="8" ry="15"/>
+  <rect class="eq2" x="418" y="490" width="110" height="40" rx="20"/><ellipse class="dk" cx="428" cy="510" rx="8" ry="15"/>
+  <path class="sk" d="M850 292 L905 208 L940 208 L930 330 Z"/>
+  <path class="sk" d="M850 388 L905 472 L940 472 L930 350 Z"/>
+  <path class="sk" d="M50 340 C52 298 100 278 190 278 L760 278 C850 278 920 324 956 334 L956 346 C920 356 850 402 760 402 L190 402 C100 402 52 382 50 340 Z"/>
+  <path class="in" d="M150 290 L800 290 C820 290 836 298 846 308 L846 372 C836 382 820 390 800 390 L150 390 Z"/>
+  <path class="gl" d="M96 336 C100 310 114 296 134 290 L140 310 C128 314 122 324 120 336 Z"/><path class="gl" d="M96 344 C100 370 114 384 134 390 L140 370 C128 366 122 356 120 344 Z"/>
+  <g data-part="allee">
+    <rect class="sk" opacity="0" x="170" y="310" width="650" height="60" rx="8"/>
+    <path class="dash" d="M176 340 L812 340"/>
+    <path class="dash" d="M200 340 L200 388 M200 340 L200 292 M790 340 L790 388 M790 340 L790 292 M505 340 L505 388 M505 340 L505 292"/>
+  </g>
+  <g data-part="porte-cockpit">
+    <rect class="sk" opacity="0" x="120" y="306" width="64" height="68" rx="8"/>
+    <path class="ln2" d="M150 290 L150 324 M150 356 L150 390"/>
+    <path class="mt" d="M146 324 L154 324 L154 356 L146 356 Z"/>
+  </g>
+  <g data-part="porte-pax">
+    <rect class="sk" opacity="0" x="161" y="366" width="78" height="70" rx="8"/>
+    <rect class="wh" x="175" y="390" width="50" height="24" rx="6"/>
+    <rect class="sk" opacity="0" x="751" y="366" width="78" height="70" rx="8"/>
+    <rect class="wh" x="765" y="390" width="50" height="24" rx="6"/>
+  </g>
+  <g data-part="porte-service">
+    <rect class="sk" opacity="0" x="161" y="244" width="78" height="70" rx="8"/>
+    <rect class="wh" x="175" y="266" width="50" height="24" rx="6"/>
+    <rect class="sk" opacity="0" x="751" y="244" width="78" height="70" rx="8"/>
+    <rect class="wh" x="765" y="266" width="50" height="24" rx="6"/>
+  </g>
+  <g data-part="issue-aile">
+    <rect class="sk" opacity="0" x="470" y="248" width="70" height="64" rx="8"/>
+    <rect class="sk" opacity="0" x="470" y="368" width="70" height="64" rx="8"/>
+    <rect class="okf" x="484" y="269" width="42" height="18" rx="5"/>
+    <rect class="okf" x="484" y="393" width="42" height="18" rx="5"/>
+    <path class="dim" d="M520 262 C540 218 560 188 590 174"/>
+    <path class="dimf" d="M612 166 L584 162 L594 186 Z"/>
+    <path class="dim" d="M520 418 C540 462 560 492 590 506"/>
+    <path class="dimf" d="M612 514 L584 518 L594 494 Z"/>
+  </g>
+  <g data-part="porte-soute">
+    <rect class="sk" opacity="0" x="280" y="238" width="90" height="60" rx="8"/>
+    <rect class="sk" opacity="0" x="640" y="238" width="90" height="60" rx="8"/>
+    <rect class="st" x="290" y="264" width="70" height="16" rx="4"/>
+    <rect class="st" x="650" y="264" width="70" height="16" rx="4"/>
+  </g>
+  <g data-part="toboggan">
+    <path class="syf" d="M180 264 L220 264 L196 128 L150 128 Z"/>
+    <path class="thin" d="M200 262 L173 130"/>
+    <path class="syf" d="M770 416 L810 416 L838 552 L792 552 Z"/>
+    <path class="thin" d="M790 418 L815 550"/>
+  </g>
+  <text class="tb" x="24" y="128">RH</text>
+  <text class="tb" x="24" y="578">LH</text>
+  <path class="dim" d="M56 60 L130 60"/><path class="dimf" d="M30 60 L60 46 L60 74 Z"/><text class="tb ta" x="144" y="74">FWD</text>
+  <g class="badges">
+    <g class="badge" data-badge="porte-pax" transform="translate(270 446)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="porte-service" transform="translate(840 234)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="issue-aile" transform="translate(450 232)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="porte-soute" transform="translate(700 226)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="toboggan" transform="translate(250 168)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="allee" transform="translate(640 340)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="porte-cockpit" transform="translate(110 340)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+  </g>
+</svg>

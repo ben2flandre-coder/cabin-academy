@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Détrompage et repérage d'un connecteur</title>
+  <desc id="d">Schéma de principe en deux parties. En haut, trois connecteurs ronds vus de face. La fiche porte deux ergots, un large en haut et un étroit en bas. La prise A possède deux rainures aux mêmes endroits : la fiche peut s'y engager, une coche verte le signale. La prise B, de même taille, a sa seconde rainure décalée sur le côté : la fiche ne peut pas s'y engager, une croix rouge le signale. En bas : l'extrémité d'un faisceau porte un manchon blanc marqué EX-A12, et l'équipement porte une étiquette EX-A12 à côté de sa prise ; les deux repères sont identiques. Les références sont fictives.</desc>
+  <rect class="bgp" width="1000" height="660"/>
+  <text class="ts tc" x="170" y="58">Fiche</text>
+  <text class="ts tc" x="500" y="58">Prise A</text>
+  <text class="ts tc" x="830" y="58">Prise B</text>
+  <circle class="mt" cx="170" cy="196" r="100"/><circle class="in" cx="170" cy="196" r="74"/><circle class="dk" cx="170" cy="196" r="9.5"/><circle class="dk" cx="206.8" cy="205.8" r="9.5"/><circle class="dk" cx="179.8" cy="232.8" r="9.5"/><circle class="dk" cx="143.2" cy="222.8" r="9.5"/><circle class="dk" cx="133.2" cy="186.2" r="9.5"/><circle class="dk" cx="160.2" cy="159.2" r="9.5"/><circle class="dk" cx="196.8" cy="169.2" r="9.5"/>
+  <g data-part="ergot">
+    <rect class="mt2" x="152" y="118" width="36" height="30" rx="4"/>
+    <rect class="mt2" x="159" y="246" width="22" height="28" rx="4"/>
+  </g>
+  <g data-part="accord">
+    <circle class="mt" cx="500" cy="196" r="100"/><circle class="in" cx="500" cy="196" r="74"/><circle class="dk" cx="500" cy="196" r="9.5"/><circle class="dk" cx="536.8" cy="205.8" r="9.5"/><circle class="dk" cx="509.8" cy="232.8" r="9.5"/><circle class="dk" cx="473.2" cy="222.8" r="9.5"/><circle class="dk" cx="463.2" cy="186.2" r="9.5"/><circle class="dk" cx="490.2" cy="159.2" r="9.5"/><circle class="dk" cx="526.8" cy="169.2" r="9.5"/>
+    <circle class="okf" cx="500" cy="340" r="30"/><path class="ln2" d="M486.5 341.5 L497 352 L515 329.5"/>
+  </g>
+  <g data-part="refus">
+    <circle class="mt" cx="830" cy="196" r="100"/><circle class="in" cx="830" cy="196" r="74"/><circle class="dk" cx="830" cy="196" r="9.5"/><circle class="dk" cx="866.8" cy="205.8" r="9.5"/><circle class="dk" cx="839.8" cy="232.8" r="9.5"/><circle class="dk" cx="803.2" cy="222.8" r="9.5"/><circle class="dk" cx="793.2" cy="186.2" r="9.5"/><circle class="dk" cx="820.2" cy="159.2" r="9.5"/><circle class="dk" cx="856.8" cy="169.2" r="9.5"/>
+    <circle class="badf" cx="830" cy="340" r="30"/><path class="ln2" d="M818 328 L842 352 M842 328 L818 352"/>
+  </g>
+  <g data-part="rainure">
+    <rect class="wh" x="480" y="94" width="40" height="34" rx="3"/>
+    <rect class="wh" x="487" y="266" width="26" height="32" rx="3"/>
+    <rect class="wh" x="810" y="94" width="40" height="34" rx="3"/>
+    <g transform="rotate(-48 830 196)"><rect class="wh" x="817" y="266" width="26" height="32" rx="3"/></g>
+  </g>
+  <path class="dim" d="M290 196 L364 196"/><path class="dimf" d="M380 196 L360 205 L360 187 Z"/>
+  <path class="dim" d="M620 196 L694 196"/><path class="dimf" d="M710 196 L690 205 L690 187 Z"/>
+  <path class="thin" d="M24 392 L976 392"/>
+  <path class="sy" d="M30 504 L160 504"/><path class="sy" d="M30 516 L160 516"/><path class="sy" d="M30 528 L160 528"/><path class="sy" d="M30 540 L160 540"/>
+  <rect class="mt2" x="340" y="488" width="50" height="68" rx="5"/><rect class="mt" x="390" y="478" width="66" height="88" rx="8"/><path class="thin" d="M404 478 L404 566"/><path class="thin" d="M418 478 L418 566"/><path class="thin" d="M432 478 L432 566"/>
+  <g data-part="repere-cable">
+    <rect class="wh" x="150" y="490" width="196" height="64" rx="8"/>
+    <text class="ts tc" x="248" y="535">EX-A12</text>
+  </g>
+  <path class="dim" d="M476 522 L564 522"/><path class="dimf" d="M580 522 L560 531 L560 513 Z"/>
+  <rect class="eq" x="640" y="420" width="330" height="216" rx="12"/><rect class="mt2" x="604" y="484" width="40" height="76" rx="5"/><circle class="dk" cx="812" cy="590" r="12"/><rect class="eq2" x="870" y="570" width="70" height="40" rx="6"/>
+  <g data-part="repere-prise">
+    <rect class="wh" x="668" y="476" width="196" height="64" rx="6"/>
+    <text class="ts tc" x="766" y="521">EX-A12</text>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="ergot" transform="translate(62 96)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="rainure" transform="translate(590 96)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="accord" transform="translate(430 340)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="refus" transform="translate(760 340)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="repere-cable" transform="translate(248 448)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="repere-prise" transform="translate(766 448)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>

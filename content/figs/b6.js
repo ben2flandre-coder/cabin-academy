@@ -74,5 +74,24 @@ CA.addFigures([
       { id: 'fluide', n: 5, fr: 'Interface fluide', en: 'Fluid interface (air, oxygen)', fn: "Tuyau et raccord : l'air ou l'oxygène qui arrive à l'équipement." },
       { id: 'usage', n: 6, fr: "Interface d'usage", en: 'Access and marking', fn: "Étiquette lisible et zone d'accès libre : ce qui permet de trouver l'équipement et de s'en servir." }
     ]
+  },
+  {
+    id: 'b6-siege-ife', file: 'b6-siege-ife.svg',
+    title: "Le dos d'un siège passager : divertissement, prises, étiquettes",
+    caption: "Schéma de principe du dos d'un siège, vu par le passager assis derrière. À droite, le cache de rail est retiré pour montrer le câble. La présence d'un écran, le type de prises et la place du boîtier dépendent de l'aménagement choisi par la compagnie.",
+    alt: "Dos d'un siège passager vu de derrière. De haut en bas : étiquette « gilet sous le siège », écran individuel, bandeau de prises (casque, USB, secteur), tablette relevée, carte de consignes de sécurité dépassant de la pochette. Sous le siège : pochette du gilet de sauvetage et boîtier électronique. Un câble part du boîtier et longe le rail au sol, caché par le cache de rail à gauche et visible à droite où le cache est retiré.",
+    purpose: "Repérer sur un siège ce qui relève du divertissement, de l'alimentation électrique et de la sécurité, et voir par où passe le câblage.",
+    chapters: ['b6'],
+    provenance: "Schéma original RMBD — création pédagogique", rights: "© RMBD, usage pédagogique",
+    parts: [
+      { id: 'ecran', n: 1, fr: 'Écran individuel', en: 'Seat-back display', fn: "Affiche films, carte du vol et annonces : la partie visible du système de divertissement." },
+      { id: 'prise', n: 2, fr: 'Prises (casque, USB, secteur)', en: 'Audio, USB and power outlets', fn: "Points de branchement mis à la disposition du passager." },
+      { id: 'etiquette', n: 3, fr: 'Étiquette (placard)', en: 'Placard', fn: "Information de sécurité fixée au siège ; ici : le gilet est sous le siège." },
+      { id: 'consignes', n: 4, fr: 'Carte de consignes de sécurité', en: 'Safety card', fn: "Notice illustrée propre au type d'avion, rangée dans la pochette de chaque siège." },
+      { id: 'gilet', n: 5, fr: 'Pochette du gilet de sauvetage', en: 'Life vest pouch', fn: "Logement sous l'assise qui contient le gilet, avec une languette pour le sortir d'un geste." },
+      { id: 'boitier', n: 6, fr: 'Boîtier électronique de siège', en: 'Seat electronics box', fn: "Boîtier fixé à la structure du siège : il alimente et relie les écrans et les prises de la rangée." },
+      { id: 'faisceau', n: 7, fr: 'Câble de siège', en: 'Seat-to-seat cable', fn: "Relie le boîtier au réseau de la cabine et au siège voisin, en longeant le rail." },
+      { id: 'cache-rail', n: 8, fr: 'Cache de rail', en: 'Track cover', fn: "Recouvre le rail entre deux sièges : il protège le câble et évite qu'on se prenne le pied dedans." }
+    ]
   }
 ]);

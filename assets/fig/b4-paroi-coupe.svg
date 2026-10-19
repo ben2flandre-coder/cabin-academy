@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">La paroi de la cabine : coupe et vue depuis la cabine</title>
+  <desc id="d">Schéma de principe en deux vues alignées à la même hauteur. À gauche, coupe de la paroi gauche de la cabine, vue vers l'avant, du plancher jusqu'au bas de la bagagerie. De l'extérieur vers l'intérieur : la peau, un cadre, le matelas isolant, un espace où passe un faisceau électrique, puis le panneau latéral tenu au cadre par des supports. À mi-hauteur, le hublot interrompt la peau, le cadre et l'isolant : ses vitres sont tenues dans un cadre de hublot fixé à la peau ; le panneau latéral forme un entonnoir vers le hublot et porte une vitre intérieure et un store. En bas, le panneau dado, incliné, rejoint le plancher ; une flèche montre l'air de la cabine qui traverse sa grille pour descendre sous le plancher. À droite, la même paroi vue depuis la cabine : un panneau latéral avec deux hublots, l'un store à moitié baissé, l'autre store levé ; la jonction avec le panneau voisin ; en bas le panneau dado et sa grille ; au sol, le plancher.</desc>
+  <rect class="bgp" width="1000" height="760"/>
+  <path class="eq" d="M258.8 20 L430 20 L430 92 L240.2 108 Z"/>
+  <rect class="eq" x="500" y="20" width="470" height="88"/><path class="thin" d="M735 20 L735 108"/><rect class="dk" x="596" y="84" width="46" height="12" rx="4"/><rect class="dk" x="830" y="84" width="46" height="12" rx="4"/>
+  <g data-part="peau">
+    <path class="sk" d="M94.5 20 A1500 1500 0 0 0 65.3 214 L77.3 214 A1488 1488 0 0 1 106.8 20 Z"/>
+    <path class="sk" d="M60.7 386 A1500 1500 0 0 0 103.8 700 L116.2 700 A1488 1488 0 0 1 72.7 386 Z"/>
+  </g>
+  <g data-part="cadre">
+    <path class="st" d="M106.8 20 A1488 1488 0 0 0 78 206 L130.3 206 A1436 1436 0 0 1 160.1 20 Z"/>
+    <path class="st" d="M73 394 A1488 1488 0 0 0 116.2 700 L169.9 700 A1436 1436 0 0 1 125 394 Z"/>
+  </g>
+  <g data-part="isolant">
+    <path class="wh" d="M160.1 20 A1436 1436 0 0 0 130.3 206 L166.4 206 A1400 1400 0 0 1 197.1 20 Z"/>
+    <path class="wh" d="M125 394 A1436 1436 0 0 0 158.3 652 L195.2 652 A1400 1400 0 0 1 161 394 Z"/>
+    <path class="thin" d="M153.6 50 L187.5 64"/><path class="thin" d="M145.9 90 L180 104"/><path class="thin" d="M139.4 130 L173.8 144"/><path class="thin" d="M134.1 170 L168.7 184"/><path class="thin" d="M126.8 430 L163.9 444"/><path class="thin" d="M129.9 470 L167.4 484"/><path class="thin" d="M134.1 510 L172.1 524"/><path class="thin" d="M139.4 550 L178 564"/><path class="thin" d="M145.9 590 L185.1 604"/><path class="thin" d="M153.6 630 L193.4 644"/>
+  </g>
+  <g data-part="plancher">
+    <rect class="st" x="162.4" y="652" width="267.6" height="40"/>
+    <rect class="fl" x="276" y="638" width="154" height="14"/>
+    <rect class="fl" x="500" y="640" width="470" height="52"/>
+  </g>
+  <g data-part="hublot">
+    <rect class="mt2" x="68" y="204" width="62" height="26" rx="3"/><rect class="mt2" x="68" y="370" width="62" height="26" rx="3"/>
+    <rect class="dk" x="58" y="222" width="44" height="16" rx="3"/><rect class="dk" x="58" y="362" width="44" height="16" rx="3"/>
+    <rect class="gl" x="60" y="236" width="13" height="128"/><rect class="gl" x="86" y="236" width="9" height="128"/>
+  </g>
+  <g data-part="support">
+    <rect class="mt" x="130.6" y="143" width="90.8" height="14" rx="2"/><circle class="dk" cx="209.4" cy="150" r="10"/>
+    <rect class="mt" x="122.19999999999999" y="443" width="90.3" height="14" rx="2"/><circle class="dk" cx="200.5" cy="450" r="10"/>
+  </g>
+  <g data-part="faisceau">
+    <circle class="wh" cx="195.8" cy="520" r="22"/><circle class="syf" cx="187.8" cy="513" r="8"/><circle class="syf" cx="203.8" cy="513" r="8"/><circle class="syf" cx="187.8" cy="528" r="8"/><circle class="syf" cx="203.8" cy="528" r="8"/>
+  </g>
+  <g data-part="panneau">
+    <path class="in" d="M228.1 108 A1352 1352 0 0 0 213.9 214 L225.9 214 A1340 1340 0 0 1 240.2 108 Z"/>
+    <path class="in" d="M208.8 386 A1352 1352 0 0 0 222.9 540 L235 540 A1340 1340 0 0 1 220.8 386 Z"/>
+    <path class="in" d="M213.9 214 L225.9 214 L140 240 L128 236 Z"/>
+    <path class="in" d="M208.8 386 L220.8 386 L140 360 L128 364 Z"/>
+    <rect class="in" x="520" y="108" width="420" height="432"/>
+    <rect class="wh" x="566" y="212" width="128" height="176" rx="44"/><rect class="wh" x="766" y="212" width="128" height="176" rx="44"/>
+  </g>
+  <g data-part="vitre-int">
+    <rect class="gl" x="142" y="242" width="7" height="116"/>
+    <rect class="gl" x="582" y="228" width="96" height="144" rx="34"/><rect class="gl" x="782" y="228" width="96" height="144" rx="34"/>
+  </g>
+  <g data-part="store">
+    <rect class="dk" x="157" y="246" width="7" height="58"/>
+    <path class="in" d="M582 262 Q582 228 616 228 L644 228 Q678 228 678 262 L678 306 L582 306 Z"/><rect class="mt" x="612" y="290" width="36" height="10" rx="4"/>
+    <path class="in" d="M790 248 Q796 228 816 228 L844 228 Q864 228 870 248 Z"/><rect class="mt" x="812" y="236" width="36" height="8" rx="4"/>
+  </g>
+  <g data-part="dado">
+    <path class="in" d="M222.9 540 L234.9 540 L276 638 L264 638 Z"/>
+    <rect class="in" x="520" y="540" width="420" height="100"/>
+  </g>
+  <g data-part="grille">
+    <path class="ln2" d="M239.9 562 L247.9 592 M249.9 600 L257.9 630"/>
+    <rect class="wh" x="570" y="566" width="320" height="52" rx="6"/>
+    <path class="ln" d="M590 574 L590 610 M610 574 L610 610 M630 574 L630 610 M650 574 L650 610 M670 574 L670 610 M690 574 L690 610 M710 574 L710 610 M730 574 L730 610 M750 574 L750 610 M770 574 L770 610 M790 574 L790 610 M810 574 L810 610 M830 574 L830 610 M850 574 L850 610 M870 574 L870 610"/>
+  </g>
+  <g data-part="joint-panneaux">
+    <rect class="mt" x="940" y="108" width="14" height="532"/><rect class="mt" x="506" y="108" width="14" height="532"/>
+  </g>
+  <rect class="in" x="954" y="108" width="16" height="532"/><rect class="in" x="500" y="108" width="6" height="532"/>
+  <path class="dim" d="M356 584 L292 584 Q238 586 228 668"/><path class="dimf" d="M228 684 L219 664 L237 666 Z"/>
+  <text class="ts tc" x="190" y="742">Coupe</text><text class="ts tc" x="735" y="742">Vue depuis la cabine</text>
+  <path class="thin" d="M56 138 L102.3 150"/><path class="thin" d="M52 548 L79.4 540"/><path class="thin" d="M306 190 L149.3 196"/><path class="thin" d="M310 132 L217.4 148"/><path class="thin" d="M316 500 L217.8 514"/><path class="thin" d="M40 300 L60 300"/>
+  <g class="badges">
+    <g class="badge" data-badge="peau" transform="translate(34 566)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="cadre" transform="translate(36 122)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="isolant" transform="translate(330 190)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="support" transform="translate(334 126)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="hublot" transform="translate(30 326)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="panneau" transform="translate(730 160)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="vitre-int" transform="translate(830 318)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="store" transform="translate(630 262)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="dado" transform="translate(545 590)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="grille" transform="translate(730 592)"><circle class="bd" r="24"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="faisceau" transform="translate(340 496)"><circle class="bd" r="24"/><text class="bn">11</text></g>
+    <g class="badge" data-badge="joint-panneaux" transform="translate(947 440)"><circle class="bd" r="24"/><text class="bn">12</text></g>
+    <g class="badge" data-badge="plancher" transform="translate(400 672)"><circle class="bd" r="24"/><text class="bn">13</text></g>
+  </g>
+</svg>

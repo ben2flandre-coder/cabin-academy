@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Séparer deux zones de cabine : cloison, rideau et meuble de rangement</title>
+  <desc id="d">Schéma de principe : la cabine vue de face, en regardant vers l'avant, à l'endroit où deux zones sont séparées. À gauche de l'allée, une cloison de classe : un panneau rigide qui va du plancher jusque sous la bagagerie et qui épouse la courbe de la paroi ; son bord côté allée est protégé par un chant ; en bas, deux ferrures la fixent sur les rails de siège ; en haut, une fixation la relie à la bagagerie. À droite de l'allée, un meuble de rangement de même hauteur, fermé par une porte munie d'une poignée à verrou et de deux charnières, posé lui aussi sur les rails. Au-dessus de l'allée, un linteau ferme l'espace jusqu'au plafond et porte la tringle du rideau ; le rideau est ouvert, rassemblé contre le meuble et tenu par une embrasse.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+  <path class="in" d="M118 640 C70 560 60 380 112 262 L124 268 C74 382 84 556 130 640 Z"/><path class="in" d="M882 640 C930 560 940 380 888 262 L876 268 C926 382 916 556 870 640 Z"/>
+  <path class="in" d="M300 118 Q500 84 700 118 L700 132 Q500 98 300 132 Z"/>
+  <rect class="fl" x="118" y="640" width="764" height="26"/>
+  <g data-part="rail">
+    <rect class="mt2" x="185" y="634" width="46" height="20" rx="3"/>
+    <rect class="mt2" x="315" y="634" width="46" height="20" rx="3"/>
+    <rect class="mt2" x="655" y="634" width="46" height="20" rx="3"/>
+    <rect class="mt2" x="785" y="634" width="46" height="20" rx="3"/>
+  </g>
+  <g data-part="bac">
+    <path class="eq" d="M112 262 L112 150 Q112 120 150 118 L300 118 Q356 150 362 250 L352 268 L124 268 Z"/><path class="eq" d="M888 262 L888 150 Q888 120 850 118 L700 118 Q644 150 638 250 L648 268 L876 268 Z"/>
+    <rect class="dk" x="306" y="226" width="34" height="12" rx="4"/><rect class="dk" x="660" y="226" width="34" height="12" rx="4"/>
+  </g>
+  <rect class="in" x="150" y="268" width="186" height="22" rx="5"/><rect class="in" x="664" y="268" width="186" height="22" rx="5"/>
+  <g data-part="tringle">
+    <path class="in" d="M352 140 Q500 104 648 140 L640 292 L360 292 Z"/>
+    <rect class="mt2" x="358" y="288" width="284" height="16" rx="4"/>
+  </g>
+  <g data-part="cloison">
+    <path class="in" d="M392 298 L152 298 C108 390 112 550 152 632 L392 632 Z"/>
+    <path class="thin" d="M176 330 L370 330 M176 600 L370 600"/>
+  </g>
+  <g data-part="chant">
+    <rect class="mt" x="388" y="298" width="16" height="334" rx="6"/>
+  </g>
+  <g data-part="rangement">
+    <path class="eq2" d="M608 298 L848 298 C892 390 888 550 848 632 L608 632 Z"/>
+  </g>
+  <g data-part="porte">
+    <rect class="eq" x="626" y="318" width="168" height="296" rx="8"/>
+    <rect class="mt" x="790" y="352" width="12" height="38" rx="3"/><rect class="mt" x="790" y="542" width="12" height="38" rx="3"/>
+    <rect class="dk" x="640" y="446" width="26" height="48" rx="8"/><circle class="mt" cx="653" cy="470" r="6"/>
+  </g>
+  <g data-part="ferrure-basse">
+    <path class="mt2" d="M180 640 L180 624 L196 610 L220 610 L236 624 L236 640 Z"/><circle class="dk" cx="208" cy="626" r="6"/>
+    <path class="mt2" d="M310 640 L310 624 L326 610 L350 610 L366 624 L366 640 Z"/><circle class="dk" cx="338" cy="626" r="6"/>
+    <path class="mt2" d="M650 640 L650 624 L666 610 L690 610 L706 624 L706 640 Z"/><circle class="dk" cx="678" cy="626" r="6"/>
+    <path class="mt2" d="M780 640 L780 624 L796 610 L820 610 L836 624 L836 640 Z"/><circle class="dk" cx="808" cy="626" r="6"/>
+  </g>
+  <g data-part="fixation-haute">
+    <path class="mt2" d="M340 262 L364 256 L384 300 L360 306 Z"/><circle class="dk" cx="352" cy="266" r="5"/><circle class="dk" cx="370" cy="296" r="5"/>
+  </g>
+  <g data-part="rideau">
+    <path class="eq" d="M608 304 L524 304 C530 380 556 440 566 470 C556 500 532 560 526 626 L608 626 Z"/>
+    <path class="thin" d="M546 306 C550 380 572 440 580 470 C572 500 552 560 548 624 M570 306 C574 380 588 440 592 470 C588 500 576 560 572 624 M590 306 L598 470 L592 624"/>
+  </g>
+  <g data-part="embrasse">
+    <rect class="dk" x="552" y="454" width="64" height="30" rx="8"/><circle class="mt" cx="604" cy="469" r="7"/>
+  </g>
+  <path class="thin" d="M430 572 L404 566"/><path class="thin" d="M498 408 L544 404"/><path class="thin" d="M498 484 L552 472"/><path class="thin" d="M258 676 L226 644"/><path class="thin" d="M416 330 L380 300"/><path class="thin" d="M900 676 L826 650"/>
+  <g class="badges">
+    <g class="badge" data-badge="cloison" transform="translate(262 470)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="chant" transform="translate(452 576)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="rideau" transform="translate(476 410)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="tringle" transform="translate(500 210)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="embrasse" transform="translate(476 490)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="ferrure-basse" transform="translate(270 692)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="fixation-haute" transform="translate(432 346)"><circle class="bd" r="24"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="rangement" transform="translate(846 470)"><circle class="bd" r="24"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="porte" transform="translate(712 420)"><circle class="bd" r="24"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="rail" transform="translate(920 686)"><circle class="bd" r="24"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="bac" transform="translate(210 190)"><circle class="bd" r="24"/><text class="bn">11</text></g>
+  </g>
+</svg>

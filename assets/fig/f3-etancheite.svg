@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Deux façons d'être étanche, trois façons de fuir</title>
+  <desc id="d">Planche de schémas de principe. En haut à gauche, coupe d'un raccord métal sur métal : l'extrémité évasée d'un tube est plaquée par un écrou contre le cône du corps de raccord ; deux traits rouges marquent la portée, la surface de contact qui fait l'étanchéité. En haut à droite, coupe d'un raccord à joint torique : un anneau souple logé dans une gorge est écrasé contre une face plane, marquée en rouge ; deux flèches montrent le serrage. En bas, trois faces d'étanchéité vues de face, avec leur défaut : un joint torique pincé dont un morceau sort de sa place ; une face sans joint traversée par une rayure, avec une goutte qui s'échappe ; un joint sur lequel reposent un fil et un copeau.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+  <path class="thin" d="M500 24 L500 366"/>
+  <path class="thin" d="M24 380 L976 380"/>
+  <text class="ts tc" x="255" y="58">Métal sur métal</text>
+  <text class="ts tc" x="745" y="58">Joint torique</text>
+  <rect class="wh" x="50" y="203" width="410" height="24"/>
+  <path class="mt" d="M50 145 L200 145 L200 169 L262 193 L262 203 L50 203 Z"/><path class="mt" d="M50 285 L200 285 L200 261 L262 237 L262 227 L50 227 Z"/>
+  <g data-part="tube">
+    <path class="mt2" d="M460 181 L272 181 L212 157 L206 169 L268 193 L460 193 Z"/>
+    <path class="mt2" d="M460 249 L272 249 L212 273 L206 261 L268 237 L460 237 Z"/>
+  </g>
+  <g data-part="ecrou">
+    <path class="st" d="M140 111 L336 111 L336 181 L274 181 L214 155 L200 145 L140 145 Z"/>
+    <path class="st" d="M140 319 L336 319 L336 249 L274 249 L214 275 L200 285 L140 285 Z"/>
+    <path class="thin" d="M150 145 L150 111"/><path class="thin" d="M162 145 L162 111"/><path class="thin" d="M174 145 L174 111"/><path class="thin" d="M186 145 L186 111"/>
+    <path class="thin" d="M150 285 L150 319"/><path class="thin" d="M162 285 L162 319"/><path class="thin" d="M174 285 L174 319"/><path class="thin" d="M186 285 L186 319"/>
+  </g>
+  <g data-part="portee">
+    <path class="ax" d="M204 169 L264 192"/>
+    <path class="ax" d="M204 261 L264 238"/>
+  </g>
+  <rect class="wh" x="540" y="203" width="420" height="24"/>
+  <rect class="mt" x="540" y="125" width="200" height="78"/><rect class="mt" x="540" y="227" width="200" height="78"/>
+  <rect class="mt2" x="744" y="125" width="216" height="78"/><rect class="mt2" x="744" y="227" width="216" height="78"/>
+  <g data-part="gorge">
+    <rect class="wh" x="706" y="143" width="36" height="38"/>
+    <rect class="wh" x="706" y="249" width="36" height="38"/>
+  </g>
+  <g data-part="joint">
+    <ellipse class="dk" cx="725" cy="162" rx="19" ry="17"/>
+    <ellipse class="dk" cx="725" cy="268" rx="19" ry="17"/>
+  </g>
+  <g data-part="face">
+    <path class="ax" d="M744 127 L744 201"/>
+    <path class="ax" d="M744 229 L744 303"/>
+  </g>
+  <path class="dim" d="M900 85 L776 85"/><path class="dimf" d="M760 85 L780 76 L780 94 Z"/>
+  <path class="dim" d="M580 85 L704 85"/><path class="dimf" d="M720 85 L700 94 L700 76 Z"/>
+  <text class="ts tc tr" x="170" y="428">Joint pincé</text>
+  <g data-part="pince">
+    <circle class="mt" cx="170" cy="560" r="108"/><circle class="dk" cx="170" cy="560" r="80"/><circle class="mt" cx="170" cy="560" r="56"/><path class="dk" d="M210 494 C242 448 298 464 288 504 C282 526 256 532 240 524 Z"/><path class="thin" d="M254 474 L270 508"/><circle class="wh" cx="170" cy="560" r="32"/>
+  </g>
+  <text class="ts tc tr" x="500" y="428">Rayure</text>
+  <path class="thin" d="M335 396 L335 696"/>
+  <g data-part="rayure">
+    <circle class="mt" cx="500" cy="560" r="108"/><circle class="dash" cx="500" cy="560" r="80"/><circle class="dash" cx="500" cy="560" r="56"/><path class="ax" d="M526 580 L560 600 L566 612 L598 626"/><path class="gl" d="M612 638 C601.2 657.8 599.4 672.2 612 675.8 C624.6 672.2 622.8 657.8 612 638 Z"/><circle class="wh" cx="500" cy="560" r="32"/>
+  </g>
+  <text class="ts tc tr" x="830" y="428">Impureté</text>
+  <path class="thin" d="M665 396 L665 696"/>
+  <g data-part="impurete">
+    <circle class="mt" cx="830" cy="560" r="108"/><circle class="dk" cx="830" cy="560" r="80"/><circle class="mt" cx="830" cy="560" r="56"/><path class="ln" d="M720 520 C750 480 770 540 800 510"/><path class="mt2" d="M874 590 C890 580 914 594 908 614 C904 626 888 622 892 610 C894 602 884 600 874 590 Z"/><circle class="wh" cx="830" cy="560" r="32"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="ecrou" transform="translate(292 147)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="tube" transform="translate(420 150)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="portee" transform="translate(232 290)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="gorge" transform="translate(680 112)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="joint" transform="translate(660 300)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="face" transform="translate(800 300)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="pince" transform="translate(60 660)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="rayure" transform="translate(400 660)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="impurete" transform="translate(720 660)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+  </g>
+</svg>

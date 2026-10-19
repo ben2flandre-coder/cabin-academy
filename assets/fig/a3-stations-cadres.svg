@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Repérer une position le long du fuselage : cadres numérotés et stations</title>
+  <desc id="d">Fuselage d'avion vu de côté, avant à gauche. Neuf cadres sont dessinés comme des traits verticaux régulièrement espacés et numérotés de l'avant vers l'arrière ; un cadre sur deux porte son numéro : 2, 4, 6, 8. L'espace entre les cadres 3 et 4 est mis en évidence : c'est un intervalle entre deux cadres. Un équipement est posé sur le plancher entre les cadres 7 et 8. En avant du nez, un trait pointillé vertical marqué 0 représente le plan d'origine. Sous l'avion, une règle graduée part de ce plan : graduations fictives 0, 10, 20, 30. Une flèche bleue va du plan d'origine jusqu'au cadre 7 : cette distance mesurée le long de l'axe X est la station de ce cadre.</desc>
+  <rect class="bgp" width="1000" height="580"/>
+  <path class="sk" d="M745 192 L850 96 L905 96 L940 238 L880 220 Z"/>
+  <path class="sk" d="M110 286 C114 240 160 190 250 190 L740 190 C820 190 890 214 950 236 L950 252 C890 290 820 350 740 350 L250 350 C170 350 116 330 110 286 Z"/>
+  <path class="gl" d="M156 258 C166 244 186 236 208 234 L208 262 L158 262 Z"/>
+  <path class="fl" d="M214 286 L800 286 L800 296 L214 296 Z"/>
+  <g data-part="cadres">
+    <path class="stl" d="M220 196 L220 344"/>
+    <path class="stl" d="M280 196 L280 344"/>
+    <path class="stl" d="M340 196 L340 344"/>
+    <path class="stl" d="M400 196 L400 344"/>
+    <path class="stl" d="M460 196 L460 344"/>
+    <path class="stl" d="M520 196 L520 344"/>
+    <path class="stl" d="M580 196 L580 344"/>
+    <path class="stl" d="M640 196 L640 344"/>
+    <path class="stl" d="M700 196 L700 344"/>
+    <text class="ts" x="82" y="170">Cadres</text>
+    <text class="ts tc" x="280" y="170">2</text>
+    <text class="ts tc" x="400" y="170">4</text>
+    <text class="ts tc" x="520" y="170">6</text>
+    <text class="ts tc" x="640" y="170">8</text>
+  </g>
+  <g data-part="intervalle">
+    <rect class="sk" opacity="0" x="340" y="190" width="60" height="96" rx="8"/>
+    <rect class="wh" x="345" y="198" width="50" height="84" rx="4"/>
+    <path class="dim" d="M348 240 L392 240"/>
+  </g>
+  <g data-part="objet">
+    <rect class="sk" opacity="0" x="575" y="214" width="70" height="74" rx="8"/>
+    <rect class="eq" x="588" y="226" width="44" height="60" rx="8"/>
+    <rect class="eq2" x="596" y="234" width="28" height="18" rx="5"/>
+  </g>
+  <g data-part="origine">
+    <rect class="sk" opacity="0" x="24" y="100" width="72" height="400" rx="8"/>
+    <path class="dash" d="M60 110 L60 500"/>
+    <text class="tb tc tr" x="60" y="96">0</text>
+  </g>
+  <g data-part="echelle">
+    <rect class="sk" opacity="0" x="40" y="462" width="930" height="96" rx="8"/>
+    <path class="ln2" d="M60 470 L940 470"/>
+    <path class="ln" d="M60 470 L60 500"/>
+    <path class="ln" d="M200 470 L200 500"/>
+    <path class="ln" d="M340 470 L340 500"/>
+    <path class="ln" d="M480 470 L480 500"/>
+    <path class="ln" d="M620 470 L620 500"/>
+    <path class="ln" d="M760 470 L760 500"/>
+    <path class="ln" d="M900 470 L900 500"/>
+    <path class="thin" d="M60 470 L60 488"/>
+    <path class="thin" d="M130 470 L130 488"/>
+    <path class="thin" d="M200 470 L200 488"/>
+    <path class="thin" d="M270 470 L270 488"/>
+    <path class="thin" d="M340 470 L340 488"/>
+    <path class="thin" d="M410 470 L410 488"/>
+    <path class="thin" d="M480 470 L480 488"/>
+    <path class="thin" d="M550 470 L550 488"/>
+    <path class="thin" d="M620 470 L620 488"/>
+    <path class="thin" d="M690 470 L690 488"/>
+    <path class="thin" d="M760 470 L760 488"/>
+    <path class="thin" d="M830 470 L830 488"/>
+    <path class="thin" d="M900 470 L900 488"/>
+    <text class="ts tc" x="60" y="544">0</text>
+    <text class="ts tc" x="340" y="544">10</text>
+    <text class="ts tc" x="620" y="544">20</text>
+    <text class="ts tc" x="900" y="544">30</text>
+  </g>
+  <g data-part="station">
+    <rect class="sk" opacity="0" x="60" y="384" width="520" height="60" rx="8"/>
+    <path class="dim" d="M64 414 L556 414"/>
+    <path class="dimf" d="M580 414 L554 401 L554 427 Z"/>
+    <path class="dim" d="M580 356 L580 470"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="cadres" transform="translate(470 320)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="intervalle" transform="translate(370 318)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="objet" transform="translate(640 318)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="origine" transform="translate(60 300)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="echelle" transform="translate(800 514)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="station" transform="translate(300 414)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>

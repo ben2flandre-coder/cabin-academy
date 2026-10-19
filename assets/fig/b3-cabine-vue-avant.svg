@@ -172,14 +172,14 @@
     <rect class="eq2" x="167.2" y="460.9" width="82.8" height="165.6" rx="12.5"/>
     <rect class="eq" x="178.1" y="470.3" width="60.9" height="54.7" rx="7.8"/>
   </g>
-  <path class="thin" d="M884 250 L800 300"/><path class="thin" d="M120 250 L250 180"/><path class="thin" d="M500 300 L500 350"/><path class="thin" d="M56 300 L46 380"/>
+  <path class="thin" d="M888 252 L812 322"/><path class="thin" d="M172 152 L292 156"/><path class="thin" d="M500 300 L500 350"/><path class="thin" d="M52 314 L94 388"/>
   <g class="badges">
     <g class="badge" data-badge="plafond" transform="translate(500 150)"><circle class="bd" r="24"/><text class="bn">1</text></g>
     <g class="badge" data-badge="bac" transform="translate(706 228)"><circle class="bd" r="24"/><text class="bn">2</text></g>
     <g class="badge" data-badge="psu" transform="translate(906 236)"><circle class="bd" r="24"/><text class="bn">3</text></g>
-    <g class="badge" data-badge="eclairage" transform="translate(100 262)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="eclairage" transform="translate(150 150)"><circle class="bd" r="24"/><text class="bn">4</text></g>
     <g class="badge" data-badge="paroi" transform="translate(946 600)"><circle class="bd" r="24"/><text class="bn">5</text></g>
-    <g class="badge" data-badge="hublot" transform="translate(60 276)"><circle class="bd" r="24"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="hublot" transform="translate(46 290)"><circle class="bd" r="24"/><text class="bn">6</text></g>
     <g class="badge" data-badge="siege" transform="translate(280 560)"><circle class="bd" r="24"/><text class="bn">7</text></g>
     <g class="badge" data-badge="allee" transform="translate(500 640)"><circle class="bd" r="24"/><text class="bn">8</text></g>
     <g class="badge" data-badge="cloison" transform="translate(500 276)"><circle class="bd" r="24"/><text class="bn">9</text></g>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Les trois circuits d'eau d'un galley et de toilettes</title>
+  <desc id="d">Schéma de principe vu de côté. Au-dessus du plancher, à gauche un galley avec son évier, à droite une cellule de toilettes avec son lavabo et sa cuvette. Sous le plancher, un réservoir d'eau potable et un réservoir d'eaux usées. Trait bleu : l'eau potable monte du réservoir vers le robinet du galley et celui du lavabo. Trait orange : l'eau de l'évier et du lavabo descend par écoulement jusqu'à un mât de drainage sous le fuselage. Trait rouge : le contenu de la cuvette passe par une vanne de chasse et rejoint le réservoir d'eaux usées, que l'on vide au sol par un panneau de service.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+  <text class="ts" x="40" y="60">Cabine</text>
+  <text class="ts" x="290" y="624">Sous le plancher</text>
+  <rect class="sk" x="30" y="640" width="940" height="24" rx="4"/>
+  <rect class="fl" x="30" y="330" width="940" height="26"/>
+  <rect class="eq" x="110" y="96" width="230" height="234" rx="8"/>
+  <rect class="mt" x="110" y="214" width="230" height="14"/>
+  <rect class="eq2" x="126" y="240" width="90" height="80" rx="5"/>
+  <rect class="wh" x="126" y="112" width="90" height="90" rx="5"/>
+  <path class="in" d="M560 96 L900 96 L900 330 L560 330 Z"/>
+  <rect class="in" x="582" y="214" width="120" height="116" rx="4"/>
+  <g data-part="reservoir-eau">
+    <rect class="gl" x="380" y="440" width="200" height="120" rx="50"/>
+    <path class="thin" d="M400 486 Q430 474 460 486 Q490 498 520 486 Q545 476 560 486"/>
+  </g>
+  <g data-part="eau-potable">
+    <path class="dim" d="M480 440 L480 392 L280 392 L280 190"/>
+    <path class="dim" d="M480 392 L680 392 L680 190"/>
+    <path class="dimf" d="M268 300 L292 300 L280 276 Z"/>
+    <path class="dimf" d="M668 300 L692 300 L680 276 Z"/>
+    <path class="dimf" d="M368 380 L368 404 L344 392 Z"/>
+    <path class="dimf" d="M592 380 L592 404 L616 392 Z"/>
+  </g>
+  <g data-part="evier">
+    <path class="ln2" d="M280 190 Q280 160 256 160 L246 160 L246 176"/>
+    <path class="mt2" d="M206 196 L290 196 L282 228 L214 228 Z"/>
+  </g>
+  <g data-part="lavabo">
+    <path class="ln2" d="M680 190 Q680 160 656 160 L646 160 L646 176"/>
+    <path class="wh" d="M602 196 L694 196 L684 228 L612 228 Z"/>
+  </g>
+  <g data-part="eaux-grises">
+    <path class="sy" d="M236 228 L236 600 L180 600 L180 640"/>
+    <path class="sy" d="M636 228 L636 600 L600 600 L600 640"/>
+    <path class="syf" d="M222 500 L250 500 L236 528 Z"/>
+    <path class="syf" d="M622 500 L650 500 L636 528 Z"/>
+  </g>
+  <g data-part="mat-drainage">
+    <path class="mt2" d="M160 664 L204 664 L218 700 L182 700 Z"/>
+    <rect class="mt" x="152" y="658" width="60" height="12" rx="3"/>
+    <path class="mt2" d="M580 664 L624 664 L638 700 L602 700 Z"/>
+    <rect class="mt" x="572" y="658" width="60" height="12" rx="3"/>
+  </g>
+  <g data-part="reservoir-usees">
+    <rect class="dk" x="740" y="440" width="200" height="130" rx="50"/>
+  </g>
+  <g data-part="eaux-vannes">
+    <path class="ax" d="M810 318 L810 440"/>
+    <path class="axf" d="M796 400 L824 400 L810 428 Z"/>
+  </g>
+  <g data-part="cuvette">
+    <rect class="wh" x="842" y="180" width="34" height="96" rx="8"/>
+    <path class="wh" d="M756 250 L850 250 L850 276 Q850 318 810 318 L796 318 Q756 318 756 276 Z"/>
+    <rect class="wh" x="746" y="238" width="112" height="16" rx="8"/>
+  </g>
+  <g data-part="vanne-chasse">
+    <rect class="mt2" x="780" y="344" width="60" height="44" rx="6"/>
+    <circle class="dk" cx="810" cy="366" r="10"/>
+  </g>
+  <g data-part="panneau-vidange">
+    <path class="ax" d="M890 570 L890 640"/>
+    <rect class="mt" x="850" y="634" width="80" height="36" rx="5"/>
+    <circle class="dk" cx="890" cy="652" r="10"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="reservoir-eau" transform="translate(480 520)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="eau-potable" transform="translate(420 392)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="evier" transform="translate(196 150)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="lavabo" transform="translate(600 150)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="eaux-grises" transform="translate(126 596)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="mat-drainage" transform="translate(268 690)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="cuvette" transform="translate(800 214)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="vanne-chasse" transform="translate(720 366)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+    <g class="badge" data-badge="eaux-vannes" transform="translate(870 412)"><circle class="bd" r="26"/><text class="bn">9</text></g>
+    <g class="badge" data-badge="reservoir-usees" transform="translate(790 506)"><circle class="bd" r="26"/><text class="bn">10</text></g>
+    <g class="badge" data-badge="panneau-vidange" transform="translate(950 610)"><circle class="bd" r="26"/><text class="bn">11</text></g>
+  </g>
+</svg>

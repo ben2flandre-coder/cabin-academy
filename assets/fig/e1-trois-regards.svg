@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Trois regards sur une information : observée, identifiée, prescrite</title>
+  <desc id="d">Trois cartes côte à côte. Première carte, « Observé » : un œil regarde une surface qui porte une rayure ; la source est « mes sens ». Deuxième carte, « Identifié » : une étiquette et une ligne de nomenclature portent la même référence fictive EX-07, reliées par une double flèche et une coche ; la source est « un marquage ». Troisième carte, « Prescrit » : une page de document où un cadre contient « min · max » ; la source est « un document ».</desc>
+  <rect class="bgp" width="1000" height="620"/>
+
+  <!-- ===== OBSERVÉ ===== -->
+  <g data-part="observe">
+    <rect class="in" x="26" y="30" width="300" height="560" rx="20"/>
+    <path class="wh" d="M76 150 Q176 60 276 150 Q176 240 76 150 Z"/>
+    <circle class="gl" cx="176" cy="150" r="40"/>
+    <circle class="dk" cx="176" cy="150" r="17"/>
+    <path class="dim" d="M130 236 L104 300 M176 246 L176 300 M222 236 L248 300"/>
+    <rect class="sk" x="66" y="310" width="220" height="80" rx="8"/>
+    <path class="ax" d="M110 370 L196 330"/>
+    <circle class="mt" cx="246" cy="350" r="18"/><path class="ln" d="M236 350 L256 350 M246 340 L246 360"/>
+    <text class="tb tc" x="176" y="472">Observé</text>
+    <text class="ts tc" x="176" y="540">mes sens</text>
+  </g>
+
+  <!-- ===== IDENTIFIÉ ===== -->
+  <g data-part="identifie">
+    <rect class="in" x="350" y="30" width="300" height="560" rx="20"/>
+    <rect class="wh" x="390" y="70" width="220" height="110" rx="8"/>
+    <path class="thin" d="M406 96 L470 96"/>
+    <text class="tb tc" x="500" y="156">EX-07</text>
+    <path class="dim" d="M500 204 L500 256"/>
+    <path class="dimf" d="M500 188 L486 212 L514 212 Z M500 272 L486 248 L514 248 Z"/>
+    <circle class="okf" cx="566" cy="230" r="26"/>
+    <path class="ln2" d="M553 231 L562 242 L580 219"/>
+    <rect class="sk" x="390" y="280" width="220" height="110" rx="8"/>
+    <path class="thin" d="M406 306 L594 306"/>
+    <text class="tb tc" x="500" y="366">EX-07</text>
+    <text class="tb tc" x="500" y="472">Identifié</text>
+    <text class="ts tc" x="500" y="540">un marquage</text>
+  </g>
+
+  <!-- ===== PRESCRIT ===== -->
+  <g data-part="prescrit">
+    <rect class="in" x="674" y="30" width="300" height="560" rx="20"/>
+    <path class="wh" d="M724 62 L890 62 L924 96 L924 398 L724 398 Z"/>
+    <path class="ln" d="M890 62 L890 96 L924 96"/>
+    <path class="ln" d="M746 120 L868 120 M746 156 L902 156 M746 192 L880 192"/>
+    <rect class="sk" x="740" y="232" width="168" height="76" rx="8"/>
+    <text class="ts tc" x="824" y="283">min · max</text>
+    <path class="ln" d="M746 350 L860 350"/>
+    <text class="tb tc" x="824" y="472">Prescrit</text>
+    <text class="ts tc" x="824" y="540">un document</text>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="observe" transform="translate(52 56)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="identifie" transform="translate(376 56)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="prescrit" transform="translate(700 56)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+  </g>
+</svg>

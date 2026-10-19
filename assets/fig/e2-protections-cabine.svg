@@ -65,7 +65,7 @@
     <g class="badge" data-badge="housse-siege" transform="translate(352 370)"><circle class="bd" r="24"/><text class="bn">2</text></g>
     <g class="badge" data-badge="prot-paroi" transform="translate(704 416)"><circle class="bd" r="24"/><text class="bn">3</text></g>
     <g class="badge" data-badge="prot-hublot" transform="translate(706 338)"><circle class="bd" r="24"/><text class="bn">4</text></g>
-    <g class="badge" data-badge="prot-aretes" transform="translate(630 300)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="prot-aretes" transform="translate(702 214)"><circle class="bd" r="24"/><text class="bn">5</text></g>
     <g class="badge" data-badge="capuchon" transform="translate(520 286)"><circle class="bd" r="24"/><text class="bn">6</text></g>
     <g class="badge" data-badge="balisage" transform="translate(574 366)"><circle class="bd" r="24"/><text class="bn">7</text></g>
   </g>

@@ -38,17 +38,19 @@
     <rect class="syf" x="738" y="362" width="22" height="28" rx="4"/>
   </g>
   <g data-part="metallisation">
-    <path class="mt2" d="M110 560 L128 548 L146 572 L164 548 L182 572 L200 548 L218 572 L236 548 L254 572 L272 548 L290 560 L290 580 L272 568 L254 592 L236 568 L218 592 L200 568 L182 592 L164 568 L146 592 L128 568 L110 580 Z"/>
-    <circle class="mt" cx="110" cy="570" r="18"/>
-    <circle class="mt" cx="300" cy="556" r="18"/>
     <path class="mt" d="M292 530 L308 530 L308 556 L292 556 Z"/>
+    <path class="mt2" d="M100 566 C140 650 262 650 310 560 L290 548 C250 622 156 622 120 556 Z"/>
+    <path class="thin" d="M124 588 L140 572 M140 606 L158 588 M160 618 L178 600 M182 624 L198 606 M206 624 L220 606 M230 618 L242 600 M252 606 L262 588 M272 590 L280 572"/>
+    <path class="thin" d="M124 572 L138 590 M142 590 L156 608 M162 600 L176 618 M184 606 L196 624 M206 606 L218 624 M228 600 L240 618 M248 590 L260 606 M266 574 L278 590"/>
+    <circle class="mt" cx="110" cy="560" r="20"/><circle class="dk" cx="110" cy="560" r="8"/>
+    <circle class="mt" cx="300" cy="554" r="20"/><circle class="dk" cx="300" cy="554" r="8"/>
   </g>
   <path class="thin" d="M686 582 L650 470"/>
   <g class="badges">
     <g class="badge" data-badge="equipement" transform="translate(420 326)"><circle class="bd" r="26"/><text class="bn">1</text></g>
     <g class="badge" data-badge="mecanique" transform="translate(200 300)"><circle class="bd" r="26"/><text class="bn">2</text></g>
     <g class="badge" data-badge="electrique" transform="translate(900 480)"><circle class="bd" r="26"/><text class="bn">3</text></g>
-    <g class="badge" data-badge="metallisation" transform="translate(200 630)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="metallisation" transform="translate(205 672)"><circle class="bd" r="26"/><text class="bn">4</text></g>
     <g class="badge" data-badge="fluide" transform="translate(760 70)"><circle class="bd" r="26"/><text class="bn">5</text></g>
     <g class="badge" data-badge="usage" transform="translate(700 600)"><circle class="bd" r="26"/><text class="bn">6</text></g>
   </g>

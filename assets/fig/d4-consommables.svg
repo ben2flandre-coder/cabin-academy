@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 565" class="fig" role="img" aria-labelledby="t d">
+<title id="t">Six consommables courants du poste</title>
+<desc id="d">Six cases. Chiffons non pelucheux : une pile de chiffons pliés dans leur emballage et un chiffon déplié. Collier de serrage : un collier fermé autour d'un toron de six câbles, tête à droite, et un collier neuf à plat avec sa tête et ses crans. Cales : une cale en biseau, une cale en bloc et une pile de cales minces. Ruban adhésif de masquage : un rouleau avec son amorce. Sachet refermable identifié : un sachet transparent à fermeture, une étiquette et trois vis à l'intérieur. Contenant à déchets : un bac à couvercle avec une fente où tombent une chute de collier et une rondelle.</desc>
+<rect class="bgp" width="1000" height="565"/>
+<g data-part="chiffon">
+<rect class="in" x="20" y="20" width="310" height="255" rx="16"/>
+<g transform="translate(20 20)">
+<rect class="wh" x="84" y="166" width="160" height="26" rx="6"/>
+<rect class="wh" x="84" y="140" width="160" height="26" rx="6"/>
+<rect class="wh" x="84" y="114" width="160" height="26" rx="6"/>
+<path class="thin" d="M100 114 V192"/>
+<path class="dash" d="M64 96 H264 V212 H64 Z"/>
+<path class="wh" d="M110 40 H214 V88 H110 Z"/>
+<path class="in" d="M214 88 L186 88 L214 62 Z"/>
+</g>
+</g>
+<g data-part="collier">
+<rect class="in" x="345" y="20" width="310" height="255" rx="16"/>
+<g transform="translate(345 20)">
+<circle class="sy" cx="104" cy="96" r="17"/>
+<circle class="sy" cx="138" cy="96" r="17"/>
+<circle class="sy" cx="121" cy="126" r="17"/>
+<circle class="sy" cx="87" cy="126" r="17"/>
+<circle class="sy" cx="155" cy="126" r="17"/>
+<circle class="sy" cx="121" cy="66" r="17"/>
+<ellipse class="ln2" cx="121" cy="100" rx="64" ry="62"/>
+<rect class="dk" x="176" y="86" width="24" height="28" rx="4"/>
+<rect class="wh" x="70" y="204" width="210" height="14" rx="4"/>
+<path class="thin" d="M96 204 v14 M108 204 v14 M120 204 v14 M132 204 v14 M144 204 v14 M156 204 v14 M168 204 v14 M180 204 v14 M192 204 v14 M204 204 v14 M216 204 v14 M228 204 v14 M240 204 v14 M252 204 v14"/>
+<rect class="dk" x="50" y="196" width="30" height="30" rx="4"/>
+<rect class="wh" x="58" y="206" width="14" height="10"/>
+</g>
+</g>
+<g data-part="cale">
+<rect class="in" x="670" y="20" width="310" height="255" rx="16"/>
+<g transform="translate(670 20)">
+<path class="fl" d="M40 214 H180 V160 Z"/>
+<rect class="fl" x="200" y="160" width="76" height="54" rx="3"/>
+<path class="thin" d="M200 178 H276 M200 196 H276"/>
+<rect class="mt" x="96" y="60" width="150" height="9"/>
+<rect class="mt" x="104" y="73" width="150" height="9"/>
+<rect class="mt" x="112" y="86" width="150" height="9"/>
+<rect class="mt" x="120" y="99" width="150" height="9"/>
+</g>
+</g>
+<g data-part="ruban">
+<rect class="in" x="20" y="290" width="310" height="255" rx="16"/>
+<g transform="translate(20 290)">
+<path class="wh" d="M150 180 H262 l10 7 l-10 7 l10 7 l-8 5 H150 Z"/>
+<circle class="wh" cx="150" cy="138" r="68"/>
+<circle class="in" cx="150" cy="138" r="34"/>
+<circle class="wh" cx="150" cy="138" r="27"/>
+</g>
+</g>
+<g data-part="sachet">
+<rect class="in" x="345" y="290" width="310" height="255" rx="16"/>
+<g transform="translate(345 290)">
+<rect class="gl" x="80" y="40" width="160" height="180" rx="8"/>
+<path class="ln2" d="M80 66 H240"/>
+<path class="ln" d="M80 58 H240"/>
+<rect class="wh" x="100" y="82" width="120" height="52" rx="4"/>
+<path class="thin" d="M112 98 H208 M112 110 H186 M112 122 H196"/>
+<rect class="mt" x="104" y="168" width="22" height="10" rx="2"/>
+<rect class="mt" x="110" y="178" width="10" height="30"/>
+<rect class="mt" x="148" y="160" width="22" height="10" rx="2"/>
+<rect class="mt" x="154" y="170" width="10" height="30"/>
+<rect class="mt" x="192" y="172" width="22" height="10" rx="2"/>
+<rect class="mt" x="198" y="182" width="10" height="30"/>
+</g>
+</g>
+<g data-part="bac-dechets">
+<rect class="in" x="670" y="290" width="310" height="255" rx="16"/>
+<g transform="translate(670 290)">
+<path class="eq2" d="M92 98 H228 L214 226 H106 Z"/>
+<rect class="dk" x="80" y="78" width="160" height="22" rx="7"/>
+<rect class="wh" x="126" y="84" width="68" height="10" rx="5"/>
+<rect class="wh" x="126" y="138" width="68" height="44" rx="4"/>
+<path class="thin" d="M136 152 H184 M136 166 H172"/>
+<rect class="mt" x="176" y="30" width="34" height="8" rx="2" transform="rotate(25 193 34)"/>
+<circle class="mt" cx="136" cy="40" r="9"/>
+<circle class="dk" cx="136" cy="40" r="3.5"/>
+<path class="dim" d="M160 36 L160 61"/><path class="dimf" d="M160 72 L153.4 61 L166.6 61 Z"/>
+</g>
+</g>
+<g class="badges">
+<g class="badge" data-badge="chiffon" transform="translate(54 54)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+<g class="badge" data-badge="collier" transform="translate(379 54)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+<g class="badge" data-badge="cale" transform="translate(704 54)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+<g class="badge" data-badge="ruban" transform="translate(54 324)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+<g class="badge" data-badge="sachet" transform="translate(379 324)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+<g class="badge" data-badge="bac-dechets" transform="translate(704 324)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+</g>
+</svg>

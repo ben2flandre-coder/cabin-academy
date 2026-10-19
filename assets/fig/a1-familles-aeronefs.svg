@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Les familles d'aéronefs : aérostats et aérodynes</title>
+  <desc id="d">Schéma de principe en deux rangées. Rangée du haut, les aérostats, plus légers que l'air : un ballon à air chaud avec sa nacelle, et un dirigeable allongé avec ses empennages et sa nacelle. Rangée du bas, les aérodynes, plus lourds que l'air : un planeur vu de dessus, aux ailes très longues et étroites, sans moteur ; un avion de ligne vu de dessus, avec deux moteurs sous des ailes en flèche ; un hélicoptère vu de côté, avec son grand rotor au-dessus de la cabine et son petit rotor de queue.</desc>
+  <rect class="bgp" width="1000" height="640"/>
+  <text class="tb" x="24" y="48">Aérostats : plus légers que l'air</text>
+  <g data-part="ballon">
+    <rect class="wh" x="24" y="66" width="466" height="226" rx="18"/>
+    <path class="eq" d="M257 82 C325 82 352 128 352 160 C352 200 300 226 276 254 L238 254 C214 226 162 200 162 160 C162 128 189 82 257 82 Z"/>
+    <path class="thin" d="M257 82 C230 120 228 200 248 254"/><path class="thin" d="M257 82 C284 120 286 200 266 254"/>
+    <path class="thin" d="M257 82 C200 110 190 190 238 254"/><path class="thin" d="M257 82 C314 110 324 190 276 254"/>
+    <line class="thin" x1="240" y1="254" x2="244" y2="266"/><line class="thin" x1="274" y1="254" x2="270" y2="266"/>
+    <rect class="fl" x="241" y="264" width="32" height="20" rx="3"/>
+  </g>
+  <g data-part="dirigeable">
+    <rect class="wh" x="510" y="66" width="466" height="226" rx="18"/>
+    <path class="st" d="M852 150 L920 104 L934 104 L916 164 Z"/>
+    <path class="st" d="M852 186 L920 232 L934 232 L916 172 Z"/>
+    <path class="sk" d="M556 168 C566 118 660 108 746 110 C834 112 904 140 928 168 C904 196 834 224 746 226 C660 228 566 218 556 168 Z"/>
+    <path class="thin" d="M556 168 L928 168"/>
+    <path class="st" d="M880 164 L946 162 L946 174 L880 172 Z"/>
+    <rect class="mt" x="694" y="224" width="78" height="24" rx="8"/>
+    <circle class="gl" cx="712" cy="236" r="5"/><circle class="gl" cx="732" cy="236" r="5"/><circle class="gl" cx="752" cy="236" r="5"/>
+  </g>
+  <text class="tb" x="24" y="350">Aérodynes : plus lourds que l'air</text>
+  <g data-part="planeur">
+    <rect class="wh" x="24" y="368" width="300" height="248" rx="18"/>
+    <path class="sk" d="M168 388 L180 388 L186 488 L162 488 Z"/><path class="sk" d="M168 596 L180 596 L186 496 L162 496 Z"/>
+    <path class="sk" d="M258 468 L268 468 L268 516 L258 516 Z"/>
+    <path class="sk" d="M110 492 C112 482 128 478 150 478 C178 478 196 484 216 488 L270 490 L270 494 L216 496 C196 500 178 506 150 506 C128 506 112 502 110 492 Z"/>
+    <path class="gl" d="M122 492 C126 485 140 483 156 484 L156 500 C140 501 126 499 122 492 Z"/>
+  </g>
+  <g data-part="avion">
+    <rect class="wh" x="350" y="368" width="300" height="248" rx="18"/>
+    <g transform="translate(288 36) scale(0.75)">
+      <path class="sk" d="M366.5 601 L393 559.6 L403.9 559.6 L397.7 603.3 Z"/><path class="sk" d="M366.5 615 L393 656.4 L403.9 656.4 L397.7 612.7 Z"/>
+      <rect class="eq2" x="194.9" y="554.2" width="35.9" height="17.9" rx="9"/><rect class="eq2" x="194.9" y="643.9" width="35.9" height="17.9" rx="9"/>
+      <path class="sk" d="M212 592.4 L276 468.4 L288.5 468.4 L272.9 558.1 L268.2 592.4 Z"/><path class="sk" d="M212 623.6 L276 747.6 L288.5 747.6 L272.9 657.9 L268.2 623.6 Z"/>
+      <path class="sk" d="M120 608 C122.3 598.6 139.5 592.4 162.9 592.4 L315 592.4 C354 592.4 393 598.6 413 605.3 L413 610.7 C393 617.4 354 623.6 315 623.6 L162.9 623.6 C139.5 623.6 122.3 617.4 120 608 Z"/>
+      <path class="ln2" d="M361.8 608 L410.2 608"/>
+    </g>
+  </g>
+  <g data-part="helicoptere">
+    <rect class="wh" x="676" y="368" width="300" height="248" rx="18"/>
+    <path class="ln2" d="M708 438 L916 438"/>
+    <rect class="mt2" x="800" y="438" width="16" height="26" rx="2"/>
+    <path class="sk" d="M720 520 C720 478 756 462 800 462 L846 462 C862 462 870 474 874 488 L946 496 L946 508 L874 518 C866 540 850 552 820 552 L756 552 C734 552 720 540 720 520 Z"/>
+    <path class="gl" d="M734 512 C736 488 758 474 792 474 L792 512 Z"/>
+    <path class="sk" d="M930 470 L946 470 L950 500 L936 500 Z"/>
+    <circle class="wh" cx="944" cy="484" r="20"/><circle class="dk" cx="944" cy="484" r="5"/>
+    <path class="ln2" d="M744 584 L850 584"/><line class="ln" x1="770" y1="552" x2="764" y2="584"/><line class="ln" x1="822" y1="552" x2="828" y2="584"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="ballon" transform="translate(64 106)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="dirigeable" transform="translate(550 106)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="planeur" transform="translate(64 408)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="avion" transform="translate(390 408)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="helicoptere" transform="translate(716 408)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+  </g>
+</svg>

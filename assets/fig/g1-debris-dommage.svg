@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Du débris au dommage : la même rondelle en trois temps</title>
+  <desc id="d">Schéma de principe en trois vignettes reliées par des flèches. Première vignette : pendant un montage, une rondelle échappe et reste posée sur le plancher, près d'un interstice. Deuxième vignette : la rondelle glisse dans l'interstice et tombe sous le plancher, vers un faisceau électrique. Troisième vignette : la rondelle est posée en travers de deux bornes électriques qu'elle relie, une étincelle jaillit. Sous les deux premières vignettes, une accolade et la mention Debris, l'objet ; sous la troisième, la mention Damage, le dégât.</desc>
+  <rect class="bgp" width="1000" height="620"/>
+  <g data-part="objet">
+    <rect class="st" x="50" y="70" width="250" height="40" rx="5"/>
+    <rect class="eq" x="110" y="110" width="130" height="70" rx="8"/>
+    <rect class="mt" x="166" y="180" width="18" height="34"/>
+    <path class="mt2" d="M197 222 L186 241.1 L164 241.1 L153 222 L164 202.9 L186 202.9 Z"/>
+    <path class="dash" d="M175 250 C175 300 150 330 132 372"/>
+    <rect class="fl" x="30" y="404" width="200" height="30"/>
+    <rect class="fl" x="262" y="404" width="58" height="30"/>
+    <ellipse class="mt" cx="124" cy="394" rx="46" ry="15"/>
+    <ellipse class="wh" cx="124" cy="394" rx="19" ry="6"/>
+  </g>
+  <path class="dim" d="M326 250 L334.4 250"/><path class="dimf" d="M352 250 L330 259.9 L330 240.1 Z"/>
+  <g data-part="migration">
+    <rect class="sk" x="355" y="234" width="290" height="230"/>
+    <rect class="fl" x="355" y="204" width="150" height="30"/>
+    <rect class="fl" x="545" y="204" width="100" height="30"/>
+    <path class="sy" d="M355 420 L645 420"/><path class="sy" d="M355 432 L645 432"/><path class="sy" d="M355 444 L645 444"/>
+    <ellipse class="dash" cx="450" cy="194" rx="42" ry="13"/>
+    <path class="dim" d="M476 170 L507.3 174.3"/><path class="dimf" d="M520 176 L503.2 181 L505.1 166.7 Z"/>
+    <rect class="bgp" x="507" y="204" width="36" height="30"/>
+    <g transform="translate(525 262) rotate(80)"><ellipse class="mt" cx="0" cy="0" rx="40" ry="13"/><ellipse class="wh" cx="0" cy="0" rx="16" ry="5"/></g>
+    <path class="dim" d="M525 312 L525 378.4"/><path class="dimf" d="M525 396 L515.1 374 L534.9 374 Z"/>
+  </g>
+  <path class="dim" d="M651 250 L659.4 250"/><path class="dimf" d="M677 250 L655 259.9 L655 240.1 Z"/>
+  <g data-part="dommage">
+    <rect class="dk" x="690" y="380" width="270" height="70" rx="8"/>
+    <rect class="mt" x="752" y="290" width="26" height="90"/>
+    <rect class="mt" x="872" y="290" width="26" height="90"/>
+    <rect class="mt2" x="738" y="340" width="54" height="26" rx="4"/>
+    <rect class="mt2" x="858" y="340" width="54" height="26" rx="4"/>
+    <path class="sy" d="M765 380 C765 420 720 440 690 470"/>
+    <path class="sy" d="M885 380 C885 420 930 440 960 470"/>
+    <g transform="translate(825 282) rotate(-6)"><ellipse class="mt" cx="0" cy="0" rx="86" ry="20"/><ellipse class="wh" cx="0" cy="0" rx="34" ry="7"/></g>
+    <path class="badf" d="M831.1 250.8 L791.9 254 L805.6 290.8 L775.6 265.4 L759.2 301.1 L756 261.9 L719.2 275.6 L744.6 245.6 L708.9 229.2 L748.1 226 L734.4 189.2 L764.4 214.6 L780.8 178.9 L784 218.1 L820.8 204.4 L795.4 234.4 Z"/>
+    <path class="syf" d="M796 255 L777.3 249.5 L777.8 269 L768.4 251.9 L755 266 L760.5 247.3 L741 247.8 L758.1 238.4 L744 225 L762.7 230.5 L762.2 211 L771.6 228.1 L785 214 L779.5 232.7 L799 232.2 L781.9 241.6 Z"/>
+  </g>
+  <path class="ln" d="M30 500 L30 516 L645 516 L645 500"/>
+  <path class="ln" d="M680 500 L680 516 L970 516 L970 500"/>
+  <text class="ts tc" x="337" y="572">Debris : l'objet</text>
+  <text class="ts tc tr" x="825" y="572">Damage : le dégât</text>
+  <g class="badges">
+    <g class="badge" data-badge="objet" transform="translate(60 330)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="migration" transform="translate(600 290)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="dommage" transform="translate(900 250)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+  </g>
+</svg>

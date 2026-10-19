@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Rayon de courbure et mou : ce qui se voit</title>
+  <desc id="d">Planche en cinq schémas de principe, sans valeur chiffrée. En haut à gauche, un faisceau de trois fils tourne à angle droit en décrivant un large arc entre deux colliers ; une flèche partant du centre de l'arc montre le rayon de courbure. En haut à droite, le même trajet avec un pli serré : les fils tournent presque à angle vif, des traits rouges marquent l'endroit. En bas, trois dérivations entre un collier et le connecteur d'un équipement : la première est tendue en ligne droite et tire le connecteur de travers ; la deuxième arrive avec une courbe douce ; la troisième forme une boucle de longueur en trop qui pend.</desc>
+  <rect class="bgp" width="1000" height="700"/>
+  <path class="thin" d="M500 24 L500 356"/>
+  <path class="thin" d="M24 372 L976 372"/>
+  <text class="ts tc" x="255" y="58">Rayon large</text>
+  <text class="ts tc tr" x="745" y="58">Pli serré</text>
+  <g data-part="courbe">
+    <path class="sy" d="M40 106 L190 106 A190 190 0 0 1 380 296 L380 346"/>
+    <path class="sy" d="M40 117 L190 117 A179 179 0 0 1 369 296 L369 346"/>
+    <path class="sy" d="M40 128 L190 128 A168 168 0 0 1 358 296 L358 346"/>
+    <rect class="dk" x="84" y="94" width="28" height="46" rx="7"/>
+    <rect class="dk" x="346" y="306" width="46" height="28" rx="7"/>
+  </g>
+  <g data-part="rayon">
+    <path class="dash" d="M190 296 L190 136"/>
+    <path class="dash" d="M190 296 L350 296"/>
+    <circle class="dimf" cx="190" cy="296" r="8"/>
+    <path class="dim" d="M190 296 L291.5 194.5"/><path class="dimf" d="M302.8 183.2 L295 203.7 L282.3 191 Z"/>
+  </g>
+  <g data-part="pli">
+    <path class="sy" d="M540 106 L870 106 Q899 106 899 135 L899 346"/>
+    <path class="sy" d="M540 117 L870 117 Q888 117 888 135 L888 346"/>
+    <path class="sy" d="M540 128 L870 128 Q877 128 877 135 L877 346"/>
+    <rect class="dk" x="584" y="94" width="28" height="46" rx="7"/>
+    <rect class="dk" x="865" y="306" width="46" height="28" rx="7"/>
+    <path class="ax" d="M916 92 L940 68"/>
+    <path class="ax" d="M924 116 L958 110"/>
+    <path class="ax" d="M896 84 L902 50"/>
+  </g>
+  <text class="ts tc tr" x="180" y="420">Trop tendu</text>
+  <g data-part="tendu">
+    <rect class="mt" x="44" y="440" width="72" height="30" rx="5"/><circle class="wh" cx="58" cy="455" r="6"/><circle class="wh" cx="102" cy="455" r="6"/>
+    <rect class="eq" x="200" y="612" width="118" height="64" rx="8"/>
+    <path class="sy" d="M80 490 L237 574"/>
+    <rect class="dk" x="62" y="466" width="36" height="46" rx="8"/>
+    <g transform="rotate(-38 259 606)"><rect class="mt2" x="233" y="594" width="52" height="18" rx="3"/><rect class="mt" x="238" y="566" width="42" height="28" rx="6"/></g>
+  </g>
+  <text class="ts tc " x="500" y="420">Mou juste</text>
+  <path class="thin" d="M340 388 L340 676"/>
+  <g data-part="mou">
+    <rect class="mt" x="364" y="440" width="72" height="30" rx="5"/><circle class="wh" cx="378" cy="455" r="6"/><circle class="wh" cx="422" cy="455" r="6"/>
+    <rect class="eq" x="520" y="612" width="118" height="64" rx="8"/>
+    <path class="sy" d="M400 490 L460 490 C540 490 579 500 579 568"/>
+    <rect class="dk" x="382" y="466" width="36" height="46" rx="8"/>
+    <rect class="mt2" x="553" y="594" width="52" height="18" rx="3"/><rect class="mt" x="558" y="566" width="42" height="28" rx="6"/>
+  </g>
+  <text class="ts tc tr" x="820" y="420">Boucle en trop</text>
+  <path class="thin" d="M660 388 L660 676"/>
+  <g data-part="boucle">
+    <rect class="mt" x="684" y="440" width="72" height="30" rx="5"/><circle class="wh" cx="698" cy="455" r="6"/><circle class="wh" cx="742" cy="455" r="6"/>
+    <rect class="eq" x="840" y="612" width="118" height="64" rx="8"/>
+    <path class="sy" d="M720 490 C800 490 860 520 830 580 C805 630 720 610 736 556 C754 500 899 480 899 568"/>
+    <rect class="dk" x="702" y="466" width="36" height="46" rx="8"/>
+    <rect class="mt2" x="873" y="594" width="52" height="18" rx="3"/><rect class="mt" x="878" y="566" width="42" height="28" rx="6"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="rayon" transform="translate(268 262)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="courbe" transform="translate(150 176)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="pli" transform="translate(760 176)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="tendu" transform="translate(80 620)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="mou" transform="translate(400 620)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="boucle" transform="translate(720 652)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>

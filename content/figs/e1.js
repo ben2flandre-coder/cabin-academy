@@ -75,4 +75,18 @@ CA.addFigures([
       { id: 'fixations', n: 9, fr: 'Points de fixation', en: 'Attachment points', fn: "L'interface de la pièce : leur nombre et leur position doivent correspondre à ceux de l'emplacement." },
     ],
   },
+  {
+    id: 'e1-trois-regards', file: 'e1-trois-regards.svg',
+    title: "Trois regards sur une information",
+    caption: "Schéma de principe. Avant d'utiliser une information, demande-toi d'où elle vient : de tes sens, d'un marquage comparé au dossier, ou d'un document qui fixe une valeur ou une méthode. La référence EX-07 est fictive.",
+    alt: "Trois cartes côte à côte. Observé : un œil regarde une surface rayée, la source est « mes sens ». Identifié : une étiquette et une ligne de nomenclature portant la même référence fictive EX-07 sont comparées, la source est « un marquage ». Prescrit : une page de document dont un cadre contient « min · max », la source est « un document ».",
+    purpose: "Classer une information selon sa source : ce qui s'observe, ce qui s'identifie, ce qui exige une prescription.",
+    chapters: ['e1'],
+    provenance: "Schéma original RMBD — création pédagogique", rights: "© RMBD, usage pédagogique",
+    parts: [
+      { id: 'observe', n: 1, fr: 'Observé', en: 'Observed', fn: "Ce que tes yeux, tes doigts ou tes oreilles constatent sur place : un état, une présence, un sens, une propreté." },
+      { id: 'identifie', n: 2, fr: 'Identifié', en: 'Identified', fn: "Ce qu'un marquage affirme et que tu as comparé au dossier : une référence, un indice, un côté, une date de validité." },
+      { id: 'prescrit', n: 3, fr: 'Prescrit', en: 'Specified', fn: "Ce qu'un document applicable fixe et que rien sur place ne peut te donner : une valeur, une limite, une méthode, un ordre." },
+    ],
+  },
 ]);

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Oxygène : le triangle du feu et ce qu'on tient à l'écart</title>
+  <desc id="d">Schéma de principe en deux parties. À gauche, un triangle dont chaque sommet porte un symbole : en haut une bouteille de gaz, le comburant ; en bas à gauche des gouttes, le combustible ; en bas à droite un éclair, l'énergie d'allumage ; au centre, une flamme, qui n'existe que si les trois sont réunis. À droite, quatre objets : un tube de graisse, un chiffon taché et un gant taché, chacun barré d'une croix rouge ; puis l'extrémité d'un tube fermée par un capuchon de couleur vive, marquée d'une coche verte.</desc>
+  <rect class="bgp" width="1000" height="660"/>
+  <path class="thin" d="M590 24 L590 636"/>
+  <text class="ts tc" x="295" y="54">Triangle du feu</text>
+  <text class="ts tc" x="795" y="54">Près de l'oxygène</text>
+  <path class="ln2" d="M295 130 L80 520 L510 520 Z"/>
+  <g data-part="flamme">
+    <path class="badf" d="M295 270 C330 320 372 340 362 400 C356 446 326 470 295 470 C264 470 234 446 228 400 C222 360 252 350 258 318 C276 330 290 306 295 270 Z"/>
+    <path class="syf" d="M296 360 C314 384 332 398 326 424 C322 446 310 456 296 456 C282 456 268 446 266 426 C264 406 284 394 296 360 Z"/>
+  </g>
+  <g data-part="comburant">
+    <circle class="wh" cx="295" cy="130" r="62"/>
+    <rect class="gl" x="271" y="108" width="48" height="66" rx="18"/>
+    <rect class="mt2" x="286" y="90" width="18" height="20" rx="3"/>
+    <rect class="mt2" x="277" y="82" width="36" height="10" rx="3"/>
+  </g>
+  <g data-part="combustible">
+    <circle class="wh" cx="80" cy="520" r="62"/>
+    <path class="syf" d="M68 478 C50 511 47 535 68 541 C89 535 86 511 68 478 Z"/>
+    <path class="syf" d="M104 514 C93.2 533.8 91.4 548.2 104 551.8 C116.6 548.2 114.8 533.8 104 514 Z"/>
+  </g>
+  <g data-part="energie">
+    <circle class="wh" cx="510" cy="520" r="62"/>
+    <path class="syf" d="M518 474 L484 526 L508 526 L498 566 L538 510 L514 510 Z"/>
+  </g>
+  <g data-part="graisse">
+    <path class="mt" d="M640 106 L800 118 L800 162 L640 174 Z"/>
+    <rect class="mt2" x="800" y="126" width="22" height="28" rx="3"/>
+    <rect class="dk" x="822" y="120" width="30" height="40" rx="5"/>
+    <path class="thin" d="M652 107 L652 173"/>
+    <path class="syf" d="M690 120 C679.2 139.8 677.4 154.2 690 157.8 C702.6 154.2 700.8 139.8 690 120 Z"/>
+    <circle class="badf" cx="920" cy="140" r="32"/><path class="ln2" d="M907.2 127.2 L932.8 152.8 M932.8 127.2 L907.2 152.8"/>
+  </g>
+  <g data-part="chiffon">
+    <path class="in" d="M636 240 C670 218 700 252 740 230 C780 212 820 240 850 234 L842 308 C800 324 770 292 730 312 C700 326 668 300 644 310 Z"/>
+    <path class="thin" d="M700 244 C716 270 700 290 712 310"/>
+    <ellipse class="syf" cx="776" cy="270" rx="34" ry="20"/>
+    <ellipse class="syf" cx="672" cy="276" rx="16" ry="11"/>
+    <circle class="badf" cx="920" cy="270" r="32"/><path class="ln2" d="M907.2 257.2 L932.8 282.8 M932.8 257.2 L907.2 282.8"/>
+  </g>
+  <g data-part="gant">
+    <path class="eq" d="M640 374 L716 374 L716 360 C716 348 734 348 738 360 L752 370 L836 370 C854 370 854 392 836 392 L850 392 C868 392 868 414 850 414 L836 414 C852 414 852 434 836 434 L640 434 Z"/>
+    <path class="thin" d="M770 392 L836 392"/><path class="thin" d="M770 414 L836 414"/>
+    <rect class="eq2" x="630" y="368" width="26" height="72" rx="6"/>
+    <ellipse class="syf" cx="724" cy="408" rx="26" ry="16"/>
+    <circle class="badf" cx="920" cy="400" r="32"/><path class="ln2" d="M907.2 387.2 L932.8 412.8 M932.8 387.2 L907.2 412.8"/>
+  </g>
+  <g data-part="capuchon">
+    <rect class="mt" x="630" y="518" width="170" height="44"/>
+    <path class="badf" d="M780 504 h70 q14 0 14 14 v44 q0 14 -14 14 h-70 Z"/>
+    <path class="thin" d="M802 504 L802 576"/><path class="thin" d="M820 504 L820 576"/>
+    <circle class="okf" cx="920" cy="540" r="32"/><path class="ln2" d="M905.6 541.6 L916.8 552.8 L936 528.8"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="comburant" transform="translate(392 110)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="combustible" transform="translate(150 440)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="energie" transform="translate(440 440)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="flamme" transform="translate(295 232)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="graisse" transform="translate(620 86)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="chiffon" transform="translate(620 214)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="gant" transform="translate(620 344)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="capuchon" transform="translate(620 480)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>

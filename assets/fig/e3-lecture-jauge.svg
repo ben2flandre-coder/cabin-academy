@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Lire un jeu avec une jauge d'épaisseur</title>
+  <desc id="d">Trois schémas de principe, sans valeurs. À gauche, la jauge d'épaisseur : quatre lames métalliques déployées en éventail à partir d'un étui. Au centre, deux panneaux vus de face séparés par un joint vertical ; trois repères, en haut, au milieu et en bas du joint, montrent les trois points de lecture, et une lame est glissée dans le joint au point du milieu. À droite, en coupe : en haut, une lame mince entre dans l'espace entre deux panneaux, elle passe ; en bas, une lame plus épaisse reste posée sur les bords de l'espace, elle ne passe pas.</desc>
+  <rect class="bgp" width="1000" height="720"/>
+  <text class="ts" x="30" y="56">La jauge</text>
+  <text class="ts" x="356" y="56">Où lire</text>
+  <text class="ts" x="690" y="56">En coupe</text>
+  <path class="dash" d="M332 30 L332 690 M664 30 L664 690"/>
+
+  <!-- ===== JAUGE EN ÉVENTAIL ===== -->
+  <g data-part="jauge">
+    <g transform="rotate(-27 175 560)"><rect class="mt" x="153" y="290" width="44" height="280" rx="20"/></g>
+    <g transform="rotate(-9 175 560)"><rect class="mt" x="153" y="290" width="44" height="280" rx="20"/></g>
+    <g transform="rotate(9 175 560)"><rect class="mt" x="153" y="290" width="44" height="280" rx="20"/></g>
+    <g transform="rotate(27 175 560)"><rect class="mt2" x="153" y="290" width="44" height="280" rx="20"/></g>
+    <rect class="dk" x="118" y="500" width="114" height="170" rx="24"/>
+    <circle class="mt" cx="175" cy="560" r="16"/>
+  </g>
+
+  <!-- ===== OÙ LIRE : JOINT DE FACE ===== -->
+  <rect class="in" x="356" y="90" width="126" height="590" rx="10"/>
+  <rect class="in" x="514" y="90" width="126" height="590" rx="10"/>
+  <g data-part="joint">
+    <rect class="none" pointer-events="all" x="462" y="90" width="72" height="590"/>
+    <rect class="dk" x="482" y="90" width="32" height="590"/>
+  </g>
+  <g data-part="points">
+    <rect class="none" pointer-events="all" x="420" y="130" width="156" height="80"/>
+    <rect class="none" pointer-events="all" x="420" y="345" width="156" height="80"/>
+    <rect class="none" pointer-events="all" x="420" y="560" width="156" height="80"/>
+    <path class="dimf" d="M430 150 L476 170 L430 190 Z M566 150 L520 170 L566 190 Z"/>
+    <path class="dimf" d="M430 365 L476 385 L430 405 Z M566 365 L520 385 L566 405 Z"/>
+    <path class="dimf" d="M430 580 L476 600 L430 620 Z M566 580 L520 600 L566 620 Z"/>
+  </g>
+  <g data-part="jauge">
+    <path class="mt2" d="M490 372 L506 372 L628 486 Q640 500 626 512 L610 524 Q598 532 588 520 Z"/>
+  </g>
+
+  <!-- ===== EN COUPE : PASSE ===== -->
+  <g data-part="passe">
+    <rect class="none" pointer-events="all" x="680" y="80" width="290" height="300"/>
+    <rect class="st" x="690" y="270" width="270" height="26"/>
+    <rect class="in" x="690" y="218" width="110" height="52" rx="4"/>
+    <rect class="in" x="850" y="218" width="110" height="52" rx="4"/>
+    <rect class="mt2" x="814" y="96" width="22" height="168" rx="4"/>
+    <circle class="okf" cx="716" cy="342" r="26"/>
+    <path class="ln2" d="M703 343 L712 354 L730 331"/>
+    <text class="ts" x="754" y="355">passe</text>
+  </g>
+  <!-- ===== EN COUPE : NE PASSE PAS ===== -->
+  <g data-part="ne-passe-pas">
+    <rect class="none" pointer-events="all" x="680" y="400" width="290" height="300"/>
+    <rect class="st" x="690" y="590" width="270" height="26"/>
+    <rect class="in" x="690" y="538" width="110" height="52" rx="4"/>
+    <rect class="in" x="850" y="538" width="110" height="52" rx="4"/>
+    <rect class="mt2" x="790" y="410" width="70" height="128" rx="4"/>
+    <circle class="badf" cx="708" cy="662" r="26"/>
+    <path class="ln2" d="M697 651 L719 673 M719 651 L697 673"/>
+    <text class="ts" x="744" y="675">ne passe pas</text>
+  </g>
+
+  <g class="badges">
+    <g class="badge" data-badge="jauge" transform="translate(70 270)"><circle class="bd" r="24"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="joint" transform="translate(498 270)"><circle class="bd" r="24"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="points" transform="translate(398 600)"><circle class="bd" r="24"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="passe" transform="translate(920 130)"><circle class="bd" r="24"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="ne-passe-pas" transform="translate(920 450)"><circle class="bd" r="24"/><text class="bn">5</text></g>
+  </g>
+</svg>

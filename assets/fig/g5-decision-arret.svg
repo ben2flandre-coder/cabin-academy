@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 740" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Arbre de décision : continuer, suspendre ou se retirer</title>
+  <desc id="d">Logigramme de principe. En haut à gauche, une case « Je constate ». Une flèche descend vers un premier losange, « Danger ? ». La sortie OUI part à droite vers une case à bande rouge : « J'alerte, je m'écarte ». La sortie NON descend vers un second losange, « Tout clair ? ». Sa sortie NON part à droite vers une case à bande orange : « Je suspends, je signale ». Sa sortie OUI descend vers une case à bande verte : « Je continue ». Les deux cases de droite mènent à une case à bande bleue, « J'écris ». De cette case, une flèche en pointillé marquée d'une coche revient vers « Je continue » : la reprise se fait sur décision.</desc>
+  <rect class="bgp" width="1000" height="740"/>
+  <g>
+    <line class="ln2" x1="290" y1="120" x2="290" y2="128"/>
+    <path class="dk" d="M290 152 L278 128 L302 128 Z"/>
+    <line class="ln2" x1="486" y1="240" x2="588" y2="240"/>
+    <path class="dk" d="M612 240 L588 252 L588 228 Z"/>
+    <line class="ln2" x1="290" y1="326" x2="290" y2="344"/>
+    <path class="dk" d="M290 368 L278 344 L302 344 Z"/>
+    <line class="ln2" x1="486" y1="456" x2="588" y2="456"/>
+    <path class="dk" d="M612 456 L588 468 L588 444 Z"/>
+    <line class="ln2" x1="290" y1="542" x2="290" y2="580"/>
+    <path class="dk" d="M290 604 L278 580 L302 580 Z"/>
+    <line class="ln2" x1="781" y1="520" x2="781" y2="580"/>
+    <path class="dk" d="M781 604 L769 580 L793 580 Z"/>
+    <path class="ln2" d="M946 240 H974 V658 H966"/>
+    <path class="dk" d="M950 658 L972 647 L972 669 Z"/>
+    <text class="ts tc" x="548" y="224">OUI</text>
+    <text class="ts" x="306" y="360">NON</text>
+    <text class="ts tc" x="548" y="440">NON</text>
+    <text class="ts" x="306" y="586">OUI</text>
+  </g>
+  <g data-part="constat">
+    <rect class="eq" x="100" y="28" width="380" height="92" rx="14"/>
+    <path class="wh" d="M124 74 Q160 38 196 74 Q160 110 124 74 Z"/><circle class="dk" cx="160" cy="74" r="12"/>
+    <text class="tb" x="216" y="88">Je constate</text>
+  </g>
+  <g data-part="q-danger">
+    <path class="in" d="M290 154 L486 240 L290 326 L94 240 Z"/>
+    <text class="tb tc" x="290" y="254">Danger ?</text>
+  </g>
+  <g data-part="alerte-retrait">
+    <rect class="wh" x="616" y="176" width="330" height="128" rx="14"/>
+    <path class="badf" d="M630 176 H642 V304 H630 a14 14 0 0 1 -14 -14 V190 a14 14 0 0 1 14 -14 Z"/>
+    <text class="tb" x="662" y="232">J'alerte,</text>
+    <text class="tb" x="662" y="282">je m'écarte</text>
+  </g>
+  <g data-part="q-clair">
+    <path class="in" d="M290 370 L486 456 L290 542 L94 456 Z"/>
+    <text class="tb tc" x="290" y="470">Tout clair ?</text>
+  </g>
+  <g data-part="suspendre">
+    <rect class="wh" x="616" y="392" width="330" height="128" rx="14"/>
+    <path class="syf" d="M630 392 H642 V520 H630 a14 14 0 0 1 -14 -14 V406 a14 14 0 0 1 14 -14 Z"/>
+    <text class="tb" x="662" y="448">Je suspends,</text>
+    <text class="tb" x="662" y="498">je signale</text>
+  </g>
+  <g data-part="continuer">
+    <rect class="wh" x="110" y="608" width="360" height="100" rx="14"/>
+    <path class="okf" d="M124 608 H136 V708 H124 a14 14 0 0 1 -14 -14 V622 a14 14 0 0 1 14 -14 Z"/>
+    <text class="tb" x="158" y="672">Je continue</text>
+  </g>
+  <g data-part="trace">
+    <rect class="wh" x="616" y="608" width="330" height="100" rx="14"/>
+    <path class="dimf" d="M630 608 H642 V708 H630 a14 14 0 0 1 -14 -14 V622 a14 14 0 0 1 14 -14 Z"/>
+    <path class="ln" d="M630 608 H642 V708 H630 a14 14 0 0 1 -14 -14 V622 a14 14 0 0 1 14 -14 Z"/>
+    <text class="tb" x="662" y="672">J'écris</text>
+    <path class="mt" d="M842 690 L850 664 L902 620 L920 640 L868 684 Z"/>
+    <path class="dk" d="M842 690 L850 664 L868 684 Z"/>
+  </g>
+  <g data-part="reprise">
+    <line class="dash" x1="612" y1="658" x2="496" y2="658"/>
+    <path class="dk" d="M474 658 L498 646 L498 670 Z"/>
+    <circle class="okf" cx="543" cy="658" r="32"/>
+    <path class="bgp" d="M524 660 L537 675 L545 667 L532 652 Z"/>
+    <path class="bgp" d="M540.5 674.6 L565.5 644.6 L557.5 637.4 L532.5 667.4 Z"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="constat" transform="translate(76 44)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="q-danger" transform="translate(118 184)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="alerte-retrait" transform="translate(926 162)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="q-clair" transform="translate(118 400)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="suspendre" transform="translate(926 380)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="continuer" transform="translate(86 618)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+    <g class="badge" data-badge="trace" transform="translate(800 708)"><circle class="bd" r="26"/><text class="bn">7</text></g>
+    <g class="badge" data-badge="reprise" transform="translate(543 604)"><circle class="bd" r="26"/><text class="bn">8</text></g>
+  </g>
+</svg>
