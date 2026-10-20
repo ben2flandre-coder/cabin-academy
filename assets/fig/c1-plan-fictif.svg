@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 790" class="fig" role="img" aria-labelledby="t d">
   <title id="t">Plan fictif d'un support (document pédagogique)</title>
-  <desc id="d">Plan fictif, pédagogique. À gauche, la vue de face d'un support rectangulaire percé de quatre trous, avec une flèche de sens de montage ; un trait de coupe vertical repéré A-A passe par les deux trous de gauche. Trois bulles numérotées 1, 2 et 3 désignent des pièces par un trait. À droite, la coupe A-A montre l'épaisseur du support hachurée, traversée par deux vis munies chacune d'une rondelle. En dessous, la nomenclature : repère 1, EX-48213-01, quantité 1 ; repère 2, EX-90211-05, quantité 4 ; repère 3, EX-90305-02, quantité 4. En bas à gauche, les notes : 1, cotes en mm ; 2, sens : flèche. En bas à droite, le cartouche : Support, plan EX-48213, indice C, échelle 1 : 2, feuille 1 sur 2.</desc>
+  <desc id="d">Plan fictif, pédagogique. À gauche, la vue de face d'un support rectangulaire percé de quatre trous, avec une flèche de sens de montage ; un trait de coupe vertical repéré A-A passe par les deux trous de gauche. Trois bulles numérotées 1, 2 et 3 désignent des pièces par un trait. À droite, la coupe A-A montre l'épaisseur du support hachurée, traversée par deux vis munies chacune d'une rondelle. En dessous, la nomenclature : repère 1, EX-48213-07, quantité 1 ; repère 2, EX-90211-05, quantité 4 ; repère 3, EX-90305-02, quantité 4. En bas à gauche, les notes : 1, cotes en mm ; 2, sens : flèche. En bas à droite, le cartouche : Support, plan EX-48213, indice C, échelle 1 : 2, feuille 1 sur 2.</desc>
   <rect class="bgp" width="1000" height="790"/>
   <rect class="wh" x="24" y="24" width="952" height="692" rx="4"/>
   <rect class="none" x="0" y="0" width="1" height="1"/>
@@ -63,7 +63,7 @@
     <text class="ts tc" x="880" y="300">Qté</text>
     <rect class="wh" x="500" y="314" width="420" height="52"/>
     <text class="ts tc" x="535" y="352">1</text>
-    <text class="ts" x="584" y="352">EX-48213-01</text>
+    <text class="ts" x="584" y="352">EX-48213-07</text>
     <text class="ts tc" x="880" y="352">1</text>
     <rect class="wh" x="500" y="366" width="420" height="52"/>
     <text class="ts tc" x="535" y="404">2</text>

@@ -20,8 +20,8 @@ CA.addFigures([
   {
     id: 'c1-plan-fictif', file: 'c1-plan-fictif.svg',
     title: "Plan fictif EX-48213 (document pédagogique)",
-    caption: "Document fictif — pédagogique. Il imite la construction générale d'un plan (vues, coupe, bulles, nomenclature, notes, cartouche) sans reproduire le format d'aucune entreprise ; toutes les références commencent par EX-.",
-    alt: "Plan fictif. À gauche, vue de face d'un support rectangulaire à quatre trous, avec une flèche de sens de montage ; un trait de coupe A-A passe par les deux trous de gauche. Trois bulles numérotées 1, 2, 3 désignent des pièces. À droite, la coupe A-A : l'épaisseur du support hachurée, traversée par deux vis munies chacune d'une rondelle. Dessous, la nomenclature : repère 1, EX-48213-01, quantité 1 ; repère 2, EX-90211-05, quantité 4 ; repère 3, EX-90305-02, quantité 4. En bas à gauche, les notes ; en bas à droite, le cartouche : Support, EX-48213, indice C, échelle 1 : 2, feuille 1/2.",
+    caption: "Document fictif — pédagogique. Il imite la construction générale d'un plan (vues, coupe, bulles, nomenclature, notes, cartouche) sans reproduire le format d'aucune entreprise ; toutes les références commencent par EX-. Les désignations des pièces sont volontairement absentes de la nomenclature : sur un vrai plan, une colonne les donne. Les bulles (ronds blancs) ne sont pas les badges numérotés bleus de la légende.",
+    alt: "Plan fictif. À gauche, vue de face d'un support rectangulaire à quatre trous, avec une flèche de sens de montage ; un trait de coupe A-A passe par les deux trous de gauche. Trois bulles numérotées 1, 2, 3 désignent des pièces. À droite, la coupe A-A : l'épaisseur du support hachurée, traversée par deux vis munies chacune d'une rondelle. Dessous, la nomenclature : repère 1, EX-48213-07, quantité 1 ; repère 2, EX-90211-05, quantité 4 ; repère 3, EX-90305-02, quantité 4. En bas à gauche, les notes : 1, cotes en mm ; 2, sens : flèche ; en bas à droite, le cartouche : Support, EX-48213, indice C, échelle 1 : 2, feuille 1/2.",
     purpose: "Repérer les zones d'un plan et savoir où chercher chaque type d'information.",
     chapters: ['c1'],
     provenance: "Schéma original RMBD — création pédagogique", rights: "© RMBD, usage pédagogique",
@@ -85,6 +85,21 @@ CA.addFigures([
       { id: 'doc-voisin', n: 3, fr: 'EX-48231 indice C (autre plan)', en: 'Look-alike drawing number', fn: "Bon indice, document validé, mais deux chiffres sont inversés : c'est le plan d'une autre pièce." },
       { id: 'doc-d', n: 4, fr: 'EX-48213 indice D (projet)', en: 'Draft revision', fn: "Bon numéro, version plus récente, mais pas encore validée : on ne travaille pas avec." },
       { id: 'doc-c', n: 5, fr: 'EX-48213 indice C (validé)', en: 'Applicable revision', fn: "Même numéro, même indice que la demande, état validé : c'est le document applicable." }
+    ]
+  },
+  {
+    id: 'c1-hierarchie', file: 'c1-hierarchie.svg',
+    title: "Le rôle de chaque document : définir, expliquer, tracer",
+    caption: "Schéma de principe. Il classe les documents par rôle, pas par rang officiel : le nom des documents et la façon de les ranger varient d'une entreprise à l'autre. La bande 4 rappelle ce qui n'appartient pas au dossier.",
+    alt: "Quatre bandes. Bande 1 : Définit, plan et nomenclature. Une flèche vers le bas. Bande 2 : Explique, instruction de travail ou gamme. Une flèche vers le bas. Bande 3 : Garde la trace, fiche de suivi et liste de contrôle. Sous un trait en pointillé, bande 4 : Ne fait pas foi, photo, note, souvenir.",
+    purpose: "Distinguer ce qui définit le travail, ce qui explique comment le faire, ce qui en garde la trace, et ce qui n'a aucune valeur de référence.",
+    chapters: ['c1'],
+    provenance: "Schéma original RMBD — création pédagogique", rights: "© RMBD, usage pédagogique",
+    parts: [
+      { id: 'definit', n: 1, fr: 'Ce qui définit', en: 'What defines the product', fn: "Dit ce qu'il faut obtenir : formes, pièces, positions (plan, nomenclature)." },
+      { id: 'explique', n: 2, fr: 'Ce qui explique', en: 'What explains the method', fn: "Dit comment l'obtenir : opérations dans l'ordre, outils, contrôles (instruction de travail)." },
+      { id: 'trace', n: 3, fr: 'Ce qui garde la trace', en: 'What records the work', fn: "Garde ce qui a été fait, par qui, avec quelle pièce (fiche de suivi, liste de contrôle)." },
+      { id: 'hors', n: 4, fr: 'Ce qui ne fait pas foi', en: 'What is not a reference', fn: "Photo de plan, note personnelle, souvenir d'un collègue, ancien dossier : utiles pour réfléchir, jamais pour décider." }
     ]
   }
 ]);

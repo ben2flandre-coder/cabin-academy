@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 780" class="fig" role="img" aria-labelledby="t d">
+  <title id="t">Six outils à main : lesquels écarter ?</title>
+  <desc id="d">Six vignettes d'outils à main dessinés verticalement, la pointe ou la bouche en haut ou en bas. Première ligne, trois tournevis : un tournevis plat dont la pointe est droite, aux angles nets ; un tournevis plat dont la pointe est arrondie et évasée, avec en pointillé la forme qu'elle devrait avoir ; un tournevis dont le manche est fendu par une fissure. Seconde ligne, trois clés plates vues de dessus : une clé dont les deux flancs de la bouche sont parallèles ; une clé dont la bouche est évasée, les flancs s'écartant vers l'ouverture, avec en pointillé la bouche d'origine ; une clé dont la poignée est prolongée par un tube sombre glissé dessus.</desc>
+  <rect class="bgp" width="1000" height="780"/>
+  <path class="dash" d="M30 405 L970 405"/>
+  <g data-part="tv-net">
+    <rect class="none" x="20" y="50" width="300" height="340"/>
+    <path class="mt" d="M136 80 L204 80 L204 210 L232 275 L232 350 L108 350 L108 275 L136 210 Z"/><path class="thin" d="M108 334 L232 334"/>
+  </g>
+  <g data-part="tv-arrondi">
+    <rect class="none" x="350" y="50" width="300" height="340"/>
+    <path class="mt" d="M466 80 L534 80 L534 210 L562 275 L578 310 Q580 350 530 360 Q500 366 470 360 Q420 350 422 310 L438 275 L466 210 Z"/><path class="thin" d="M438 334 L562 334"/><path class="dash" d="M438 275 L438 350 L562 350 L562 275"/>
+  </g>
+  <g data-part="tv-fendu">
+    <rect class="none" x="680" y="50" width="300" height="340"/>
+    <rect class="eq2" x="780" y="80" width="100" height="170" rx="40"/><path class="ln" d="M800 120 L800 210"/><path class="ln" d="M830 120 L830 210"/><path class="ln" d="M860 120 L860 210"/><rect class="mt" x="816" y="250" width="28" height="120"/><path class="dk" d="M880 160 L844 172 L866 186 L836 200 L860 216 L834 228 L880 220 Z"/>
+  </g>
+  <g data-part="cle-nette">
+    <rect class="none" x="20" y="420" width="300" height="340"/>
+    <path class="mt" d="M145 590 L145 680 L195 680 L195 590 Z"/><circle class="mt" cx="170" cy="525" r="85"/><path class="bgp" d="M128 425 L212 425 L212 535 L128 535 Z"/><path class="ln" d="M128 445 L128 535 L212 535 L212 445"/><circle class="thin" cx="170" cy="565" r="9"/>
+  </g>
+  <g data-part="cle-evasee">
+    <rect class="none" x="350" y="420" width="300" height="340"/>
+    <path class="mt" d="M475 590 L475 680 L525 680 L525 590 Z"/><circle class="mt" cx="500" cy="525" r="85"/><path class="bgp" d="M438 425 L562 425 L548 535 L452 535 Z"/><path class="ln" d="M440 437 L452 535 L548 535 L560 437"/><path class="dash" d="M458 455 L458 535 L542 535 L542 455"/><circle class="thin" cx="500" cy="565" r="9"/>
+  </g>
+  <g data-part="cle-tube">
+    <rect class="none" x="680" y="420" width="300" height="340"/>
+    <path class="mt" d="M805 590 L805 680 L855 680 L855 590 Z"/><circle class="mt" cx="830" cy="525" r="85"/><path class="bgp" d="M788 425 L872 425 L872 535 L788 535 Z"/><path class="ln" d="M788 445 L788 535 L872 535 L872 445"/><circle class="thin" cx="830" cy="565" r="9"/><rect class="dk" x="790" y="625" width="80" height="125" rx="6"/><path class="thin" d="M790 635 L870 635"/>
+  </g>
+  <g class="badges">
+    <g class="badge" data-badge="tv-net" transform="translate(52 70)"><circle class="bd" r="26"/><text class="bn">1</text></g>
+    <g class="badge" data-badge="tv-arrondi" transform="translate(382 70)"><circle class="bd" r="26"/><text class="bn">2</text></g>
+    <g class="badge" data-badge="tv-fendu" transform="translate(712 70)"><circle class="bd" r="26"/><text class="bn">3</text></g>
+    <g class="badge" data-badge="cle-nette" transform="translate(52 440)"><circle class="bd" r="26"/><text class="bn">4</text></g>
+    <g class="badge" data-badge="cle-evasee" transform="translate(382 440)"><circle class="bd" r="26"/><text class="bn">5</text></g>
+    <g class="badge" data-badge="cle-tube" transform="translate(712 440)"><circle class="bd" r="26"/><text class="bn">6</text></g>
+  </g>
+</svg>

@@ -58,6 +58,14 @@ CA.addChapter({
       },
     },
     {
+      h: "Les trois axes, en perspective",
+      fig: 'img-a3-axes-reperage',
+      p: [
+        "Les mêmes trois axes, sur un avion vu en perspective. Le repère 1 suit le fuselage du nez à la queue : c'est l'axe longitudinal. Le repère 2 traverse l'envergure d'une aile à l'autre : c'est l'axe transversal. Le repère 3 monte à la verticale à travers le fuselage : c'est l'axe vertical. Chaque trait a une pointe à chaque bout, parce qu'il indique une direction et non un sens positif.",
+        "Pourquoi deux dessins ? La vue de côté et la vue de dessus sont celles des plans, et tu devras les lire. La perspective, elle, te montre que les trois axes sont perpendiculaires et se croisent en un seul point : n'importe quel endroit de l'avion se retrouve en comptant des pas dans ces trois directions. Cette illustration est générique : elle ne dit ni où est l'origine, ni de quel côté les nombres augmentent.",
+      ],
+    },
+    {
       h: "Avant, arrière, gauche, droite : l'observateur de référence",
       fig: 'a3-gauche-droite',
       p: [
