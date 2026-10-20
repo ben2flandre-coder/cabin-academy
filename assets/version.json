@@ -1,9 +1,8 @@
 {
- "version": "2026.10.20-7d40c78c12",
- "hash": "7d40c78c12",
- "built": "2026-10-20T11:09:30.594Z",
- "chapters": 13,
- "figures": 159,
- "cases": 0,
- "lenient": true
+ "version": "2026.10.20-7d490653f2",
+ "hash": "7d490653f2",
+ "built": "2026-10-20T11:16:03.083Z",
+ "chapters": 15,
+ "figures": 191,
+ "cases": 0
 }

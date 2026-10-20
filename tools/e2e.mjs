@@ -473,7 +473,7 @@ if (want('fixture')) await step('Contenu d’essai : chapitre incomplet, figure 
   await rimg.scrollIntoViewIfNeeded();
   await page.waitForFunction(() => { const i = document.querySelector('figure.is-raster img'); return i && i.complete && i.naturalWidth > 0; }, null, { timeout: 8000 }).catch(() => {});
   ok('Raster : image chargée avec alt, width/height et lazy', await rimg.evaluate(i => i.naturalWidth > 0 && i.alt.length > 20 && i.getAttribute('width') && i.loading === 'lazy'));
-  ok('Raster : légende numérotée depuis parts[]', await page.locator('#ca-main figure.is-raster .ca-legend li').count() === 6);
+  ok('Raster : légende numérotée depuis parts[]', await page.evaluate(() => { const f = (window.CA_CONTENT.figures || []).find(x => x.id === 'img-m1-avion-profil'); return !!f && document.querySelectorAll('#ca-main figure.is-raster .ca-legend li').length === f.parts.length; }));
   ok('Raster : mention « Illustration générée par IA — à valider »', await page.locator('#ca-main figure.is-raster .ca-aibadge', { hasText: 'générée par IA' }).count() === 1);
   await page.locator('#ca-main figure.is-raster .ca-fig-zoom').click();
   ok('Raster : visionneuse plein écran avec la mention', await page.locator('dialog.ca-dlg-zoom img').count() === 1 && await page.locator('dialog.ca-dlg-zoom .ca-aibadge').count() === 1);
